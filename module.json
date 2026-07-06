@@ -25,5 +25,8 @@
         "id": "dnd5e"
       }
     ]
-  }
+  },
+  "readme": "https://github.com/Jerome-Allgood/ua-dnd5e-test/blob/main/README.md",
+  "manifest": "https://raw.githubusercontent.com/Jerome-Allgood/ua-dnd5e-test/main/module.json",
+  "download": "https://github.com/Jerome-Allgood/ua-dnd5e-test/archive/refs/heads/main.zip"
 }
