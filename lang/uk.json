@@ -4992,5 +4992,7 @@
   "SOURCE.BOOK.SRD52": "System Reference Document 5.2",
   "SIDEBAR.SortModePriority": "Sort by priority",
   "DND5E.TOOLCLIP.RulesSurvivalTitle": "Виживання",
-  "DND5E.TOOLCLIP.RulesSurvival": "<p><strong>Приклади:</strong> Йти по слідах, шукати їжу, знаходити стежку або уникати природних небезпек.</p>"
+  "DND5E.TOOLCLIP.RulesSurvival": "<p><strong>Приклади:</strong> Йти по слідах, шукати їжу, знаходити стежку або уникати природних небезпек.</p>",
+  "DND5E.Rules.Survival.Title": "Виживання",
+  "DND5E.Rules.Survival.Description": "<p><strong>Приклади:</strong> Йти по слідах, шукати їжу, знаходити стежку або уникати природних небезпек.</p>"
 }
