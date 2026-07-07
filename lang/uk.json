@@ -4990,5 +4990,7 @@
   "SOURCE.BOOK.FreeRules": "Free Rules",
   "SOURCE.BOOK.SRD51": "System Reference Document 5.1",
   "SOURCE.BOOK.SRD52": "System Reference Document 5.2",
-  "SIDEBAR.SortModePriority": "Sort by priority"
+  "SIDEBAR.SortModePriority": "Sort by priority",
+  "DND5E.TOOLCLIP.RulesSurvivalTitle": "Виживання",
+  "DND5E.TOOLCLIP.RulesSurvival": "<p><strong>Приклади:</strong> Йти по слідах, шукати їжу, знаходити стежку або уникати природних небезпек.</p>"
 }
