@@ -2,7 +2,7 @@
   "id": "ua-dnd5e-test",
   "title": "Українська локалізація DnD 5e (Міні)",
   "description": "Мінімалістичний модуль для перекладу системи DnD 5e українською мовою.",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
