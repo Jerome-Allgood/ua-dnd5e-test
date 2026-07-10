@@ -2120,170 +2120,170 @@
             }
         },
 		"Passwall": {
-			"name": "Passwall",
-			"description": "<p>A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.</p><p>When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.</p>"
-		},
-		"Pass without Trace": {
-			"name": "Pass without Trace",
-			"description": "<p>You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>",
-			"effects": {
-				"Concealed": {
-					"name": "Concealed",
-					"description": "<p>While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.</p>",
-					"changes": {
-						"system.skills.ste.bonuses.check": 10
-					}
-				}
-			}
-		},
+            "name": "Прохід крізь стіну",
+            "description": "<p>Прохід з'являється в точці, яку ви бачите на дерев'яній, штукатурній або кам'яній поверхні (як-от стіна, стеля чи підлога) в межах дистанції, і тримається протягом часу дії заклинання. Ви обираєте розміри отрору: до 5 футів завширшки, 8 футів заввишки та 20 футів завглибшки. Прохід не створює жодної нестійкості в навколишній структурі.</p><p>Коли отвір зникає, будь-які істоти чи предмети, які все ще перебувають у проході, створеному заклинанням, безпечно викидаються у вільний простір найближче до поверхні, на якій ви наклали заклинання.</p>"
+        },
+        "Pass without Trace": {
+            "name": "Прохід без слідів",
+            "description": "<p>Ви випромінюєте приховувальну ауру в межах еманації (Emanation) радіусом 30 футів на час дії заклинання. Поки ви перебуваєте в аурі, ви та кожна істота на ваш вибір отримують бонус +10 до перевірок [[/check ability=dex skill=ste]] і не залишають слідів.</p>",
+            "effects": {
+                "Concealed": {
+                    "name": "Прихований",
+                    "description": "<p>Поки ви перебуваєте в аурі, ви та кожна істота на ваш вибір мають бонус +10 до перевірок [[/check ability=dex skill=ste]] і не залишають слідів.</p>",
+                    "changes": {
+                        "system.skills.ste.bonuses.check": 10
+                    }
+                }
+            }
+        },
 		"Phantasmal Killer": {
-			"name": "Phantasmal Killer",
-			"description": "<p>You tap into the nightmares of a creature you can see within range and create an illusion of its deepest fears, visible only to that creature. The target makes a Wisdom saving throw. On a failed save, the target takes 4d10 Psychic damage and has Disadvantage on ability checks and attack rolls for the duration. On a successful save, the target takes half as much damage, and the spell ends.</p><p>For the duration, the target makes a [[/save ability=wis dc=@attributes.spell.dc]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 4.</p>",
-			"effects": {
-				"Fears Manifested": {
-					"name": "Fears Manifested",
-					"description": "<p>The target has Disadvantage on ability checks and attack rolls for the duration.</p><p>For the duration, the target makes a [[/save ability=wis]] saving throw at the end of each of its turns. On a failed save, it takes the Psychic damage again. On a successful save, the spell ends.</p>"
-				}
-			}
-		},
-		"Phantom Steed": {
-			"name": "Phantom Steed",
-			"description": "<p>A Large, quasi-real, @UUID[Compendium.dnd5e.actors24.Actor.phbsumPhantomSte]{horselike creature} appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, and it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.</p><p>For the duration, you or a creature you choose can ride the steed. The steed uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Riding Horse}</strong> stat block (see appendix B), except it has a Speed of 100 feet and can travel 13 miles in an hour. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends early if the steed takes any damage.</p>"
-		},
-		"Planar Ally": {
-			"name": "Planar Ally",
-			"description": "<p>You beseech an otherworldly entity for aid. The being must be known to you: a god, a demon prince, or some other being of cosmic power. That entity sends a Celestial, an Elemental, or a Fiend loyal to it to aid you, making the creature appear in an unoccupied space within range. If you know a specific creature's name, you can speak that name when you cast this spell to request that creature, though you might get a different creature anyway (DM's choice).</p><p>When the creature appears, it is under no compulsion to behave a particular way. You can ask it to perform a service in exchange for payment, but it isn't obliged to do so. The requested task could range from simple (fly us across the chasm, or help us fight a battle) to complex (spy on our enemies, or protect us during our foray into the dungeon). You must be able to communicate with the creature to bargain for its services.</p><p>Payment can take a variety of forms. A Celestial might require a sizable donation of gold or magic items to an allied temple, while a Fiend might demand a living sacrifice or a gift of treasure. Some creatures might exchange their service for a quest undertaken by you.</p><p>A task that can be measured in minutes requires a payment worth 100 GP per minute. A task measured in hours requires 1,000 GP per hour. And a task measured in days (up to 10 days) requires 10,000 GP per day. The DM can adjust these payments based on the circumstances under which you cast the spell. If the task is aligned with the creature's ethos, the payment might be halved or even waived. Nonhazardous tasks typically require only half the suggested payment, while especially dangerous tasks might require a greater gift. Creatures rarely accept tasks that seem suicidal.</p><p>After the creature completes the task, or when the agreed-upon duration of service expires, the creature returns to its home plane after reporting back to you if possible. If you are unable to agree on a price for the creature's service, the creature immediately returns to its home plane.</p>"
-		},
-		"Planar Binding": {
-			"name": "Planar Binding",
-			"description": "<p>You attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of the inverted version of the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Magic Circle}</em> spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma saving throw or be bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.</p><p>A bound creature must follow your commands to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. If the creature is Hostile, it strives to twist your commands to achieve its own objectives. If the creature carries out your commands completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane, it returns to the place where you bound it and remains there until the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).</p>",
-			"effects": {
-				"Bound to Service": {
-					"name": "Bound to Service",
-					"description": "<p>A bound creature must follow your commands to the best of its ability. If the creature is Hostile, it strives to twist your commands to achieve its own objectives.</p>"
-				}
-			}
-		},
+            "name": "Фантомний вбивця",
+            "description": "<p>Ви черпаєте з кошмарів істоти, яку бачите в межах дистанції, і створюєте ілюзію її найглибших страхів, видиму лише для цієї істоти. Ціль робить рятівний кидок Мудрості. У разі провалу ціль отримує 4d10 [[/damage 4d10 type=psychic]] психологічної шкоди (Psychic damage) та має Перешкоду (Disadvantage) на перевірки характеристик і кидки атаки на час дії заклинання. У разі успіху ціль отримує половину шкоди, і заклинання завершується.</p><p>Протягом часу дії ціль робить рятівний кидок [[/save ability=wis dc=@attributes.spell.dc]] наприкінці кожного зі своїх ходів. У разі провалу вона знову отримує психологічну шкоду. У разі успіху заклинання завершується.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 4-го.</p>",
+            "effects": {
+                "Fears Manifested": {
+                    "name": "Маніфестація страхів",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик і кидки атаки на час дії заклинання.</p><p>Протягом часу дії ціль робить рятівний кидок [[/save ability=wis]] наприкінці кожного зі своїх ходів. У разі провалу вона знову отримує психологічну шкоду. У разі успіху заклинання завершується.</p>"
+                }
+            }
+        },
+        "Phantom Steed": {
+            "name": "Фантомний скакун",
+            "description": "<p>Велике (Large), квазіреальне, @UUID[Compendium.dnd5e.actors24.Actor.phbsumPhantomSte]{подібне до коня створіння} з'являється на землі у вільному просторі на ваш вибір у межах дистанції. Ви визначаєте зовнішній вигляд створіння, і воно споряджене сідлом, вудила та вуздечкою. Будь-яке спорядження, створене заклинанням, зникає хмаринкою диму, якщо його віднести далі ніж на 10 футів від скакуна.</p><p>Протягом часу дії ви або істота на ваш вибір можете оседлати скакуна. Скакун використовує блок статистики <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{Верховий кінь (Riding Horse)}</strong> (див. додаток B), за винятком того, що він має швидкість (Speed) 100 футів і може подолати 13 миль за годину. Коли заклинання закінчується, скакун поступово згасає, даючи вершнику 1 хвилину, щоб зійти з нього. Заклинання завершується достроково, якщо скакун отримує будь-яку шкоду.</p>"
+        },
+        "Planar Ally": {
+            "name": "Планарний союзник",
+            "description": "<p>Ви благаєте про допомогу потойбічну сутність. Сутність має бути вам відомою: бог, принц демонів або якась інша істота космічної сили. Ця сутність надсилає вірного їй небожителя (Celestial), елементаля (Elemental) або виродка (Fiend), щоб він допоміг вам, змушуючи істоту з'явитися у вільному просторі в межах дистанції. Якщо ви знаєте ім'я конкретної істоти, ви можете вимовити це ім'я, коли накладаєте заклинання, щоб попросити саме її, хоча все одно можете отримати іншу істоту (на розсуд Майстра / DM).</p><p>Коли істота з'являється, вона не зобов'язана поводитися певним чином. Ви можете попросити її виконати послугу в обмін на плату, але вона не зобов'язана цього робити. Запропоноване завдання може бути простим (перенести нас через прірву або допомогти в бою) або складним (шпигувати за нашими ворогами або захищати нас під час вилазки в підземелля). Ви повинні мати можливість спілкуватися з істотою, щоб домовитися про її послуги.</p><p>Оплата може набувати різних форм. Небожитель може вимагати значної пожертви золотом чи магічними предметами на користь союзного храму, тоді як виродок може зажадати житлової жертви чи дарунку скарбів. Деякі істоти можуть обміняти свою службу на виконання вами квесту.</p><p>Завдання, яке можна виміряти хвилинами, вимагає оплати вартістю 100 зм (GP) за хвилину. Завдання, виміряне в годинах, вимагає 1000 зм за годину. А завдання, виміряне в днях (до 10 днів), вимагає 10 000 зм на день. Майстер (DM) може коригувати ці виплати залежно від обставин, за яких ви накладаєте заклинання. Якщо завдання відповідає етосу істоти, плата може бути зменшена вдвічі або навіть скасована. Небезпечні завдання зазвичай вимагають лише половини запропонованої плати, тоді як особливо небезпечні можуть вимагати більшого подарунка. Істоти рідко приймають завдання, які здаються самогубними.</p><p>Після того як істота виконує завдання, або коли закінчується узгоджений час служби, істота повертається на свій рідний план після звіту вам, якщо це можливо. Якщо ви не можете домовитися про ціну послуги істоти, вона негайно повертається на свій рідний план.</p>"
+        },
+        "Planar Binding": {
+            "name": "Планарне зв'язування",
+            "description": "<p>Ви намагаєтеся прив'язати небожителя (Celestial), елементаля (Elemental), фею (Fey) або виродка (Fiend) до своєї служби. Істота має перебувати в межах дистанції протягом усього накладання заклинання. (Зазвичай істоту спочатку закликають у центр інвертованої версії заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Магічне коло (Magic Circle)}</em>, щоб зловити її під час накладання цього заклинання). Після завершення накладання ціль повинна успішно зробити рятівний кидок Харизми, інакше вона буде прив'язана служити вам на час дії заклинання. Якщо істота була закликана або створена іншим заклинанням, час дії того заклинання продовжується відповідно до часу дії цього заклинання.</p><p>Прив'язана істота повинна виконувати ваші накази якнайкраще. Ви можете наказати істоті супроводжувати вас у пригоді, охороняти місцеперебування чи доставити повідомлення. Якщо істота ворожа (Hostile), вона прагне перекрутити ваші накази для досягнення власних цілей. Якщо істота повністю виконує ваші накази до закінчення дії заклинання, вона вирушає до вас, щоб повідомити про це, якщо ви перебуваєте на одному плані існування. Якщо ви на іншому плані, вона повертається туди, де ви її зв'язали, і залишається там до закінчення дії заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Час дії збільшується за використання комірки 6-го (10 днів), 7-го (30 днів), 8-го (180 днів) та 9-го (366 днів) рівня.</p>",
+            "effects": {
+                "Bound to Service": {
+                    "name": "Прив'язаний до служби",
+                    "description": "<p>Прив'язана істота повинна виконувати ваші накази якнайкраще. Якщо істота ворожа (Hostile), вона прагне перекрутити ваші накази для досягнення власних цілей.</p>"
+                }
+            }
+        },
 		"Plane Shift": {
-			"name": "Plane Shift",
-			"description": "<p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination, as determined by the DM.</p><p>Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.</p>"
-		},
-		"Plant Growth": {
-			"name": "Plant Growth",
-			"description": "<p><strong>Casting Time:</strong> Action (Overgrowth) or 8 hours (Enrichment)</p><p>This spell channels vitality into plants. The casting time you use determines whether the spell has the Overgrowth or the Enrichment effect below.</p><p><strong>Overgrowth.</strong> Choose a point within range. All normal plants in a 100-foot-radius Sphere centered on that point become thick and overgrown. A creature moving through that area must spend 4 feet of movement for every 1 foot it moves. You can exclude one or more areas of any size within the spell's area from being affected.</p><p><strong>Enrichment. </strong>All plants in a half-mile radius centered on a point within range become enriched for 365 days. The plants yield twice the normal amount of food when harvested. They can benefit from only one <em>Plant Growth</em> per year.</p>"
-		},
-		"Poison Spray": {
-			"name": "Poison Spray",
-			"description": "<p>You spray toxic mist at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d12 Poison damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d12 when you reach levels 5 (2d12), 11 (3d12), and 17 (4d12).</p>"
-		},
-		"Polymorph": {
-			"name": "Polymorph",
-			"description": "<p>You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into a Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target's (or the target's level if it doesn't have a Challenge Rating). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice. See appendix B for a sample of Beast stat blocks.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the Beast form. These Temporary Hit Points vanish if any remain when the spell ends. The spell ends early on the target if it has no Temporary Hit Points left.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.</p><p>The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.</p>"
-		},
+            "name": "Перехід між планами",
+            "description": "<p>Ви та до восьми добровільних істот, які тримаються за руки в колі, транспортуєтеся на інший план існування. Ви можете вказати цільовий пункт призначення в загальних рисах, як-от Місто Бронзи (City of Brass) на Елементальному плані Вогню або палац Діспатера на другому рівні Дев'яти Пекл (Nine Hells), і ви з'являєтеся в цьому пункті призначення або поруч із ним на розсуд Майстра (DM).</p><p>Крім того, якщо ви знаєте послідовність сигілів телепортаційного кола на іншому плані існування, це заклинання може перенести вас до цього кола. Якщо телепортаційне коло занадто мале, щоб вмістити всіх транспортованих вами істот, вони з'являються в найближчих вільних просторах поруч із колою (колом).</p>"
+        },
+        "Plant Growth": {
+            "name": "Ріст рослин",
+            "description": "<p><strong>Час накладання:</strong> Дія (Розростання / Overgrowth) або 8 годин (Збагачення / Enrichment)</p><p>Це заклинання спрямовує життєву силу в рослини. Використовуваний час накладання визначає, чи має заклинання ефект Розростання, чи ефект Збагачення, описані нижче.</p><p><strong>Розростання.</strong> Оберіть точку в межах дистанції. Усі звичайні рослини у сфері (Sphere) радіусом 100 футів із центром у цій точці стають густими та розростаються. Істота, яка пересувається через цю зону, повинна витратити 4 фути пересування за кожен 1 фут руху. Ви можете виключити одну або кілька ділянок будь-якого розміру в зоні дії заклинання з-під його впливу.</p><p><strong>Збагачення. </strong>Усі рослини в радіусі півмилі з центром у точці в межах дистанції збагачуються на 365 днів. Під час збору врожаю вони дають удвічі більше їжі, ніж зазвичай. Вони можуть отримати користь лише від одного заклинання <em>Ріст рослин (Plant Growth)</em> на рік.</p>"
+        },
+        "Poison Spray": {
+            "name": "Бризки отрути",
+            "description": "<p>Ви розпилюєте токсичний туман на істоту в межах дистанції. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання ціль отримує 1d12 [[/damage 1d12 type=poison]] отруйної шкоди (Poison damage).</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d12, коли ви досягаєте 5-го (2d12), 11-го (3d12) та 17-го (4d12) рівня.</p>"
+        },
+        "Polymorph": {
+            "name": "Зміна форми",
+            "description": "<p>Ви намагаєтеся перетворити істоту, яку бачите в межах дистанції, на звіра (Beast). Ціль повинна успішно зробити рятівний кидок Мудрості, інакше вона перетвориться на форму звіра на час дії заклинання. Ця форма може бути будь-яким звіром на ваш вибір, який має показник небезпеки (Challenge Rating), що дорівнює або менший за показник цілі (або рівень цілі, якщо вона не має показника небезпеки). Ігрові характеристики цілі замінюються блоком статистики обраного звіра, але ціль зберігає свій світогляд, особистість, тип істоти, пункти здоров'я та куби пунктів здоров'я. Див. додаток B щодо прикладу блоків статистики звірів.</p><p>Ціль отримує певну кількість тимчасових пунктів здоров'я, що дорівнює пунктам здоров'я форми звіра. Ці тимчасові пункти здоров'я зникають, якщо вони залишаються, коли заклинання завершується. Заклинання для цілі закінчується достроково, якщо в неї не залишається тимчасових пунктів здоров'я.</p><p>Дії, які може виконувати ціль, обмежені анатомією її нової форми, і вона не може говорити чи накладати заклинання.</p><p>Спорядження цілі зливається з новою формою. Істота не може використовувати чи іншим чином отримувати користь від будь-якого з цього спорядження.</p>"
+        },
 		"Power Word Heal": {
-			"name": "Power Word Heal",
-			"description": "<p>A wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the &amp;Reference[Charmed], &amp;Reference[Frightened], &amp;Reference[Paralyzed], &amp;Reference[Poisoned], or &amp;Reference[Stunned] condition, the condition ends. If the creature has the &amp;Reference[Prone] condition, it can use its Reaction to stand up.</p><section id=\"secret-TZTRxIEOucKFdjFi\" class=\"secret\"><p>Foundry Note</p><p>The <strong>Heal Fully</strong> activity is configured to heal 1,000 Hit Points such that any single creature can be healed fully.</p></section>"
-		},
-		"Power Word Kill": {
-			"name": "Power Word Kill",
-			"description": "<p>You compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.</p>"
-		},
-		"Power Word Stun": {
-			"name": "Power Word Stun",
-			"description": "<p>You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.</p><p>The &amp;Reference[Stunned apply=false] target makes a [[/save ability=con dc=@attributes.spell.dc]] saving throw at the end of each of its turns, ending the condition on itself on a success.</p>",
-			"effects": {
-				"Stunned": {
-					"name": "Stunned",
-					"description": "<p>The &amp;Reference[Stunned apply=false] target makes a [[/save ability=con]] saving throw at the end of each of its turns, ending the condition on itself on a success.</p>"
-				},
-				"No Movement": {
-					"name": "No Movement",
-					"description": "<p>The target's Speed is 0 until the start of your next turn.</p>",
-					"changes": {
-						"system.attributes.movement.walk": 0,
-						"system.attributes.movement.climb": 0,
-						"system.attributes.movement.swim": 0,
-						"system.attributes.movement.fly": 0,
-						"system.attributes.movement.burrow": 0
-					}
-				}
-			}
-		},
+            "name": "Силово слово: Зцілення",
+            "description": "<p>Хвиля цілющої енергії накриває одну істоту, яку ви бачите в межах дистанції. Ціль відновлює всі свої пункти здоров'я. Якщо істота має стан &amp;Reference[Charmed]{Зачарований (Charmed)}, &amp;Reference[Frightened]{Переляканий (Frightened)}, &amp;Reference[Paralyzed]{Паралізований (Paralyzed)}, &amp;Reference[Poisoned]{Отруєний (Poisoned)} або &amp;Reference[Stunned]{Приголомшений (Stunned)}, цей стан завершується. Якщо істота має стан &amp;Reference[Prone]{Лежачи (Prone)}, вона може скористатися своєю реакцією (Reaction), щоб піднятися.</p><section id=\"secret-TZTRxIEOucKFdjFi\" class=\"secret\"><p>Примітка Foundry</p><p>Дія <strong>Повністю зцілити (Heal Fully)</strong> налаштована на відновлення 1000 пунктів здоров'я так, щоб будь-яка окрема істота була зцілена повністю.</p></section>"
+        },
+        "Power Word Kill": {
+            "name": "Силово слово: Вбивство",
+            "description": "<p>Ви примушуєте одну істоту, яку бачите в межах дистанції, померти. Якщо ціль має 100 пунктів здоров'я або менше, вона вмирає. В іншому випадку вона отримує 12d12 [[/damage 12d12 type=psychic]] психологічної шкоди (Psychic damage).</p>"
+        },
+        "Power Word Stun": {
+            "name": "Силово слово: Приголомшення",
+            "description": "<p>Ви перевантажуєте розум однієї істоти, яку бачите в межах дистанції. Якщо ціль має 150 пунктів здоров'я або менше, вона отримує стан Приголомшений (Stunned). В іншому випадку її швидкість пересування становить 0 до початку вашого наступного ходу.</p><p>Ціль зі станом &amp;Reference[Stunned apply=false]{Приголомшений (Stunned)} здійснює рятівний кидок [[/save ability=con dc=@attributes.spell.dc]] наприкінці кожного зі своїх ходів, завершуючи стан на собі в разі успіху.</p>",
+            "effects": {
+                "Stunned": {
+                    "name": "Приголомшений",
+                    "description": "<p>Ціль зі станом &amp;Reference[Stunned apply=false]{Приголомшений (Stunned)} здійснює рятівний кидок [[/save ability=con]] наприкінці кожного зі своїх ходів, завершуючи стан на собі в разі успіху.</p>"
+                },
+                "No Movement": {
+                    "name": "Без пересування",
+                    "description": "<p>Швидкість пересування цілі становить 0 до початку вашого наступного ходу.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0,
+                        "system.attributes.movement.climb": 0,
+                        "system.attributes.movement.swim": 0,
+                        "system.attributes.movement.fly": 0,
+                        "system.attributes.movement.burrow": 0
+                    }
+                }
+            }
+        },
 		"Prayer of Healing": {
-			"name": "Prayer of Healing",
-			"description": "<p>Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a &amp;Reference[shortrest] and also regain 2d8 Hit Points. A creature can't be affected by this spell again until that creature finishes a Long Rest.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The healing increases by 1d8 for each spell slot level above 2.</p>",
-			"effects": {
-				"Healed by Prayer": {
-					"name": "Healed by Prayer",
-					"description": "<p>A creature can’t be affected by the @UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe] spell again until that creature finishes a Long Rest.</p>"
-				}
-			}
-		},
-		"Prestidigitation": {
-			"name": "Prestidigitation",
-			"description": "<p>You create a magical effect within range. Choose the effect from the options below. If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time.</p><p><strong>Sensory Effect.</strong> You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire Play.</strong> You instantaneously light or snuff out a candle, a torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You instantaneously clean or soil an object no larger than 1 cubic foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</p><p><strong>Magic Mark.</strong> You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical trinket or an illusory image that can fit in your hand. It lasts until the end of your next turn. A trinket can deal no damage and has no monetary worth.</p>"
-		},
-		"Prismatic Spray": {
-			"name": "Prismatic Spray",
-			"description": "<p>Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbPrismaticRays rollable=true caption=false]{Prismatic Rays}</p>",
-			"effects": {
-				"Petrifying (Indigo)": {
-					"name": "Petrifying (Indigo)",
-					"description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and makes a [[/save ability=con format=long]] at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.</p>"
-				},
-				"Teleporting (Violet)": {
-					"name": "Teleporting (Violet)",
-					"description": "<p>The target has the &amp;Reference[Blinded apply=false] condition and makes a [[/save ability=wis format=long]] at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
-				}
-			}
-		},
+            "name": "Молитва зцілення",
+            "description": "<p>До пяти істот на ваш вибір, які залишаються в межах дистанції протягом усього часу накладання заклинання, отримують переваги короткого відпочинку (&amp;Reference[shortrest]{short rest}) а також відновлюють 2d8 [[/damage 2d8 type=healing]] пунктів здоров'я. Істота не може бути знову уражена цим заклинанням, доки не завершить довгий відпочинок (Long Rest).</p><p><strong>Використання комірки вищого рівня. </strong>Зцілення збільшується на 1d8 за кожен рівень комірки вище 2-го.</p>",
+            "effects": {
+                "Healed by Prayer": {
+                    "name": "Зцілений молитвою",
+                    "description": "<p>Істота не може бути знову уражена заклинанням @UUID[Compendium.dnd5e.spells24.Item.phbsplPrayerofHe] до завершення довгого відпочинку (Long Rest).</p>"
+                }
+            }
+        },
+        "Prestidigitation": {
+            "name": "Фокуси",
+            "description": "<p>Ви створюєте магічний ефект у межах дистанції. Оберіть ефект із наведених нижче варіантів. Якщо ви накладаєте це заклинання кілька разів, у вас може бути одночасно активовано до трьох його ненавмисних (немиттєвих) ефектів.</p><p><strong>Сенсорний ефект.</strong> Ви створюєте миттєвий нешкідливий сенсорний ефект, як-от злива іскор, подих вітру, ледь чутні музичні ноти або дивний запах.</p><p><strong>Маніпуляція з вогнем.</strong> Ви миттєво запалюєте або гасите свічку, факел чи невелике багаття.</p><p><strong>Очищення або забруднення.</strong> Ви миттєво очищуєте або забруднюєте предмет об'ємом не більше за 1 кубічний фут.</p><p><strong>Незначне відчуття.</strong> Ви охолоджуєте, нагріваєте або ароматизуєте до 1 кубічного фута неживого матеріалу на 1 годину.</p><p><strong>Магічна мітка.</strong> Ви робите так, що на предметі чи поверхні на 1 годину з'являється колір, невелика мітка або символ.</p><p><strong>Незначне створення.</strong> Ви створюєте немагічну дрібницю чи ілюзорне зображення, яке поміщається в руку. Воно тримається до кінця вашого наступного ходу. Дрібниця не завдає жодної шкоди та не має монетарної цінності.</p>"
+        },
+        "Prismatic Spray": {
+            "name": "Призматичні бризки",
+            "description": "<p>Вісім променів світла виблискують від вас у конусі (Cone) завдовжки 60 футів. Кожна істота в конусі робить рятівний кидок Спритності. Для кожної цілі киньте 1d8, щоб визначити, яким кольоровим променем вона уражена, звертаючись до таблиці «Призматичні промені» (Prismatic Rays).</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbPrismaticRays rollable=true caption=false]{Призматичні промені (Prismatic Rays)}</p>",
+            "effects": {
+                "Petrifying (Indigo)": {
+                    "name": "Окам'яніння (Індиго)",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Restrained apply=false]{Спутовування (Restrained)} і здійснює рятівний кидок [[/save ability=con format=long]] наприкінці кожного зі своїх ходів. У разі успішного порятунку тричі стан завершується. У разі трьох провалів вона отримує стан &amp;Reference[Petrified]{Окам'янілий (Petrified)}, доки її не звільнить ефект на кшталт заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Більше відновлення (Greater Restoration)}</em>. Успіхи та провали не обов'язково мають бути послідовними; відстежуйте обидва показники, доки ціль не збере три однакові результати.</p>"
+                },
+                "Teleporting (Violet)": {
+                    "name": "Телепортація (Фіолетовий)",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} і здійснює рятівний кидок [[/save ability=wis format=long]] на початку вашого наступного ходу. У разі успішного порятунку стан завершується. У разі провалу стан завершується, і істота телепортується на інший план існування (на розсуд Майстра / DM).</p>"
+                }
+            }
+        },
 		"Prismatic Wall": {
-			"name": "Prismatic Wall",
-			"description": "<p>A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.</p><p>The wall sheds &amp;Reference[BrightLight] within 100 feet and &amp;Reference[DimLight] for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the &amp;Reference[Blinded apply=false] condition for 1 minute.</p><p>The wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer's properties as described in the Prismatic Layers table.</p><p>The wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAntimagicF]{Antimagic Field}</em> has no effect on the wall, and <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> can affect only the violet layer.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbPrismaticLaye rangeLabel=\"Order\"]</p>",
-			"effects": {
-				"Prismatic Blinding": {
-					"name": "Prismatic Blinding",
-					"description": "<p>The target has the &amp;Reference[Blinded apply=false] condition for 1 minute.</p>"
-				},
-				"Restrained (Indigo)": {
-					"name": "Restrained (Indigo)",
-					"description": "<p>The target has the &amp;Reference[Restrained apply=false] condition and makes a [[/save ability=con dc=@attributes.spell.dc]] format=long]] at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell.</p>"
-				},
-				"Blinded (Violet)": {
-					"name": "Blinded (Violet)",
-					"description": "<p> The target has the &amp;Reference[Blinded apply=false] condition and makes a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice).</p>"
-				}
-			}
-		},
-		"Produce Flame": {
-			"name": "Produce Flame",
-			"description": "<p>A flickering flame appears in your hand and remains there for the duration. While there, the flame emits no heat and ignites nothing, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. The spell ends if you cast it again.</p><p>Until the spell ends, you can take a Magic action to hurl fire at a creature or an object within 60 feet of you. Make a ranged spell attack. On a hit, the target takes 1d8 Fire damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
-		},
+            "name": "Призматична стіна",
+            "description": "<p>Сяйлива різнокольорова площина світла утворює вертикальну непрозору стіну — завдовжки до 90 футів, заввишки до 30 футів і завтовшки 1 дюйм — із центром у точці в межах дистанції. Крім того, ви можете надати стіні форму кулі діаметром до 30 футів із центром у точці в межах дистанції. Стіна тримається протягом часу дії заклинання. Якщо ви розміщуєте стіну в просторі, зайнятому істотою, заклинання миттєво завершується без ефекту.</p><p>Стіна випромінює яскраве світло (&amp;Reference[BrightLight]{bright light}) в радіусі 100 футів і тьмяне світло (&amp;Reference[DimLight]{dim light}) на додаткові 100 футів. Ви та істоти, яких ви призначаєте під час накладання заклинання, можете проходити крізь стіну та перебувати біля неї без шкоди. Якщо інша істота, яка бачить стіну, наближається до неї на відстань до 20 футів або починає там свій хід, вона повинна успішно зробити рятівний кидок Тілобудови, інакше отримає стан &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} на 1 хвилину.</p><p>Стіна складається з семи шарів, кожен із яких має інший колір. Коли істота простягає руку крізь стіну або проходить крізь неї, вона робить це шар за шаром через усі шари. Кожен шар змушує істоту зробити рятівний кидок Спритності або бути ураженою властивостями цього шару, як описано в таблиці «Призматичні шари» (Prismatic Layers).</p><p>Стіна, яка має КЗ (AC) 10, може бути знищена шар за шаром у порядку від червоного до фіолетового за допомогою засобів, специфічних для кожного шару. Якщо шар знищено, він зникає на час дії заклинання. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAntimagicF]{Антимагічне поле (Antimagic Field)}</em> не впливає на стіну, а <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Розвіювання магії (Dispel Magic)}</em> може вплинути лише на фіолетовий шар.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbPrismaticLaye rangeLabel=\"Order\"]</p>",
+            "effects": {
+                "Prismatic Blinding": {
+                    "name": "Призматична сліпота",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} на 1 хвилину.</p>"
+                },
+                "Restrained (Indigo)": {
+                    "name": "Спутовування (Індиго)",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Restrained apply=false]{Спутовування (Restrained)} і здійснює рятівний кидок [[/save ability=con dc=@attributes.spell.dc format=long]] наприкінці кожного зі своїх ходів. У разі успішного порятунку тричі стан завершується. У разі трьох провалів вона отримує стан &amp;Reference[Petrified]{Окам'янілий (Petrified)}, доки її не звільнить ефект на кшталт заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Більше відновлення (Greater Restoration)}</em>.</p>"
+                },
+                "Blinded (Violet)": {
+                    "name": "Сліпота (Фіолетовий)",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} і здійснює рятівний кидок [[/save ability=wis dc=@attributes.spell.dc format=long]] на початку вашого наступного ходу. У разі успішного порятунку стан завершується. У разі провалу стан завершується, і істота телепортується на інший план існування (на розсуд Майстра / DM).</p>"
+                }
+            }
+        },
+        "Produce Flame": {
+            "name": "Створення полум'я",
+            "description": "<p>Мерехтливе полум'я з'являється у вашій руці й залишається там протягом часу дії заклинання. Поки воно там, полум'я не випромінює тепла і нічого не запалює, а також випромінює яскраве світло в радіусі 20 футів і тьмяне світло на додаткові 20 футів. Заклинання завершується, якщо ви накладаєте його знову.</p><p>Доки заклинання не закінчиться, ви можете скористатися дією Магія (Magic action), щоб кинути вогонь в істоту або предмет у межах 60 футів від вас. Зробіть дистанційну атаку заклинанням. У разі влучання ціль отримує 1d8 [[/damage 1d8 type=fire]] вогняної шкоди (Fire damage).</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d8, коли ви досягаєте 5-го (2d8), 11-го (3d8) та 17-го (4d8) рівня.</p>"
+        },
 		"Programmed Illusion": {
-			"name": "Programmed Illusion",
-			"description": "<p>You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific trigger occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot Cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes.</p><p>When the trigger you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes, after which the illusion can be activated again.</p><p>The trigger can be as general or as detailed as you like, though it must be based on visual or audible phenomena that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door.</p><p>Physical interaction with the image reveals it to be illusory, since things can pass through it. A creature that takes the Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.</p>"
-		},
-		"Project Image": {
-			"name": "Project Image",
-			"description": "<p>You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you, but it is intangible. If the illusion takes any damage, it disappears, and the spell ends.</p><p>You can see through the illusion's eyes and hear through its ears as if you were in its space. As a Magic action, you can move it up to 60 feet and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.</p><p>Physical interaction with the image reveals it to be illusory, since things can pass through it. A creature that takes the Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.</p>"
-		},
-		"Protection from Poison": {
-			"name": "Protection from Poison",
-			"description": "<p>You touch a creature and end the &amp;Reference[poisoned] condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</p>",
-			"effects": {
-				"Poison Protection": {
-					"name": "Poison Protection",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</span></p>",
-					"changes": {
-						"system.traits.dr.value": "poison"
-					}
-				}
-			}
-		},
-		"Purify Food and Drink": {
-			"name": "Purify Food and Drink",
-			"description": "<p>You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.</p>"
-		},
+            "name": "Програмована ілюзія",
+            "description": "<p>Ви створюєте ілюзію предмета, істоти чи іншого видимого явища в межах дистанції, яка активується, коли відбувається певний тригер. Доти ілюзія непомітна. Вона має бути не більшою за куб (Cube) зі стороною 30 футів, і ви під час накладання заклинання вирішуєте, як поводиться ілюзія та які звуки вона видає. Цей заскриптований виступ може тривати до 5 хвилин.</p><p>Коли відбувається вказаний вами тригер, ілюзія виникає та діє в описаний вами спосіб. Щойно ілюзія завершує виступ, вона зникає й залишається неактивною протягом 10 хвилин, після чого ілюзію можна активувати знову.</p><p>Тригер може бути настільки загальним або детальним, наскільки ви забажаєте, хоча він має ґрунтуватися на візуальних чи звукових явищах, що відбуваються в межах 30 футів від зони. Наприклад, ви можете створити ілюзію самого себе, щоб з'явитися й попередити інших, хто намагається відкрити двері з пасткою.</p><p>Фізична взаємодія із зображенням показує, що воно ілюзорне, оскільки крізь нього можуть проходити предмети. Істота, яка виконує дію Дослідження (Study action), щоб оглянути зображення, може визначити, що це ілюзія, за допомогою успішної перевірки [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашого КЗ рятівного кидка заклинання (spell save DC). Якщо істота розгледить ілюзію такою, якою вона є, вона зможе бачити крізь зображення, і будь-який шум, який воно видає, здаватиметься їй порожнім.</p>"
+        },
+        "Project Image": {
+            "name": "Проєціювання зображення",
+            "description": "<p>Ви створюєте ілюзорну копію себе, яка тримається протягом часу дії заклинання. Копія може з'явитися в будь-якому місці в межах дистанції, яке ви бачили раніше, незалежно від перешкод між ними. Ілюзія виглядає і звучить як ви, але вона не матеріальна. Якщо ілюзія отримує будь-яку шкоду, вона зникає, і заклинання завершується.</p><p>Ви можете бачити очима ілюзії та чути її вухами так, ніби перебуваєте в її просторі. Як дію Магія (Magic action) ви можете пересунути її на відстань до 60 футів і змусити жестикулювати, говорити та поводитися в будь-який обраний вами спосіб. Вона ідеально імітує ваші манери.</p><p>Фізична взаємодія із зображенням показує, що воно ілюзорне, оскільки крізь нього можуть проходити предмети. Істота, яка виконує дію Дослідження (Study action), щоб оглянути зображення, може визначити, що це ілюзія, за допомогою успішної перевірки [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашого КЗ рятівного кидка заклинання (spell save DC). Якщо істота розгледить ілюзію такою, якою вона є, вона зможе бачити крізь зображення, і будь-який шум, який воно видає, здаватиметься їй порожнім.</p>"
+        },
+        "Protection from Poison": {
+            "name": "Захист від отрути",
+            "description": "<p>Ви торкаєтеся істоти й знімаєте з неї стан &amp;Reference[poisoned]{Отруєний (Poisoned)}. Протягом часу дії ціль має Перевагу (Advantage) на рятівні кидки для уникнення або завершення стану Отруєний (Poisoned), а також має Опір (Resistance) до отруйної шкоди (Poison damage).</p>",
+            "effects": {
+                "Poison Protection": {
+                    "name": "Захист від отрути",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Протягом часу дії ціль має Перевагу (Advantage) на рятівні кидки для уникнення або завершення стану Отруєний (Poisoned), а також має Опір (Resistance) до отруйної шкоди (Poison damage).</span></p>",
+                    "changes": {
+                        "system.traits.dr.value": "poison"
+                    }
+                }
+            }
+        },
+        "Purify Food and Drink": {
+            "name": "Очищення їжі та пиття",
+            "description": "<p>Ви усуваєте отруту та гниття з немагічної їжі та пиття у сфері (Sphere) радіусом 5 футів із центром у точці в межах дистанції.</p>"
+        },
 		"Raise Dead": {
 			"name": "Raise Dead",
 			"description": "<p>With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.</p><p>The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
