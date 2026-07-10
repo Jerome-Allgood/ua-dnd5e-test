@@ -2480,217 +2480,217 @@
 			"name": "Appendix D: Rule References",
 			"pages": {
 				"Heroic Inspiration": {
-					"name": "Heroic Inspiration",
-					"text": "<p>If you (a player character) have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll. If you gain Heroic Inspiration but already have it, it’s lost unless you give it to a player character who lacks it.</p>"
-				},
-				"Time (2014)": {
-					"name": "Time (2014)",
-					"text": "<p>In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In a dungeon environment, the adventurers' movement happens on a scale of <strong>minutes</strong>. It takes them about a minute to creep down a long hallway, another minute to check for traps on the door at the end of the hall, and a good ten minutes to search the chamber beyond for anything interesting or valuable.</p><p>In a city or wilderness, a scale of <strong>hours</strong> is often more appropriate. Adventurers eager to reach the lonely tower at the heart of the forest hurry across those fifteen miles in just under four hours' time.</p><p>For long journeys, a scale of <strong>days</strong> works best. Following the road from Baldur's Gate to Waterdeep, the adventurers spend four uneventful days before a goblin ambush interrupts their journey.</p><p>In combat and other fast-paced situations, the game relies on <strong>rounds</strong>, a 6-second span of time.</p>"
-				},
-				"Speed": {
-					"name": "Speed",
-					"text": "<p>A creature has a Speed, which is the distance in feet the creature can cover when it moves on its turn. <em>See also</em> @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.a4CjDIEMeSbRaEjA]{Climbing}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.zRZl7vdjzjqpazxn]{Crawling}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.aaJOlRhI1H6vAxt9]{Jumping}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.53c9JMqckHagYYB5]{Swimming}.</p><p><em><strong>Special Speeds.</strong></em> Some creatures have special speeds, such as a Burrow Speed, Climb Speed, Fly Speed, or Swim Speed, each of which is defined in this glossary. If you have more than one speed, choose which one to use when you move; you can switch between the speeds during your move. Whenever you switch, subtract the distance already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can’t use the new speed during the current move. For example, if you have a Speed of 30 and a Fly Speed of 40, you could fly 10 feet, walk 10 feet, and leap into the air to fly 20 feet more.</p><p><em><strong>Changes to Your Speeds.</strong></em> If an effect increases or decreases your Speed for a time, any special speed you have increases or decreases by an equal amount for the same duration. For example, if your Speed is reduced to 0 and you have a Climb Speed, your Climb Speed is also reduced to 0. Similarly, if your Speed is halved and you have a Fly Speed, your Fly Speed is also halved.</p>"
-				},
-				"Travel Pace": {
-					"name": "Travel Pace",
-					"text": "<p>While traveling outside combat, a group can move at a Fast, Normal, or Slow pace, as shown on the Travel Pace table. The table states how far the party can move in a period of time; if riding horses or other mounts, the group can move twice that distance for 1 hour, after which the mounts need a &amp;Reference[Short Rest]{Short} or &amp;Reference[Long Rest] before they can move at that increased pace again (see @UUID[Compendium.dnd5e.content24.JournalEntry.phbMountsAndVehi.JournalEntryPage.NVPIUDJEdFDaErTg]{chapter 6} for a selection of mounts for sale). The <em>Game Master’s Guide</em> has rules that affect which pace you can choose in certain types of terrain.</p><table><caption>Travel Pace</caption><thead><tr><th></th><th colspan=\"3\"><p>Distance Traveled Per …</p></th></tr><tr><th><p>Pace</p></th><th><p>Minute</p></th><th><p>Hour</p></th><th colspan=\"2\"><p>Day</p></th></tr></thead><tbody><tr><td><p>Fast</p></td><td><p>400 feet</p></td><td><p>4 miles</p></td><td><p>30 miles</p></td></tr><tr><td><p>Normal</p></td><td><p>300 feet</p></td><td><p>3 miles</p></td><td><p>24 miles</p></td></tr><tr><td><p>Slow</p></td><td><p>200 feet</p></td><td><p>2 miles</p></td><td><p>18 miles</p></td></tr></tbody></table><p>Each travel pace has a game effect, as defined below.</p><p><strong>Fast.</strong> Traveling at a Fast pace imposes Disadvantage on a traveler’s Wisdom (Perception or Survival) and Dexterity (Stealth) checks.</p><p><strong>Normal.</strong> Traveling at a Normal pace imposes Disadvantage on Dexterity (Stealth) checks.</p><p><strong>Slow.</strong> Traveling at a Slow pace grants Advantage on Wisdom (Perception or Survival) checks.</p>"
-				},
+                    "name": "Героїчне натхнення",
+                    "text": "<p>Якщо ви (гравцевий персонаж) маєте Героїчне натхнення, ви можете витратити його, щоб перекинути будь-який кидок кубика одразу після його здійснення, і ви повинні використати новий кидок. Якщо ви отримуєте Героїчне натхнення, але воно у вас уже є, воно втрачається, якщо тільки ви не передасте його гравцевому персонажу, якому його бракує.</p>"
+                },
+                "Time (2014)": {
+                    "name": "Час (2014)",
+                    "text": "<p>У ситуаціях, коли важливо стежити за перебігом часу, Майстер визначає час, необхідний для виконання завдання. Майстер може використовувати іншу шкалу часу залежно від контексту поточної ситуації. У підземеллі пересування пригодників відбувається за шкалою <strong>хвилин</strong>. Їм потрібна приблизно хвилина, щоб прокрастися довгим коридором, ще хвилина, щоб перевірити наявність пасток на дверях у кінці коридору, і добрих десять хвилин, щоб обшукати кімнату за ними на предмет чогось цікавого чи цінного.</p><p>У місті або на дикій природі частіше доречна шкала <strong>годин</strong>. Пригодники, які прагнуть дістатися до самотньої вежі в серці лісу, поспішають подолати ці п'ятнадцять миль трохи менш ніж за чотири години.</p><p>Для тривалих подорожей найкраще підходить шкала <strong>днів</strong>. Рухаючись дорогою від Брамы Балдура (Baldur's Gate) до Вотердипа (Waterdeep), пригодники проводять чотири спокійні дні, перш ніж напад гоблінів перериває їхню подорож.</p><p>У бою та інших стрімких ситуаціях гра спирається на <strong>раунди</strong> — 6-секундний відрізок часу.</p>"
+                },
+                "Speed": {
+                    "name": "Швидкість",
+                    "text": "<p>Істота має швидкість (Speed), яка виражається у футах і визначає відстань, яку істота може подолати під час пересування у свій хід. <em>Див. також</em> @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.a4CjDIEMeSbRaEjA]{Казання (Climbing)}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.zRZl7vdjzjqpazxn]{Повзання (Crawling)}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.aaJOlRhI1H6vAxt9]{Стрибки (Jumping)}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.53c9JMqckHagYYB5]{Плавання (Swimming)}.</p><p><em><strong>Особливі швидкості.</strong></em> Деякі істоти мають особливі швидкості, як-от швидкість риття (Burrow Speed), лазіння (Climb Speed), польоту (Fly Speed) або плавання (Swim Speed), кожна з яких визначена в цьому глосарії. Якщо ви маєте більше ніж одну швидкість, оберіть, яку саме використовувати під час пересування; ви можете перемикатися між швидкостями під час руху. Щоразу під час перемикання віднімайте вже пройдену відстань від нової швидкості. Отриманий результат визначає, наскільки далеко ви ще можете пересунутися. Якщо результат дорівнює 0 або менше, ви не можете використати нову швидкість під час поточного руху. Наприклад, якщо ви маєте швидкість 30 і швидкість польоту 40, ви можете пролетіти 10 футів, пройти 10 футів і стрибнути в повітря, щоб пролетіти ще 20 футів.</p><p><em><strong>Зміни швидкостей.</strong></em> Якщо ефект тимчасово збільшує або зменшує вашу швидкість (Speed), будь-яка особлива швидкість, яку ви маєте, збільшується або зменшується на таку саму величину на ту саму тривалість. Наприклад, якщо вашу швидкість зменшено до 0 і ви маєте швидкість лазіння, ваша швидкість лазіння також зменшується до 0. Подібно до цього, якщо вашу швидкість зменшено вдвічі і ви маєте швидкість польоту, ваша швидкість польоту також зменшується вдвічі.</p>"
+                },
+                "Travel Pace": {
+                    "name": "Темп подорожі",
+                    "text": "<p>Під час подорожі поза межами бою група може пересуватися у швидкому (Fast), звичайному (Normal) або повільному (Slow) темпі, як показано в таблиці темпу подорожі. Таблиця вказує відстань, яку партія може подолати за певний час; якщо група їде на конях чи інших верхових тваринах, вона може пересуватися вдвічі далі протягом 1 години, після чого тварини потребують &amp;Reference[Short Rest]{короткого} або &amp;Reference[Long Rest]{тривалого} відпочинку, перш ніж знову зможуть рухатися в такому прискореному темпі (див. @UUID[Compendium.dnd5e.content24.JournalEntry.phbMountsAndVehi.JournalEntryPage.NVPIUDJEdFDaErTg]{главу 6} щодо вибору верхових тварин для продажу). У <em>Посібнику Майстра гри</em> є правила, які впливають на вибір темпу в певних типах місцевості.</p><table><caption>Темп подорожі</caption><thead><tr><th></th><th colspan=\"3\"><p>Пройдена відстань за …</p></th></tr><tr><th><p>Темп</p></th><th><p>Хвилину</p></th><th><p>Годину</p></th><th colspan=\"2\"><p>День</p></th></tr></thead><tbody><tr><td><p>Швидкий</p></td><td><p>400 футів</p></td><td><p>4 милі</p></td><td><p>30 миль</p></td></tr><tr><td><p>Звичайний</p></td><td><p>300 футів</p></td><td><p>3 милі</p></td><td><p>24 милі</p></td></tr><tr><td><p>Повільний</p></td><td><p>200 футів</p></td><td><p>2 милі</p></td><td><p>18 миль</p></td></tr></tbody></table><p>Кожен темп подорожі має ігровий ефект, як визначено нижче.</p><p><strong>Швидкий.</strong> Пересування у швидкому темпі накладає перешкоду (Disadvantage) на перевірки Мудрості (Уважність / Perception або Виживання / Survival) та Харизми/Спритності (Прихованість / Stealth) мандрівників.</p><p><strong>Звичайний.</strong> Пересування у звичайному темпі накладає перешкоду (Disadvantage) на перевірки Спритності (Прихованість / Stealth).</p><p><strong>Повільний.</strong> Пересування у повільному темпі дає перевагу (Advantage) на перевірки Мудрості (Уважність / Perception або Виживання / Survival).</p>"
+                },
 				"Difficult Terrain": {
-					"name": "Difficult Terrain",
-					"text": "<p>Every foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.</p>"
-				},
-				"Climbing, Swimming, and Crawling": {
-					"name": "Climbing, Swimming, and Crawling",
-					"text": "<p>While climbing or swimming, each foot of movement costs 1 extra foot (2 extra feet in difficult terrain), unless a creature has a climbing or swimming speed.</p><p>At the DM’s option, moving any distance in rough water or climbing a slippery surface or one with few handholds might require a successful [[/check dc=15 ath]] check.</p>"
-				},
-				"Long Jump": {
-					"name": "Long Jump",
-					"text": "<p><strong>Long Jump.</strong> When you make a Long Jump, you leap horizontally a number of feet up to your Strength score if you move at least 10 feet immediately before the jump. When you make a standing Long Jump, you can leap only half that distance. Either way, each foot you jump costs a foot of movement.</p><p>If you land in &amp;Reference[difficult-terrain], you must succeed on a [[/check dc=10 acr]] check or have the &amp;Reference[prone] condition.</p><p>This Long Jump rule assumes that the height of the jump doesn’t matter, such as a jump across a stream or chasm. At your DM’s option, you must succeed on a [[/check dc=10 ath]] check to clear a low obstacle (no taller than a quarter of the jump’s distance), such as a hedge or low wall. Otherwise, you hit the obstacle.</p>"
-				},
-				"High Jump": {
-					"name": "High Jump",
-					"text": "<p><strong>High Jump.</strong> When you make a High Jump, you leap into the air a number of feet equal to 3 plus your Strength modifier (minimum of 0 feet) if you move at least 10 feet on foot immediately before the jump. When you make a standing High Jump, you can jump only half that distance. Either way, each foot of the jump costs a foot of movement.</p><p>You can extend your arms half your height above yourself during the jump. Thus, you can reach a distance equal to the height of the jump plus 1½ times your height.</p>"
-				},
+                    "name": "Складна місцевість",
+                    "text": "<p>Кожен фут пересування у складній місцевості коштує 1 додатковий фут, навіть якщо кілька речей у просторі вважаються складною місцевістю.</p>"
+                },
+                "Climbing, Swimming, and Crawling": {
+                    "name": "Лазіння, плавання та повзання",
+                    "text": "<p>Під час лазіння або плавання кожен фут пересування коштує 1 додатковий фут (2 додаткові фути у складній місцевості), якщо тільки істота не має швидкості лазіння чи плавання.</p><p>На розсуд Майстра пересування на будь-яку відстань у бурхливій воді або лазіння по слизькій поверхні чи поверхні з кількома опорами для рук може вимагати успішної перевірки [[/check dc=15 ath]].</p>"
+                },
+                "Long Jump": {
+                    "name": "Довгий стрибок",
+                    "text": "<p><strong>Довгий стрибок.</strong> Коли ви робите довгий стрибок, ви стрибаєте горизонтально на кількість футів, що дорівнює вашому показнику Сили, якщо ви просунулися принаймні на 10 футів безпосередньо перед стрибком. Роблячи довгий стрибок з місця, ви можете стрибнути лише на половину цієї відстані. У будь-якому разі кожен фут вашого стрибка коштує фута пересування.</p><p>Якщо ви приземляєтеся в &amp;Reference[difficult-terrain]{складній місцевості}, ви повинні успішно пройти перевірку [[/check dc=10 acr]] або отримати стан &amp;Reference[prone]{Схилений (Prone)}.</p><p>Це правило довгого стрибка припускає, що висота стрибка не має значення, наприклад, під час стрибка через струмок чи прірву. На розсуд Майстра ви повинні успішно пройти перевірку [[/check dc=10 ath]], щоб подолати низьку перешкоду (не вищу за чверть відстані стрибка), наприклад живопліт або невисоку стіну. Інакше ви вріжетеся в перешкоду.</p>"
+                },
+                "High Jump": {
+                    "name": "Високий стрибок",
+                    "text": "<p><strong>Високий стрибок.</strong> Коли ви робите високий стрибок, ви стрибаєте в повітря на кількість футів, що дорівнює 3 плюс ваш модифікатор Сили (мінімум 0 футів), якщо ви просунулися пішки принаймні на 10 футів безпосередньо перед стрибком. Роблячи високий стрибок з місця, ви можете стрибнути лише на половину цієї відстані. У будь-якому разі кожен фут стрибка коштує фута пересування.</p><p>Ви можете витягнути руки на половину свого зросту над собою під час стрибка. Таким чином, ви можете дотягнутися на відстань, що дорівнює висоті стрибка плюс 1.5 рази вашого зросту.</p>"
+                },
 				"Falling": {
-					"name": "Falling",
-					"text": "<p>A creature that falls takes [[/damage 1d6 type=bludgeoning]] damage at the end of the fall for every 10 feet it fell, to a maximum of [[/damage 20d6 type=bludgeoning]] damage. When the creature lands, it has the &amp;Reference[Prone] condition unless it avoids taking any damage from the fall.</p><p>A creature that falls into water or another liquid can use its &amp;Reference[Reaction] to make a [[/check dc=15 ath]] or [[/check dc=15 acr]] check to hit the surface head or feet first. On a successful check, any damage resulting from the fall is halved.</p>"
-				},
-				"Suffocating": {
-					"name": "Suffocating",
-					"text": "<p>A creature can hold its breath for a number of minutes equal to 1 plus its Constitution modifier (minimum of 30 seconds) before suffocation begins. When a creature runs out of breath or is choking, it gains 1 &amp;Reference[Exhaustion] level at the end of each of its turns. When a creature can breathe again, it removes all levels of Exhaustion it gained from suffocating.</p>"
-				},
-				"Vision and Light": {
-					"name": "Vision and Light",
-					"text": "<p>Some adventuring tasks—such as noticing danger, hitting an enemy, and targeting certain spells—are affected by sight, so effects that obscure vision can hinder you, as explained below.</p><h3>Obscured Areas</h3><p>An area might be Lightly or Heavily Obscured. In a Lightly Obscured area—such as an area with Dim Light, patchy fog, or moderate foliage—you have Disadvantage on Wisdom (Perception) checks that rely on sight.</p><p>A Heavily Obscured area—such as an area with Darkness, heavy fog, or dense foliage—is opaque. You have the &amp;Reference[Blinded] condition when trying to see something there.</p><h3>Light</h3><p>The presence or absence of light determines the category of illumination in an area, as defined below.</p><p>@Embed[.RnMokVPyKGbbL8vi inline]</p><p>@Embed[.n1Ocpbyhr6HhgbCG inline]</p><p>@Embed[.4dfREIDjG5N4fvxd inline]</p><h3>Special Senses</h3><p>Some creatures have special senses that help them perceive things in certain situations. “Rules Glossary” defines the following special senses:</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.tdtmXZbUIOZGSnKT]{Blindsight}</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.7vQ1hLQ5fS6SSUqF]{Darkvision}</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.r64UrNusMhwJVnxb]{Tremorsense}</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.be7g0q1xBAwb8drv]{Truesight}</p>"
-				},
-				"Lightly Obscured": {
-					"name": "Lightly Obscured",
-					"text": "<p>In a <strong>lightly obscured</strong> area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.</p>"
-				},
+                    "name": "Падіння",
+                    "text": "<p>Істота, яка падає, отримує [[/damage 1d6 type=bludgeoning]] дробильної шкоди наприкінці падіння за кожні 10 футів, на які вона впала, максимум до [[/damage 20d6 type=bludgeoning]] шкоди. Коли істота приземляється, вона отримує стан &amp;Reference[Prone]{Схилений (Prone)}, якщо тільки вона не уникла будь-якої шкоди від падіння.</p><p>Істота, яка падає у воду чи іншу рідину, може використати свою &amp;Reference[Reaction]{реакцію}, щоб здійснити перевірку [[/check dc=15 ath]] або [[/check dc=15 acr]], щоб вдаритися об поверхню головою чи ногами вперед. У разі успішної перевірки будь-яка шкода від падіння зменшується вдвічі.</p>"
+                },
+                "Suffocating": {
+                    "name": "Задихання",
+                    "text": "<p>Істота може затримати дихання на кількість хвилин, що дорівнює 1 плюс її модифікатор Статури (Constitution) (мінімум 30 секунд), перш ніж почнеться задихання. Коли у істоти закінчується повітря або вона задихається, вона отримує 1 рівень стану &amp;Reference[Exhaustion]{Втома (Exhaustion)} наприкінці кожного зі своїх ходів. Коли істота знову отримує можливість дихати, вона знімає всі рівні втоми, отримані через задихання.</p>"
+                },
+                "Vision and Light": {
+                    "name": "Бачення та світло",
+                    "text": "<p>Деякі завдання пригод — такі як помічання небезпеки, влучання у ворога та націлювання певних заклинань — залежать від зору, тому ефекти, що затуманюють зір, можуть перешкоджати вам, як пояснено нижче.</p><h3>Затуманені зони</h3><p>Зона може бути затуманена легко (Lightly Obscured) або сильно (Heavily Obscured). У зоні зі слабким затуманенням — як-от зона з тьмяним світлом (Dim Light), уривчастим туманом або помірною рослинністю — ви маєте перешкоду (Disadvantage) на перевірки Мудрості (Уважність / Perception), що спираються на зір.</p><p>Сильно затуманене середовище — наприклад, зона з темрявою (Darkness), густим туманом або щільною рослинністю — є непрозорим. Ви перебуваєте під станом &amp;Reference[Blinded]{Сліпий (Blinded)}, намагаючись щось там побачити.</p><h3>Світло</h3><p>Наявність або відсутність світла визначає категорію освітлення в зоні, як визначено нижче.</p><p>@Embed[.RnMokVPyKGbbL8vi inline]</p><p>@Embed[.n1Ocpbyhr6HhgbCG inline]</p><p>@Embed[.4dfREIDjG5N4fvxd inline]</p><h3>Особливі відчуття</h3><p>Деякі істоти мають особливі відчуття, які допомагають їм сприймати речі в певних ситуаціях. «Глосарій правил» визначає такі особливі відчуття:</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.tdtmXZbUIOZGSnKT]{Сліпозір (Blindsight)}</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.7vQ1hLQ5fS6SSUqF]{Темнозір (Darkvision)}</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.r64UrNusMhwJVnxb]{Сейсмочутливість (Tremorsense)}</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.be7g0q1xBAwb8drv]{Істинний зір (Truesight)}</p>"
+                },
+                "Lightly Obscured": {
+                    "name": "Слабке затуманення",
+                    "text": "<p>У зоні зі <strong>слабким затуманенням</strong>, як-от тьмяне світло, уривчастий туман або помірна рослинність, істоти мають перешкоду (Disadvantage) на перевірки Мудрості (Уважність / Perception), що спираються на зір.</p>"
+                },
 				"Heavily Obscured": {
-					"name": "Heavily Obscured",
-					"text": "<p>A <strong>heavily obscured </strong>area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the &amp;Reference[condition=blinded] condition when trying to see something in that area.</p>"
-				},
-				"Bright Light": {
-					"name": "Bright Light",
-					"text": "<p><strong>Bright light </strong>lets most creatures see normally. Even gloomy days provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.</p>"
-				},
-				"Dim Light": {
-					"name": "Dim Light",
-					"text": "<p><strong>Dim light</strong>, also called shadows, creates a &amp;Reference[lightly obscured] area. An area of dim light is usually a boundary between a source of bright light, such as a torch, and surrounding darkness. The soft light of twilight and dawn also counts as dim light. A particularly brilliant full moon might bathe the land in dim light.</p>"
-				},
-				"Darkness": {
-					"name": "Darkness",
-					"text": "<p><strong>Darkness</strong> creates a &amp;Reference[heavily-obscured] area. Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness.</p>"
-				},
-				"Food": {
-					"name": "Food",
-					"text": "<p>A creature needs an amount of food per day based on its size, as shown in the Food Needs per Day table or it will eventually suffer from &amp;Reference[Malnutrition].</p><table><caption>Food Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Food</p></th><th></th><th><p>Size</p></th><th><p>Food</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 pound</p></td><td></td><td><p>Large</p></td><td><p>4 pounds</p></td></tr><tr><td><p>Small</p></td><td><p>1 pound</p></td><td></td><td><p>Huge</p></td><td><p>16 pounds</p></td></tr><tr><td><p>Medium</p></td><td><p>1 pound</p></td><td></td><td><p>Gargantuan</p></td><td><p>64 pounds</p></td></tr></tbody></table>"
-				},
-				"Water": {
-					"name": "Water",
-					"text": "<p>A creature needs an amount of water per day based on its size, as shown in the Water Needs per Day tables or it will eventually suffer from &amp;Reference[Dehydration].</p><table><caption>Water Needs per Day</caption><thead><tr><th><p>Size</p></th><th><p>Water</p></th></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>1/4 gallon</p></td></tr><tr><td><p>Small</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Medium</p></td><td><p>1 gallon</p></td></tr><tr><td><p>Large</p></td><td><p>4 gallons</p></td></tr><tr><td><p>Huge</p></td><td><p>16 gallons</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>64 gallons</p></td></tr></tbody></table>"
-				},
-				"Short Rest": {
-					"name": "Short Rest",
-					"text": "<p>A Short Rest is a 1-hour period of downtime, during which a creature does nothing more strenuous than reading, talking, eating, or standing watch. To start a Short Rest, you must have at least 1 Hit Point.</p><p><em><strong>Benefits of the Rest.</strong></em> When you finish the rest, you gain the following benefits:</p><p><strong>Spend Hit Point Dice.</strong> You can spend one or more of your Hit Point Dice to regain Hit Points. For each Hit Point Die you spend in this way, roll the die and add your Constitution modifier to it. You regain Hit Points equal to the total (minimum of 1 Hit Point). You can decide to spend an additional Hit Point Die after each roll.</p><p><strong>Special Feature.</strong> Some features are recharged by a Short Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Short Rest is stopped by the following interruptions:</p><ul><li class=\"Core-Styles_Core-Bulleted\">Rolling Initiative</li><li class=\"Core-Styles_Core-Bulleted\">Casting a spell other than a cantrip</li><li class=\"Core-Styles_Core-Bulleted\">Taking any damage</li></ul><p>An interrupted Short Rest confers no benefits.</p>"
-				},
+                    "name": "Сильне затуманення",
+                    "text": "<p>У зоні із <strong> сильним затуманенням</strong> — як-от темрява, непрозорий туман або густа рослинність — зір блокується повністю. Істота фактично зазнає стану &amp;Reference[condition=blinded]{Сліпий (Blinded)}, намагаючись щось побачити в цій зоні.</p>"
+                },
+                "Bright Light": {
+                    "name": "Яскраве світло",
+                    "text": "<p><strong>Яскраве світло</strong> дозволяє більшості істот бачити нормально. Навіть похмурі дні забезпечують яскраве світло, як і факели, ліхтарі, вогнища та інші джерела освітлення в межах певного радіуса.</p>"
+                },
+                "Dim Light": {
+                    "name": "Тьмяне світло",
+                    "text": "<p><strong>Тьмяне світло</strong>, яке також називають тінями, створює &amp;Reference[lightly obscured]{слабко затуманену} зону. Зона тьмяного світла зазвичай є межею між джерелом яскравого світла, наприклад факелом, і навколишньою темрявою. М'яке світло сутінків і світанку також вважається тьмяним світлом. Особливо яскравий повний місяць може купатися землю в тьмяному світлі.</p>"
+                },
+"Darkness": {
+                    "name": "Темрява",
+                    "text": "<p><strong>Темрява</strong> створює &amp;Reference[heavily-obscured]{сильно затуманену} зону. Персонажі стикаються з темрявою на вулиці вночі (навіть у більшість ночей із місячним світлом), у межах неосвітленого підземелля чи підземного сховища або в зоні магічної темряви.</p>"
+                },
+                "Food": {
+                    "name": "Їжа",
+                    "text": "<p>Істота потребує певної кількості їжі на день залежно від свого розміру, як показано в таблиці «Потреба в їжі на день», інакше згодом вона страждатиме від &amp;Reference[Malnutrition]{недоїдання}.</p><table><caption>Потреба в їжі на день</caption><thead><tr><th><p>Розмір</p></th><th><p>Їжа</p></th><th></th><th><p>Розмір</p></th><th><p>Їжа</p></th></tr></thead><tbody><tr><td><p>Крихітний (Tiny)</p></td><td><p>1/4 фунта</p></td><td></td><td><p>Великий (Large)</p></td><td><p>4 фунти</p></td></tr><tr><td><p>Малий (Small)</p></td><td><p>1 фунт</p></td><td></td><td><p>Величезний (Huge)</p></td><td><p>16 фунтів</p></td></tr><tr><td><p>Середній (Medium)</p></td><td><p>1 фунт</p></td><td></td><td><p>Гігантський (Gargantuan)</p></td><td><p>64 фунти</p></td></tr></tbody></table>"
+                },
+                "Water": {
+                    "name": "Вода",
+                    "text": "<p>Істота потребує певної кількості води на день залежно від свого розміру, як показано в таблиці «Потреба у воді на день», інакше згодом вона страждатиме від &amp;Reference[Dehydration]{зневоднення}.</p><table><caption>Потреба у воді на день</caption><thead><tr><th><p>Розмір</p></th><th><p>Вода</p></th></tr></thead><tbody><tr><td><p>Крихітний (Tiny)</p></td><td><p>1/4 галона</p></td></tr><tr><td><p>Малий (Small)</p></td><td><p>1 галон</p></td></tr><tr><td><p>Середній (Medium)</p></td><td><p>1 галон</p></td></tr><tr><td><p>Великий (Large)</p></td><td><p>4 галони</p></td></tr><tr><td><p>Величезний (Huge)</p></td><td><p>16 галонів</p></td></tr><tr><td><p>Гігантський (Gargantuan)</p></td><td><p>64 галони</p></td></tr></tbody></table>"
+                },
+                "Short Rest": {
+                    "name": "Короткий відпочинок",
+                    "text": "<p>Короткий відпочинок — це 1-годинний період спокою, протягом якого істота не робить нічого напруженішого за читання, розмови, їжу або несення варти. Щоб розпочати короткий відпочинок, ви повинні мати принаймні 1 пункт здоров'я.</p><p><em><strong>Переваги відпочинку.</strong></em> Завершивши відпочинок, ви отримуєте такі переваги:</p><p><strong>Витрачання кісток здоров'я.</strong> Ви можете витратити одну або кілька своїх кісток здоров'я, щоб відновити пункти здоров'я. За кожну витрачену таким чином кістку здоров'я киньте її та додайте до результату свій модифікатор Статури витривалості (Constitution). Ви відновлюєте пункти здоров'я, що дорівнюють загальній сумі (мінімум 1 пункт здоров'я). Ви можете вирішити витратити додаткову кістку здоров'я після кожного кидка.</p><p><strong>Особлива особливість.</strong> Деякі особливості відновлюються під час короткого відпочинку. Якщо ви маєте таку особливість, вона відновлюється в спосіб, зазначений у її описі.</p><p><em><strong>Переривання відпочинку.</strong></em> Короткий відпочинок переривається такими подіями:</p><ul><li class=\"Core-Styles_Core-Bulleted\">Кидок ініціативи (Rolling Initiative)</li><li class=\"Core-Styles_Core-Bulleted\">Накладання заклинання, що не є замовлянням (cantrip)</li><li class=\"Core-Styles_Core-Bulleted\">Отримання будь-якої шкоди</li></ul><p>Перерваний короткий відпочинок не дає жодних переваг.</p>"
+                },
 				"Long Rest": {
-					"name": "Long Rest",
-					"text": "<p>A Long Rest is a period of extended downtime—at least 8 hours—available to any creature. During a Long Rest, you sleep for at least 6 hours and perform no more than 2 hours of light activity, such as reading, talking, eating, or standing watch.</p><p>During sleep, you have the Unconscious condition. After you finish a Long Rest, you must wait at least 16 hours before starting another one.</p><p><em><strong>Benefits of the Rest.</strong></em> To start a Long Rest, you must have at least 1 Hit Point. When you finish the rest, you gain the following benefits:</p><p><strong>Regain All HP.</strong> You regain all lost Hit Points and all spent Hit Point Dice. If your Hit Point maximum was reduced, it returns to normal.</p><p><strong>Ability Scores Restored.</strong> If any of your ability scores were reduced, they return to normal.</p><p><strong>Exhaustion Reduced.</strong> If you have the Exhaustion condition, its level decreases by 1.</p><p><strong>Special Feature.</strong> Some features are recharged by a Long Rest. If you have such a feature, it recharges in the way specified in its description.</p><p><em><strong>Interrupting the Rest.</strong></em> A Long Rest is stopped by the following interruptions:</p><ul><li class=\"Core-Styles_Core-Bulleted\">Rolling Initiative</li><li class=\"Core-Styles_Core-Bulleted\">Casting a spell other than a cantrip</li><li class=\"Core-Styles_Core-Bulleted\">Taking any damage</li><li class=\"Core-Styles_Core-Bulleted\">1 hour of walking or other physical exertion</li></ul><p>If you rested at least 1 hour before the interruption, you gain the benefits of a @UUID[.wVuNbEADtC16ejAi]{Short Rest}.</p><p>You can resume a Long Rest immediately after an interruption. If you do so, the rest requires 1 additional hour per interruption to finish.</p>"
-				},
-				"Resting": {
-					"name": "Resting",
-					"text": "<p>There are two ways for a character to rest:</p><ul><li><p>&amp;Reference[short rest]</p></li><li><p>&amp;Reference[long rest]</p></li></ul>"
-				},
-				"Food and Water": {
-					"name": "Food and Water",
-					"text": "<h3>Food</h3><p>@Embed[.jayo7XVgGnRCpTW0 inline]</p><h3>Water</h3><p>@Embed[.iIEI87J7lr2sqtb5 inline]</p>"
-				},
-				"Strength": {
-					"name": "Strength",
-					"text": "<p>Strength measures physical might.</p><h3>Strength Checks</h3><p>Make a Strength <strong>check</strong> to lift, push, pull, or break something.</p><h3>Saving Throw</h3><p>Make a Strength saving throw to physically resist direct force.</p><h3>Attacks Rolls and Damage</h3><p>You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in handto-hand combat, and some of them can be thrown to make a ranged attack.</p><h3>Lifting and Carrying</h3><p>Your size and Strength score determine the maximum weight in pounds that you can carry, as shown in the Carrying Capacity table. The table also shows the maximum weight you can drag, lift, or push.</p><p>@Embed[.Hni8DjqLzoqsVjb6 inline]</p><p>@Embed[.1PnjDBKbQJIVyc2t inline]</p>"
-				},
+                    "name": "Тривалий відпочинок",
+                    "text": "<p>Тривалий відпочинок — це період розширеного відпочинку (принаймні 8 годин), доступний будь-якій істоті. Під час тривалого відпочинку ви спите принаймні 6 годин і виконуєте не більше 2 годин легкої активності, як-от читання, розмови, їжа чи несення варти.</p><p>Під час сну ви перебуваєте під станом &amp;Reference[Unconscious]{Непритомний (Unconscious)}. Закінчивши тривалий відпочинок, ви повинні зачекати принаймні 16 годин, перш ніж розпочинати наступний.</p><p><em><strong>Переваги відпочинку.</strong></em> Щоб розпочати тривалий відпочинок, ви повинні мати принаймні 1 пункт здоров'я. Завершивши відпочинок, ви отримуєте такі переваги:</p><p><strong>Відновлення всього ПЗ.</strong> Ви відновлюєте всі втрачені пункти здоров'я та всі витрачені кістки здоров'я. Якщо ваш максимум пунктів здоров'я був зменшений, він повертається до норми.</p><p><strong>Відновлення показників характеристик.</strong> Якщо будь-які з ваших показників характеристик були зменшені, вони повертаються до норми.</p><p><strong>Зменшення втоми.</strong> Якщо ви маєте стан &amp;Reference[Exhaustion]{Втома (Exhaustion)}, його рівень зменшується на 1.</p><p><strong>Особлива особливість.</strong> Деякі особливості відновлюються під час тривалого відпочинку. Якщо ви маєте таку особливість, вона відновлюється в спосіб, зазначений у її описі.</p><p><em><strong>Переривання відпочинку.</strong></em> Тривалий відпочинок переривається такими подіями:</p><ul><li class=\"Core-Styles_Core-Bulleted\">Кидок ініціативи (Rolling Initiative)</li><li class=\"Core-Styles_Core-Bulleted\">Накладання заклинання, що не є замовлянням (cantrip)</li><li class=\"Core-Styles_Core-Bulleted\">Отримання будь-якої шкоди</li><li class=\"Core-Styles_Core-Bulleted\">1 година ходьби або іншого фізичного навантаження</li></ul><p>Якщо ви відпочивали принаймні 1 годину перед перериванням, ви отримуєте переваги @UUID[.wVuNbEADtC16ejAi]{короткого відпочинку (Short Rest)}.</p><p>Ви можете відновити тривалий відпочинок одразу після переривання. У такому разі відпочинок вимагає на 1 додаткову годину більше за кожне переривання.</p>"
+                },
+                "Resting": {
+                    "name": "Відпочинок",
+                    "text": "<p>Існує два способи для персонажа відпочити:</p><ul><li><p>&amp;Reference[short rest]{короткий відпочинок}</p></li><li><p>&amp;Reference[long rest]{тривалий відпочинок}</p></li></ul>"
+                },
+                "Food and Water": {
+                    "name": "Їжа та вода",
+                    "text": "<h3>Їжа</h3><p>@Embed[.jayo7XVgGnRCpTW0 inline]</p><h3>Вода</h3><p>@Embed[.iIEI87J7lr2sqtb5 inline]</p>"
+                },
+                "Strength": {
+                    "name": "Сила",
+                    "text": "<p>Сила вимірює фізичну міць.</p><h3>Перевірки Сили</h3><p>Здійсніть перевірку (<strong>check</strong>) Сили, щоб підняти, штовхнути, потягнути або зламати щось.</p><h3>Рятівний кидок</h3><p>Здійсніть рятівний кидок Сили, щоб фізично протистояти прямому тиску.</p><h3>Кидки атаки та шкода</h3><p>Ви додаєте свій модифікатор Сили до кидка атаки та кидка шкоди під час атаки рукопашною зброєю, такою як булава, бойова сокира або ятаган (javelin). Ви використовуєте зброю ближнього бою для атак ближнього бою в рукопашному бою, і деяку з них можна кидати для здійснення дальної атаки.</p><h3>Піднімання та перенесення</h3><p>Ваш розмір і показник Сили визначають максимальну вагу в фунтах, яку ви можете переносити, як показано в таблиці вантажопідйомності (Carrying Capacity). Таблиця також показує максимальну вагу, яку ви можете тягнути, піднімати або штовхати.</p><p>@Embed[.Hni8DjqLzoqsVjb6 inline]</p><p>@Embed[.1PnjDBKbQJIVyc2t inline]</p>"
+                },
 				"Carrying Capacity": {
-					"name": "Carrying Capacity",
-					"text": "<table><caption>Carrying Capacity</caption><thead><tr><td><p>Creature Size</p></td><td><p>Carry</p></td><td><p>Drag/Lift/Push</p></td></tr></thead><tbody><tr><td><p>Tiny</p></td><td><p>Strength x 7.5 lb.</p></td><td><p>Strength x 15 lb.</p></td></tr><tr><td><p>Small/Medium</p></td><td><p>Strength x 15 lb.</p></td><td><p>Strength x 30 lb.</p></td></tr><tr><td><p>Large</p></td><td><p>Strength x 30 lb.</p></td><td><p>Strength x 60 lb.</p></td></tr><tr><td><p>Huge</p></td><td><p>Strength x 60 lb.</p></td><td><p>Strength x 120 lb.</p></td></tr><tr><td><p>Gargantuan</p></td><td><p>Strength x 120 lb.</p></td><td><p>Strength x 240 lb.</p></td></tr></tbody></table>"
-				},
-				"Push, Drag, or Lift": {
-					"name": "Push, Drag, or Lift",
-					"text": "<p>While <strong>dragging, lifting, or pushing</strong> weight in excess of the maximum weight you can carry, your Speed can be no more than 5 feet.</p>"
-				},
-				"Size and Strength": {
-					"name": "Size and Strength",
-					"text": "<p><strong>Size and Strength.</strong> Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.</p>"
-				},
-				"Athletics": {
-					"name": "Athletics",
-					"text": "<p><strong>Examples:</strong> Jump farther than normal, stay afloat in rough water, or break something.</p>"
-				},
-				"Dexterity": {
-					"name": "Dexterity",
-					"text": "<p>Dexterity measures agility, reflexes, and balance.</p><h3>Dexterity Checks</h3><p>Make a Dexterity <strong>check</strong> to move nimbly, quickly, or quietly.</p><h3>Attack Rolls and Damage</h3><p>You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.</p><h3>Armor Class</h3><p>Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class.</p><h3>Initiative</h3><p>Initiative determines the order of turns during combat. When combat starts, every participant rolls Initiative; they make a Dexterity check that determines their place in the Initiative order. The GM rolls for monsters. For a group of identical creatures, the GM makes a single roll, so each member of the group has the same Initiative.</p><div class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/equipment/back/cloak-hooded-blue.webp\" class=\"round\" /></figure><article><h4>Hiding</h4><p>@Embed[.plHuoNdS0j3umPNS inline]</p></article></div>"
-				},
-				"Acrobatics": {
-					"name": "Acrobatics",
-					"text": "<p><strong>Examples:</strong> Stay on your feet in a tricky situation, or perform an acrobatic stunt.</p>"
-				},
-				"Sleight of Hand": {
-					"name": "Sleight of Hand",
-					"text": "<p><strong>Examples: </strong>Pick a pocket, conceal a handheld object, or perform legerdemain.</p>"
-				},
-				"Stealth": {
-					"name": "Stealth",
-					"text": "<p><strong>Examples: </strong>Escape notice by moving quietly and hiding behind things.</p>"
-				},
+                    "name": "Вантажопідйомність",
+                    "text": "<table><caption>Вантажопідйомність</caption><thead><tr><td><p>Розмір істоти</p></td><td><p>Перенесення (Carry)</p></td><td><p>Тягнення/Піднімання/Штовхання (Drag/Lift/Push)</p></td></tr></thead><tbody><tr><td><p>Крихітний (Tiny)</p></td><td><p>Сила x 7.5 фунтів</p></td><td><p>Сила x 15 фунтів</p></td></tr><tr><td><p>Малий/Середній (Small/Medium)</p></td><td><p>Сила x 15 фунтів</p></td><td><p>Сила x 30 фунтів</p></td></tr><tr><td><p>Великий (Large)</p></td><td><p>Сила x 30 фунтів</p></td><td><p>Сила x 60 фунтів</p></td></tr><tr><td><p>Величезний (Huge)</p></td><td><p>Сила x 60 фунтів</p></td><td><p>Сила x 120 фунтів</p></td></tr><tr><td><p>Гігантський (Gargantuan)</p></td><td><p>Сила x 120 фунтів</p></td><td><p>Сила x 240 фунтів</p></td></tr></tbody></table>"
+                },
+                "Push, Drag, or Lift": {
+                    "name": "Штовхання, тягнення чи піднімання",
+                    "text": "<p>Під час <strong>тягнення, піднімання чи штовхання</strong> ваги, що перевищує максимальну вагу, яку ви можете переносити, ваша швидкість (Speed) не може перевищувати 5 футів.</p>"
+                },
+                "Size and Strength": {
+                    "name": "Розмір і Сила",
+                    "text": "<p><strong>Розмір і Сила.</strong> Більші істоти можуть витримувати більшу вагу, тоді як крихітні істоти можуть переносити менше. Для кожної категорії розміру вище Середнього подвоюйте вантажопідйомність істоти та кількість, яку вона може штовхати, тягнути чи піднімати. Для крихітної істоти зменште цю вагу вдвічі.</p>"
+                },
+                "Athletics": {
+                    "name": "Атлетика",
+                    "text": "<p><strong>Приклади:</strong> Стрибати далі, ніж зазвичай, триматися на воді в бурхливій воді або зламати щось.</p>"
+                },
+                "Dexterity": {
+                    "name": "Спритність",
+                    "text": "<p>Спритність вимірює спритність, рефлекси та рівновагу.</p><h3>Перевірки Спритності</h3><p>Здійсніть перевірку (<strong>check</strong>) Спритності, щоб рухатися спритно, швидко чи тихо.</p><h3>Кидки атаки та шкода</h3><p>Ви додаєте свій модифікатор Спритності до кидка атаки та кидка шкоди під час атаки дальнобійною зброєю, такою як праща (sling) чи довгий лук (longbow). Ви також можете додати свій модифікатор Спритності до кидка атаки та кидка шкоди під час атаки зброєю ближнього бою, яка має властивість витонченості (finesse), як-от кинджал чи рапіра.</p><h3>Клас захисту</h3><p>Залежно від броні, яку ви носите, ви можете додати частину або весь свій модифікатор Спритності до свого Класу захисту (Armor Class).</p><h3>Ініціатива</h3><p>Ініціатива визначає порядок ходів під час бою. Коли починається бій, кожен учасник кидає ініціативу; вони роблять перевірку Спритності, яка визначає їхнє місце в порядку ініціативи. Майстер робить кидки для монстрів. Для групи однакових істот Майстер робить один кидок, тому кожен член групи має однакову ініціативу.</p><div class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/equipment/back/cloak-hooded-blue.webp\" class=\"round\" /></figure><article><h4>Хованка (Hiding)</h4><p>@Embed[.plHuoNdS0j3umPNS inline]</p></article></div>"
+                },
+                "Acrobatics": {
+                    "name": "Акробатика",
+                    "text": "<p><strong>Приклади:</strong> Встояти на ногах у складній ситуації або виконати акробатичний трюк.</p>"
+                },
+                "Sleight of Hand": {
+                    "name": "Спритність рук",
+                    "text": "<p><strong>Приклади: </strong>Обчистити кишеню, сховати предмет у руці або виконати фокус (legerdemain).</p>"
+                },
+                "Stealth": {
+                    "name": "Непомітність",
+                    "text": "<p><strong>Приклади: </strong>Уникнути уваги, пересуваючись тихо і ховаючись за предметами.</p>"
+                },
 				"Hiding": {
-					"name": "Hiding",
-					"text": "<p>The Game Master decides when circumstances are appropriate for hiding.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.rqhOsUY4wWa1oHTy inline]</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.Brc9AnUXBeg0MTX6 inline]</p>"
-				},
-				"Passive Perception": {
-					"name": "Passive Perception",
-					"text": "<p><strong>Passive Perception</strong> is a score that reflects a creature’s general awareness of its surroundings. The GM uses this score when determining whether a creature notices something without consciously making a Wisdom (Perception) check.</p><p>A creature’s Passive Perception equals 10 plus the creature’s Wisdom (Perception) check bonus. If the creature has Advantage on such checks, increase the score by 5. If the creature has Disadvantage on them, decrease the score by 5. For example, a level 1 character with a Wisdom of 15 and proficiency in Perception has a Passive Perception of 14 (10 + 2 + 2). If that character has Advantage on Wisdom (Perception) checks, the score becomes 19.</p>"
-				},
-				"Constitution": {
-					"name": "Constitution",
-					"text": "<p>Constitution measures health and stamina.</p><h3>Constitution Checks</h3><p>Make a Constitution <strong>check</strong> to push your body beyond normal limits.</p><h3>Hit Points</h3><p>Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.</p>"
-				},
-				"Intelligence": {
-					"name": "Intelligence",
-					"text": "<p>Intelligence measures reasoning and memory.</p><h3>Intelligence Checks</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.sLw1gfc1aLg7djmZ inline]</p><h3>Spellcasting Ability</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.u46Rva9Nrm9bG1Mu inline]</p>"
-				},
-				"Intelligence Checks": {
-					"name": "Intelligence Checks",
-					"text": "<p>Make an Intelligence <strong>check</strong> to reason or remember.</p>"
-				},
+                    "name": "Сховатися",
+                    "text": "<p>Майстер гри вирішує, коли обставини є підходящими для того, щоб сховатися.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.rqhOsUY4wWa1oHTy inline]</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.Brc9AnUXBeg0MTX6 inline]</p>"
+                },
+                "Passive Perception": {
+                    "name": "Пасивна уважність",
+                    "text": "<p><strong>Пасивна уважність</strong> — це показник, що відображає загальну обізнаність істоти про її оточення. Майстер використовує цей показник, коли визначає, чи помічає істота щось без свідомого здійснення перевірки Мудрості (Уважність / Perception).</p><p>Пасивна уважність істоти дорівнює 10 плюс бонус за перевірку Мудрості (Уважність) істоти. Якщо істота має перевагу (Advantage) на такі перевірки, збільште показник на 5. Якщо істота має перешкоду (Disadvantage) на них, зменште показник на 5. Наприклад, персонаж 1-го рівня з Мудрістю 15 та майстерністю (proficiency) в Уважності має пасивну уважність 14 (10 + 2 + 2). Якщо цей персонаж має перевагу на перевірки Мудрості (Уважність), показник стає рівним 19.</p>"
+                },
+                "Constitution": {
+                    "name": "Статура",
+                    "text": "<p>Статура вимірює здоров'я та витривалість.</p><h3>Перевірки Статури</h3><p>Здійсніть перевірку (<strong>check</strong>) Статури, щоб вивести своє тіло за межі нормальних можливостей.</p><h3>Пункти здоров'я</h3><p>Мій модифікатор Статури витривалості робить внесок у ваші пункти здоров'я. Зазвичай ви додаєте свій модифікатор Статури витривалості до кожної кістки здоров'я, яку кидаєте для визначення пунктів здоров'я.</p>"
+                },
+                "Intelligence": {
+                    "name": "Інтелект",
+                    "text": "<p>Інтелект вимірює міркування та пам'ять.</p><h3>Перевірки Інтелекту</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.sLw1gfc1aLg7djmZ inline]</p><h3>Здатність накладання заклинань</h3><p>@Embed[Compendium.dnd5e.rules.JournalEntry.NizgRXLNUqtdlC1s.JournalEntryPage.u46Rva9Nrm9bG1Mu inline]</p>"
+                },
+                "Intelligence Checks": {
+                    "name": "Перевірки Інтелекту",
+                    "text": "<p>Здійсніть перевірку (<strong>check</strong>) Інтелекту, щоб поміркувати або пригадати.</p>"
+                },
 				"Arcana": {
-					"name": "Arcana",
-					"text": "<p><strong>Examples: </strong>Recall lore about spells, magic items, and the planes of existence.</p>"
-				},
-				"History": {
-					"name": "History",
-					"text": "<p><strong>Examples: </strong>Recall lore about historical events, people, nations, and cultures.</p>"
-				},
-				"Investigation": {
-					"name": "Investigation",
-					"text": "<p><strong>Examples:</strong> Find obscure information in books, or deduce how something works.</p>"
-				},
-				"Nature": {
-					"name": "Nature",
-					"text": "<p><strong>Examples: </strong>Recall lore about terrain, plants, animals, and weather.</p>"
-				},
-				"Religion": {
-					"name": "Religion",
-					"text": "<p><strong>Examples:</strong> Recall lore about gods, religious rituals, and holy symbols.</p>"
-				},
+                    "name": "Таїнства (Аркана)",
+                    "text": "<p><strong>Приклади: </strong>Пригадати знання про заклинання, магічні предмети та плани буття.</p>"
+                },
+                "History": {
+                    "name": "Історія",
+                    "text": "<p><strong>Приклади: </strong>Пригадати знання про історичні події, постатей, народи та культури.</p>"
+                },
+                "Investigation": {
+                    "name": "Розслідування",
+                    "text": "<p><strong>Приклади:</strong> Знайти маловідому інформацію в книгах або зрозуміти, як щось працює.</p>"
+                },
+                "Nature": {
+                    "name": "Природа",
+                    "text": "<p><strong>Приклади: </strong>Пригадати знання про місцевість, рослинність, тварин та погоду.</p>"
+                },
+                "Religion": {
+                    "name": "Релігія",
+                    "text": "<p><strong>Приклади:</strong> Пригадати знання про богів, релігійні ритуали та святі символи.</p>"
+                },
 				"Spellcasting Ability": {
-					"name": "Spellcasting Ability",
-					"text": "<p>Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.</p>"
-				},
-				"Wisdom": {
-					"name": "Wisdom",
-					"text": "<p>Wisdom measures perceptiveness and mental fortitude.</p><h3>Wisdom Checks</h3><p>Make a Wisdom <strong>check</strong> to notice things in the environment or in creatures' behavior.</p><h3>Spellcasting Ability</h3><p>Clerics, druids, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.</p>"
-				},
-				"Animal Handling": {
-					"name": "Animal Handling",
-					"text": "<p><strong>Examples: </strong>Calm or train an animal, or get an animal to behave in a certain way.</p>"
-				},
-				"Insight": {
-					"name": "Insight",
-					"text": "<p><strong>Examples:</strong> Discern a person’s mood and intentions.</p>"
-				},
-				"Medicine": {
-					"name": "Medicine",
-					"text": "<p><strong>Examples:</strong> Diagnose an illness, or determine what killed the recently slain.</p>"
-				},
-				"Perception": {
-					"name": "Perception",
-					"text": "<p><strong>Examples:</strong> Using a combination of senses, notice something that’s easy to miss.</p>"
-				},
+                    "name": "Здатність накладання заклинань",
+                    "text": "<p>Чародії використовують Інтелект (Intelligence) як свою здатність накладання заклинань, що допомагає визначати складність рятівних кидків (saving throw DCs) заклинань, які вони накладають.</p>"
+                },
+                "Wisdom": {
+                    "name": "Мудрість",
+                    "text": "<p>Мудрість вимірює сприйнятливість та ментальну стійкість.</p><h3>Перевірки Мудрості</h3><p>Здійсніть перевірку (<strong>check</strong>) Мудрості, щоб помітити речі в середовищі чи в поведінці істот.</p><h3>Здатність накладання заклинань</h3><p>Клерики, друїди та рейнджери використовують Мудрість як свою здатність накладання заклинань, що допомагає визначати складність рятівних кидків (saving throw DCs) заклинань, які вони накладають.</p>"
+                },
+                "Animal Handling": {
+                    "name": "Поводження з тваринами",
+                    "text": "<p><strong>Приклади: </strong>Заспокоїти або дресирувати тварину, або змусити тварину поводитися певним чином.</p>"
+                },
+                "Insight": {
+                    "name": "Проникливість",
+                    "text": "<p><strong>Приклади:</strong> Визначити настрій та наміри людини.</p>"
+                },
+                "Medicine": {
+                    "name": "Медицина",
+                    "text": "<p><strong>Приклади:</strong> Поставити діагноз хвороби або визначити, що вбило нещодавно вбитих.</p>"
+                },
+                "Perception": {
+                    "name": "Уважність",
+                    "text": "<p><strong>Приклади:</strong> Використовуючи комбінацію почуттів, помітити те, що легко пропустити.</p>"
+                },
 				"Survival": {
 					"name": "Виживання",
 					"text": "<p><strong>Приклади:</strong> Йти по слідах, шукати їжу, знаходити стежку або уникати природних небезпек.</p>"
 				},
 				"Charisma": {
-					"name": "Charisma",
-					"text": "<p>Charisma measures confidence, poise, and charm.</p><h3>Charisma Checks</h3><p>Make a Charisma <strong>check</strong> to influence, entertain, or deceive.</p><h3>Spellcasting Ability</h3><p>Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.</p>"
-				},
-				"Deception": {
-					"name": "Deception",
-					"text": "<p><strong>Examples:</strong> Tell a convincing lie, or wear a disguise convincingly.</p>"
-				},
-				"Intimidation": {
-					"name": "Intimidation",
-					"text": "<p><strong>Examples: </strong>Awe or threaten someone into doing what you want.</p>"
-				},
-				"Performance": {
-					"name": "Performance",
-					"text": "<p><strong>Examples:</strong> Act, tell a story, perform music, or dance.</p>"
-				},
-				"Persuasion": {
-					"name": "Persuasion",
-					"text": "<p><strong>Examples: </strong>Honestly and graciously convince someone of something.</p>"
-				},
+                    "name": "Харизма",
+                    "text": "<p>Харизма вимірює впевненість, самовладання та шарм.</p><h3>Перевірки Харизми</h3><p>Здійсніть перевірку (<strong>check</strong>) Харизми, щоб впливати, розважати чи обманювати.</p><h3>Здатність накладання заклинань</h3><p>Барди, паладини, чаклуни та варлоки використовують Харизму як свою здатність накладання заклинань, що допомагає визначати складність рятівних кидків (saving throw DCs) заклинань, які вони накладають.</p>"
+                },
+                "Deception": {
+                    "name": "Обман",
+                    "text": "<p><strong>Приклади:</strong> Розповісти переконливу брехню або переконливо носити маскування.</p>"
+                },
+                "Intimidation": {
+                    "name": "Залякування",
+                    "text": "<p><strong>Приклади: </strong>Вразити або погрозами змусити когось зробити те, що ви хочете.</p>"
+                },
+                "Performance": {
+                    "name": "Виступ",
+                    "text": "<p><strong>Приклади:</strong> Грати роль, розповідати історію, виконувати музику чи танцювати.</p>"
+                },
+                "Persuasion": {
+                    "name": "Переконання",
+                    "text": "<p><strong>Приклади: </strong>Чесно та люб'язно в чомусь когось переконати.</p>"
+                },
 				"Surprise": {
 					"name": "Surprise",
 					"text": "<p>If a creature is caught unawares by the start of combat, that creature is surprised, which causes it to have &amp;Reference[disadvantage] on its Initiative roll.</p>"
