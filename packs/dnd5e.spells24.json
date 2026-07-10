@@ -2067,58 +2067,58 @@
             "description": "<p>Оберіть ділянку місцевості зі стороною не більше 40 футів у межах дистанції. Ви можете змінювати форму ґрунту, піску чи глини на цій ділянці будь-яким на ваш вибір способом на час дії заклинання. Ви можете підвищити чи понизити висоту ділянки, створити або заповнити рів, звести чи вирівняти стіну, або сформувати стовп. Масштаб будь-яких таких змін не може перевищувати половини найбільшого виміру ділянки. Наприклад, якщо ви впливаєте на квадрат 40х40 футів, ви можете створити стовп заввишки до 20 футів, підняти або опустити висоту квадрата на 20 футів, викопати рів завглибшки до 20 футів тощо. Для завершення цих змін потрібно 10 хвилин. Оскільки трансформація місцевості відбувається повільно, істоти в зоні зазвичай не можуть бути заблоковані або травмовані рухом землі.</p><p>Наприкінці кожних 10 хвилин, витрачених на концентрування (Concentration) на заклинанті, ви можете обрати нову ділянку місцевості в межах дистанції, на яку пошириться ефект.</p><p>Це заклинання не може маніпулювати природним каменем або кам'яними спорудами. Скелі та споруди зміщуються, пристосовуючись до нової місцевості. Якщо спосіб, у який ви формуєте рельєф, робить споруду нестійкою, вона може обвалитися.</p><p>Подібним чином це заклинання не впливає безпосередньо на ріст рослин. Переміщена земля переносить усі рослини разом із собою.</p>"
         },
 		"Nondetection": {
-			"name": "Nondetection",
-			"description": "<p>For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors.</p>",
-			"effects": {
-				"Hidden from Divination": {
-					"name": "Hidden from Divination"
-				}
-			}
-		},
-		"Arcanist's Magic Aura": {
-			"name": "Arcanist's Magic Aura",
-			"description": "<p>With a touch, you place an illusion on a willing creature or an object that isn't being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.</p><p><strong>Mask (Creature). </strong>Choose a creature type other than the target's actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.</p><p><strong>False Aura (Object). </strong>You change the way the target appears to spells and magical effects that detect magical auras, such as <em>Detect Magic</em>. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object's aura so that it appears to belong to a school of magic you choose.</p>",
-			"effects": {
-				"Masked": {
-					"name": "Masked",
-					"description": "<p>Choose a creature type other than the target’s actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.</p>"
-				}
-			}
-		},
-		"Freezing Sphere": {
-			"name": "Freezing Sphere",
-			"description": "<p>A frigid globe streaks from you to a point of your choice within range, where it explodes in a 60-foot-radius Sphere. Each creature in that area makes a Constitution saving throw, taking 10d6 Cold damage on failed save or half as much damage on a successful one.</p><p>If the globe strikes a body of water, it freezes the water to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice and have the &amp;Reference[Restrained apply=false] condition. A trapped creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC to break free.</p><p>You can refrain from firing the globe after completing the spell's casting. If you do so, a globe about the size of a sling bullet, cool to the touch, appears in your hand. At any time, you or a creature you give the globe to can throw the globe (to a range of 40 feet) or hurl it with a sling (to the sling's normal range). It shatters on impact, with the same effect as a normal casting of the spell. You can also set the globe down without shattering it. After 1 minute, if the globe hasn't already shattered, it explodes.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 6.</p>",
-			"effects": {
-				"Trapped in Ice": {
-					"name": "Trapped in Ice",
-					"description": "<p>Creatures that were swimming on the surface of frozen water are trapped in the ice and have the &amp;Reference[Restrained apply=false] condition. A trapped creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC to break free.</p>"
-				}
-			}
-		},
+            "name": "Невиявлення",
+            "description": "<p>Протягом часу дії ви приховуєте ціль, якої торкаєтеся, від заклинань пророцтва (Divination spells). Ціль може бути добровільною істотою, місцем або предметом, розміри якого не перевищують 10 футів у будь-якому вимірі. На ціль не можна спрямувати жодне заклинання пророцтва або сприймати її через магічні сенсори спостереження (scrying sensors).</p>",
+            "effects": {
+                "Hidden from Divination": {
+                    "name": "Прихований від пророцтва"
+                }
+            }
+        },
+        "Arcanist's Magic Aura": {
+            "name": "Магічна аура чаклуна",
+            "description": "<p>Дотиком ви накладаєте ілюзію на добровільну істоту або предмет, який ніхто не носить і не переносить. Істота отримує ефект Маскування (Mask) нижче, а предмет отримує ефект Хибна аура (False Aura) нижче. Дія ефекту триває протягом часу дії заклинання. Якщо ви накладаєте заклинання на ту саму ціль щодня протягом 30 днів, ілюзія триває до розвіювання.</p><p><strong>Маскування (Істота). </strong>Оберіть тип істоти, відмінний від фактичного типу цілі. Заклинання та інші магічні ефекти сприймають ціль так, ніби вона є істотою обраного типу.</p><p><strong>Хибна аура (Предмет). </strong>Ви змінюєте те, як ціль виглядає для заклинань і магічних ефектів, що виявляють магічні аури, як-от <em>Виявлення магії (Detect Magic)</em>. Ви можете зробити немагічний предмет магічним, магічний предмет — немагічним, або змінити ауру предмета так, щоб здавалося, ніби він належить до обраної вами школи магії.</p>",
+            "effects": {
+                "Masked": {
+                    "name": "Замаскований",
+                    "description": "<p>Оберіть тип істоти, відмінний від фактичного типу цілі. Заклинання та інші магічні ефекти сприймають ціль так, ніби вона є істотою обраного типу.</p>"
+                }
+            }
+        },
+        "Freezing Sphere": {
+            "name": "Крижана сфера",
+            "description": "<p>Холодна куля летить від вас до обраної точки в межах дистанції, де вибухає у сфері (Sphere) радіусом 60 футів. Кожна істота в цій зоні робить рятівний кидок Тілобудови, отримуючи 10d6 [[/damage 10d6 type=cold]] холодової шкоди (Cold damage) у разі провалу, або половину цієї шкоди в разі успіху.</p><p>Якщо куля влучає у водойму, вона заморожує воду на глибину 6 дюймів на ділянці 30х30 футів. Цей лід тримається 1 хвилину. Істоти, які плавали на поверхні замороженої води, опиняються в пастці в льоду та отримують стан &amp;Reference[Restrained apply=false]{Спутовування (Restrained)}. Істота в пастці може витратити дію, щоб здійснити перевірку &amp;Reference[str]{Сили} ([[/check ability=str skill=ath dc=@attributes.spell.dc]]) проти вашого класу складності рятівного кидка заклинань, щоб вирватися.</p><p>Ви можете утриматися від запуску сфери після завершення накладання заклинання. У такому разі у вашій руці з'являється куля розміром із прандю (sling bullet), прохолодна на дотик. У будь-який момент ви або істота, якій ви передали кулю, можете кинути її (на відстань до 40 футів) або запустити з пращі (на нормальну дистанцію пращі). Вона розбивається при ударі з тим самим ефектом, що й звичайне накладання заклинання. Ви також можете покласти кулю, не розбиваючи її. За 1 хвилину, якщо куля ще не розбилася, вона вибухає.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 6-го.</p>",
+            "effects": {
+                "Trapped in Ice": {
+                    "name": "У пастці в льоду",
+                    "description": "<p>Істоти, які плавали на поверхні замороженої води, опиняються в пастці в льоду та мають стан &amp;Reference[Restrained apply=false]{Спутовування (Restrained)}. Істота в пастці може витратити дію, щоб зробити перевірку [[/check ability=str skill=ath]] проти вашого класу складності рятівного кидка заклинань, щоб вирватися.</p>"
+                }
+            }
+        },
 		"Resilient Sphere": {
-			"name": "Resilient Sphere",
-			"description": "<p>A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.</p><p>Nothing—not physical objects, energy, or other spell effects—can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.</p><p>The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can take an action to push against the sphere's walls and thus roll the sphere at up to half the creature's Speed. Similarly, the globe can be picked up and moved by other creatures.</p><p>A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate}</em> spell targeting the globe destroys it without harming anything inside.</p>",
-			"effects": {
-				"Enclosed in Sphere": {
-					"name": "Enclosed in Sphere",
-					"description": "<p>An enclosed creature can take an action to push against the sphere’s walls and thus roll the sphere at up to half the creature’s Speed.</p>"
-				}
-			}
-		},
-		"Irresistible Dance": {
-			"name": "Irresistible Dance",
-			"description": "<p>One creature that you can see within range must make a Wisdom saving throw. On a successful save, the target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.</p><p>On a failed save, the target has the Charmed condition for the duration. While Charmed, the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the save, ending the spell on itself on a success.</p>",
-			"effects": {
-				"Irresistible Dance": {
-					"name": "Irresistible Dance",
-					"description": "<p>While &amp;Reference[Charmed apply=false], the target dances comically, must use all its movement to dance in place, and has Disadvantage on Dexterity saving throws and attack rolls, and other creatures have Advantage on attack rolls against it. On each of its turns, the target can take an action to collect itself and repeat the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				},
-				"Short Dance": {
-					"name": "Short Dance",
-					"description": "<p>The target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.</p>"
-				}
-			}
-		},
+            "name": "Пружна сфера",
+            "description": "<p>Сяйлива сфера оточує істоту або предмет розміру Велика (Large) чи меншого в межах дистанції. Небажана істота повинна успішно зробити рятівний кидок Спритності, інакше вона опиняється всередині на час дії заклинання.</p><p>Ніщо — ані фізичні предмети, ані енергія чи інші ефекти заклинань — не може пройти крізь бар'єр всередину чи назовні, хоча істота всередині сфери може там дихати. Сфера має імунітет до будь-якої шкоди, а істота чи предмет всередині не можуть отримати шкоду від атак або ефектів, що походять ззовні, і водночас істота всередині сфери не може завдати шкоди нічому за її межами.</p><p>Сфера є невагомою і достатньо великою лише для того, щоб вмістити істоту чи предмет всередині. Замкнена всередині істота може витратити дію, щоб штовхнути стінки сфери й таким чином котити її зі швидкістю до половини власної швидкості пересування. Подібним чином сферу можуть підіймати та переносити інші істоти.</p><p>Заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Розщеплення (Disintegrate)}</em>, спрямоване на сферу, знищує її, не завдаючи шкоди нічому всередині.</p>",
+            "effects": {
+                "Enclosed in Sphere": {
+                    "name": "Замкнений у сфері",
+                    "description": "<p>Замкнена всередині істота може витратити дію, щоб штовхнути стінки сфери й таким чином котити її зі швидкістю до половини власної швидкості пересування.</p>"
+                }
+            }
+        },
+        "Irresistible Dance": {
+            "name": "Нездоланний танець",
+            "description": "<p>Одна істота, яку ви бачите в межах дистанції, повинна зробити рятівний кидок Мудрості. У разі успіху ціль комічно танцює до кінця свого наступного ходу, протягом якого вона повинна витратити весь свій рух на танець на місці.</p><p>У разі провалу ціль отримує стан Зачарований (Charmed) на час дії заклинання. Поки вона зачарована, ціль комічно танцює, мусить використовувати весь свій рух на танець на місці й отримує Перешкоду (Disadvantage) на рятівні кидки Спритності та кидки атаки, тоді як інші істоти мають Перевагу (Advantage) на кидки атаки проти неї. На кожному зі своїх ходів ціль може витратити дію, щоб зібратися з думками й повторити рятівний кидок, завершуючи дію заклинання на собі в разі успіху.</p>",
+            "effects": {
+                "Irresistible Dance": {
+                    "name": "Нездоланний танець",
+                    "description": "<p>Поки ціль перебуває під станом &amp;Reference[Charmed apply=false]{Зачарований (Charmed)}, вона комічно танцює, мусить використовувати весь свій рух на танець на місці й має Перешкоду (Disadvantage) на рятівні кидки Спритності та кидки атаки, тоді як інші істоти мають Перевагу (Advantage) на кидки атаки проти неї. На кожному зі своїх ходів ціль може витратити дію, щоб зібратися з думками й повторити рятівний кидок [[/save ability=wis]], завершуючи дію заклинання на собі в разі успіху.</p>"
+                },
+                "Short Dance": {
+                    "name": "Короткий танець",
+                    "description": "<p>Ціль комічно танцює до кінця свого наступного ходу, протягом якого вона повинна витратити весь свій рух на танець на місці.</p>"
+                }
+            }
+        },
 		"Passwall": {
 			"name": "Passwall",
 			"description": "<p>A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.</p><p>When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.</p>"
@@ -3207,12 +3207,12 @@
 			}
 		},
 		"Arcane Sword": {
-			"name": "Arcane Sword",
-			"description": "<p>You create a spectral sword that hovers within range. It lasts for the duration.</p><p>When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.</p><p>On your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.</p>"
-		},
-		"Magical Berries": {
-			"name": "Magical Berries",
-			"description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGoodberry0 caption=false]</p>"
-		}
+            "name": "Магічний меч",
+            "description": "<p>Ви створюєте спектральний меч, який парить у межах дистанції. Він тримається протягом часу дії заклинання.</p><p>Коли меч з'являється, ви здійснюєте ближню атаку заклинанням проти цілі в межах 5 футів від меча. У разі влучання ціль отримує силову шкоду (Force damage) в обсязі 4d12 [[/damage 4d12 type=force]] плюс ваш модифікатор характеристики заклинань.</p><p>На своїх наступних ходах ви можете скористатися бонусною дією (Bonus Action), щоб перемістити меч на відстань до 30 футів у точку, яку ви бачите, і повторити атаку проти тієї самої чи іншої цілі.</p>"
+        },
+        "Magical Berries": {
+            "name": "Магічні ягоди",
+            "description": "<p>@Embed[Compendium.dnd5e.spells24.Item.phbsplGoodberry0 caption=false]</p>"
+        }
 	}
 }
