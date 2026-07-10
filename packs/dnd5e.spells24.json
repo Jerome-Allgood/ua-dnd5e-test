@@ -2285,260 +2285,260 @@
             "description": "<p>Ви усуваєте отруту та гниття з немагічної їжі та пиття у сфері (Sphere) радіусом 5 футів із центром у точці в межах дистанції.</p>"
         },
 		"Raise Dead": {
-			"name": "Raise Dead",
-			"description": "<p>With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died.</p><p>The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death.</p><p>This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-			"effects": {
-				"Resurrection Sickness (Day 1)": {
-					"name": "Resurrection Sickness (Day 1)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Resurrection Sickness (Day 2)": {
-					"name": "Resurrection Sickness (Day 2)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Resurrection Sickness (Day 4)": {
-					"name": "Resurrection Sickness (Day 4)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Resurrection Sickness (Day 3)": {
-					"name": "Resurrection Sickness (Day 3)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				}
-			}
-		},
+            "name": "Воскресіння мертвих",
+            "description": "<p>Дотиком ви повертаєте до життя мертву істоту, якщо вона була мертва не довше ніж 10 днів і не була нежиттю (Undead) на момент смерті.</p><p>Істота повертається до життя з 1 пунктом здоров'я. Це заклинання також нейтралізує будь-які отрути, які діяли на істоту на момент смерті.</p><p>Це заклинання закриває всі смертельні рани, але воно не відновлює відсутні частини тіла. Якщо в істоти бракує частин тіла або органів, необхідних для її виживання — наприклад, голови, — заклинання автоматично зазнає невдачі.</p><p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+            "effects": {
+                "Resurrection Sickness (Day 1)": {
+                    "name": "Воскресіння: Хвороба (День 1)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Resurrection Sickness (Day 2)": {
+                    "name": "Воскресіння: Хвороба (День 2)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Resurrection Sickness (Day 3)": {
+                    "name": "Воскресіння: Хвороба (День 3)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Resurrection Sickness (Day 4)": {
+                    "name": "Воскресіння: Хвороба (День 4)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                }
+            }
+        },
 		"Telepathic Bond": {
-			"name": "Telepathic Bond",
-			"description": "<p>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell.</p><p>Until the spell ends, the targets can communicate telepathically through the bond whether or not they share a language. The communication is possible over any distance, though it can't extend to other planes of existence.</p>",
-			"effects": {
-				"Bonded Telepathy": {
-					"name": "Bonded Telepathy",
-					"changes": {
-						"system.traits.languages.custom": ";Bonded telepathy"
-					}
-				}
-			}
-		},
-		"Ray of Enfeeblement": {
-			"name": "Ray of Enfeeblement",
-			"description": "<p>A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.</p><p>On a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.</p>",
-			"effects": {
-				"Brief Enfeeblement": {
-					"name": "Brief Enfeeblement",
-					"description": "<p>The target has Disadvantage on the next attack roll it makes until the start of your next turn.</p>"
-				},
-				"Enervated": {
-					"name": "Enervated",
-					"description": "<p>The target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the [[/save ability=con]] save at the end of each of its turns, ending the spell on a success.</p>",
-					"changes": {
-						"system.bonuses.mwak.damage": "- 1d8",
-						"system.bonuses.rwak.damage": "- 1d8",
-						"system.bonuses.msak.damage": "- 1d8",
-						"system.bonuses.rsak.damage": "- 1d8",
-						"system.abilities.str.check.roll.mode": -1,
-						"system.abilities.str.save.roll.mode": -1
-					}
-				}
-			}
-		},
+            "name": "Телепатичний зв'язок",
+            "description": "<p>Ви створюєте телепатичний зв'язок між до восьми добровільними істотами на ваш вибір у межах дистанції, психічно зв'язуючи кожну істоту з усіма іншими на час дії заклинання. Істоти, які не можуть спілкуватися жодною мовою, цим заклинанням не уражаються.</p><p>Доки заклинання не закінчиться, цілі можуть спілкуватися телепатично через зв'язок незалежно від того, чи спільною мовою вони володіють. Спілкування можливе на будь-якій відстані, хоча воно не може поширюватися на інші плани існування.</p>",
+            "effects": {
+                "Bonded Telepathy": {
+                    "name": "Зв'язана телепатія",
+                    "changes": {
+                        "system.traits.languages.custom": ";Bonded telepathy"
+                    }
+                }
+            }
+        },
+        "Ray of Enfeeblement": {
+            "name": "Промінь ослаблення",
+            "description": "<p>Промінь виснажливої енергії вилітає з вас у напрямку істоти в межах дистанції. Ціль повинна зробити рятівний кидок Тілобудови. У разі успішного порятунку ціль має Перешкоду (Disadvantage) на наступну атаку, яку вона здійснює до початку вашого наступного ходу.</p><p>У разі провалу рятівного кидка ціль отримує Перешкоду (Disadvantage) на тести d20 (D20 Tests), що базуються на Силі, протягом часу дії заклинання. Протягом цього часу вона також віднімає 1d8 від усіх своїх кидків шкоди. Ціль повторює рятівний кидок наприкінці кожного зі своїх ходів, завершуючи заклинання в разі успіху.</p>",
+            "effects": {
+                "Brief Enfeeblement": {
+                    "name": "Короткочасне ослаблення",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на наступну атаку, яку вона здійснює до початку вашого наступного ходу.</p>"
+                },
+                "Enervated": {
+                    "name": "Виснажений",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на тести d20 (D20 Tests), що базуються на Силі, протягом часу дії заклинання. Протягом цього часу вона також віднімає 1d8 від усіх своїх кидків шкоди. Ціль повторює рятівний кидок [[/save ability=con]] наприкінці кожного зі своїх ходів, завершуючи заклинання в разі успіху.</p>",
+                    "changes": {
+                        "system.bonuses.mwak.damage": "- 1d8",
+                        "system.bonuses.rwak.damage": "- 1d8",
+                        "system.bonuses.msak.damage": "- 1d8",
+                        "system.bonuses.rsak.damage": "- 1d8",
+                        "system.abilities.str.check.roll.mode": -1,
+                        "system.abilities.str.save.roll.mode": -1
+                    }
+                }
+            }
+        },
 		"Ray of Frost": {
-			"name": "Ray of Frost",
-			"description": "<p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
-			"effects": {
-				"Reduced Movement": {
-					"name": "Reduced Movement",
-					"description": "<p>The target's Speed is reduced by 10 feet until the start of your next turn.</p>",
-					"changes": {
-						"system.attributes.movement.walk": -10,
-						"system.attributes.movement.swim": -10,
-						"system.attributes.movement.climb": -10,
-						"system.attributes.movement.fly": -10,
-						"system.attributes.movement.burrow": -10
-					}
-				}
-			}
-		},
-		"Ray of Sickness": {
-			"name": "Ray of Sickness",
-			"description": "<p>You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the &amp;Reference[poisoned] condition until the end of your next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 1.</p>"
-		},
+            "name": "Промінь морозу",
+            "description": "<p>Холодний промінь біло-блакитного світла мчить до істоти в межах дистанції. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання вона отримує 1d8 [[/damage 1d8 type=cold]] холодової шкоди (Cold damage), а її швидкість пересування зменшується на 10 футів до початку вашого наступного ходу.</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d8, коли ви досягаєте 5-го (2d8), 11-го (3d8) та 17-го (4d8) рівня.</p>",
+            "effects": {
+                "Reduced Movement": {
+                    "name": "Зменшене пересування",
+                    "description": "<p>Швидкість пересування цілі зменшена на 10 футів до початку вашого наступного ходу.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": -10,
+                        "system.attributes.movement.swim": -10,
+                        "system.attributes.movement.climb": -10,
+                        "system.attributes.movement.fly": -10,
+                        "system.attributes.movement.burrow": -10
+                    }
+                }
+            }
+        },
+        "Ray of Sickness": {
+            "name": "Промінь хвороби",
+            "description": "<p>Ви випускаєте зеленватий промінь в істоту в межах дистанції. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання ціль отримує 2d8 [[/damage 2d8 type=poison]] отруйної шкоди (Poison damage) і набуває стану &amp;Reference[poisoned]{Отруєний (Poisoned)} до кінця вашого наступного ходу.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Regenerate": {
-			"name": "Regenerate",
-			"description": "<p>A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains [[/healing 1 type=healing]]{1 Hit Point} at the start of each of its turns, and any severed body parts regrow after 2 minutes.</p>",
-			"effects": {
-				"Regenerating": {
-					"name": "Regenerating",
-					"description": "<p>For the duration, the target regains [[/healing 1 type=healing]]{1 Hit Point} at the start of each of its turns, and any severed body parts regrow after 2 minutes.</p>"
-				}
-			}
-		},
-		"Reincarnate": {
-			"name": "Reincarnate",
-			"description": "<p>You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. @Embed[Compendium.dnd5e.tables24.RollTable.phbsplReincarnat rollable classes=\"caption-top\"]</p><p>The reincarnated creature makes any choices that a species' description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.</p>"
-		},
-		"Remove Curse": {
-			"name": "Remove Curse",
-			"description": "<p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's Attunement to the object so it can be removed or discarded.</p>"
-		},
+            "name": "Регенерація",
+            "description": "<p>Істота, якої ви торкаєтеся, відновлює 4d8 + 15 пунктів здоров'я. Протягом часу дії ціль відновлює [[/healing 1 type=healing]]{1 пункт здоров'я} на початку кожного зі своїх ходів, а будь-які відтяті частини тіла відростають за 2 хвилини.</p>",
+            "effects": {
+                "Regenerating": {
+                    "name": "Регенерація",
+                    "description": "<p>Протягом часу дії ціль відновлює [[/healing 1 type=healing]]{1 пункт здоров'я} на початку кожного зі своїх ходів, а будь-які відтяті частини тіла відростають за 2 хвилини.</p>"
+                }
+            }
+        },
+        "Reincarnate": {
+            "name": "Переродження",
+            "description": "<p>Ви торкаєтеся мертвого гуманоїда або його частини. Якщо істота була мертва не довше ніж 10 днів, заклинання формує для неї нове тіло та закликає душу увійти в це тіло. @Embed[Compendium.dnd5e.tables24.RollTable.phbsplReincarnat rollable classes=\"caption-top\"]</p><p>Перероджена істота робить будь-який вибір, який пропонує опис виду, і пригадує своє колишнє життя. Вона зберігає можливості, які мала у своїй початковій формі, за винятком того, що втрачає риси свого попереднього виду та набуває риси нового.</p>"
+        },
+        "Remove Curse": {
+            "name": "Зняття прокляття",
+            "description": "<p>Від вашого дотику всі прокляття, що впливають на одну істоту чи предмет, завершуються. Якщо предмет є проклятим магічним предметом, його прокляття залишається, але заклинання розриває налаштування (Attunement) його власника до предмета, щоб його можна було зняти або викинути.</p>"
+        },
 		"Resistance": {
-			"name": "Resistance",
-			"description": "<p>You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.</p>",
-			"effects": {
-				"Acid Protection": {
-					"name": "Acid Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Bludgeoning Protection": {
-					"name": "Bludgeoning Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Cold Protection": {
-					"name": "Cold Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Fire Protection": {
-					"name": "Fire Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Lightning Protection": {
-					"name": "Lightning Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Necrotic Protection": {
-					"name": "Necrotic Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Piercing Protection": {
-					"name": "Piercing Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Poison Protection": {
-					"name": "Poison Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Radiant Protection": {
-					"name": "Radiant Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Slashing Protection": {
-					"name": "Slashing Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				},
-				"Thunder Protection": {
-					"name": "Thunder Protection",
-					"description": "<p>When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p>"
-				}
-			}
-		},
+            "name": "Опір",
+            "description": "<p>Ви торкаєтеся добровільної істоти й обираєте тип шкоди: кислота (Acid), ударна шкода (Bludgeoning), холодова шкода (Cold), вогняна шкода (Fire), електрична шкода (Lightning), некротична шкода (Necrotic), колюча шкода (Piercing), отруйна шкода (Poison), промениста шкода (Radiant), ріжуча шкода (Slashing) або громова шкода (Thunder). Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на 1d4. Істота може отримати користь від цього заклинання лише один раз за хід.</p>",
+            "effects": {
+                "Acid Protection": {
+                    "name": "Захист від кислоти",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Bludgeoning Protection": {
+                    "name": "Захист від ударної шкоди",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Cold Protection": {
+                    "name": "Захист від холоду",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Fire Protection": {
+                    "name": "Захист від вогню",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Lightning Protection": {
+                    "name": "Захист від блискавки",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Necrotic Protection": {
+                    "name": "Захист від некротичної шкоди",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Piercing Protection": {
+                    "name": "Захист від колючої шкоди",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Poison Protection": {
+                    "name": "Захист від отрути",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Radiant Protection": {
+                    "name": "Захист від променистої шкоди",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Slashing Protection": {
+                    "name": "Захист від ріжучої шкоди",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                },
+                "Thunder Protection": {
+                    "name": "Захист від грому",
+                    "description": "<p>Коли істота отримує шкоду обраного типу до завершення заклинання, вона зменшує загальну отриману шкоду на [[/r 1d4]]. Істота може отримати користь від цього заклинання лише один раз за хід.</p>"
+                }
+            }
+        },
 		"Resurrection": {
-			"name": "Resurrection",
-			"description": "<p>With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died.</p><p>The creature returns to life with all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any missing body parts.</p><p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p><p>Casting this spell to revive a creature that has been dead for 365 days or longer taxes you. Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests.</p>",
-			"effects": {
-				"Resurrection Sickness (Day 1)": {
-					"name": "Resurrection Sickness (Day 1)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Resurrection Sickness (Day 2)": {
-					"name": "Resurrection Sickness (Day 2)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Resurrection Sickness (Day 3)": {
-					"name": "Resurrection Sickness (Day 3)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Resurrection Sickness (Day 4)": {
-					"name": "Resurrection Sickness (Day 4)",
-					"description": "<p>Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.</p>",
-					"changes": {
-						"system.bonuses.abilities.check": -1,
-						"system.bonuses.abilities.save": -1,
-						"system.attributes.init.bonus": -1,
-						"system.bonuses.mwak.attack": -1,
-						"system.bonuses.msak.attack": -1,
-						"system.bonuses.rsak.attack": -1,
-						"system.bonuses.rwak.attack": -1
-					}
-				},
-				"Spell Taxed": {
-					"name": "Spell Taxed",
-					"description": "<p>Until you finish a Long Rest, you can’t cast spells again, and you have Disadvantage on D20 Tests.</p>"
-				}
-			}
-		},
+            "name": "Воскресіння",
+            "description": "<p>Дотиком ви повертаєте до життя мертву істоту, яка була мертва не довше ніж століття, не померла від старості й не була нежиттю (Undead) на момент смерті.</p><p>Істота повертається до життя з усіма своїми пунктами здоров'я. Це заклинання також нейтралізує будь-які отрути, які діяли на істоту на момент смерті. Це заклинання закриває всі смертельні рани та відновлює будь-які відсутні частини тіла.</p><p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p><p>Накладання цього заклинання для пожвавлення істоти, яка була мертва протягом 365 днів або довше, виснажує вас. Доки ви не завершите довгий відпочинок (Long Rest), ви не зможете знову накладати заклинання, і ви маєте Перешкоду (Disadvantage) на тести d20 (D20 Tests).</p>",
+            "effects": {
+                "Resurrection Sickness (Day 1)": {
+                    "name": "Воскресіння: Хвороба (День 1)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Resurrection Sickness (Day 2)": {
+                    "name": "Воскресіння: Хвороба (День 2)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Resurrection Sickness (Day 3)": {
+                    "name": "Воскресіння: Хвороба (День 3)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Resurrection Sickness (Day 4)": {
+                    "name": "Воскресіння: Хвороба (День 4)",
+                    "description": "<p>Повернення з мертвих — це важке випробування. Ціль отримує штраф −4 до тестів d20 (D20 Tests). Щоразу, коли ціль завершує довгий відпочинок (Long Rest), штраф зменшується на 1, доки не стане 0.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.check": -1,
+                        "system.bonuses.abilities.save": -1,
+                        "system.attributes.init.bonus": -1,
+                        "system.bonuses.mwak.attack": -1,
+                        "system.bonuses.msak.attack": -1,
+                        "system.bonuses.rsak.attack": -1,
+                        "system.bonuses.rwak.attack": -1
+                    }
+                },
+                "Spell Taxed": {
+                    "name": "Виснаження від заклинання",
+                    "description": "<p>Доки ви не завершите довгий відпочинок (Long Rest), ви не зможете знову накладати заклинання, і ви маєте Перешкоду (Disadvantage) на тести d20 (D20 Tests).</p>"
+                }
+            }
+        },
 		"Reverse Gravity": {
-			"name": "Reverse Gravity",
-			"description": "<p>This spell reverses gravity in a 50-foot-radius, 100-foot high Cylinder centered on a point within range. All creatures and objects in that area that aren't anchored to the ground fall upward and reach the top of the Cylinder. A creature can make a Dexterity saving throw to grab a fixed object it can reach, thus avoiding the fall upward.</p><p>If a ceiling or an anchored object is encountered in this upward fall, creatures and objects strike it just as they would during a downward fall. If an affected creature or object reaches the Cylinder's top without striking anything, it hovers there for the duration. When the spell ends, affected objects and creatures fall downward.</p>"
-		},
-		"Revivify": {
-			"name": "Revivify",
-			"description": "<p>You touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can't revive a creature that has died of old age, nor does it restore any missing body parts.</p>"
-		},
-		"Rope Trick": {
-			"name": "Rope Trick",
-			"description": "<p>You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extra­dimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.</p><p>The space can hold up to eight Medium or smaller creatures. Attacks, spells, and other effects can't pass into or out of the space, but creatures inside it can see through the portal. Anything inside the space drops out when the spell ends.</p>"
-		},
+            "name": "Зворотна гравітація",
+            "description": "<p>Це заклинання звертає гравітацію в циліндрі (Cylinder) радіусом 50 футів і висотою 100 футів із центром у точці в межах дистанції. Усі істоти та предмети в цій зоні, які не закріплені на землі, падають вгору та досягають верху циліндра. Істота може зробити рятівний кидок Спритності, щоб схопитися за фіксований предмет, до якого може дотягнутися, у такий спосіб уникнувши падіння вгору.</p><p>Якщо на шляху цього висхідного падіння трапляється стеля або закріплений предмет, істоти та предмети вдаряються об нього так само, як і під час низхідного падіння. Якщо уражена істота або предмет досягає верху циліндра, ні до чого не вдаряючись, вона зависає там на час дії заклинання. Коли заклинання закінчується, уражені предмети та істоти падають донизу.</p>"
+        },
+        "Revivify": {
+            "name": "Оживлення",
+            "description": "<p>Ви торкаєтеся істоти, яка померла протягом останньої хвилини. Ця істота оживає з 1 пунктом здоров'я. Це заклинання не може оживити істоту, яка померла від старості, і воно не відновлює відсутні частини тіла.</p>"
+        },
+        "Rope Trick": {
+            "name": "Фокус із мотузкою",
+            "description": "<p>Ви торкаєтеся мотузки. Один її кінець злітає вгору, доки мотузка не зависне перпендикулярно до землі або не досягне стелі. На верхньому кінці мотузки відкривається невидимий (Invisible) портал розміром 3 на 5 футів, що веде до екстравимірного простору (extradimensional space), який триває до закінчення дії заклинання. До цього простору можна дістатися, піднявшись мотузкою, яку можна втягнути всередину або скинути назовні.</p><p>У просторі може перебувати до восьми істот середнього (Medium) або меншого розміру. Атаки, заклинання та інші ефекти не можуть проходити крізь простір чи назовні з нього, але істоти всередині можуть бачити крізь портал. Будь-що всередині простору випадає назовні, коли заклинання завершується.</p>"
+        },
 		"Sacred Flame": {
 			"name": "Sacred Flame",
 			"description": "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
