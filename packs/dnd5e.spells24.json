@@ -1698,83 +1698,83 @@
             }
         },
 		"Ice Knife": {
-			"name": "Ice Knife",
-			"description": "<p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The Cold damage increases by 1d6 for each spell slot level above 1.</p>"
-		},
-		"Ice Storm": {
-			"name": "Ice Storm",
-			"description": "<p>Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.</p><p>Hailstones turn ground in the Cylinder into &amp;Reference[DifficultTerrain] until the end of your next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The Bludgeoning damage increases by 1d10 for each spell slot level above 4.</p>"
-		},
-		"Identify": {
-			"name": "Identify",
-			"description": "<p>You touch an object throughout the spell's casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.</p><p>If you instead touch a creature throughout the casting, you learn which ongoing spells, if any, are currently affecting it.</p>"
-		},
-		"Illusory Script": {
-			"name": "Illusory Script",
-			"description": "<p>You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.</p><p>If the spell is dispelled, the original script and the illusion both disappear.</p><p>A creature that has &amp;Reference[truesight] can read the hidden message.</p>"
-		},
+            "name": "Крижаний кинджал",
+            "description": "<p>Ви створюєте уламок льоду й пускаєте його в одну істоту в межах дистанції. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання ціль отримує 1d10 [[/damage 1d10 type=piercing]] колючої шкоди (Piercing damage). Незалежно від того, влучили ви чи промахнулися, уламок згодом вибухає. Ціль і кожна істота в межах 5 футів від неї повинні успішно зробити рятівний кидок Спритності, інакше вони отримують 2d6 [[/damage 2d6 type=cold]] холодної шкоди (Cold damage).</p><p><strong>Використання комірки вищого рівня. </strong>Холодна шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Ice Storm": {
+            "name": "Крижана буря",
+            "description": "<p>Град падатиме в циліндрі (Cylinder) радіусом 20 футів і заввишки 40 футів із центром у точці в межах дистанції. Кожна істота в циліндрі робить рятівний кидок Спритності. Істота отримує 2d10 [[/damage 2d10 type=bludgeoning]] дробильної шкоди (Bludgeoning damage) та 4d6 [[/damage 4d6 type=cold]] холодної шкоди (Cold damage) у разі провалу, або половину цієї шкоди в разі успіху.</p><p>Градини перетворюють землю в циліндрі на &amp;Reference[DifficultTerrain]{важкопрохідну місцевість (Difficult Terrain)} до кінця вашого наступного ходу.</p><p><strong>Використання комірки вищого рівня.</strong> Дробильна шкода збільшується на 1d10 за кожен рівень комірки вище 4-го.</p>"
+        },
+        "Identify": {
+            "name": "Ідентифікація",
+            "description": "<p>Ви торкаєтеся предмета протягом усього часу накладання заклинання. Якщо предмет є магічним чи якимось іншим магічним об'єктом, ви дізнаєтеся його властивості та як ними користуватися, чи вимагає він налаштування (Attunement), і скільки заряду він має (якщо має). Ви дізнаєтеся, чи впливають на предмет будь-які поточні заклинання і які саме. Якщо предмет був створений за допомогою заклинання, ви дізнаєтеся назву цього заклинання.</p><p>Якщо натомість ви торкаєтеся істоти протягом усього часу накладання, ви дізнаєтеся, які поточні заклинання (якщо такі є) наразі впливають на неї.</p>"
+        },
+        "Illusory Script": {
+            "name": "Ілюзорний рукопис",
+            "description": "<p>Ви пишете на пергаменті, папері чи іншому придатному матеріалі та наповнюєте його ілюзією, що триває протягом часу дії заклинання. Для вас і будь-яких істот, яких ви вкажете під час накладання заклинання, написане виглядає нормально, здається написаним вашою рукою та передає той сенс, який ви задумували, коли писали текст. Для всіх інших текст виглядає так, ніби він написаний невідомим або магічним письмом, яке неможливо розібрати. Крім того, ілюзія може змінювати значення, почерк і мову тексту, хоча мова має бути тією, яку ви знаєте.</p><p>Якщо заклинання розвіяно, оригінальний текст і ілюзія зникають.</p><p>Істота, яка має &amp;Reference[truesight]{істинний зір (Truesight)}, може прочитати приховане повідомлення.</p>"
+        },
 		"Imprisonment": {
-			"name": "Imprisonment",
-			"description": "<p>You create a magical restraint to hold a creature that you can see within range. The target must make a Wisdom saving throw. On a successful save, the target is unaffected, and it is immune to this spell for the next 24 hours. On a failed save, the target is imprisoned. While imprisoned, the target doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the imprisoned target, and the target can't teleport.</p><p>Until the spell ends, the target is also affected by one of the following effects of your choice:</p><p><strong>Burial.</strong> The target is entombed beneath the earth in a hollow globe of magical force that is just large enough to contain the target. Nothing can pass into or out of the globe.</p><p><strong>Chaining.</strong> Chains firmly rooted in the ground hold the target in place. The target has the &amp;Reference[Restrained apply=false] condition and can't be moved by any means.</p><p><strong>Hedged Prison.</strong> The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.</p><p><strong>Minimus Containment. </strong>The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.</p><p><strong>Slumber.</strong> The target has the &amp;Reference[Unconscious apply=false] condition and can't be awoken.</p><p><strong>Ending the Spell.</strong> When you cast the spell, specify a trigger that will end it. The trigger can be as simple or as elaborate as you choose, but the DM must agree that it has a high likelihood of happening within the next decade. The trigger must be an observable action, such as someone making a particular offering at the temple of your god, saving your true love, or defeating a specific monster.</p><p>A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> spell can end the spell only if it is cast with a level 9 spell slot, targeting either the prison or the component used to create it.</p>",
-			"effects": {
-				"Burial": {
-					"name": "Burial",
-					"description": "<p>The target is entombed beneath the earth in a hollow globe of magical force that is just large enough to contain the target. Nothing can pass into or out of the globe.</p>"
-				},
-				"Chaining": {
-					"name": "Chaining",
-					"description": "<p>Chains firmly rooted in the ground hold the target in place. The target has the &amp;Reference[Restrained apply=false] condition and can’t be moved by any means.</p>"
-				},
-				"Hedged Prison": {
-					"name": "Hedged Prison",
-					"description": "<p>The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.</p>"
-				},
-				"Minimus Containment": {
-					"name": "Minimus Containment",
-					"description": "<p>The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.</p>"
-				},
-				"Slumber": {
-					"name": "Slumber",
-					"description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition and can’t be awoken.</p>"
-				}
-			}
-		},
+            "name": "Ув'язнення",
+            "description": "<p>Ви створюєте магічну пастку, щоб утримати істоту, яку бачите в межах дистанції. Ціль повинна зробити рятівний кидок Мудрості. У разі успіху ціль залишається неушкодженою і стає імунною до цього заклинання на наступні 24 години. У разі провалу ціль опиняється ув'язненою. Поки ціль ув'язнена, їй не потрібно дихати, їсти чи пити, і вона не старіє. Заклинання пророкувань (Divination spells) не можуть знайти чи сприйняти ув'язнену ціль, а ціль не може телепортуватися.</p><p>Доки заклинання не закінчиться, ціль також уражена одним із наступних ефектів на ваш вибір:</p><p><strong>Поховання (Burial).</strong> Ціль замуровано під землею в порожнистій сфері магічної сили, яка якраз достатня, щоб вмістити ціль. Ніщо не може проникнути всередину сфери або вийти з неї.</p><p><strong>Опутування ланцюгами (Chaining).</strong> Ланцюги, міцно закріплені в землі, утримують ціль на місці. Ціль має стан &amp;Reference[Restrained apply=false]{Скований (Restrained)} і не може бути пересунута жодним способом.</p><p><strong>Відокремлена в'язниця (Hedged Prison).</strong> Ціль пасткою заведено в напівплощину (demiplane), яка захищена від телепортації та подорожей між планами. Напівплощина на ваш вибір може бути лабіринтом, кліткою, вежею тощо.</p><p><strong>Мінімальне утримання (Minimus Containment). </strong>Ціль стає заввишки 1 дюйм і опиняється в пастці всередині незруйновного дорогоцінного каменю чи подібного предмета. Світло може проходити крізь камінь (дозволяючи цілі дивитися назовні, а іншим істотам — усередину), але ніщо інше не може пройти крізь нього жодним способом.</p><p><strong>Сон (Slumber).</strong> Ціль має стан &amp;Reference[Unconscious apply=false]{Притомність втрачено (Unconscious)} і її неможливо розбудити.</p><p><strong>Завершення заклинання (Ending the Spell).</strong> Коли ви накладаєте заклинання, вкажіть умову (trigger), яка завершить його. Умова може бути простою чи складною на ваш вибір, але Майстер (DM) повинен погодитися, що вона має високу ймовірність статися протягом наступного десятиліття. Умова має бути спостережуваною дією, як-от хтось робить певне підношення в храмі вашого бога, рятує ваше справжнє кохання або перемагає певного монстра.</p><p>Заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Розвіювання магії}</em> може завершити дію цього заклинання лише за умови накладання за допомогою комірки 9-го рівня, цілю для якого виступає або сама в'язниця, або компонент, використаний для її створення.</p>",
+            "effects": {
+                "Burial": {
+                    "name": "Поховання",
+                    "description": "<p>Ціль замуровано під землею в порожнистій сфері магічної сили, яка якраз достатня, щоб вмістити ціль. Ніщо не може проникнути всередину сфери або вийти з неї.</p>"
+                },
+                "Chaining": {
+                    "name": "Опутування ланцюгами",
+                    "description": "<p>Ланцюги, міцно закріплені в землі, утримують ціль на місці. Ціль має стан &amp;Reference[Restrained apply=false]{Скований (Restrained)} і не може бути пересунута жодним способом.</p>"
+                },
+                "Hedged Prison": {
+                    "name": "Відокремлена в'язниця",
+                    "description": "<p>Ціль пасткою заведено в напівплощину (demiplane), яка захищена від телепортації та подорожей між планами. Напівплощина на ваш вибір може бути лабіринтом, кліткою, вежею тощо.</p>"
+                },
+                "Minimus Containment": {
+                    "name": "Мінімальне утримання",
+                    "description": "<p>Ціль стає заввишки 1 дюйм і опиняється в пастці всередині незруйновного дорогоцінного каменю чи подібного предмета. Світло може проходити крізь камінь (дозволяючи цілі дивитися назовні, а іншим істотам — усередину), але ніщо інше не може пройти крізь нього жодним способом.</p>"
+                },
+                "Slumber": {
+                    "name": "Сон",
+                    "description": "<p>Ціль має стан &amp;Reference[Unconscious apply=false]{Притомність втрачено (Unconscious)} і її неможливо розбудити.</p>"
+                }
+            }
+        },
 		"Incendiary Cloud": {
-			"name": "Incendiary Cloud",
-			"description": "<p>A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is &amp;Reference[HeavilyObscured]. It lasts for the duration or until a strong wind (like that created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>When the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.</p>"
-		},
-		"Inflict Wounds": {
-			"name": "Inflict Wounds",
-			"description": "<p>A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 1.</p>"
-		},
-		"Insect Plague": {
-			"name": "Insect Plague",
-			"description": "<p>Swarming locusts fill a 20-foot-radius Sphere centered on a point you choose within range. The Sphere remains for the duration, and its area is &amp;Reference[LightlyObscured] and &amp;Reference[DifficultTerrain].</p><p>When the swarm appears, each creature in it makes a Constitution saving throw, taking 4d10 Piercing damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 5.</p>"
-		},
+            "name": "Запальна хмара",
+            "description": "<p>Вихорна хмара з вуглинок і диму заповнює сферу (Sphere) радіусом 20 футів із центром у точці в межах дистанції. Область хмари є &amp;Reference[HeavilyObscured]{сильно затуманенною (Heavily Obscured)}. Вона триває протягом часу дії заклинання або поки сильний вітер (як-от створений заклинанням <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Порив вітру}</em>) не розвіє її.</p><p>Коли хмара з'являється, кожна істота в ній робить рятівний кидок Спритності, отримуючи 10d8 [[/damage 10d8 type=fire]] вогняної шкоди (Fire damage) у разі провалу, або половину цієї шкоди в разі успіху. Істота також повинна зробити цей рятівний кидок, коли сфера переміщується в її простір і коли вона входить до сфери або закінчує свій хід там. Істота робить цей рятівний кидок лише один раз за хід.</p><p>Хмара переміщується на 10 футів від вас у вибраному вами напрямку на початку кожного вашого ходу.</p>"
+        },
+        "Inflict Wounds": {
+            "name": "Завдання ран",
+            "description": "<p>Істота, якої ви торкаєтеся, робить рятівний кидок Тілобудови (Constitution saving throw), отримуючи 2d10 [[/damage 2d10 type=necrotic]] некротичної шкоди (Necrotic damage) у разі провалу, або половину цієї шкоди в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Insect Plague": {
+            "name": "Навала комах",
+            "description": "<p>Рої сарани заповнюють сферу (Sphere) радіусом 20 футів із центром у точці на ваш вибір у межах дистанції. Сфера залишається на час дії заклинання, а її область є &amp;Reference[LightlyObscured]{слабко затуманенною (Lightly Obscured)} та є &amp;Reference[DifficultTerrain]{важкопрохідною місцевістю (Difficult Terrain)}.</p><p>Коли рій з'являється, кожна істота в ньому робить рятівний кидок Тілобудови (Constitution saving throw), отримуючи 4d10 [[/damage 4d10 type=piercing]] колючої шкоди (Piercing damage) у разі провалу, або половину цієї шкоди в разі успіху. Істота також робить цей рятівний кидок, коли вперше за хід входить до області дії заклинання або закінчує свій хід там. Істота робить цей рятівний кидок лише один раз за хід.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 5-го.</p>"
+        },
 		"Invisibility": {
-			"name": "Invisibility",
-			"description": "<p>A creature you touch has the &amp;Reference[invisible apply=false] condition until the spell ends. The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
-			"effects": {
-				"Invisible": {
-					"name": "Invisible",
-					"description": "<p>The spell ends early immediately after the target makes an attack roll, deals damage, or casts a spell.</p>"
-				}
-			}
-		},
-		"Jump": {
-			"name": "Jump",
-			"description": "<p>You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can target one additional creature for each spell slot level above 1.</p>",
-			"effects": {
-				"Jump": {
-					"name": "Jump",
-					"description": "<p>Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.</p>"
-				}
-			}
-		},
-		"Knock": {
-			"name": "Knock",
-			"description": "<p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p><p>A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.</p><p>If the target is held shut by <em>Arcane Lock</em>, that spell is suppressed for 10 minutes, during which time the target can be opened and closed.</p><p>When you cast the spell, a loud knock, audible up to 300 feet away, emanates from the target.</p>"
-		},
+            "name": "Невидимість",
+            "description": "<p>Істота, якої ви торкаєтеся, отримує стан &amp;Reference[invisible apply=false]{Невидимий (Invisible)} до закінчення дії заклинання. Дія заклинання закінчується достроково одразу після того, як ціль робить кидок атаки, завдає шкоди або накладає заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати одну додаткову ціль для кожного рівня комірки вище 2-го.</p>",
+            "effects": {
+                "Invisible": {
+                    "name": "Невидимий",
+                    "description": "<p>Дія заклинання закінчується достроково одразу після того, як ціль робить кидок атаки, завдає шкоди або накладає заклинання.</p>"
+                }
+            }
+        },
+        "Jump": {
+            "name": "Стрибок",
+            "description": "<p>Ви торкаєтеся добровільної істоти. Один раз на кожному зі своїх ходів до закінчення дії заклинання ця істота може стрибнути на відстань до 30 футів, витративши 10 футів пересування.</p><p><strong>Використання комірки вищого рівня.</strong>Ви можете обрати одну додаткову ціль для кожного рівня комірки вище 1-го.</p>",
+            "effects": {
+                "Jump": {
+                    "name": "Стрибок",
+                    "description": "<p>Один раз на кожному зі своїх ходів до закінчення дії заклинання ця істота може стрибнути на відстань до 30 футів, витративши 10 футів пересування.</p>"
+                }
+            }
+        },
+        "Knock": {
+            "name": "Стукіт",
+            "description": "<p>Оберіть предмет, який ви бачите в межах дистанції. Предмет може бути дверима, коробкою, скринею, набором кайданів, навісним замком або іншим предметом, який має звичайний чи магічний засіб, що перешкоджає доступу.</p><p>Ціль, закрита звичайним замком, заклинена або забарикадована, відмикається, відчиняється чи позбавляється бар'єрів. Якщо предмет має кілька замків, відмикається лише один із них.</p><p>Якщо ціль закрита за допомогою заклинання <em>Арканний замок (Arcane Lock)</em>, це заклинання пригнічується на 10 хвилин, протягом яких ціль можна відчиняти та зачиняти.</p><p>Коли ви накладаєте заклинання, від цілі лунає гучний стукіт, який чути на відстані до 300 футів.</p>"
+        },
 		"Legend Lore": {
 			"name": "Legend Lore",
 			"description": "<p>Name or describe a famous person, place, or object. The spell brings to your mind a brief summary of the significant lore about that famous thing, as described by the DM.</p><p>The lore might consist of important details, amusing revelations, or even secret lore that has never been widely known. The more information you already know about the thing, the more precise and detailed the information you receive is. That information is accurate but might be couched in figurative language or poetry, as determined by the DM.</p><p>If the famous thing you chose isn't actually famous, you hear sad musical notes played on a trombone, and the spell fails.</p>"
