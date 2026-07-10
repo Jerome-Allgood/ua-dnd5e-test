@@ -1835,237 +1835,237 @@
             }
         },
 		"Mage Armor": {
-			"name": "Mage Armor",
-			"description": "<p>You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.</p>",
-			"effects": {
-				"Mage Armor": {
-					"name": "Mage Armor",
-					"description": "<p>The target's base AC becomes 13 + its Dexterity modifier.</p>",
-					"changes": {
-						"system.attributes.ac.calc": "mage"
-					}
-				}
-			}
-		},
-		"Mage Hand": {
-			"name": "Mage Hand",
-			"description": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.</p><p>As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.</p><p>The hand can't attack, activate magic items, or carry more than 10 pounds.</p>"
-		},
-		"Magic Circle": {
-			"name": "Magic Circle",
-			"description": "<p>You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface.</p><p>Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:</p><ul><li>The creature can't willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.</li><li>The creature has Disadvantage on attack rolls against targets within the Cylinder.</li><li>Targets within the Cylinder can't be possessed by or gain the &amp;Reference[charmed apply=false] or &amp;reference[frightened apply=false] condition from the creature.</li></ul><p>Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The duration increases by 1 hour for each spell slot level above 3.</p>"
-		},
+            "name": "Магічний обладунок",
+            "description": "<p>Ви торкаєтеся добровільної істоти, яка не носить обладунків. Доки заклинання не закінчиться, базовий клас захисту (AC) цілі стає рівним 13 плюс її модифікатор Спритності. Дія заклинання закінчується достроково, якщо ціль одягає обладунок.</p>",
+            "effects": {
+                "Mage Armor": {
+                    "name": "Магічний обладунок",
+                    "description": "<p>Базовий клас захисту (AC) цілі стає рівним 13 + її модифікатор Спритності.</p>",
+                    "changes": {
+                        "system.attributes.ac.calc": "mage"
+                    }
+                }
+            }
+        },
+        "Mage Hand": {
+            "name": "Магічна рука",
+            "description": "<p>Спектральна плаваюча рука з'являється в точці на ваш вибір у межах дистанції. Рука тримається протягом часу дії заклинання. Рука зникає, якщо вона віддаляється від вас більш ніж на 30 футів або якщо ви накладаєте це заклинання знову.</p><p>Коли ви накладаєте заклинання, ви можете використовувати руку, щоб маніпулювати предметом, відчиняти незамкнені двері чи контейнер, ховати або діставати предмет із відкритого контейнера чи виливати вміст із флакона.</p><p>Використовуючи дію Магія (Magic action) на своїх наступних ходах, ви можете знову керувати рукою в такий спосіб. Частиною цієї дії ви можете перемістити руку на відстаницю до 30 футів.</p><p>Рука не може атакувати, активувати магічні предмети або переносити понад 10 фунтів.</p>"
+        },
+        "Magic Circle": {
+            "name": "Магічне коло",
+            "description": "<p>Ви створюєте циліндр (Cylinder) магічної енергії радіусом 10 футів і заввишки 20 футів із центром у точці на землі, яку ви бачите в межах дистанції. Світіння рун з'являється всюди, де циліндр перетинається з підлогою чи іншою поверхнею.</p><p>Оберіть один або кілька таких типів істот: Селестіали (Celestials), Елементалі (Elementals), Феї (Fey), Бестії (Fiends) або Нежить (Undead). Коло впливає на істоту обраного типу в такий спосіб:</p><ul><li>Істота не може добровільно увійти до циліндра немагічними засобами. Якщо істота намагається використати телепортацію чи подорож між планами для цього, вона повинна спочатку успішно зробити рятівний кидок Харизми.</li><li>Істота має Перешкоду (Disadvantage) на кидки атаки проти цілей усередині циліндра.</li><li>Цілі всередині циліндра не можуть бути одержимими або отримувати стани &amp;Reference[charmed apply=false]{Зачарований (Charmed)} чи &amp;reference[frightened apply=false]{Переляканий (Frightened)} від цієї істоти.</li></ul><p>Щоразу, коли ви накладаєте це заклинання, ви можете змусити його магію діяти в зворотному напрямку, перешкоджаючи виходу істоти вказаного типу з циліндра та захищаючи цілі зовні нього.</p><p><strong>Використання комірки вищого рівня.</strong> Час дії збільшується на 1 годину за кожен рівень комірки вище 3-го.</p>"
+        },
 		"Magic Jar": {
-			"name": "Magic Jar",
-			"description": "<p>Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's Material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't move or take &amp;Reference[Reaction]{Reactions}. The only action you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a Humanoid's body.</p><p>You can attempt to possess any Humanoid within 100 feet of you that you can see (creatures warded by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Protection from Evil and Good}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Magic Circle}</em> spell can't be possessed). The target makes a Charisma saving throw. On a failed save, your soul enters the target's body, and the target's soul becomes trapped in the container. On a successful save, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.</p><p>Once you possess a creature's body, you control it. Your Hit Points, Hit Point Dice, Strength, Dexterity, Constitution, Speed, and senses are replaced by the creature's. You otherwise keep your game statistics.</p><p>Meanwhile, the possessed creature's soul can perceive from the container using its own senses, but it can't move and it is Incapacitated.</p><p>While possessing a body, you can take a Magic action to return from the host body to the container if it is within 100 feet of you, returning the host creature's soul to its body. If the host body dies while you're in it, the creature dies, and you make a Charisma saving throw against your own spellcasting DC. On a success, you return to the container if it is within 100 feet of you. Otherwise, you die.</p><p>If the container is destroyed or the spell ends, your soul returns to your body. If your body is more than 100 feet away from you or if your body is dead, you die. If another creature's soul is in the container when it is destroyed, the creature's soul returns to its body if the body is alive and within 100 feet. Otherwise, that creature dies.</p><p>When the spell ends, the container is destroyed.</p>",
-			"effects": {
-				"Catatonic": {
-					"name": "Catatonic",
-					"description": "<p>While your soul inhabits the container, you are aware of your surroundings as if you were in the container’s space. You can’t move or take &amp;Reference[reaction]{Reactions}.</p>"
-				},
-				"Trapped Soul": {
-					"name": "Trapped Soul",
-					"description": "<p>the possessed creature’s soul can perceive from the container using its own senses, but it can’t move and it is &amp;Reference[Incapacitated apply=false].</p>",
-					"changes": {
-						"system.attributes.movement.walk": 0,
-						"system.attributes.movement.climb": 0,
-						"system.attributes.movement.fly": 0,
-						"system.attributes.movement.swim": 0,
-						"system.attributes.movement.burrow": 0
-					}
-				}
-			}
-		},
+            "name": "Чарівна посудина",
+            "description": "<p>Ваше тіло впадає в кататонічний стан, оскільки ваша душа покидає його й вселяється в посудину, яку ви використали як матеріальний компонент для заклинання. Поки ваша душа перебуває в посудині, ви усвідомлюєте своє довкілля так, ніби перебуваєте в просторі посудини. Ви не можете пересуватися чи здійснювати &amp;Reference[Reaction]{реакції (Reactions)}. Єдина дія, яку ви можете вчинити, — це спроектувати свою душу на відстань до 100 футів від посудини, повертаючись до свого живого тіла (і завершуючи дію заклинання) або намагаючись заволодіти тілом гуманоїда (Humanoid).</p><p>Ви можете спробувати вселитися в будь-якого гуманоїда в межах 100 футів від вас, якого ви бачите (істоти, захищені заклинанням <em>@UUID[Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr]{Захист від добра і зла}</em> або <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicCircl]{Магічне коло}</em>, не можуть бути об'єктом вселення). Ціль робить рятівний кидок Харизми. У разі провалу ваша душа вселяється в тіло цілі, а душа цілі опиняється в пастці в посудині. У разі успіху ціль чинить опір вашим спробам заволодіти нею, і ви не можете намагатися вселитися в неї знову протягом 24 годин.</p><p>Щойно ви вселилися в тіло істоти, ви керуєте ним. Ваші пункти здоров'я, кістки здоров'я, Сила, Спритність, Тілобудова, швидкість і чуття замінюються показниками істоти. В іншому ви зберігаєте свої ігрові характеристики.</p><p>Тим часом душа одержимої істоти може сприймати те, що відбувається навколо з посудини за допомогою власних чуттів, але вона не може рухатися і є недієздатною (Incapacitated).</p><p>Перебуваючи всередині тіла, ви можете скористатися дією Магія (Magic action), щоб повернутися з тіла хазяїна в посудину, якщо вона перебуває в межах 100 футів від вас, повертаючи душу істоти-хазяїна до її тіла. Якщо тіло хазяїна гине, поки ви перебуваєте в ньому, істота вмирає, а ви здійснюєте рятівний кидок Харизми проти власного класу складності заклинань (DC). У разі успіху ви повертаєтеся до посудини, якщо вона перебуває в межах 100 футів від вас. В іншому випадку ви вмираєте.</p><p>Якщо посудину знищено або дію заклинання завершено, ваша душа повертається до вашого тіла. Якщо ваше тіло перебуває на відстані понад 100 футів від вас або якщо воно мертве, ви вмираєте. Якщо душа іншої істоти перебуває в посудині, коли її знищено, душа істоти повертається до її тіла, якщо тіло живе і перебуває в межах 100 футів. В іншому випадку ця істота гине.</p><p>Коли дія заклинання закінчується, посудина руйнується.</p>",
+            "effects": {
+                "Catatonic": {
+                    "name": "Кататонічний",
+                    "description": "<p>Поки ваша душа перебуває в посудині, ви усвідомлюєте своє довкілля так, ніби перебуваєте в просторі посудини. Ви не можете пересуватися чи здійснювати &amp;Reference[reaction]{реакції (Reactions)}.</p>"
+                },
+                "Trapped Soul": {
+                    "name": "Ув'язнена душа",
+                    "description": "<p>Душа одержимої істоти може сприймати те, що відбувається з посудини за допомогою власних чуттів, але вона не може рухатися і є &amp;Reference[Incapacitated apply=false]{недієздатною (Incapacitated)}.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0,
+                        "system.attributes.movement.climb": 0,
+                        "system.attributes.movement.fly": 0,
+                        "system.attributes.movement.swim": 0,
+                        "system.attributes.movement.burrow": 0
+                    }
+                }
+            }
+        },
 		"Magic Missile": {
-			"name": "Magic Missile",
-			"description": "<p>You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell creates one more dart for each spell slot level above 1.</p><p>[[2 + @item.level]]{Level [[lookup @item.level]] darts}</p>"
-		},
-		"Magic Mouth": {
-			"name": "Magic Mouth",
-			"description": "<p>You implant a message within an object in range—a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or fewer, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the spell to deliver your message.</p><p>When that trigger occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there, so the words appear to come from the object's mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.</p><p>The trigger can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.</p>"
-		},
+            "name": "Магічна стріла",
+            "description": "<p>Ви створюєте три сяйливі стріли магічної сили. Кожна стріла влучає в істоту на ваш вибір, яку ви бачите в межах дистанції. Стріла завдає цілі 1d4 + 1 [[/damage 1d4 + 1 type=force]] силової шкоди (Force damage). Усі стріли влучають одночасно, і ви можете спрямувати їх в одну істоту або в кілька.</p><p><strong>Використання комірки вищого рівня.</strong> Заклинання створює ще одну стрілу за кожен рівень комірки вище 1-го.</p><p>[[2 + @item.level]]{Стріл: [[lookup @item.level]]}</p>"
+        },
+        "Magic Mouth": {
+            "name": "Магічні вуста",
+            "description": "<p>Ви впроваджуєте повідомлення в предмет у межах дистанції — повідомлення, яке вимовляється при виконанні умови активації (trigger). Оберіть предмет, який ви бачите і який ніхто інший не носить і не переносить. Потім промовте повідомлення, яке має містити 25 слів або менше, хоча його можна вимовляти протягом 10 хвилин. Нарешті, визначте обставину, яка змусить заклинання передати ваше повідомлення.</p><p>Коли виникає ця умова, на предметі з'являються магічні вуста і вимовляють повідомлення вашим голосом і з тією самою гучністю, з якою ви говорили. Якщо обраний вами предмет має рот або щось схоже на рот (наприклад, рот статуї), магічні вуста з'являються там, тож здається, що слова линуть із рота предмета. Коли ви накладаєте це заклинання, ви можете зробити так, щоб воно закінчилося після передачі повідомлення, або ж воно може залишатися й повторювати своє повідомлення щоразу, коли настає умова активації.</p><p>Умова активації може бути загальною або детальною на ваш вибір, хоча вона повинна базуватися на візуальних чи звукових умовах, що виникають у межах 30 футів від предмета. Наприклад, ви можете наказати вустам заговорити, коли будь-яка істота пересувається в межах 30 футів від предмета або коли в межах 30 футів від нього дзвенить срібний дзвіночок.</p>"
+        },
 		"Magic Weapon": {
-			"name": "Magic Weapon",
-			"description": "<p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls. The spell ends early if you cast it again.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The bonus increases to +2 with a level 3–5 spell slot. The bonus increases to +3 with a level 6+ spell slot.</p>",
-			"effects": {
-				"Magic Weapon +1": {
-					"name": "Magic Weapon +1",
-					"description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.</p>",
-					"changes": {
-						"system.properties": "mgc",
-						"system.magicalBonus": 1,
-						"name": "Magic {} +1"
-					}
-				},
-				"Magic Weapon +2": {
-					"name": "Magic Weapon +2",
-					"description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +2 bonus to attack rolls and damage rolls.</p>",
-					"changes": {
-						"system.properties": "mgc",
-						"system.magicalBonus": 2,
-						"name": "Magic {} +2"
-					}
-				},
-				"Magic Weapon +3": {
-					"name": "Magic Weapon +3",
-					"description": "<p>Until the spell ends, that weapon becomes a magic weapon with a +3 bonus to attack rolls and damage rolls.</p>",
-					"changes": {
-						"system.properties": "mgc",
-						"system.magicalBonus": 3,
-						"name": "Magic {} +3"
-					}
-				}
-			}
-		},
+            "name": "Магічна зброя",
+            "description": "<p>Ви торкаєтеся немагічної зброї. Доки заклинання не закінчиться, ця зброя стає магічною з бонусом +1 до кидків атаки та кидків шкоди. Дія заклинання закінчується достроково, якщо ви накладаєте його знову.</p><p><strong>Використання комірки вищого рівня.</strong> Бонус збільшується до +2 за використання комірки 3–5 рівнів. Бонус збільшується до +3 за використання комірки 6-го або вищого рівня.</p>",
+            "effects": {
+                "Magic Weapon +1": {
+                    "name": "Магічна зброя +1",
+                    "description": "<p>Доки заклинання не закінчиться, ця зброя стає магічною з бонусом +1 до кидків атаки та кидків шкоди.</p>",
+                    "changes": {
+                        "system.properties": "mgc",
+                        "system.magicalBonus": 1,
+                        "name": "Магічний {} +1"
+                    }
+                },
+                "Magic Weapon +2": {
+                    "name": "Магічна зброя +2",
+                    "description": "<p>Доки заклинання не закінчиться, ця зброя стає магічною з бонусом +2 до кидків атаки та кидків шкоди.</p>",
+                    "changes": {
+                        "system.properties": "mgc",
+                        "system.magicalBonus": 2,
+                        "name": "Магічний {} +2"
+                    }
+                },
+                "Magic Weapon +3": {
+                    "name": "Магічна зброя +3",
+                    "description": "<p>Доки заклинання не закінчиться, ця зброя стає магічною з бонусом +3 до кидків атаки та кидків шкоди.</p>",
+                    "changes": {
+                        "system.properties": "mgc",
+                        "system.magicalBonus": 3,
+                        "name": "Магічний {} +3"
+                    }
+                }
+            }
+        },
 		"Major Image": {
-			"name": "Major Image",
-			"description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot Cube. The image appears at a spot that you can see within range and lasts for the duration. It seems real, including sounds, smells, and temperature appropriate to the thing depicted, but it can't deal damage or cause conditions.</p><p>If you are within range of the illusion, you can take a Magic action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example.</p><p>Physical interaction with the image reveals it to be an illusion, for things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The spell lasts until dispelled, without requiring Concentration, if cast with a level 4+ spell slot.</p>"
-		},
-		"Mass Cure Wounds": {
-			"name": "Mass Cure Wounds",
-			"description": "<p>A wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 1d8 for each spell slot level above 5.</p>"
-		},
-		"Mass Heal": {
-			"name": "Mass Heal",
-			"description": "<p>A flood of healing energy flows from you into creatures around you. You restore up to 700 Hit Points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the &amp;Reference[Blinded], &amp;Reference[Deafened], and &amp;Reference[Poisoned] conditions removed from them.</p><section id=\"secret-B4SsHM2Uk0rl4qtz\" class=\"secret\"><p>Foundry Note</p><p>The <strong>Heal</strong> activity is configured to restore 700 Hit Points to the selected creature. This spell's healing pool should be divided among the target creatures manually.</p></section>"
-		},
-		"Mass Healing Word": {
-			"name": "Mass Healing Word",
-			"description": "<p>Up to six creatures of your choice that you can see within range regain Hit Points equal to 2d4 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 1d4 for each spell slot level above 3.</p>"
-		},
+            "name": "Масштабна ілюзія",
+            "description": "<p>Ви створюєте ілюзію предмета, істоти чи іншого видимого явища, яке за розміром не перевищує куб (Cube) зі стороною 20 футів. Ілюзія з'являється в точці, яку ви бачите в межах дистанції, і тримається протягом часу дії заклинання. Вона здається справжньою, зокрема має звуки, запахи та температуру, відповідні до зображеного об'єкта, але вона не може завдавати шкоди чи накладати стани.</p><p>Якщо ви перебуваєте в межах дистанції ілюзії, ви можете скористатися дією Магія (Magic action), щоб перемістити зображення в будь-яку іншу точку в межах дистанції. Змінюючи місце розташування зображення, ви можете змінювати його зовнішній вигляд так, щоб його рухи здавалися природними. Наприклад, якщо ви створюєте зображення істоти й переміщуєте його, ви можете змінити ілюзію так, щоб здавалося, ніби вона йде. Подібним чином ви можете змусити ілюзію видавати різні звуки в різний час і навіть вести розмову.</p><p>Фізична взаємодія із зображенням виявляє, що це ілюзія, оскільки крізь неї можна проходити. Істота, яка витрачає дію Вивчення (Study action) на огляд зображення, може визначити, що це ілюзія, за допомогою успішної перевірки [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашого класу складності рятівного кидка заклинань. Якщо істота розгледить ілюзію такою, яка вона є, вона зможе бачити крізь зображення, а її інші сенсорні якості стануть для цієї істоти ледь помітними.</p><p><strong>Використання комірки вищого рівня.</strong> Заклинання триває до розвіювання без потреби в концентрації (Concentration), якщо його накладено за допомогою комірки 4-го або вищого рівня.</p>"
+        },
+        "Mass Cure Wounds": {
+            "name": "Масове лікування ран",
+            "description": "<p>Хвиля цілющої енергії лине від точки, яку ви бачите в межах дистанції. Оберіть до шести істот у сфері (Sphere) радіусом 30 футів із центром у цій точці. Кожна ціль відновлює пункти здоров'я в обсязі 5d8 плюс ваш модифікатор характеристики заклинань.</p><p><strong>Використання комірки вищого рівня.</strong> Відновлення здоров'я збільшується на 1d8 за кожен рівень комірки вище 5-го.</p>"
+        },
+        "Mass Heal": {
+            "name": "Масове зцілення",
+            "description": "<p>Потік цілющої енергії тече від вас до істот навколо. Ви відновлюєте до 700 пунктів здоров'я, розподіляючи їх на власний розсуд між будь-якою кількістю істот, яких ви бачите в межах дистанції. Зцілені цим заклинанням істоти також позбавляються станів &amp;Reference[Blinded]{Сліпий (Blinded)}, &amp;Reference[Deafened]{Глухий (Deafened)} та &amp;Reference[Poisoned]{Отруєний (Poisoned)}.</p><section id=\"secret-B4SsHM2Uk0rl4qtz\" class=\"secret\"><p>Примітка Foundry</p><p>Дія <strong>Зцілення (Heal)</strong> налаштована на відновлення 700 пунктів здоров'я обраній істоті. Пул зцілення цього заклинання слід розподіляти між цільовими істотами вручну.</p></section>"
+        },
+        "Mass Healing Word": {
+            "name": "Масове цілюще слово",
+            "description": "<p>До шести істот на ваш вибір, яких ви бачите в межах дистанції, відновлюють пункти здоров'я в обсязі 2d4 плюс ваш модифікатор характеристики заклинань.</p><p><strong>Використання комірки вищого рівня.</strong> Відновлення здоров'я збільшується на 1d4 за кожен рівень комірки вище 3-го.</p>"
+        },
 		"Mass Suggestion": {
-			"name": "Mass Suggestion",
-			"description": "<p>You suggest a course of activity—described in no more than 25 words—to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, \"Walk to the village down that road, and help the villagers there harvest crops until sunset.\" Or you could say, \"Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.\"</p><p>Each target must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The duration is longer with a spell slot of level 7 (10 days), 8 (30 days), or 9 (366 days).</p>",
-			"effects": {
-				"Charmed": {
-					"name": "Charmed",
-					"description": "<p>The target has the &amp;Reference[Charmed apply=false] condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability.</p>"
-				}
-			}
-		},
-		"Maze": {
-			"name": "Maze",
-			"description": "<p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.</p><p>The target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends.</p><p>When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>",
-			"effects": {
-				"Banished": {
-					"name": "Banished",
-					"description": "<p>The target can take a Study action to try to escape. When it does so, it makes a [[/check ability=int skill=inv dc=20]] check. If it succeeds, it escapes, and the spell ends.</p>"
-				}
-			}
-		},
-		"Meld into Stone": {
-			"name": "Meld into Stone",
-			"description": "<p>You step into a stone object or surface large enough to fully contain your body, merging yourself and your equipment with the stone for the duration. You must touch the stone to do so. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.</p><p>While merged with the stone, you can't see what occurs outside it, and any [[/check ability=wis skill=prc]] checks you make to hear sounds outside it are made with Disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use 5 feet of movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.</p><p>Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals [[/damage 6d6 type=force]] damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals [[/damage 50 type=force]] damage to you. If expelled, you move into an unoccupied space closest to where you first entered and have the &amp;Reference[prone] condition.</p>"
-		},
+            "name": "Масове навіювання",
+            "description": "<p>Ви пропонуєте план дій — описаний не більш ніж 25 словами — дванадцяти чи меншій кількості істот, яких ви бачите в межах дистанції, які можуть чути й розуміти вас. Навіювання має звучить досяжним і не передбачати нічого, що вочевидь завдасть шкоди будь-кому з цілей або їхнім союзникам. Наприклад, ви можете сказати: «Ідіть до села тією дорогою і допоможіть тамтешнім селянам зібрати врожай до заходу сонця». Або ж ви можете сказати: «Зараз не час для насильства. Киньте зброю і танцюйте! Зупиніться за годину».</p><p>Кожна ціль повинна успішно зробити рятівний кидок Мудрості, інакше вона отримує стан &amp;Reference[Charmed apply=false]{Зачарований (Charmed)} на час дії заклинання або доки ви чи ваші союзники не завдасте шкоди цілі. Кожна зачарована ціль переслідує навіювання якомога краще. Запропонована діяльність може тривати протягом усього часу дії, але якщо її можна завершити за менший час, заклинання для цілі закінчується після її завершення.</p><p><strong>Використання комірки вищого рівня.</strong> Час дії стає довшим за використання комірки 7-го (10 днів), 8-го (30 днів) або 9-го (366 днів) рівня.</p>",
+            "effects": {
+                "Charmed": {
+                    "name": "Зачарований",
+                    "description": "<p>Ціль має стан &amp;Reference[Charmed apply=false]{Зачарований (Charmed)} на час дії заклинання або доки ви чи ваші союзники не завдасте шкоди цілі. Кожна зачарована ціль переслідує навіювання якомога краще.</p>"
+                }
+            }
+        },
+        "Maze": {
+            "name": "Лабіринт",
+            "description": "<p>Ви виганяєте істоту, яку бачите в межах дистанції, у лабіринтоподібну напівплощину (demiplane). Ціль залишається там на час дії заклинання або доки не втече з лабіринту.</p><p>Ціль може скористатися дією Вивчення (Study action), щоб спробувати втекти. Роблячи це, вона здійснює перевірку Інтелекту (Розслідування) зі складністю DC 20. У разі успіху вона тікає, і заклинання завершується.</p><p>Коли дія заклинання закінчується, ціль знову з'являється в просторі, який залишила, або, якщо цей простір зайнятий, у найближчому вільному просторі.</p>",
+            "effects": {
+                "Banished": {
+                    "name": "Вигнаний",
+                    "description": "<p>Ціль може скористатися дією Вивчення (Study action), щоб спробувати втекти. Роблячи це, вона здійснює перевірку [[/check ability=int skill=inv dc=20]]. У разі успіху вона тікає, і заклинання завершується.</p>"
+                }
+            }
+        },
+        "Meld into Stone": {
+            "name": "Злиття з каменем",
+            "description": "<p>Ви заходите в кам'яний предмет або поверхню, достатньо велику, щоб повністю вмістити ваше тіло, зливаючи себе та своє спорядження з каменем на час дії заклинання. Для цього ви повинні торкнутися каменя. Нічого від вашої присутності не залишається видимим чи іншим чином виявленим немагічними чуттями.</p><p>Перебуваючи злитим із каменем, ви не можете бачити, що відбувається ззовні, а будь-які перевірки Мудрості (Уважність), які ви робите, щоб почути звуки ззовні, здійснюються з Перешкодою (Disadvantage). Ви залишаєтеся при свідомості щодо плину часу та можете накладати заклинання на себе, перебуваючи всередині каменя. Ви можете витратити 5 футів пересування, щоб вийти з каменя в тому ж місці, де увійшли, що завершує дію заклинання. В іншому випадку ви не можете рухатися.</p><p>Незначна фізична шкода каменю не завдає вам шкоди, але його часткове руйнування або зміна форми (так, що ви більше не поміщаєтеся в ньому) виганяє вас і завдає вам [[/damage 6d6 type=force]] силової шкоди. Повне руйнування каменя (або трансмутація в іншу речовину) виганяє вас і завдає вам [[/damage 50 type=force]] силової шкоди. У разі вигнання ви переміщуєтеся у вільний простір найближче до місця, де вперше увійшли, і отримуєте стан &amp;Reference[prone]{Лежачи (Prone)}.</p>"
+        },
 		"Acid Arrow": {
-			"name": "Acid Arrow",
-			"description": "<p>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 Acid damage and 2d4 Acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage (both initial and later) increases by 1d4 for each spell slot level above 2.</p>",
-			"effects": {
-				"Lingering Acid": {
-					"name": "Lingering Acid",
-					"description": "<p>On a hit, the target takes 4d4 Acid damage and [[/damage 2d4 type=acid]] (plus 1d4 per spell slot level above 2) Acid damage at the end of its next turn.</p>"
-				}
-			}
-		},
-		"Mending": {
-			"name": "Mending",
-			"description": "<p>This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.</p><p>This spell can physically repair a magic item, but it can't restore magic to such an object.</p>"
-		},
-		"Message": {
-			"name": "Message",
-			"description": "<p>You point toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.</p><p>You can cast this spell through solid objects if you are familiar with the target and know it is beyond the barrier. Magical silence; 1 foot of stone, metal, or wood; or a thin sheet of lead blocks the spell.</p>"
-		},
+            "name": "Кислотна стріла",
+            "description": "<p>Сяйлива зелена стріла летить до цілі в межах дистанції та вибухає бризками кислоти. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання ціль отримує 4d4 [[/damage 4d4 type=acid]] кислотної шкоди (Acid damage) та 2d4 [[/damage 2d4 type=acid]] кислотної шкоди наприкінці свого наступного ходу. У разі промаху стріла оббризкує ціль кислотою лише в обсязі половини початкової шкоди.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода (як початкова, так і подальша) збільшується на 1d4 за кожен рівень комірки вище 2-го.</p>",
+            "effects": {
+                "Lingering Acid": {
+                    "name": "Залишкова кислота",
+                    "description": "<p>У разі влучання ціль отримує 4d4 кислотної шкоди та [[/damage 2d4 type=acid]] (плюс 1d4 за кожен рівень комірки вище 2-го) кислотної шкоди наприкінці свого наступного ходу.</p>"
+                }
+            }
+        },
+        "Mending": {
+            "name": "Лагодження",
+            "description": "<p>Це заклинання відновлює єдиний розкол або розрив на предметі, якого ви торкаєтеся, наприклад, зламану ланку ланцюга, дві половинки зламаного ключа, порваний плащ чи дірявий мілкий міх для вина. Поки розкол чи розрив не перевищує 1 фута в будь-якому вимірі, ви лагодите його, не залишаючи жодних слідів колишнього пошкодження.</p><p>Це заклинання може фізично відремонтувати магічний предмет, але воно не може відновити магію такого об'єкта.</p>"
+        },
+        "Message": {
+            "name": "Повідомлення",
+            "description": "<p>Ви вказуєте на істоту в межах дистанції та шепочете повідомлення. Ціль (і лише ціль) чує повідомлення і може відповісти пошепки, яку почуєте лише ви.</p><p>Ви можете накласти це заклинання крізь тверді предмети, якщо знаєте ціль і знаєте, що вона перебуває за бар'єром. Магічна тиша; 1 фут каменя, металу чи дерева; або тонка пластина свинцю блокують дію заклинання.</p>"
+        },
 		"Meteor Swarm": {
-			"name": "Meteor Swarm",
-			"description": "<p>Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius Sphere centered on each of those points makes a Dexterity saving throw. A creature takes 20d6 Fire damage and 20d6 Bludgeoning damage on a failed save or half as much damage on a successful one. A creature in the area of more than one fiery Sphere is affected only once.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area, and the object starts burning if it's flammable.</p>"
-		},
-		"Mind Blank": {
-			"name": "Mind Blank",
-			"description": "<p>Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell—not even <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em>—can gather information about the target, observe it remotely, or control its mind.</p>",
-			"effects": {
-				"Mind Blanked": {
-					"name": "Mind Blanked",
-					"changes": {
-						"system.traits.di.value": "psychic",
-						"system.traits.ci.value": "charmed"
-					}
-				}
-			}
-		},
-		"Mind Spike": {
-			"name": "Mind Spike",
-			"description": "<p>You drive a spike of psionic energy into the mind of one creature you can see within range. The target makes a Wisdom saving throw, taking 3d8 Psychic damage on a failed save or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d8 for each spell slot level above 2.</p>",
-			"effects": {
-				"Spiked": {
-					"name": "Spiked",
-					"description": "<p>You always know the target’s location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it has the &amp;Reference[invisible apply=false] condition, it gains no benefit from that condition against you.</p>"
-				}
-			}
-		},
+            "name": "Метеоритний дощ",
+            "description": "<p>Палаючі кулі вогню падають на землю в чотирьох різних точках, які ви бачите в межах дистанції. Кожна істота у сфері (Sphere) радіусом 40 футів із центром у кожній із цих точок робить рятівний кидок Спритності. Істота отримує 20d6 [[/damage 20d6 type=fire]] вогняної шкоди (Fire damage) та 20d6 [[/damage 20d6 type=bludgeoning]] дробильної шкоди (Bludgeoning damage) у разі провалу, або половину цієї шкоди в разі успіху. Істота в зоні дії більше ніж однієї палаючої сфери уражається лише один раз.</p><p>Немагічний предмет, який ніхто не носить і не переносить, також отримує шкоду, якщо він перебуває в зоні дії заклинання, і починає горіти, якщо є займистим.</p>"
+        },
+        "Mind Blank": {
+            "name": "Ментальний захист",
+            "description": "<p>Доки заклинання не закінчиться, одна добровільна істота, якої ви торкаєтеся, має імунітет (Immunity) до психологічної шкоди (Psychic damage) та стану &amp;Reference[charmed]{Зачарований (Charmed)}. Ціль також не піддається нічому, що могло б відчути її емоції чи світогляд, прочитати її думки або магічно виявити її місцеперебування, і жодне заклинання — навіть <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Бажання (Wish)}</em> — не може збирати інформацію про ціль, спостерігати за нею віддалено або контролювати її розум.</p>",
+            "effects": {
+                "Mind Blanked": {
+                    "name": "Ментально захищений",
+                    "changes": {
+                        "system.traits.di.value": "psychic",
+                        "system.traits.ci.value": "charmed"
+                    }
+                }
+            }
+        },
+        "Mind Spike": {
+            "name": "Психічний шип",
+            "description": "<p>Ви встромлюєте шип псионічної енергії в розум однієї істоти, яку бачите в межах дистанції. Ціль робить рятівний кидок Мудрості, отримуючи 3d8 [[/damage 3d8 type=psychic]] психологічної шкоди (Psychic damage) у разі провалу, або половину цієї шкоди в разі успіху. У разі провалу ви також завжди знаєте місцеперебування цілі до закінчення дії заклинання, але лише поки ви обоє перебуваєте на одному плані існування. Поки ви маєте це знання, ціль не може стати прихованою від вас, а якщо вона має стан &amp;Reference[invisible apply=false]{Невидимий (Invisible)}, вона не отримує жодної вигоди від цього стану проти вас.</p><p><strong>Використання комірки вищого рівня. </strong>Шкода збільшується на 1d8 за кожен рівень комірки вище 2-го.</p>",
+            "effects": {
+                "Spiked": {
+                    "name": "Позначений шипом",
+                    "description": "<p>Ви завжди знаєте місцеперебування цілі до закінчення дії заклинання, але лише поки ви обоє перебуваєте на одному плані існування. Поки ви маєте це знання, ціль не може стати прихованою від вас, а якщо вона має стан &amp;Reference[invisible apply=false]{Невидимий (Invisible)}, вона не отримує жодної вигоди від цього стану проти вас.</p>"
+                }
+            }
+        },
 		"Minor Illusion": {
-			"name": "Minor Illusion",
-			"description": "<p>You create a sound or an image of an object within range that lasts for the duration. See the descriptions below for the effects of each. The illusion ends if you cast this spell again.</p><p>If a creature takes a Study action to examine the sound or image, the creature can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p><p><strong>Sound.</strong> If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p><strong>Image.</strong> If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot Cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, since things can pass through it.</p>"
-		},
-		"Mirage Arcane": {
-			"name": "Mirage Arcane",
-			"description": "<p>You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other rough or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.</p><p>Similarly, you can alter the appearance of structures or add them where none are present. The spell doesn't disguise, conceal, or add creatures.</p><p>The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into Difficult Terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.</p><p>Creatures with &amp;Reference[Truesight] can see through the illusion to the terrain's true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion.</p>"
-		},
+            "name": "Незначна ілюзія",
+            "description": "<p>Ви створюєте звук або зображення предмета в межах дистанції, що тримаються протягом часу дії заклинання. Дивіться описи нижче щодо ефектів кожного з них. Ілюзія закінчується, якщо ви накладаєте це заклинання знову.</p><p>Якщо істота витрачає дію Вивчення (Study action) на огляд звуку або зображення, вона може визначити, що це ілюзія, за допомогою успішної перевірки [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашого класу складності рятівного кидка заклинань. Якщо істота розгледить ілюзію такою, яка вона є, ілюзія стане для неї ледь помітною.</p><p><strong>Звук.</strong> Якщо ви створюєте звук, його гучність може варіюватися від шепоту до крику. Це може бути ваш голос, чужий голос, рив лева, барабанний бій або будь-який інший звук на ваш вибір. Звук лунає безперервно протягом усього часу дії, або ж ви можете видавати дискретні звуки в різний час до закінчення дії заклинання.</p><p><strong>Зображення.</strong> Якщо ви створюєте зображення предмета — як-от стілець, брудні сліди ніг або невелика скриня, — воно має бути не більшим за куб (Cube) зі стороною 5 футів. Зображення не може створювати звук, світло, запах чи будь-який інший сенсорний ефект. Фізична взаємодія із зображенням виявляє, що це ілюзія, оскільки крізь неї можуть проходити предмети.</p>"
+        },
+        "Mirage Arcane": {
+            "name": "Магічний міраж",
+            "description": "<p>Ви робите так, що місцевість на площі до 1 квадратної милі виглядає, звучить, пахне і навіть відчувається на дотик як якась інша місцевість. Відкрите поле чи дорогу можна перетворити на болото, пагорб, розколину чи іншу грубу або непрохідну місцевість. Ставок можна зробити схожим на трав'янистий лук, прірву — на пологий схил, а засіяний камінням яр — на широкий і плавний шлях.</p><p>Подібним чином ви можете змінити зовнішній вигляд споруд або додати їх там, де нічого немає. Заклинання не маскує, не приховує і не додає істот.</p><p>Ілюзія включає звукові, візуальні, тактильні та ольфакторні (нюхові) елементи, тому вона може перетворити чисту землю на важкопрохідну місцевість (Difficult Terrain) або іншим чином перешкоджати пересуванню по зоні. Будь-який шматок ілюзорної місцевості (наприклад, камінь чи палиця), вилучений із зони дії заклинання, негайно зникає.</p><p>Істоти зі справжнім баченням (Truesight) можуть бачити крізь ілюзію її справжню форму; однак усі інші елементи ілюзії залишаються, тож хоча істота усвідомлює присутність ілюзії, вона все одно може фізично взаємодіяти з нею.</p>"
+        },
 		"Mirror Image": {
-			"name": "Mirror Image",
-			"description": "<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real.</p><p>Each time a creature hits you with an attack roll during the spell's duration, roll a [[/r (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate destroyed]]{d6 for each} of your remaining duplicates. If any of the d6s rolls a 3 or higher, one of the duplicates is hit instead of you, and the duplicate is destroyed. The duplicates otherwise ignore all other damage and effects. The spell ends when all three duplicates are destroyed.</p><p>A creature is unaffected by this spell if it has the &amp;Reference[blinded apply=false] condition, &amp;Reference[blindsight], or &amp;Reference[truesight].</p>",
-			"effects": {
-				"Duplicate A": {
-					"name": "Duplicate A",
-					"changes": {
-						"flags.dnd-players-handbook.mirrorImages": 1
-					}
-				},
-				"Duplicate B": {
-					"name": "Duplicate B",
-					"changes": {
-						"flags.dnd-players-handbook.mirrorImages": 1
-					}
-				},
-				"Duplicate C": {
-					"name": "Duplicate C",
-					"changes": {
-						"flags.dnd-players-handbook.mirrorImages": 1
-					}
-				}
-			}
-		},
-		"Mislead": {
-			"name": "Mislead",
-			"description": "<p>You gain the &amp;Reference[Invisible apply=false] condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.</p><p>As a Magic action, you can move the illusory double up to twice your Speed and make it gesture, speak, and behave in whatever way you choose. It is intangible and invulnerable.</p><p>You can see through its eyes and hear through its ears as if you were located where it is.</p>",
-			"effects": {
-				"Invisible": {
-					"name": "Invisible",
-					"description": "<p>The &amp;Reference[invisible apply=false] immediately after you make an attack roll, deals damage, or casts a spell.</p>"
-				}
-			}
-		},
+            "name": "Дзеркальне зображення",
+            "description": "<p>Три ілюзорні двійники з'являються у вашому просторі. Доки заклинання не закінчиться, двійники рухаються разом із вами та імітують ваші дії, змінюючи положення так, що неможливо відстежити, який саме образ справжній.</p><p>Щоразу, коли істота влучає в вас кидком атаки під час дії заклинання, киньте [[/r (@flags.dnd-players-handbook.mirrorImages)d6kh1cs&gt;2#Duplicate destroyed]]{по d6 для кожного} з вашіх двійників, що залишилися. Якщо на будь-якому з d6 випадає 3 або більше, то замість вас уражається один із двійників, і він знищується. В іншому двійники ігнорують будь-яку іншу шкоду та ефекти. Заклинання завершується, коли всі три двійники знищені.</p><p>Заклинання не діє на істоту, якщо вона має стан &amp;Reference[blinded apply=false]{Сліпий (Blinded)}, а також чуття &amp;Reference[blindsight]{сліпозріння (blindsight)} або &amp;Reference[truesight]{істинне бачення (truesight)}.</p>",
+            "effects": {
+                "Duplicate A": {
+                    "name": "Двійник A",
+                    "changes": {
+                        "flags.dnd-players-handbook.mirrorImages": 1
+                    }
+                },
+                "Duplicate B": {
+                    "name": "Двійник B",
+                    "changes": {
+                        "flags.dnd-players-handbook.mirrorImages": 1
+                    }
+                },
+                "Duplicate C": {
+                    "name": "Двійник C",
+                    "changes": {
+                        "flags.dnd-players-handbook.mirrorImages": 1
+                    }
+                }
+            }
+        },
+        "Mislead": {
+            "name": "Дезінформація",
+            "description": "<p>Ви отримуєте стан &amp;Reference[Invisible apply=false]{Невидимий (Invisible)} одночасно з появою вашого ілюзорного двійника там, де ви стоїте. Двійник тримається протягом часу дії заклинання, але невидимість закінчується одразу після того, як ви робите кидок атаки, завдаєте шкоди або накладаєте заклинання.</p><p>Використовуючи дію Магія (Magic action), ви можете перемістити ілюзорного двійника на відстань до подвійної швидкості та змусити його жестикулювати, говорити й поводитися в будь-який обраний вами спосіб. Він є невловимим та неушкодженим.</p><p>Ви можете бачити його очима та чути його вухами так, ніби перебуваєте на його місці.</p>",
+            "effects": {
+                "Invisible": {
+                    "name": "Невидимий",
+                    "description": "<p>Стан &amp;Reference[invisible apply=false] закінчується одразу після того, як ви робите кидок атаки, завдаєте шкоди або накладаєте заклинання.</p>"
+                }
+            }
+        },
 		"Misty Step": {
-			"name": "Misty Step",
-			"description": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>"
-		},
-		"Modify Memory": {
-			"name": "Modify Memory",
-			"description": "<p>You attempt to reshape another creature's memories. One creature that you can see within range makes a Wisdom saving throw. If you are fighting the creature, it has Advantage on the save. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition for the duration. While Charmed in this way, the target also has the &amp;Reference[Incapacitated apply=false] condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified.</p><p>While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity, change its memory of the event's details, or create a memory of some other event.</p><p>You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you finish describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.</p><p>A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as a false memory of how much the creature enjoyed swimming in acid, is dismissed as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature.</p><p>A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em> or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell cast on the target restores the creature's true memory.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can alter the target's memories of an event that took place up to 7 days ago (level 6 spell slot), 30 days ago (level 7 spell slot), 365 days ago (level 8 spell slot), or any time in the creature's past (level 9 spell slot).</p>",
-			"effects": {
-				"Memory Modification": {
-					"name": "Memory Modification",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">While &amp;Reference[Charmed apply=false] in this way, the target also has the &amp;Reference[Incapacitated apply=false] condition and is unaware of its surroundings, though it can hear you. If it takes any damage or is targeted by another spell, this spell ends, and no memories are modified.</span></p>"
-				}
-			}
-		},
-		"Moonbeam": {
-			"name": "Moonbeam",
-			"description": "<p>A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.</p><p>When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the <em>Polymorph</em> spell, for example), it reverts to its true form and can't shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell's area moves into its space and when it enters the spell's area or ends its turn there. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong>The damage increases by 1d10 for each spell slot level above 2.</p>"
-		},
+            "name": "Туманний крок",
+            "description": "<p>Коротко оповитий сріблястим туманом, ви телепортуєтеся на відстань до 30 футів у вільний простір, який бачите.</p>"
+        },
+        "Modify Memory": {
+            "name": "Зміна пам'яті",
+            "description": "<p>Ви намагаєтеся перебудувати спогади іншої істоти. Одна істота, яку ви бачите в межах дистанції, робить рятівний кидок Мудрості. Якщо ви боретеся з істотою, вона має Перешкоду (Перевагу? Згадка з правила: якщо б'єтеся — має Advantage, тобто Перевагу) на кидок. У разі провалу ціль отримує стан &amp;Reference[Charmed apply=false]{Зачарований (Charmed)} на час дії заклинання. Поки вона зачарована в такий спосіб, ціль також отримує стан &amp;Reference[Incapacitated apply=false]{Недієздатний (Incapacitated)} і не усвідомлює свого довкілля, хоча чує вас. Якщо вона отримує будь-яку шкоду або стає ціллю іншого заклинання, це заклинання завершується, і жодні спогади не змінюються.</p><p>Поки триває цей чар, ви можете впливати на спогади цілі про подію, яку вона пережила протягом останніх 24 годин і яка тривала не більше 10 хвилин. Ви можете назавжди усунути всі спогади про подію, дозволити цілі згадати подію з ідеальною ясністю, змінити її спогади про деталі події або створити спогад про якусь іншу подію.</p><p>Ви повинні поговорити з ціллю, щоб описати, як змінюються її спогади, і вона повинна вміти розуміти вашу мову, щоб змінені спогади прижилися. Її розум заповнює будь-які прогалини в деталях вашого опису. Якщо заклинання закінчується до того, як ви закінчите описувати змінені спогади, пам'ять істоти не змінюється. В іншому випадку змінені спогади закріплюються, коли заклинання завершується.</p><p>Змінений спогад не обов'язково впливає на поведінку істоти, особливо якщо він суперечить її природним схильностям, світогляду чи переконанням. Нелогічний змінений спогад (як-от фальшивий спогад про те, як сильно істота насолоджувалася купанням у кислоті) відкидається як поганий сон. Майстер (DM) може визначити, що змінений спогад є занадто безглуздим, щоб вплинути на істоту.</p><p>Заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Зняття прокляття (Remove Curse)}</em> або <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Більше відновлення (Greater Restoration)}</em>, накладене на ціль, відновлює справжню пам'ять істоти.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете змінити спогади цілі про подію, яка відбулася до 7 днів тому (комірка 6-го рівня), 30 днів тому (комірка 7-го рівня), 365 днів років (згадка: 365 днів тому, комірка 8-го рівня) або в будь-який момент у минулому істоти (комірка 9-го рівня).</p>",
+            "effects": {
+                "Memory Modification": {
+                    "name": "Зміна пам'яті",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Поки &amp;Reference[Charmed apply=false]{зачарована (Charmed)} в такий спосіб, ціль також має стан &amp;Reference[Incapacitated apply=false]{недієздатності (Incapacitated)} і не усвідомлює свого довкілля, хоча чує вас. Якщо вона отримує будь-яку шкоду або стає ціллю іншого заклинання, це заклинання завершується, і жодні спогади не змінюються.</span></p>"
+                }
+            }
+        },
+        "Moonbeam": {
+            "name": "Місячний промінь",
+            "description": "<p>Сріблястий промінь блідого світла падає у формі циліндра (Cylinder) радіусом 5 футів і заввишки 40 футів із центром у точці в межах дистанції. Доки заклинання не закінчиться, тьмяне світло (Dim Light) заповнює циліндр, і ви можете скористатися дією Магія (Magic action) на наступних ходах, щоб перемістити циліндр на відстань до 60 футів.</p><p>Коли з'являється циліндр, кожна істота в ньому робить рятівний кидок Тілобудови (Constitution saving throw). У разі провалу істота отримує 2d10 [[/damage 2d10 type=radiant]] променистої шкоди (Radiant damage), а якщо вона змінила форму (наприклад, у результаті заклинання <em>Polymorph</em>), вона повертається до своєї справжньої форми й не може змінювати форму, доки не покине циліндр. У разі успіху істота отримує лише половину шкоди. Істота також робить цей кидок, коли область дії заклинання переміщується в її простір, а також коли вона входить в область дії заклинання або закінчує там свій хід. Істота робить цей рятівний кидок лише раз на хід.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 2-го.</p>"
+        },
 		"Move Earth": {
-			"name": "Move Earth",
-			"description": "<p>Choose an area of terrain no larger than 40 feet on a side within range. You can reshape dirt, sand, or clay in the area in any manner you choose for the duration. You can raise or lower the area's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 40-foot square, you can create a pillar up to 20 feet high, raise or lower the square's elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes for these changes to complete. Because the terrain's transformation occurs slowly, creatures in the area can't usually be trapped or injured by the ground's movement.</p><p>At the end of every 10 minutes you spend concentrating on the spell, you can choose a new area of terrain to affect within range.</p><p>This spell can't manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.</p><p>Similarly, this spell doesn't directly affect plant growth. The moved earth carries any plants along with it.</p>"
-		},
+            "name": "Переміщення землі",
+            "description": "<p>Оберіть ділянку місцевості зі стороною не більше 40 футів у межах дистанції. Ви можете змінювати форму ґрунту, піску чи глини на цій ділянці будь-яким на ваш вибір способом на час дії заклинання. Ви можете підвищити чи понизити висоту ділянки, створити або заповнити рів, звести чи вирівняти стіну, або сформувати стовп. Масштаб будь-яких таких змін не може перевищувати половини найбільшого виміру ділянки. Наприклад, якщо ви впливаєте на квадрат 40х40 футів, ви можете створити стовп заввишки до 20 футів, підняти або опустити висоту квадрата на 20 футів, викопати рів завглибшки до 20 футів тощо. Для завершення цих змін потрібно 10 хвилин. Оскільки трансформація місцевості відбувається повільно, істоти в зоні зазвичай не можуть бути заблоковані або травмовані рухом землі.</p><p>Наприкінці кожних 10 хвилин, витрачених на концентрування (Concentration) на заклинанті, ви можете обрати нову ділянку місцевості в межах дистанції, на яку пошириться ефект.</p><p>Це заклинання не може маніпулювати природним каменем або кам'яними спорудами. Скелі та споруди зміщуються, пристосовуючись до нової місцевості. Якщо спосіб, у який ви формуєте рельєф, робить споруду нестійкою, вона може обвалитися.</p><p>Подібним чином це заклинання не впливає безпосередньо на ріст рослин. Переміщена земля переносить усі рослини разом із собою.</p>"
+        },
 		"Nondetection": {
 			"name": "Nondetection",
 			"description": "<p>For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors.</p>",
