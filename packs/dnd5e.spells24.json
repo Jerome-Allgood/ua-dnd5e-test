@@ -723,213 +723,213 @@
             "description": "<p>Істота, якої ви торкаєтеся, відновлює кількість хітів (Hit Points), що дорівнює 2d8 плюс модифікатор вашої характеристики заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Лікування збільшується на 2d8 за кожен рівень комірки вище 1-го.</p>"
         },
 		"Dancing Lights": {
-			"name": "Dancing Lights",
-			"description": "<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.</p>"
-		},
-		"Darkness": {
-			"name": "Darkness",
-			"description": "<p>For the duration, magical &amp;Reference[darkness] spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can't see through it, and nonmagical light can't illuminate it.</p><p>Alternatively, you cast the spell on an object that isn't being worn or carried, causing the Darkness to fill a 15-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the Darkness.</p><p>If any of this spell's area overlaps with an area of Bright Light or Dim Light created by a spell of level 2 or lower, that other spell is dispelled.</p>"
-		},
-		"Darkvision": {
-			"name": "Darkvision",
-			"description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>",
-			"effects": {
-				"Darkvision": {
-					"name": "Darkvision",
-					"description": "<p>For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.</p>",
-					"changes": {
-						"system.attributes.senses.darkvision": 120
-					}
-				}
-			}
-		},
+            "name": "Танцюючі вогні",
+            "description": "<p>Ви створюєте до чотирьох вогнів розміром із факел у межах дистанції, надаючи їм вигляду факелів, ліхтарів або світних сфер, які ширяють у повітрі протягом усієї тривалості дії заклинання. Крім того, ви можете об'єднати чотири вогні в одну світну середню (Medium) форму, яка слабко нагадує людину. Яку б форму ви не обрали, кожен вогонь випромінює тьмяне світло (Dim Light) в радіусі 10 футів.</p><p>Бонусною дією (Bonus Action) ви можете перемістити вогні на відстань до 60 футів у простір у межах дистанції. Кожен вогонь повинен перебувати в межах 20 футів від іншого вогню, створеного цим заклинанням, і вогонь зникає, якщо виходить за межі дистанції заклинання.</p>"
+        },
+        "Darkness": {
+            "name": "Темрява",
+            "description": "<p>Протягом дії заклинання магічна &amp;Reference[darkness]{темрява} поширюється з точки в межах дистанції та заповнює сферу (Sphere) радіусом 15 футів. Темний зір (Darkvision) не може бачити крізь неї, а немагічне світло не може її освітлити.</p><p>Крім того, ви можете створити це заклинання на об'єкт, який ніхто не носить і не тримає, змушуючи темряву заповнити 15-футове випромінювання (Emanation), що виходить від цього об'єкта. Покриття цього об'єкта чимось непрозорим, наприклад чашею або шоломом, блокує темряву.</p><p>Якщо будь-яка частина області дії цього заклинання перекривається з областю яскравого або тьмяного світла, створеного заклинанням 2-го або нижчого рівня, те інше заклинання розсіюється.</p>"
+        },
+        "Darkvision": {
+            "name": "Темний зір",
+            "description": "<p>Протягом дії заклинання згода істоти, якої ви торкаєтеся, отримує &amp;Reference[darkvision]{темний зір} радіусом 150 футів.</p>",
+            "effects": {
+                "Darkvision": {
+                    "name": "Темний зір",
+                    "description": "<p>Протягом дії заклинання згода істоти, якої ви торкаєтеся, отримує &amp;Reference[darkvision]{темний зір} радіусом 150 футів.</p>",
+                    "changes": {
+                        "system.attributes.senses.darkvision": 120
+                    }
+                }
+            }
+        },
 		"Daylight": {
-			"name": "Daylight",
-			"description": "<p>For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere. The sunlight's area is Bright Light and sheds Dim Light for an additional 60 feet.</p><p>Alternatively, you cast the spell on an object that isn't being worn or carried, causing the sunlight to fill a 60-foot Emanation originating from that object. Covering that object with something opaque, such as a bowl or helm, blocks the sunlight.</p><p>If any of this spell's area overlaps with an area of Darkness created by a spell of level 3 or lower, that other spell is dispelled.</p>"
-		},
-		"Death Ward": {
-			"name": "Death Ward",
-			"description": "<p>You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.</p>",
-			"effects": {
-				"Protection from Death": {
-					"name": "Protection from Death",
-					"description": "<p>The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.</p><p>If the spell is still in effect when the target is subjected to an effect that would kill it instantly without dealing damage, that effect is negated against the target, and the spell ends.</p>"
-				}
-			}
-		},
-		"Delayed Blast Fireball": {
-			"name": "Delayed Blast Fireball",
-			"description": "<p>A beam of yellow light flashes from you, then condenses at a chosen point within range as a glowing bead for the duration. When the spell ends, the bead explodes, and each creature in a 20-foot-radius Sphere centered on that point makes a Dexterity saving throw. A creature takes Fire damage equal to the total accumulated damage on a failed save or half as much damage on a successful one.</p><p>The spell's base damage is 12d6, and the damage increases by 1d6 whenever your turn ends and the spell hasn't ended.</p><p>If a creature touches the glowing bead before the spell ends, that creature makes a Dexterity saving throw. On a failed save, the spell ends, causing the bead to explode. On a successful save, the creature can throw the bead up to 40 feet. If the thrown bead enters a creature's space or collides with a solid object, the spell ends, and the bead explodes.</p><p>When the bead explodes, flammable objects in the explosion that aren't being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The base damage increases by 1d6 for each spell slot level above 7.</p><section class=\"secret\" id=\"secret-8FSRYhwywI2O3Qgb\"><p><strong>Foundry Note</strong></p><p>The limited uses value of this spell tracks the number of rounds that have passed since the initial casting and starts at 0.</p><p>The <strong>Turn End Damage Increase</strong> activity will increase that value by 1.</p><p>The <strong>Trigger Explosion</strong> activity calculates the total damage based on the limited uses.</p><p>If you would prefer manual tracking, you can use <strong>Trigger Explosion's</strong> Situational Bonus dialog to add the extra d6s and ignore the <strong>Turn End Damage</strong> Increase activity.</p></section>"
-		},
+            "name": "Денне світло",
+            "description": "<p>Протягом дії заклинання сонячне світло поширюється з точки в межах дистанції та заповнює сферу (Sphere) радіусом 60 футів. Область сонячного світла є яскравим світлом (Bright Light) і випромінює тьмяне світло (Dim Light) ще на 60 футів.</p><p>Крім того, ви можете створити це заклинання на об'єкт, який ніхто не носить і не тримає, змушуючи сонячне світло заповнити 60-футове випромінювання (Emanation), що виходить від цього об'єкта. Покриття цього об'єкта чимось непрозорим, наприклад чашею або шоломом, блокує сонячне світло.</p><p>Якщо будь-яка частина області дії цього заклинання перекривається з областю темряви (Darkness), створеної заклинанням 3-го або нижчого рівня, те інше заклинання розсіюється.</p>"
+        },
+        "Death Ward": {
+            "name": "Оберіг від смерті",
+            "description": "<p>Ви торкаєтеся істоти й надаєте їй певний захист від смерті. Коли ціль має опуститися до 0 хітів (Hit Points) вперше до закінчення дії заклинання, її хіти натомість стають рівними 1, і заклинання закінчується.</p><p>Якщо заклинання все ще діє, коли ціль піддається ефекту, який мав би вбити її миттєво без завдання шкоди, цей ефект скасовується для цілі, і заклинання закінчується.</p>",
+            "effects": {
+                "Protection from Death": {
+                    "name": "Захист від смерті",
+                    "description": "<p>Коли ціль має опуститися до 0 хітів (Hit Points) вперше до закінчення дії заклинання, її хіти натомість стають рівними 1, і заклинання закінчується.</p><p>Якщо заклинання все ще діє, коли ціль піддається ефекту, який мав би вбити її миттєво без завдання шкоди, цей ефект скасовується для цілі, і заклинання закінчується.</p>"
+                }
+            }
+        },
+        "Delayed Blast Fireball": {
+            "name": "Вогняна куля уповільненої дії",
+            "description": "<p>Промінь жовтого світла виривається з вас, а потім конденсується в обраній точці в межах дистанції у вигляді світної намистини на час дії заклинання. Коли заклинання закінчується, намистина вибухає, і кожна істота у сфері (Sphere) радіусом 20 футів із центром у цій точці робить рятівний кидок Спритності. У разі провалу істота отримує вогняну шкоду (Fire damage), що дорівнює загальній накопиченій шкоді, а в разі успіху — половину цієї шкоди.</p><p>Базова шкода заклинання становить 12d6, і вона збільшується на 1d6 щоразу, коли ваш хід закінчується, а заклинання ще не завершилося.</p><p>Якщо істота торкається світної намистини до закінчення дії заклинання, ця істота робить рятівний кидок Спритності. У разі провалу заклинання закінчується, змушуючи намистину вибухнути. У разі успіху істота може кинути намистину на відстань до 40 футів. Якщо кинута намистина потрапляє в простір іншої істоти або стикається з твердим об'єктом, заклинання закінчується, і намистина вибухає.</p><p>Коли намистина вибухає, легкозаймисті предмети в зоні вибуху, які ніхто не носить і не тримає, починають горіти.</p><p><strong>Використання комірки вищого рівня.</strong> Базова шкода збільшується на 1d6 за кожен рівень комірки вище 7-го.</p><section class=\"secret\" id=\"secret-8FSRYhwywI2O3Qgb\"><p><strong>Примітка Foundry</strong></p><p>Значення обмеженого використання (limited uses) цього заклинання відстежує кількість раундів, що минули з моменту початкового створення, і починається з 0.</p><p>Активність <strong>Turn End Damage Increase</strong> збільшить це значення на 1.</p><p>Активність <strong>Trigger Explosion</strong> обчислює загальну шкоду на основі обмеженого використання.</p><p>Якщо ви віддаєте перевагу ручному відстеженню, ви можете скористатися діалоговим вікном Ситуаційного бонусу (Situational Bonus) активності <strong>Trigger Explosion</strong>, щоб додати додаткові d6 і ігнорувати активність Turn End Damage Increase.</p></section>"
+        },
 		"Demiplane": {
-			"name": "Demiplane",
-			"description": "<p>You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).</p><p>When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the &amp;Reference[Prone] condition in the unoccupied spaces closest to the door's former space.</p><p>Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.</p>"
-		},
-		"Detect Evil and Good": {
-			"name": "Detect Evil and Good",
-			"description": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow}</em> spell is active there and, if so, where.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
-			"effects": {
-				"Detect Evil and Good": {
-					"name": "Detect Evil and Good"
-				}
-			}
-		},
-		"Detect Magic": {
-			"name": "Detect Magic",
-			"description": "<p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
-			"effects": {
-				"Detect Magic": {
-					"name": "Detect Magic"
-				}
-			}
-		},
+            "name": "Напівплан",
+            "description": "<p>Ви створюєте примарні середні (Medium) двері на пласкій твердій поверхні, яку бачите в межах дистанції. Ці двері можна відкривати й закривати, і вони ведуть у напівплан, що є порожньою кімнатою розміром 30 футів у кожному вимірі, зробленою з дерева або каменю (на ваш вибір).</p><p>Коли заклинання закінчується, двері зникають, а будь-які предмети всередині напівплану залишаються там. Будь-які істоти всередині також залишаються, якщо тільки вони не вирішать виштовхнутися крізь двері в момент їхнього зникнення, приземляючись у стані &amp;Reference[Prone]{Збитий з ніг} у вільних просторах, найближчих до колишнього місця розташування дверей.</p><p>Щоразу, коли ви створюєте це заклинання, ви можете створити новий напівплан або з'єднати примарні двері з напівпланом, який ви створили під час попереднього створення цього заклинання. Крім того, якщо вам відома природа та вміст напівплану, створеного за допомогою цього заклинання іншою істотою, ви можете замість цього з'єднати примарні двері з цим напівпланом.</p>"
+        },
+        "Detect Evil and Good": {
+            "name": "Виявлення зла і добра",
+            "description": "<p>Протягом дії заклинання ви відчуваєте місцезнаходження будь-якої аберації (Aberration), селестіала (Celestial), елементаля (Elemental), феї (Fey), фінда (Fiend) або нежиті (Undead) у межах 30 футів від себе. Ви також відчуваєте, чи активне там заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Освячення (Hallow)}</em>, і якщо так, то де саме.</p><p>Заклинання блокується 1 футом каменю, землі чи дерева; 1 дюймом металу або тонким листом свинцю.</p>",
+            "effects": {
+                "Detect Evil and Good": {
+                    "name": "Виявлення зла і добра"
+                }
+            }
+        },
+        "Detect Magic": {
+            "name": "Виявлення магії",
+            "description": "<p>Протягом дії заклинання ви відчуваєте присутність магічних ефектів у межах 30 футів від себе. Якщо ви відчуваєте такі ефекти, ви можете виконати магічну дію (Magic action), щоб побачити слабку ауру навколо будь-якої видимої істоти або об'єкта в області, що несе на собі магію, і якщо ефект був створений заклинанням, ви дізнаєтеся його школу магії.</p><p>Заклинання блокується 1 футом каменю, землі чи дерева; 1 дюймом металу або тонким листом свинцю.</p>",
+            "effects": {
+                "Detect Magic": {
+                    "name": "Виявлення магії"
+                }
+            }
+        },
 		"Detect Poison and Disease": {
-			"name": "Detect Poison and Disease",
-			"description": "<p>For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
-			"effects": {
-				"Detect Poison and Disease": {
-					"name": "Detect Poison and Disease"
-				}
-			}
-		},
-		"Detect Thoughts": {
-			"name": "Detect Thoughts",
-			"description": "<p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.</p><p><strong>Sense Thoughts.</strong> You sense the presence of thoughts within 30 feet of yourself that belong to creatures that know languages or are telepathic. You don't read the thoughts, but you know that a thinking creature is present.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p><p><strong>Read Thoughts.</strong> Target one creature you can see within 30 feet of yourself or one creature within 30 feet of yourself that you detected with the Sense Thoughts option. You learn what is most on the target's mind right now. If the target doesn't know any languages and isn't telepathic, you learn nothing.</p><p>As a Magic action on your next turn, you can try to probe deeper into the target's mind. If you probe deeper, the target makes a Wisdom saving throw. On a failed save, you discern the target's reasoning, emotions, and something that looms large in its mind (such as a worry, love, or hate). On a successful save, the spell ends. Either way, the target knows that you are probing into its mind, and until you shift your attention away from the target's mind, the target can take an action on its turn to make an [[/check ability=int skill=arc dc=@attributes.spell.dc]] check against your spell save DC, ending the spell on a success.</p>"
-		},
-		"Dimension Door": {
-			"name": "Dimension Door",
-			"description": "<p>You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"300 feet upward to the northwest at a 45-degree angle.\"</p><p>You can also teleport one willing creature. The creature must be within 5 feet of you when you teleport, and it teleports to a space within 5 feet of your destination space.</p><p>If you, the other creature, or both would arrive in a space occupied by a creature or completely filled by one or more objects, you and any creature traveling with you each take 4d6 Force damage, and the teleportation fails.</p>"
-		},
+            "name": "Виявлення отрути та хвороб",
+            "description": "<p>Протягом дії заклинання ви відчуваєте місцезнаходження отрут, отруйних чи токсичних істот, а також магічних інфекцій у межах 30 футів від себе. У кожному випадку ви відчуваєте вид отрути, істоти або інфекції.</p><p>Заклинання блокується 1 футом каменю, землі чи дерева; 1 дюймом металу або тонким листом свинцю.</p>",
+            "effects": {
+                "Detect Poison and Disease": {
+                    "name": "Виявлення отрути та хвороб"
+                }
+            }
+        },
+        "Detect Thoughts": {
+            "name": "Виявлення думок",
+            "description": "<p>Ви активуєте один із наведених нижче ефектів. Поки заклинання не закінчиться, ви можете активувати будь-який із цих ефектів магічною дією (Magic action) під час своїх наступних ходів.</p><p><strong>Відчуття думок (Sense Thoughts).</strong> Ви відчуваєте присутність думок у межах 30 футів від себе, які належать істотам, що знають мови або володіють телепатією. Ви не читаєте думки, але знаєте, що мисляча істота присутня поруч.</p><p>Заклинання блокується 1 футом каменю, землі чи дерева; 1 дюймом металу або тонким листом свинцю.</p><p><strong>Читання думок (Read Thoughts).</strong> Оберіть ціллю одну істоту, яку ви бачите в межах 30 футів від себе, або одну істоту в межах 30 футів від себе, яку ви виявили за допомогою ефекту «Відчуття думок». Ви дізнаєтеся, що саме зараз найбільше турбує або займає думки цілі. Якщо ціль не знає жодної мови й не є телепатом, ви нічого не дізнаєтеся.</p><p>Виконуючи магічну дію (Magic action) у свій наступний хід, ви можете спробувати проникнути глибше в розум цілі. Якщо ви проникаєте глибше, ціль робить рятівний кидок Мудрості. У разі провалу ви розпізнаєте логіку, емоції цілі та щось, що має для неї велике значення (наприклад, тривогу, любов чи ненависть). У разі успішного рятівного кидка заклинання закінчується. У будь-якому випадку ціль знає, що ви заглядаєте в її розум, і поки ви не переключите свою увагу на щось інше, ціль може у свій хід витратити дію, щоб зробити перевірку [[/check ability=int skill=arc dc=@attributes.spell.dc]] проти вашої Складності рятівного кидка від заклинань, припиняючи дію заклинання в разі успіху.</p>"
+        },
+        "Dimension Door": {
+            "name": "Просторовий перехід",
+            "description": "<p>Ви телепортуєтеся в локацію в межах дистанції. Ви прибуваєте точно в бажане місце. Це може бути місце, яке ви бачите, яке можете візуалізувати або яке можете описати, вказавши відстань і напрямок, наприклад: «200 футів прямо вниз» або «300 футів вгору на північний захід під кутом 45 градусів».</p><p>Ви також можете телепортувати одну згідну істоту. Істота повинна перебувати в межах 5 футів від вас у момент телепортації, і вона телепортується в простір у межах 5 футів від точки вашого прибуття.</p><p>Якщо ви, інша істота або обидва маєте прибути в простір, зайнятий іншою істотою або повністю заповнений одним чи кількома предметами, ви та будь-яка істота, що подорожує з вами, отримуєте по 4d6 шкоди силовим полем (Force damage), а телепортація провалюється.</p>"
+        },
 		"Disguise Self": {
-			"name": "Disguise Self",
-			"description": "<p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing.</p><p>To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC.</p>",
-			"effects": {
-				"Disguised": {
-					"name": "Disguised",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">To discern that you are disguised, a creature must take the Study action to inspect your appearance and succeed on an [[/check ability=int skill=inv]] check against your spell save DC.</span></p>"
-				}
-			}
-		},
-		"Disintegrate": {
-			"name": "Disintegrate",
-			"description": "<p>You launch a green ray at a target you can see within range. The target can be a creature, a nonmagical object, or a creation of magical force, such as the wall created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Wall of Force}.</em></p><p>A creature targeted by this spell makes a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 Force damage. If this damage reduces it to 0 Hit Points, it and everything nonmagical it is wearing and carrying are disintegrated into gray dust. The target can be revived only by a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTrueResurr]{True Resurrection}</em> or a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p><p>This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If such a target is Huge or larger, this spell disintegrates a 10-foot-Cube portion of it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 3d6 for each spell slot level above 6.</p>"
-		},
-		"Dispel Evil and Good": {
-			"name": "Dispel Evil and Good",
-			"description": "<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.</p><p><strong>Break Enchantment.</strong> As a Magic action, you touch a creature that is possessed by or has the &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.</p><p><strong>Dismissal.</strong> As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.</p>",
-			"effects": {
-				"Dispelling Evil and Good": {
-					"name": "Dispelling Evil and Good",
-					"description": "<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions: <strong>Break Enchantment</strong> or <strong>Dismissal</strong>.</p>"
-				}
-			}
-		},
+            "name": "Маскування",
+            "description": "<p>Ви змінюєте свій зовнішній вигляд — включно з одягом, обладунками, зброєю та іншими речами на собі — до закінчення дії заклинання. Ви можете здаватися на 1 фут нижчим або вищим, а також виглядати важчим або легшим. Ви повинні набути форми, яка має таку ж базову будову кінцівок, як і ваша. В іншому межі ілюзії залежать лише від вас.</p><p>Зміни, внесені цим заклинанням, не витримують фізичної перевірки. Наприклад, якщо ви використовуєте це заклинання, щоб додати капелюх до свого вбрання, предмети проходитимуть крізь капелюх, а той, хто торкнеться його, нічого не відчує.</p><p>Щоб розпізнати, що ви замасковані, істота повинна витратити дію на Вивчення (Study action), щоб оглянути ваш вигляд, і успішно зробити перевірку [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашої Складності рятівного кидка від заклинань.</p>",
+            "effects": {
+                "Disguised": {
+                    "name": "Замаскований",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Щоб розпізнати, що ви замасковані, істота повинна витратити дію на Вивчення (Study action), щоб оглянути ваш вигляд, і успішно зробити перевірку [[/check ability=int skill=inv]] проти вашої Складності рятівного кидка від заклинань.</span></p>"
+                }
+            }
+        },
+        "Disintegrate": {
+            "name": "Дезінтеграція",
+            "description": "<p>Ви випускаєте зелений промінь у ціль, яку бачите в межах дистанції. Ціллю може бути істота, немагічний об'єкт або творіння магічної сили, наприклад, стіна, створена заклинанням <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofForc]{Силова стіна (Wall of Force)}.</em></p><p>Істота, яка стала ціллю цього заклинання, робить рятівний кидок Спритності. У разі провалу ціль отримує 10d6 + 40 шкоди силовим полем (Force damage). Якщо ця шкода зменшує її хіти до 0 (0 Hit Points), вона та всі немагічні речі, які вона носить і тримає, перетворюються на сірий пил. Ціль можна оживити лише за допомогою заклинань <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplTrueResurr]{Істинне воскресіння (True Resurrection)}</em> або <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Бажання (Wish)}</em>.</p><p>Це заклинання автоматично дезінтегрує великий (Large) або менший немагічний об'єкт або творіння магічної сили. Якщо така ціль є величезною (Huge) або більшою, це заклинання дезінтегрує її частину розміром із 10-футовий куб (Cube).</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 3d6 за кожен рівень комірки вище 6-го.</p>"
+        },
+        "Dispel Evil and Good": {
+            "name": "Розсіювання зла і добра",
+            "description": "<p>Протягом дії заклинання селестіали (Celestials), елементалі (Elementals), феї (Fey), фінди (Fiends) та нежить (Undead) мають поміху (Disadvantage) на кидки атаки проти вас. Ви можете завершити заклинання достроково, використавши одну з наступних особливих функцій.</p><p><strong>Зняття чар (Break Enchantment).</strong> Магічною дією (Magic action) ви торкаєтеся істоти, яка є одержимою або перебуває під дією стану &amp;Reference[Charmed]{Очарований} чи &amp;Reference[Frightened]{Переляканий}, накладеного однією або кількома істотами вищезазначених типів. Ціль більше не є одержимою, очарованою чи переляканою цими істотами.</p><p><strong>Вигнання (Dismissal).</strong> Магічною дією (Magic action) ви обираєте ціллю одну істоту, яку бачите в межах 5 футів від себе, що належить до одного з вищезазначених типів. Ціль повинна успішно зробити рятівний кидок Харизми, інакше її буде відправлено назад на її рідний план, якщо вона ще не там. Якщо вони перебувають не на своєму рідному плані, нежить відправляється до Тіньопаду (Shadowfell), а феї — до Диколісся (Feywild).</p>",
+            "effects": {
+                "Dispelling Evil and Good": {
+                    "name": "Розсіювання зла і добра",
+                    "description": "<p>Протягом дії заклинання селестіали (Celestials), елементалі (Elementals), феї (Fey), фінди (Fiends) та neжить (Undead) мають поміху (Disadvantage) на кидки атаки проти вас. Ви можете завершити заклинання достроково, використавши одну з наступних особливих функцій: <strong>Зняття чар (Break Enchantment)</strong> або <strong>Вигнання (Dismissal)</strong>.</p>"
+                }
+            }
+        },
 		"Dispel Magic": {
-			"name": "Dispel Magic",
-			"description": "<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level 4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell's level). On a successful check, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You automatically end a spell on the target if the spell's level is equal to or less than the level of the spell slot you use.</p>"
-		},
-		"Dissonant Whispers": {
-			"name": "Dissonant Whispers",
-			"description": "<p>One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>"
-		},
-		"Divination": {
-			"name": "Divination",
-			"description": "<p>This spell puts you in contact with a god or a god's servants. You ask one question about a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply, which might be a short phrase or cryptic rhyme. The spell doesn't account for circumstances that might change the answer, such as the casting of other spells.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>"
-		},
+            "name": "Розсіювання магії",
+            "description": "<p>Оберіть одну істоту, об'єкт або магічний ефект у межах дистанції. Дія будь-якого активного заклинання 3-го або нижчого рівня на цілі припиняється. Для кожного активного заклинання 4-го або вищого рівня на цілі зробіть перевірку характеристики, використовуючи вашу характеристику заклинання (Складність / DC дорівнює 10 плюс рівень цього заклинання). У разі успішної перевірки дія заклинання припиняється.</p><p><strong>Використання комірки вищого рівня.</strong> Ви автоматично припиняєте дію заклинання на цілі, якщо рівень цього заклинання є меншим або дорівнює рівню комірки заклинання, яку ви використовуєте.</p>"
+        },
+        "Dissonant Whispers": {
+            "name": "Диссонуючий шепіт",
+            "description": "<p>Одна обрана вами істота, яку ви бачите в межах дистанції, чує дисонуючу мелодію у своєму розумі. Ціль робить рятівний кидок Мудрості. У разі провалу вона отримує 3d6 психічної шкоди (Psychic damage) і повинна негайно витратити свою реакцію (Reaction), якщо вона доступна, щоб переміститися якомога далі від вас найбезпечнішим маршрутом. У разі успішного рятівного кидка ціль отримує лише половину цієї шкоди.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Divination": {
+            "name": "Ворожіння",
+            "description": "<p>Це заклинання встановлює ваш зв'язок із божеством або його слугами. Ви ставите одне запитання про конкретну мету, подію чи діяльність, що мають відбутися протягом наступних 7 днів. Майстер (DM) дає правдиву відповідь, яка може бути короткою фразою або загадковим віршем. Заклинання не враховує обставини, які можуть змінити відповідь, наприклад, створення інших заклинань.</p><p>Якщо ви створюєте це заклинання більше одного разу до закінчення тривалого відпочинку (Long Rest), існує кумулятивний 25-відсотковий шанс для кожного створення після першого, що ви не отримаєте жодної відповіді.</p>"
+        },
 		"Divine Favor": {
-			"name": "Divine Favor",
-			"description": "<p>Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit.</p>",
-			"effects": {
-				"Divine Favor": {
-					"name": "Divine Favor",
-					"changes": {
-						"system.bonuses.mwak.damage": "1d4[radiant]",
-						"system.bonuses.rwak.damage": "1d4[radiant]"
-					}
-				}
-			}
-		},
-		"Divine Smite": {
-			"name": "Divine Smite",
-			"description": "<p>The target takes an extra 2d8 Radiant damage from the attack. The damage increases by 1d8 if the target is a Fiend or an Undead.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d8 for each spell slot level above 1.</p>"
-		},
+            "name": "Божественне покровительство",
+            "description": "<p>До закінчення дії заклинання ваші атаки зброєю завдають додатково 1d4 променистої шкоди (Radiant damage) у разі влучання.</p>",
+            "effects": {
+                "Divine Favor": {
+                    "name": "Божественне покровительство",
+                    "changes": {
+                        "system.bonuses.mwak.damage": "1d4[radiant]",
+                        "system.bonuses.rwak.damage": "1d4[radiant]"
+                    }
+                }
+            }
+        },
+        "Divine Smite": {
+            "name": "Божественна кара",
+            "description": "<p>Ціль отримує додатково 2d8 променистої шкоди (Radiant damage) від цієї атаки. Шкода збільшується на 1d8, якщо ціль є фіндом (Fiend) або нежиттю (Undead).</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Divine Word": {
-			"name": "Divine Word",
-			"description": "<p>You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p><table><thead><tr><td>Hit Points</td><td>Divine Word Effect</td></tr></thead><tbody><tr><td>0–20</td><td>The target dies.</td></tr><tr><td>21–30</td><td>The target has the &amp;Reference[Blinded apply=false], &amp;Reference[Deafened apply=false], and &amp;Reference[Stunned apply=false] conditions for 1 hour.</td></tr><tr><td>31–40</td><td>The target has the Blinded and Deafened conditions for 10 minutes.</td></tr><tr><td>41–50</td><td>The target has the Deafened condition for 1 minute.</td></tr></tbody></table>",
-			"effects": {
-				"Death": {
-					"name": "Death"
-				},
-				"Blinded, Deafened, Stunned": {
-					"name": "Blinded, Deafened, Stunned"
-				},
-				"Blinded, Deafened": {
-					"name": "Blinded, Deafened"
-				},
-				"Deafened": {
-					"name": "Deafened"
-				}
-			}
-		},
-		"Dominate Beast": {
-			"name": "Dominate Beast",
-			"description": "<p>One Beast you can see within range must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.</p><p>You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.</p><p>You can command the target to take a Reaction but must take your own Reaction to do so.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 5 (up to 10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).</p>",
-			"effects": {
-				"Dominated": {
-					"name": "Dominated",
-					"description": "<p>Whenever the &amp;Reference[Charmed apply=false] target takes damage, it repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
+            "name": "Божественне слово",
+            "description": "<p>Ви промовляєте слово, наповнене силою Верхніх Планів (Upper Planes). Кожна обрана вами істота в межах дистанції робить рятівний кидок Харизми. У разі провалу ціль, яка має 50 хітів (Hit Points) або менше, зазнає ефекту, що залежить від її поточних хітів, як показано в таблиці ефектів божественного слова. Незалежно від кількості її хітів, якщо селестіал (Celestial), елементаль (Elemental), фея (Fey) або фінд (Fiend) провалює цей рятівний кидок, вона примусово повертається на свій рідний план (якщо вона ще не там) і не може повернутися на поточний план протягом 24 годин жодним способом, окрім заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Бажання (Wish)}</em>.</p><table><thead><tr><td>Хіти</td><td>Ефект божественного слова</td></tr></thead><tbody><tr><td>0–20</td><td>Ціль помирає.</td></tr><tr><td>21–30</td><td>Ціль отримує стани &amp;Reference[Blinded apply=false]{Засліплений}, &amp;Reference[Deafened apply=false]{Оглушений} та &amp;Reference[Stunned apply=false]{Ошелешений} на 1 годину.</td></tr><tr><td>31–40</td><td>Ціль отримує стани Засліплений та Оглушений на 10 хвилин.</td></tr><tr><td>41–50</td><td>Ціль отримує стан Оглушений на 1 хвилину.</td></tr></tbody></table>",
+            "effects": {
+                "Death": {
+                    "name": "Смерть"
+                },
+                "Blinded, Deafened, Stunned": {
+                    "name": "Засліплений, Оглушений, Ошелешений"
+                },
+                "Blinded, Deafened": {
+                    "name": "Засліплений, Оглушений"
+                },
+                "Deafened": {
+                    "name": "Оглушений"
+                }
+            }
+        },
+        "Dominate Beast": {
+            "name": "Підкорення звіра",
+            "description": "<p>Один звір (Beast), якого ви бачите в межах дистанції, повинен успішно зробити рятівний кидок Мудрості, інакше він отримає стан &amp;Reference[Charmed apply=false]{Очарований} на час дії заклинання. Ціль має перевагу (Advantage) на цей рятівний кидок, якщо ви або ваші союзники бієтеся з нею. Щоразу, коли ціль отримує шкоду, вона повторює рятівний кидок, припиняючи дію заклинання на собі в разі успіху.</p><p>Ви маєте телепатичний зв'язок з очарованою ціллю, поки ви обоє перебуваєте на одному плані існування. У свій хід ви можете використовувати цей зв'язок для віддання наказів цілі (дія не потрібна), наприклад: «Атакуй ту істоту», «Іди туди» або «Принеси той предмет». Ціль робить усе можливе, щоб підкоритися у свій хід. Якщо вона виконує наказ і не отримує від вас подальших вказівок, вона діє та переміщується, як їй заманеться, зосереджуючись на власному захисті.</p><p>Ви можете наказати цілі використати Реакцію (Reaction), але для цього ви повинні витратити власну Реакцію.</p><p><strong>Використання комірки вищого рівня.</strong> Ваша концентрація (Concentration) може тривати довше з коміркою заклинання 5-го рівня (до 10 хвилин), 6-го рівня (до 1 години) або 7-го рівня й вище (до 8 годин).</p>",
+            "effects": {
+                "Dominated": {
+                    "name": "Підкорений",
+                    "description": "<p>Щоразу, коли &amp;Reference[Charmed apply=false]{очарована} ціль отримує шкоду, вона повторює рятівний кидок [[/save ability=wis]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
 		"Dominate Monster": {
-			"name": "Dominate Monster",
-			"description": "<p>One creature you can see within range must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.</p><p>You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.</p><p>You can command the target to take a Reaction but must take your own Reaction to do so.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a level 9 spell slot (up to 8 hours).</p>",
-			"effects": {
-				"Dominated": {
-					"name": "Dominated",
-					"description": "<p>Whenever the target takes damage, it repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
-		"Dominate Person": {
-			"name": "Dominate Person",
-			"description": "<p>One Humanoid you can see within range must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.</p><p>You have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.</p><p>You can command the target to take a Reaction but must take your own Reaction to do so.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 6 (up to 10 minutes), 7 (up to 1 hour), or 8+ (up to 8 hours).</p>",
-			"effects": {
-				"Dominated": {
-					"name": "Dominated",
-					"description": "<p>Whenever the &amp;Reference[charmed apply=false] target takes damage, it repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
+            "name": "Підкорення потвори",
+            "description": "<p>Одна істота, яку ви бачите в межах дистанції, повинна успішно зробити рятівний кидок Мудрості, інакше вона отримає стан &amp;Reference[Charmed apply=false]{Очарований} на час дії заклинання. Ціль має перевагу (Advantage) на цей рятівний кидок, якщо ви або ваші союзники б'єтеся з нею. Щоразу, коли ціль отримує шкоду, вона повторює рятівний кидок, припиняючи дію заклинання на собі в разі успіху.</p><p>Ви маєте телепатичний зв'язок з очарованою ціллю, поки ви обоє перебуваєте на одному плані існування. У свій хід ви можете використовувати цей зв'язок для віддання наказів цілі (дія не потрібна), наприклад: «Атакуй ту істоту», «Іди туди» або «Принеси той предмет». Ціль робить усе можливе, щоб підкоритися у свій хід. Якщо вона виконує наказ і не отримує від вас подальших вказівок, вона діє та переміщується, як їй заманеться, зосереджуючись на власному захисті.</p><p>Ви можете наказати цілі використати Реакцію (Reaction), але для цього ви повинні витратити власну Реакцію.</p><p><strong>Використання комірки вищого рівня.</strong> Ваша концентрація (Concentration) може тривати довше з коміркою заклинання 9-го рівня (до 8 годин).</p>",
+            "effects": {
+                "Dominated": {
+                    "name": "Підкорений",
+                    "description": "<p>Щоразу, коли ціль отримує шкоду, вона повторює рятівний кидок [[/save ability=wis]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
+        "Dominate Person": {
+            "name": "Підкорення особи",
+            "description": "<p>Один гуманоїд (Humanoid), якого ви бачите в межах дистанції, повинен успішно зробити рятівний кидок Мудрості, інакше він отримає стан &amp;Reference[Charmed apply=false]{Очарований} на час дії заклинання. Ціль має перевагу (Advantage) на цей рятівний кидок, якщо ви або ваші союзники б'єтеся з нею. Щоразу, коли ціль отримує шкоду, вона повторює рятівний кидок, припиняючи дію заклинання на собі в разі успіху.</p><p>Ви маєте телепатичний зв'язок з очарованою ціллю, поки ви обоє перебуваєте на одному плані існування. У свій хід ви можете використовувати цей зв'язок для віддання наказів цілі (дія не потрібна), наприклад: «Атакуй ту істоту», «Іди туди» або «Принеси той предмет». Ціль робить усе можливе, щоб підкоритися у свій хід. Якщо вона виконує наказ і не отримує від вас подальших вказівок, вона діє та переміщується, як їй заманеться, зосереджуючись на власному захисті.</p><p>Ви можете наказати цілі використати Реакцію (Reaction), але для цього ви повинні витратити власну Реакцію.</p><p><strong>Використання комірки вищого рівня.</strong> Ваша концентрація (Concentration) може тривати довше з коміркою заклинання 6-го рівня (до 10 хвилин), 7-го рівня (до 1 години) або 8-го рівня й вище (до 8 годин).</p>",
+            "effects": {
+                "Dominated": {
+                    "name": "Підкорений",
+                    "description": "<p>Щоразу, коли &amp;Reference[charmed apply=false]{очарована} ціль отримує шкоду, вона повторює рятівний кидок [[/save ability=wis]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
 		"Dragon's Breath": {
-			"name": "Dragon's Breath",
-			"description": "<p>You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The damage increases by 1d6 for each spell slot level above 2.</p>"
-		},
-		"Instant Summons": {
-			"name": "Instant Summons",
-			"description": "<p>You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.</p><p>Thereafter, you can take a Magic action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.</p><p>If another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located.</p><section id=\"secret-px4JJQv7QxLmPdka\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This spell's Limited Uses are configured to track the number of inscribed objects, with the \"Inscribe\" and \"Recall\" activities restoring and consuming uses as appropriate.</p></section>"
-		},
-		"Dream": {
-			"name": "Dream",
-			"description": "<p>You target a creature you know on the same plane of existence. You or a willing creature you touch enters a trance state to act as a dream messenger. While in the trance, the messenger is &amp;Reference[Incapacitated apply=false] and has a Speed of 0.</p><p>If the target is asleep, the messenger appears in the target's dreams and can converse with the target as long as it remains asleep, through the spell's duration. The messenger can also shape the dream's environment, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the spell. The target recalls the dream perfectly upon waking.</p><p>If the target is awake when you cast the spell, the messenger knows it and can either end the trance (and the spell) or wait for the target to sleep, at which point the messenger enters its dreams.</p><p>You can make the messenger terrifying to the target. If you do so, the messenger can deliver a message of no more than ten words, and then the target makes a Wisdom saving throw. On a failed save, the target gains no benefit from its rest, and it takes 3d6 Psychic damage when it wakes up.</p>",
-			"effects": {
-				"Trance State": {
-					"name": "Trance State",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">While in the trance, the messenger is Incapacitated and has a Speed of 0.</span></p>",
-					"changes": {
-						"system.attributes.movement.walk": 0,
-						"system.attributes.movement.fly": 0,
-						"system.attributes.movement.swim": 0,
-						"system.attributes.movement.burrow": 0,
-						"system.attributes.movement.climb": 0
-					}
-				}
-			}
-		},
+            "name": "Драконячий подих",
+            "description": "<p>Ви торкаєтеся однієї згідної істоти та обираєте кислоту (Acid), холод (Cold), вогонь (Fire), блискавку (Lightning) або отруту (Poison). До закінчення дії заклинання ціль може виконувати магічну дію (Magic action), щоб видихнути 15-футовий конус (Cone). Кожна істота в цій області робить рятівний кидок Спритності, отримуючи 3d6 шкоди обраного типу в разі провалу або наполовину менше шкоди в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 2-го.</p>"
+        },
+        "Instant Summons": {
+            "name": "Миттєвий заклик",
+            "description": "<p>Ви торкаєтеся сапфіра, який використовується під час створення заклинання, та об'єкта вагою 10 фунтів або менше, найдовший вимір якого не перевищує 6 футів. Заклинання залишає невидиму (Invisible) мітку на цьому об'єкті та невидимо викарбовує назву об'єкта на сапфірі. Щоразу, коли ви створюєте це заклинання, ви повинні використовувати новий сапфір.</p><p>Після цього ви можете виконати магічну дію (Magic action), щоб вимовити назву об'єкта та розчавити сапфір. Об'єкт миттєво з'являється у вашій руці незалежно від фізичної чи планарної відстані, і дія заклинання припиняється.</p><p>Якщо інша істота тримає або несе цей об'єкт, розчавлювання сапфіра не переміщує його, натомість ви дізнаєтеся, що це за істота і де вона зараз перебуває.</p><section id=\"secret-px4JJQv7QxLmPdka\" class=\"secret\"><p><strong>Примітка Foundry</strong></p><p>Обмежена кількість використань (Limited Uses) цього заклинання налаштована на відстеження кількості викарбованих об'єктів, де дії «Inscribe» (Викарбувати) та «Recall» (Відкликати) відновлюють і витрачають використання відповідно.</p></section>"
+        },
+        "Dream": {
+            "name": "Сон",
+            "description": "<p>Ви обираєте ціллю істоту, яку знаєте, на тому ж плані існування. Ви або згідна істота, якої ви торкаєтеся, впадаєте в стан трансу, щоб діяти як вісник снів. Перебуваючи в трансі, вісник є &amp;Reference[Incapacitated apply=false]{Недієздатним} і має швидкість (Speed) 0.</p><p>Якщо ціль спить, вісник з'являється в її снах і може розмовляти з нею, поки вона спить, протягом усієї дії заклинання. Вісник також може змінювати оточення сну, створюючи ландшафти, предмети та інші образи. Вісник може вийти з трансу в будь-який момент, що припиняє дію заклинання. Прокинувшись, ціль ідеально пам'ятає цей сон.</p><p>Якщо ціль не спить у момент створення заклинання, вісник знає про це і може або завершити транс (і заклинання), або зачекати, поки ціль засне, після чого вісник увійде в її сновидіння.</p><p>Ви можете зробити вісника жахливим для цілі. Якщо ви це робите, вісник може передати повідомлення довжиною не більше десяти слів, після чого ціль робить рятівний кидок Мудрості. У разі провалу ціль не отримує жодної користі від свого відпочинку, а прокинувшись, отримує 3d6 психічної шкоди (Psychic damage).</p>",
+            "effects": {
+                "Trance State": {
+                    "name": "Стан трансу",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Перебуваючи в трансі, вісник є Недієздатним і має швидкість (Speed) 0.</span></p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0,
+                        "system.attributes.movement.fly": 0,
+                        "system.attributes.movement.swim": 0,
+                        "system.attributes.movement.burrow": 0,
+                        "system.attributes.movement.climb": 0
+                    }
+                }
+            }
+        },
 		"Druidcraft": {
-			"name": "Druidcraft",
-			"description": "<p>Whispering to the spirits of nature, you create one of the following effects within range.</p><p><strong>Weather Sensor.</strong> You create a Tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a campfire.</p>"
-		},
+            "name": "Друїдство",
+            "description": "<p>Шепочучи до духів природи, ви створюєте один із наступних ефектів у межах дистанції.</p><p><strong>Прогнозування погоди.</strong> Ви створюєте крихітний (Tiny) нешкідливий сенсорний ефект, який передбачає, якою буде погода у вашому місці перебування протягом наступних 24 годин. Ефект може виявитися у вигляді золотої сфери для ясного неба, хмаринки для дощу, падаючих сніжинок для снігу тощо. Цей ефект триває 1 раунд.</p><p><strong>Цвітіння.</strong> Ви миттєво змушуєте квітку розпуститися, насіннєву коробочку відкритися або бруньку листка розцвісти.</p><p><strong>Сенсорний ефект.</strong> Ви створюєте нешкідливий сенсорний ефект, такий як опале листя, примарні танцюючі феї, легкий вітерець, звуки тварини або слабкий запах скунса. Ефект повинен уміщатися в 5-футовий куб (Cube).</p><p><strong>Гра з вогнем.</strong> Ви запалюєте або гасите свічку, смолоскип або багаття.</p>"
+        },
 		"Earthquake": {
 			"name": "Earthquake",
 			"description": "<p>Choose a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point. The ground there is Difficult Terrain.</p><p>When you cast this spell and at the end of each of your turns for the duration, each creature on the ground in the area makes a Dexterity saving throw. On a failed save, a creature has the &amp;Reference[Prone] condition, and its Concentration is broken.</p><p>You can also cause the effects below.</p><p><strong>Fissures.</strong> A total of [[/r 1d6]] fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is [[/r 1d10 * 10]] feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.</p><p><strong>Structures.</strong> The tremor deals [[/damage 50 type=bludgeoning]] damage to any structure in contact with the ground in the area when you cast the spell and at the end of each of your turns until the spell ends. If a structure drops to 0 Hit Points, it collapses.</p><p>A creature within a distance from a collapsing structure equal to half the structure's height makes a Dexterity saving throw. On a failed save, the creature takes 12d6 Bludgeoning damage, has the &amp;Reference[Prone apply=false] condition, and is buried in the rubble, requiring a [[/check ability=str skill=ath dc=20]] check as an action to escape. On a successful save, the creature takes half as much damage only.</p>",
