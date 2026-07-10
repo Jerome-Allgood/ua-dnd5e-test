@@ -1090,410 +1090,406 @@
             }
         },
 		"Fabricate": {
-			"name": "Fabricate",
-			"description": "<p>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.</p><p>Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you're working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.</p><p>Creatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan's Tools used to craft such objects.</p>"
-		},
-		"Faerie Fire": {
-			"name": "Faerie Fire",
-			"description": "<p>Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed &amp;Reference[dimlight] in a 10-foot radius and can't benefit from the Invisible condition.</p><p>Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>",
-			"effects": {
-				"Outlined": {
-					"name": "Outlined",
-					"description": "<p>For the duration, objects and affected creatures shed &amp;Reference[dimlight] in a 10-foot radius and can’t benefit from the Invisible condition.</p><p>Attack rolls against an affected creature or object have Advantage if the attacker can see it.</p>"
-				}
-			}
-		},
-		"False Life": {
-			"name": "False Life",
-			"description": "<p>You gain 2d4 + 4 Temporary Hit Points.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You gain 5 additional Temporary Hit Points for each spell slot level above 1.</p>"
-		},
+            "name": "Виготовлення",
+            "description": "<p>Ви перетворюєте сировину на вироби з того самого матеріалу. Наприклад, ви можете виготовити дерев'яний міст із купи дерев, мотузку з ділянки конопель або одяг із льону чи вовни.</p><p>Оберіть сировину, яку ви бачите в межах дистанції. Ви можете виготовити Великий (Large) або менший об'єкт (що вміщується в 10-футовий куб або вісім з'єднаних 5-футових кубів) за наявності достатньої кількості матеріалу. Однак, якщо ви працюєте з металом, каменем або іншою мінеральною речовиною, виготовлений об'єкт не може бути більшим за Середній (Medium) (що вміщується в 5-футовий куб). Якість будь-яких виготовлених об'єктів залежить від якості сировини.</p><p>Цим заклинанням не можна створювати істот та магічні предмети. Ви також не можете використовувати його для створення предметів, які вимагають високого рівня майстерності — таких як зброя та обладунки — якщо тільки ви не володієте відповідним типом інструментів ремісника (Artisan's Tools), які використовуються для виготовлення таких об'єктів.</p>"
+        },
+        "Faerie Fire": {
+            "name": "Вогонь фей",
+            "description": "<p>Об'єкти в 20-футовому кубі (Cube) в межах дистанції окреслюються синім, зеленим або фіолетовим світлом (на ваш вибір). Кожна істота в кубі також окреслюється, якщо провалює рятівний кидок Спритності. На час дії заклинання об'єкти та уражені істоти випромінюють &amp;Reference[dimlight]{тьмяне світло} в радіусі 10 футів і не можуть отримувати переваги від стану Невидимий (Invisible).</p><p>Кидки атаки проти ураженої істоти або об'єкта мають перевагу (Advantage), якщо атакувальник бачить ціль.</p>",
+            "effects": {
+                "Outlined": {
+                    "name": "Окреслений",
+                    "description": "<p>На час дії заклинання об'єкти та уражені істоти випромінюють &amp;Reference[dimlight]{тьмяне світло} в радіусі 10 футів і не можуть отримувати переваги від стану Невидимий.</p><p>Кидки атаки проти ураженої істоти або об'єкта мають перевагу, якщо атакувальник бачить ціль.</p>"
+                }
+            }
+        },
+        "False Life": {
+            "name": "Хибне життя",
+            "description": "<p>Ви отримуєте 2d4 + 4 тимчасових хітів (Temporary Hit Points).</p><p><strong>Використання комірки вищого рівня.</strong> Ви отримуєте 5 додаткових тимчасових хітів за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Fear": {
-			"name": "Fear",
-			"description": "<p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the &amp;Reference[frightened apply=false] condition for the duration.</p><p>A Frightened creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.</p>",
-			"effects": {
-				"Fear": {
-					"name": "Fear",
-					"description": "<p>A &amp;Reference[frightened apply=false] creature takes the &amp;Reference[dash] action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn’t have line of sight to you, the creature makes a [[/save ability=wis]] saving throw. On a successful save, the spell ends on that creature.</p>"
-				}
-			}
-		},
-		"Feather Fall": {
-			"name": "Feather Fall",
-			"description": "<p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.</p>"
-		},
-		"Find Familiar": {
-			"name": "Find Familiar",
-			"description": "<p>You gain the service of a familiar, a spirit that takes an animal form you choose: <strong>Bat</strong>, <strong>Cat</strong>, <strong>Frog</strong>, <strong>Hawk</strong>, <strong>Lizard</strong>, <strong>Octopus</strong>, <strong>Owl</strong>, <strong>Rat</strong>, <strong>Raven</strong>, <strong>Spider</strong>, <strong>Weasel</strong>, or another Beast that has a Challenge Rating of 0. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (see appendix B), though it is a Celestial, Fey, or Fiend (your choice) instead of a Beast. Your familiar acts independently of you, but it obeys your commands.</p><p><strong>Telepathic Connection.</strong> While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as a Bonus Action, you can see through the familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses it has.</p><p>Finally, when you cast a spell with a range of touch, your familiar can deliver the touch. Your familiar must be within 100 feet of you, and it must take a Reaction to deliver the touch when you cast the spell.</p><p><strong>Combat.</strong> The familiar is an ally to you and your allies. It rolls its own Initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.</p><p><strong>Disappearance of the Familiar.</strong> When the familiar drops to 0 Hit Points, it disappears. It reappears after you cast this spell again. As a Magic action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As a Magic action while it is temporarily dismissed, you can cause it to reappear in an unoccupied space within 30 feet of you. Whenever the familiar drops to 0 Hit Points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.</p><p><strong>One Familiar Only.</strong> You can't have more than one familiar at a time. If you cast this spell while you have a familiar, you instead cause it to adopt a new eligible form.</p>"
-		},
+            "name": "Страх",
+            "description": "<p>Кожна істота в 30-футовому конусі (Cone) повинна успішно зробити рятівний кидок Мудрості, інакше вона впустить усе, що тримає в руках, і отримає стан &amp;Reference[frightened apply=false]{Зляканий} до закінчення дії заклинання.</p><p>Злякана істота виконує дію &amp;Reference[dash]{Ривок} і рухається від вас найбезпечнішим маршрутом у кожен свій хід, якщо тільки їй є куди рухатися. Якщо істота закінчує свій хід у просторі, де вона не має лінії видимості (line of sight) з вами, вона робить рятівний кидок Мудрості. У разі успішного рятівного кидка дія заклинання на цю істоту припиняється.</p>",
+            "effects": {
+                "Fear": {
+                    "name": "Страх",
+                    "description": "<p>Злякана істота виконує дію &amp;Reference[dash]{Ривок} і рухається від вас найбезпечнішим маршрутом у кожен свій хід, якщо тільки їй є куди рухатися. Якщо істота закінчує свій хід у просторі, де вона не має лінії видимості з вами, вона робить рятівний кидок [[/save ability=wis]]. У разі успішного рятівного кидка дія заклинання на цю істоту припиняється.</p>"
+                }
+            }
+        },
+        "Feather Fall": {
+            "name": "Плавне падіння",
+            "description": "<p>Оберіть до п'яти істот, що падають, у межах дистанції. Швидкість падіння істоти сповільнюється до 60 футів за раунд до закінчення дії заклинання. Якщо істота приземляється до закінчення дії заклинання, вона не зазнає шкоди від падіння, і дія заклинання на цю істоту припиняється.</p>"
+        },
+        "Find Familiar": {
+            "name": "Пошук фамільяра",
+            "description": "<p>Ви отримуєте послуги фамільяра — духа, що набуває обраної вами тваринної форми: <strong>Кажан</strong>, <strong>Кіт</strong>, <strong>Жаба</strong>, <strong>Яструб</strong>, <strong>Ящірка</strong>, <strong>Осьминіг</strong>, <strong>Сова</strong>, <strong>Щур</strong>, <strong>Ворóна</strong>, <strong>Павук</strong>, <strong>Ласка</strong> або інша Істота (Beast) з показником небезпеки (Challenge Rating) 0. З'являючись у вільному просторі в межах дистанції, фамільяр має характеристики обраної форми (див. додаток B), хоча він є Небожителем (Celestial), Феєю (Fey) або Бестією (Fiend) на ваш вибір замість Істоти. Ваш фамільяр діє незалежно від вас, але підкоряється вашим командам.</p><p><strong>Телепатичний зв'язок.</strong> Поки ваш фамільяр перебуває в межах 100 футів від вас, ви можете спілкуватися з ним телепатично. Крім того, бонусною дією ви можете дивитися очима фамільяра та чути те, що чує він, до початку вашого наступного ходу, отримуючи переваги будь-яких його особливих чуттів.</p><p>Зрештою, коли ви створюєте заклинання з дистанцією «дотик», ваш фамільяр може передати цей дотик. Фамільяр повинен перебувати в межах 100 футів від вас і витратити свою реакцію (Reaction), щоб передати дотик, коли ви створюєте заклинання.</p><p><strong>Бой.</strong> Фамільяр є союзником для вас та ваших соратників. Він кидає власну ініціативу й діє у свій власний хід. Фамільяр не може атакувати, але може виконувати інші дії як зазвичай.</p><p><strong>Зникнення фамільяра.</strong> Коли хіти фамільяра опускаються до 0, він зникає. Він з'являється знову після того, як ви знову створите це заклинання. Магічною дією (Magic action) ви можете тимчасово відіслати фамільяра в кишеньковий вимір. Або ж ви можете відпустити його назавжди. Виконуючи магічну дію, поки він тимчасово відісланий, ви можете змусити його знову з'явитися у вільному просторі в межах 30 футів від вас. Коли фамільяр втрачає всі хіти або зникає в кишеньковому вимірі, він залишає у своєму просторі все, що було на ньому вдягнене або що він переносив.</p><p><strong>Тільки один фамільяр.</strong> Ви не можете мати більше одного фамільяра одночасно. Якщо ви створюєте це заклинання, вже маючи фамільяра, ви замість цього змушуєте його змінити форму на іншу доступну.</p>"
+        },
 		"Find Steed": {
-			"name": "Find Steed",
-			"description": "<p>You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobOtherworld]{Otherworldly Steed}</strong> stat block. If you already have a steed from this spell, the steed is replaced by the new one.</p><p>The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed's creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.</p><p><strong>Combat.</strong> The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a &amp;Reference[controllingamount]{controlled mount} while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.</p><p><strong>Disappearance of the Steed.</strong> The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot's level for the spell's level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the steed's Traits and Actions, the following attributes are also affected.</p><table><caption>Otherworldly Steed</caption><tbody><tr><td><strong>AC</strong></td><td>10 + 1 per spell level</td></tr><tr><td><strong>HP</strong></td><td>5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)</td></tr><tr><td><strong>Speed</strong></td><td>60 ft., Fly 60 ft. (requires level 4+ spell)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Foundry Note</strong></p><p>The <strong>Summon Flying Steed</strong> activity should be used when consuming a fourth level or higher spell slot and is configured to apply the Fly Speed.</p><p>When using a second or third level spell slot, the <strong>Summon Steed</strong> activity should be used instead.</p></section>",
-			"effects": {
-				"Flying Steed": {
-					"name": "Flying Steed",
-					"description": "<p>The steed has a Fly speed of 60ft. when summoned by a level 4+ spell.</p>",
-					"changes": {
-						"system.attributes.movement.fly": 60
-					}
-				}
-			}
-		},
+            "name": "Пошук скакуна",
+            "description": "<p>Ви призиваєте потойбічну істоту, яка з'являється у вигляді вірного скакуна у вільному просторі на ваш вибір у межах дистанції. Ця істота використовує блок характеристик <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobOtherworld]{Потойбічний скакун}</strong>. Якщо у вас уже є скакун від цього заклинання, новий скакун замінює собою попереднього.</p><p>Скакун зовні нагадує Велику (Large) тварину для верхової їзди на ваш вибір, наприклад: коня, верблюда, лютововка чи лося. Щоразу, коли ви створюєте це заклинання, обирайте тип істоти — Небожитель (Celestial), Фея (Fey) або Бестія (Fiend), що визначає певні риси в блоці характеристик.</p><p><strong>Бій.</strong> Скакун є союзником для вас та ваших соратників. У бою він розділяє ваше значення ініціативи, і поки ви їдете на ньому верхи, він функціонує як &amp;Reference[controllingamount]{керована верхова істота} (як визначено в правилах верхового бою). Якщо ви отримаєте стан Недієздатний (Incapacitated), скакун робить свій хід одразу після вашого й діє незалежно, зосереджуючись на вашому захисті.</p><p><strong>Зникнення скакуна.</strong> Скакун зникає, якщо його хіти опускаються до 0 або якщо ви помираєте. Коли він зникає, він залишає після себе все, що було на ньому вдягнене або що він переносив. Якщо ви знову створюєте це заклинання, ви вирішуєте, чи призвати того скакуна, який зник, чи іншого.</p><p><strong>Використання комірки вищого рівня.</strong> Використовуйте рівень комірки заклинання замість рівня заклинання в блоці характеристик.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>На додаток до зазначеного використання рівня заклинання в Рисах та Діях скакуна, під дію також підпадають наступні атрибути.</p><table><caption>Потойбічний скакун</caption><tbody><tr><td><strong>КД (AC)</strong></td><td>10 + 1 за рівень заклинання</td></tr><tr><td><strong>Хіти (HP)</strong></td><td>5 + 10 за рівень заклинання (скакун має кількість Костей Хітів [d10] рівну рівню заклинання)</td></tr><tr><td><strong>Швидкість</strong></td><td>60 футів, політ 60 футів (вимагає комірки заклинання 4-го+ рівня)</td></tr><tr><td><strong>БМ (PB)</strong></td><td>дорівнює вашому Бонусу Майстерності</td></tr></tbody></table></article></section><section class=\"secret\" id=\"secret-SI4qlfj05o21BBGg\"><p><strong>Примітка Foundry</strong></p><p>Активність <strong>Summon Flying Steed (Призов літаючого скакуна)</strong> слід використовувати під час витрачання комірки заклинання четвертого або вищого рівня, вона налаштована на застосування швидкості польоту.</p><p>У разі використання комірки заклинання другого або третього рівня замість цього слід використовувати активність <strong>Summon Steed (Призов скакуна)</strong>.</p></section>",
+            "effects": {
+                "Flying Steed": {
+                    "name": "Літаючий скакун",
+                    "description": "<p>Скакун має швидкість польоту 60 футів, якщо він призваний заклинанням 4-го+ рівня.</p>",
+                    "changes": {
+                        "system.attributes.movement.fly": 60
+                    }
+                }
+            }
+        },
 		"Find Traps": {
-			"name": "Find Traps",
-			"description": "<p>You sense any trap within range that is within line of sight. A trap, for the purpose of this spell, includes any object or mechanism that was created to cause damage or other danger. Thus, the spell would sense the <em>Alarm</em> or <em>Glyph of Warding</em> spell or a mechanical pit trap, but it wouldn't reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p><p>This spell reveals that a trap is present but not its location. You do learn the general nature of the danger posed by a trap you sense.</p>"
-		},
-		"Find the Path": {
-			"name": "Find the Path",
-			"description": "<p>You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as \"a green dragon's lair\").</p><p>For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. Whenever you face a choice of paths along the way there, you know which path is the most direct.</p>"
-		},
-		"Finger of Death": {
-			"name": "Finger of Death",
-			"description": "<p>You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.</p><p>A Humanoid killed by this spell rises at the start of your next turn as a <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Zombie}</strong> (see appendix B) that follows your verbal orders.</p>"
-		},
-		"Fire Bolt": {
-			"name": "Fire Bolt",
-			"description": "<p>You hurl a mote of fire at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Fire damage. A flammable object hit by this spell starts burning if it isn't being worn or carried.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>"
-		},
+            "name": "Пошук пасток",
+            "description": "<p>Ви відчуваєте будь-юку пастку в межах дистанції, що перебуває в лінії видимості (line of sight). Пастка, для цілей цього заклинання, включає будь-який об'єкт або механізм, створений для завдання шкоди або створення іншої небезпеки. Таким чином, заклинання відчує заклинання <em>Alarm (Тривога)</em> чи <em>Glyph of Warding (Знаки захисту)</em> або механічну пастку-яму, але воно не виявить природну слабкість підлоги, нестабільну стелю чи приховане карстове провалля.</p><p>Це заклинання виявляє факт наявності пастки, але не її місцезнаходження. Проте ви дізнаєтеся про загальний характер небезпеки, яку становить відчута вами пастка.</p>"
+        },
+        "Find the Path": {
+            "name": "Пошук шляху",
+            "description": "<p>Ви магічним чином відчуваєте найпряміший фізичний маршрут до названого вами місця. Ви повинні бути знайомі з цим місцем, і заклинання провалюється, якщо ви називаєте пункт призначення на іншому плані існування, рухому ціль (наприклад, пересувну фортецю) або невизначене місце призначення (наприклад, «лігво зеленого дракона»).</p><p>Протягом дії заклинання, поки ви перебуваєте на тому самому плані існування, що й пункт призначення, ви знаєте, як далеко він розташований і в якому напрямку лежить. Щоразу, коли на шляху туди ви постаєте перед вибором доріг, ви знаєте, яка з них є найпрямішою.</p>"
+        },
+        "Finger of Death": {
+            "name": "Перст смерті",
+            "description": "<p>Ви спрямовуєте негативну енергію на істоту, яку бачите в межах дистанції. Ціль робить рятівний кидок Тілобудови, отримуючи 7d8 + 30 некротичної шкоди (Necrotic damage) у разі провалу або вдвічі менше шкоди в разі успіху.</p><p>Гуманоїд (Humanoid), убитий цим заклинанням, повстає на початку вашого наступного ходу як <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmZombie00000000]{Зомбі}</strong> (див. додаток B), який виконує ваші словесні накази.</p>"
+        },
+        "Fire Bolt": {
+            "name": "Вогняна стріла",
+            "description": "<p>Ви жбурляєте згусток вогню в істоту або об'єкт у межах дистанції. Зробіть далекобійну атаку заклинанням (ranged spell attack) проти цілі. У разі влучання ціль отримує 1d10 вогняної шкоди (Fire damage). Легкозаймистий об'єкт, у який влучило це заклинання, починає горіти, якщо тільки його ніхто не вдягнув і не переносить.</p><p><strong>Покращення фокусу.</strong> Шкода збільшується на 1d10, коли ви досягаєте 5-го рівня (2d10), 11-го рівня (3d10) і 17-го рівня (4d10).</p>"
+        },
 		"Fire Shield": {
-			"name": "Fire Shield",
-			"description": "<p>Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes [[/damage 2d8 type=fire]] damage from a warm shield or [[/damage 2d8 type=cold]] damage from a chill shield.</p>",
-			"effects": {
-				"Warm Shield": {
-					"name": "Warm Shield",
-					"description": "<p>Whenever a creature within 5 feet of you hits you with a melee attack roll, the attacker takes [[/damage 2d8 type=fire]] damage.</p>",
-					"changes": {
-						"system.traits.dr.value": "cold"
-					}
-				},
-				"Chill Shield": {
-					"name": "Chill Shield",
-					"description": "<p>Whenever a creature within 5 feet of you hits you with a melee attack roll, the attacker takes [[/damage 2d8 type=cold]] damage.</p>",
-					"changes": {
-						"system.traits.dr.value": "fire"
-					}
-				}
-			}
-		},
+            "name": "Вогняний щит",
+            "description": "<p>Тонкі язики полум'я оповивають ваше тіло на час дії заклинання, випромінюючи яскраве світло (Bright Light) в радіусі 10 футів і тьмяне світло (Dim Light) ще на 10 футів.</p><p>Полум'я створює теплий або холодний щит на ваш вибір. Теплий щит дає вам опір (Resistance) до шкоди холодом, а холодний щит дає опір до шкоди вогнем.</p><p>Крім того, щоразу, коли істота в межах 5 футів від вас влучає по вас кидком ближньої атаки (melee attack roll), щит спалахує полум'ям. Атакувальник отримує [[/damage 2d8 type=fire]] шкоди від теплого щита або [[/damage 2d8 type=cold]] шкоди від холодного щита.</p>",
+            "effects": {
+                "Warm Shield": {
+                    "name": "Теплий щит",
+                    "description": "<p>Щоразу, коли істота в межах 5 футів від вас влучає по вас кидком ближньої атаки, атакувальник отримує [[/damage 2d8 type=fire]] шкоди.</p>",
+                    "changes": {
+                        "system.traits.dr.value": "cold"
+                    }
+                },
+                "Chill Shield": {
+                    "name": "Холодний щит",
+                    "description": "<p>Щоразу, коли істота в межах 5 футів від вас влучає по вас кидком ближньої атаки, атакувальник отримує [[/damage 2d8 type=cold]] шкоди.</p>",
+                    "changes": {
+                        "system.traits.dr.value": "fire"
+                    }
+                }
+            }
+        },
 		"Fire Storm": {
-			"name": "Fire Storm",
-			"description": "<p>A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each Cube must be contiguous with at least one other Cube. Each creature in the area makes a Dexterity saving throw, taking 7d10 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable objects in the area that aren't being worn or carried start burning.</p>"
-		},
-		"Fireball": {
-			"name": "Fireball",
-			"description": "<p>A bright streak flashes from you to a point you choose within range and then blossoms with a low roar into a fiery explosion. [[lookup @labels.description.affects capitalize]] in a [[lookup @labels.description.template]] centered on that point makes a Dexterity saving throw, taking 8d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable objects in the area that aren't being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>"
-		},
-		"Flame Blade": {
-			"name": "Flame Blade",
-			"description": "<p>You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.</p><p>As a Magic action, you can make a melee spell attack with the fiery blade. On a hit, the target takes Fire damage equal to 3d6 plus your spellcasting ability modifier.</p><p>The flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 2.</p>"
-		},
-		"Flame Strike": {
-			"name": "Flame Strike",
-			"description": "<p>A vertical column of brilliant fire roars down from above. Each creature in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range makes a Dexterity saving throw, taking 5d6 Fire damage and 5d6 Radiant damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5.</p>"
-		},
+            "name": "Вогняний шторм",
+            "description": "<p>У межах дистанції з'являється вогняний шторм. Область шторму складається з максимум десяти 10-футових кубів (Cubes), які ви розташовуєте на свій розсуд. Кожен куб повинен стикатися щонайменше з одним іншим кубом. Кожна істота в цій області робить рятівний кидок Спритності, отримуючи 7d10 вогняної шкоди (Fire damage) у разі провалу або вдвічі менше шкоди в разі успіху.</p><p>Легкозаймисті об'єкти в цій області, які ніхто не вдягнув і не переносить, починають горіти.</p>"
+        },
+        "Fireball": {
+            "name": "Вогняна куля",
+            "description": "<p>Яскрава смуга світла спалахує від вас до точки, яку ви обираєте в межах дистанції, а потім із глухим гуркотом розквітає вогняним вибухом. [[lookup @labels.description.affects capitalize]] у [[lookup @labels.description.template]], центрованому на цій точці, робить рятівний кидок Спритності, отримуючи 8d6 вогняної шкоди (Fire damage) у разі провалу або вдвічі менше шкоди в разі успіху.</p><p>Легкозаймисті об'єкти в цій області, які ніхто не вдягнув і не переносить, починають горіти.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 3-го.</p>"
+        },
+        "Flame Blade": {
+            "name": "Полум'яний клинок",
+            "description": "<p>Ви викликаєте вогняний клинок у своїй вільній руці. Клинок подібний за розміром і формою до ятагана (scimitar), і він існує протягом дії заклинання. Якщо ви випустите клинок з руки, він зникне, але ви можете викликати його знову бонусною дією.</p><p>Магічною дією (Magic action) ви можете зробити ближню атаку заклинанням (melee spell attack) цим вогняним клинком. У разі влучання ціль отримує вогняну шкоду (Fire damage), що дорівнює 3d6 плюс модифікатор вашої характеристики заклинання.</p><p>Палаючий клинок випромінює яскраве світло (Bright Light) в радіусі 10 футів і тьмяне світло (Dim Light) ще на 10 футів.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 2-го.</p>"
+        },
+        "Flame Strike": {
+            "name": "Вогняний удар",
+            "description": "<p>Вертикальний стовп сліпучого вогню з гуркотом падає згори. Кожна істота в Циліндрі (Cylinder) радіусом 10 футів і висотою 40 футів, центрованому на точці в межах дистанції, робить рятівний кидок Спритності, отримуючи 5d6 вогняної шкоди (Fire damage) та 5d6 променистої шкоди (Radiant damage) у разі провалу або вдвічі менше шкоди в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Вогняна шкода та промениста шкода збільшуються на 1d6 кожна за кожен рівень комірки вище 5-го.</p>"
+        },
 		"Flaming Sphere": {
-			"name": "Flaming Sphere",
-			"description": "<p>You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a [[/save ability=dex dc=@attributes.spell.dc]] saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>As a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature's space, that creature makes the save against the sphere, and the sphere stops moving for the turn.</p><p>When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. Flammable objects that aren't being worn or carried start burning if touched by the sphere, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 2.</p>"
-		},
-		"Flesh to Stone": {
-			"name": "Flesh to Stone",
-			"description": "<p>You attempt to turn one creature that you can see within range into stone. The target makes a Constitution saving throw. On a failed save, it has the &amp;Reference[Restrained apply=false] condition for the duration. On a successful save, its Speed is 0 until the start of your next turn. Constructs automatically succeed on the save.</p><p>A Restrained target makes another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the &amp;Reference[Petrified] condition for the duration. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.</p><p>If you maintain your Concentration on this spell for the entire possible duration, the target is Petrified until the condition is ended by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> or similar magic.</p>",
-			"effects": {
-				"Turning to Stone": {
-					"name": "Turning to Stone",
-					"description": "<p>A &amp;Reference[Restrained apply=false] target makes another [[/save ability=con format=long]] at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the &amp;Reference[Petrified] condition for the duration. </p>"
-				},
-				"Unable to Move": {
-					"name": "Unable to Move",
-					"description": "<p>On a successful save, its Speed is 0 until the start of your next turn.</p>",
-					"changes": {
-						"system.attributes.movement.walk": 0,
-						"system.attributes.movement.fly": 0,
-						"system.attributes.movement.swim": 0,
-						"system.attributes.movement.climb": 0,
-						"system.attributes.movement.burrow": 0
-					}
-				}
-			}
-		},
+            "name": "Палаюча сфера",
+            "description": "<p>Ви створюєте сферу з вогню діаметром 5 футів у вільному просторі на землі в межах дистанції. Вона існує протягом дії заклинання. Будь-яка істота, яка закінчує свій хід у межах 5 футів від сфери, робить рятівний кидок [[/save ability=dex dc=@attributes.spell.dc]], отримуючи 2d6 вогняної шкоди (Fire damage) у разі провалу або вдвічі менше шкоди в разі успіху.</p><p>Бонусною дією ви можете перемістити сферу на відстань до 30 футів, перекочуючи її по землі. Якщо ви переміщуєте сферу в простір істоти, ця істота робить рятівний кидок проти сфери, і сфера зупиняє свій рух у цей хід.</p><p>Коли ви переміщуєте сферу, ви можете спрямовувати її через бар'єри заввишки до 5 футів і перестрибувати нею через ями завширшки до 10 футів. Легкозаймисті об'єкти, які ніхто не вдягнув і не переносить, починають горіти, якщо сфера торкається їх. Вона також випромінює яскраве світло (Bright Light) в радіусі 20 футів і тьмяне світло (Dim Light) ще на 20 футів.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 2-го.</p>"
+        },
+        "Flesh to Stone": {
+            "name": "Плоть на камінь",
+            "description": "<p>Ви намагаєтеся перетворити на камінь одну істоту, яку бачите в межах дистанції. Ціль робить рятівний кидок Тілобудови. У разі провалу вона отримує стан &amp;Reference[Restrained apply=false]{Обплутаний} на час дії заклинання. У разі успішного рятівного кидка її швидкість (Speed) стає рівною 0 до початку вашого наступного ходу. Конструкти (Constructs) автоматично досягають успіху в цьому рятівному кидку.</p><p>Обплутана ціль робить ще один рятівний кидок Тілобудови наприкінці кожного свого ходу. Якщо вона успішно робить рятівний кидок проти цього заклинання тричі, заклинання закінчується. Якщо вона провалює рятівні кидки тричі, вона перетворюється на камінь і отримує стан &amp;Reference[Petrified]{Скам'янілий} на час дії заклинання. Успіхи та провали не обов'язково мають бути послідовними; відстежуйте обидва показники, доки ціль не збере три однакові результати.</p><p>Якщо ви підтримуєте концентрацію (Concentration) на цьому заклинанні протягом усієї можливої тривалості, ціль залишається скам'янілою, доки цей стан не буде знято заклинанням <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Вище відновлення}</em> або подібною магією.</p>",
+            "effects": {
+                "Turning to Stone": {
+                    "name": "Перетворення на камінь",
+                    "description": "<p>Обплутана ціль робить ще один рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу. Якщо вона успішно робить рятівний кидок проти цього заклинання тричі, заклинання закінчується. Якщо вона провалює рятівні кидки тричі, вона перетворюється на камінь і отримує стан &amp;Reference[Petrified]{Скам'янілий} на час дії заклинання.</p>"
+                },
+                "Unable to Move": {
+                    "name": "Нездатний рухатися",
+                    "description": "<p>У разі успішного рятівного кидка її швидкість стає рівною 0 до початку вашого наступного ходу.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0,
+                        "system.attributes.movement.fly": 0,
+                        "system.attributes.movement.swim": 0,
+                        "system.attributes.movement.climb": 0,
+                        "system.attributes.movement.burrow": 0
+                    }
+                }
+            }
+        },
 		"Fly": {
-			"name": "Fly",
-			"description": "<p>You touch a willing creature. For the duration, the target gains a Fly Speed of 60 feet and can hover. When the spell ends, the target falls if it is still aloft unless it can stop the fall.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>",
-			"effects": {
-				"Flight": {
-					"name": "Flight",
-					"changes": {
-						"system.attributes.movement.fly": 60,
-						"system.attributes.movement.hover": true
-					}
-				}
-			}
-		},
-		"Fog Cloud": {
-			"name": "Fog Cloud",
-			"description": "<p>You create a 20-foot-radius Sphere of fog centered on a point within range. The Sphere is &amp;Reference[heavilyobscured]. It lasts for the duration or until a strong wind (such as one created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The fog's radius increases by 20 feet for each spell slot level above 1.</p>"
-		},
+            "name": "Політ",
+            "description": "<p>Ви торкаєтеся добровільної істоти. На час дії заклинання ціль отримує швидкість польоту (Fly Speed) 60 футів і може зависати в повітрі (hover). Коли дія заклинання закінчується, ціль падає, якщо вона все ще перебуває в повітрі, хіба що вона може зупинити падіння.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 3-го.</p>",
+            "effects": {
+                "Flight": {
+                    "name": "Політ",
+                    "changes": {
+                        "system.attributes.movement.fly": 60,
+                        "system.attributes.movement.hover": true
+                    }
+                }
+            }
+        },
+        "Fog Cloud": {
+            "name": "Хмара туману",
+            "description": "<p>Ви створюєте сферу (Sphere) туману радіусом 20 футів із центром у точці в межах дистанції. Ця сфера є &amp;Reference[heavilyobscured]{сильно закритим простором}. Вона існує протягом дії заклинання або доки сильний вітер (наприклад, створений заклинанням <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Порив вітру}</em>) не розвіє її.</p><p><strong>Використання комірки вищого рівня.</strong> Радіус туману збільшується на 20 футів за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Forbiddance": {
-			"name": "Forbiddance",
-			"description": "<p>You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the <em>Gate</em> spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, the Ethereal Plane, the Feywild, the Shadowfell, or the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Plane Shift}</em> spell.</p><p>In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: Aberrations, Celestials, Elementals, Fey, Fiends, and Undead. When a creature of a chosen type enters the spell's area for the first time on a turn or ends its turn there, the creature takes 5d10 Radiant or Necrotic damage (your choice when you cast this spell).</p><p>You can designate a password when you cast the spell. A creature that speaks the password as it enters the area takes no damage from the spell.</p><p>The spell's area can't overlap with the area of another <em>Forbiddance</em> spell. If you cast <em>Forbiddance</em> every day for 30 days in the same location, the spell lasts until it is dispelled, and the Material components are consumed on the last casting.</p>"
-		},
-		"Forcecage": {
-			"name": "Forcecage",
-			"description": "<p>An immobile, Invisible, Cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box, as you choose.</p><p>A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart. A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out from the area.</p><p>When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside it, are pushed away from the center of the area until they are completely outside it.</p><p>A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave, it must first make a [[/save ability=cha dc=@attributes.spell.dc format=long]]. On a successful save, the creature can use that magic to exit the cage. On a failed save, the creature doesn't exit the cage and wastes the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.</p><p>This spell can't be dispelled by <em>Dispel Magic</em>.</p>"
-		},
+            "name": "Заборона",
+            "description": "<p>Ви створюєте захист від магічних подорожей, який оберігає до 40 000 квадратних футів площі підлоги на висоту до 30 футів над нею. На час дії заклинання істоти не можуть телепортуватися в цю область або використовувати портали, наприклад, створені заклинанням <em>Gate (Брама)</em>, щоб увійти до неї. Заклинання захищає область від подорожей між планами й, таким чином, заважає істотам потрапити сюди через Астральний план, Ефірний план, Диколісся (Feywild), Похмуролісся (Shadowfell) або заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlaneShift]{Переміщення планами}</em>.</p><p>Крім того, заклинання завдає шкоди типам істот, які ви обираєте під час його створення. Оберіть один або кілька типів: Аберації (Aberrations), Небожителі (Celestials), Елементалі (Elementals), Феї (Fey), Бестії (Fiends) та Нежить (Undead). Коли істота обраного типу вперше за хід заходить в область дії заклинання або закінчує там свій хід, вона отримує 5d10 променистої (Radiant) або некротичної (Necrotic) шкоди (на ваш вибір під час створення цього заклинання).</p><p>Ви можете встановити пароль під час створення заклинання. Істота, яка вимовляє пароль при вході в область, не зазнає шкоди від цього заклинання.</p><p>Область дії цього заклинання не може перекриватися з областю дії іншого заклинання <em>Заборона</em>. Якщо ви створюєте <em>Заборону</em> щодня протягом 30 днів в одному й тому самому місці, заклинання діє, доки не буде розсіяне, а матеріальні компоненти витрачаються під час останнього створення.</p>"
+        },
+        "Forcecage": {
+            "name": "Силова клітка",
+            "description": "<p>Нерухома, невидима (Invisible) в'язниця у формі куба (Cube), що складається з магічної сили, виникає навколо обраної вами області в межах дистанції. В'язниця може мати форму клітки або суцільного короба на ваш вибір.</p><p>В'язниця у формі клітки може мати сторону завдовжки до 20 футів і складається з лозин діаметром 1/2 дюйма, розташованих на відстані 1/2 дюйма одна від одної. В'язниця у формі короба може мати сторону завдовжки до 10 футів, створюючи суцільний бар'єр, який перешкоджає проходженню будь-якої матерії та блокує будь-які заклинання, що спрямовані всередину або назовні цієї області.</p><p>Коли ви створюєте це заклинання, будь-яка істота, яка повністю перебуває в межах області клітки, опиняється у пастці. Істоти, які перебувають в області лише частково, або ті, що є занадто великими, щоб уміститися всередині неї, виштовхуються від центра області, доки не опиняться повністю ззовні.</p><p>Істота всередині клітки не може покинути її немагічними способами. Якщо істота намагається використати телепортацію або подорож між планами, щоб вибратися, вона повинна спочатку зробити [[/save ability=cha dc=@attributes.spell.dc format=long]]. У разі успішного рятівного кидка істота може використати цю магію, щоб вийти з клітки. У разі провалу істота не залишає клітку й марнує заклинання або ефект. Клітка також поширюється на Ефірний план, блокуючи ефірні подорожі.</p><p>Це заклинання не може бути розсіяне заклинанням <em>Dispel Magic (Розсіяння магії)</em>.</p>"
+        },
 		"Foresight": {
-			"name": "Foresight",
-			"description": "<p>You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.</p>",
-			"effects": {
-				"Foresight": {
-					"name": "Foresight",
-					"description": "<p>For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it.</p>",
-					"changes": {
-						"system.abilities.str.save.roll.mode": 1,
-						"system.abilities.dex.save.roll.mode": 1,
-						"system.abilities.con.save.roll.mode": 1,
-						"system.abilities.int.save.roll.mode": 1,
-						"system.abilities.wis.save.roll.mode": 1,
-						"system.abilities.cha.save.roll.mode": 1,
-						"system.abilities.str.check.roll.mode": 1,
-						"system.abilities.dex.check.roll.mode": 1,
-						"system.abilities.con.check.roll.mode": 1,
-						"system.abilities.int.check.roll.mode": 1,
-						"system.abilities.wis.check.roll.mode": 1,
-						"system.abilities.cha.check.roll.mode": 1
-					}
-				}
-			}
-		},
+            "name": "Передбачення",
+            "description": "<p>Ви торкаєтеся добровільної істоти й наділяєте її обмеженою здатністю бачити найближче майбутнє. На час дії заклинання ціль має перевагу (Advantage) на тести d20 (D20 Tests), а інші істоти мають недолік (Disadvantage) на кидки атаки проти неї. Заклинання закінчується достроково, якщо ви створите його знову.</p>",
+            "effects": {
+                "Foresight": {
+                    "name": "Передбачення",
+                    "description": "<p>На час дії заклинання ціль має перевагу на тести d20, а інші істоти мають недолік на кидки атаки проти неї.</p>",
+                    "changes": {
+                        "system.abilities.str.save.roll.mode": 1,
+                        "system.abilities.dex.save.roll.mode": 1,
+                        "system.abilities.con.save.roll.mode": 1,
+                        "system.abilities.int.save.roll.mode": 1,
+                        "system.abilities.wis.save.roll.mode": 1,
+                        "system.abilities.cha.save.roll.mode": 1,
+                        "system.abilities.str.check.roll.mode": 1,
+                        "system.abilities.dex.check.roll.mode": 1,
+                        "system.abilities.con.check.roll.mode": 1,
+                        "system.abilities.int.check.roll.mode": 1,
+                        "system.abilities.wis.check.roll.mode": 1,
+                        "system.abilities.cha.check.roll.mode": 1
+                    }
+                }
+            }
+        },
 		"Freedom of Movement": {
-			"name": "Freedom of Movement",
-			"description": "<p>You touch a willing creature. For the duration, the target's movement is unaffected by &amp;Reference[DifficultTerrain], and spells and other magical effects can neither reduce the target's Speed nor cause the target to have the &amp;Reference[Paralyzed apply=false] or &amp;Reference[Restrained apply=false] conditions. The target also has a Swim Speed equal to its Speed.</p><p>In addition, the target can spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature imposing the &amp;Reference[Grappled apply=false] condition on it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 4.</p>",
-			"effects": {
-				"Unrestricted Movement": {
-					"name": "Unrestricted Movement",
-					"changes": {
-						"system.traits.ci.value": "restrained",
-						"system.attributes.movement.swim": "@attributes.movement.walk",
-						"system.attributes.movement.ignoredDifficultTerrain": "all"
-					}
-				}
-			}
-		},
+            "name": "Свобода рухів",
+            "description": "<p>Ви торкаєтеся добровільної істоти. На час дії заклинання на переміщення цілі не впливає &amp;Reference[DifficultTerrain]{важкопрохідна місцевість}, а заклинання та інші магічні ефекти не можуть ні зменшити швидкість (Speed) цілі, ні спричинити появу у неї станів &amp;Reference[Paralyzed apply=false]{Паралізований} або &amp;Reference[Restrained apply=false]{Обплутаний}. Ціль також отримує швидкість плавання (Swim Speed), що дорівнює її швидкості.</p><p>Крім того, ціль може витратити 5 футів переміщення, щоб автоматично звільнитися від немагічних пут, таких як кайдани або істота, яка накладає на неї стан &amp;Reference[Grappled apply=false]{Схоплений}.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 4-го.</p>",
+            "effects": {
+                "Unrestricted Movement": {
+                    "name": "Безперешкодний рух",
+                    "changes": {
+                        "system.traits.ci.value": "restrained",
+                        "system.attributes.movement.swim": "@attributes.movement.walk",
+                        "system.attributes.movement.ignoredDifficultTerrain": "all"
+                    }
+                }
+            }
+        },
 		"Gaseous Form": {
-			"name": "Gaseous Form",
-			"description": "<p>A willing creature you touch shape-shifts, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends on the target if it drops to 0 Hit Points or if it takes a Magic action to end the spell on itself.</p><p>While in this form, the target's only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can't talk or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. Finally, the target can't attack or cast spells.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 3.</p>",
-			"effects": {
-				"Gaseous Form": {
-					"name": "Gaseous Form",
-					"description": "<p>The target’s only method of movement is a Fly Speed of 10 feet, and it can hover. The target can enter and occupy the space of another creature. The target has Resistance to Bludgeoning, Piercing, and Slashing damage; it has Immunity to the &amp;Reference[prone apply=false] condition; and it has Advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through narrow openings, but it treats liquids as though they were solid surfaces.</p><p>The target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. Finally, the target can’t attack or cast spells.</p>",
-					"changes": {
-						"system.attributes.movement.fly": 10,
-						"system.attributes.movement.hover": true,
-						"system.traits.dr.value": "slashing",
-						"system.traits.ci.value": "prone",
-						"img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
-						"system.abilities.str.save.roll.mode": 1,
-						"system.abilities.dex.save.roll.mode": 1,
-						"system.abilities.con.save.roll.mode": 1
-					}
-				}
-			}
-		},
+            "name": "Газоподібна подоба",
+            "description": "<p>Добровільна істота, якої ви торкаєтеся, змінює подобу (shape-shifts) разом з усім, що на ній одягнено та що вона несе, перетворюючись на туманну хмару на час дії заклинання. Дія заклинання на цілі закінчується, якщо її пункти здоров'я (Hit Points) падають до 0 або якщо вона використає магічну дію (Magic action), щоб припинити цей ефект на собі.</p><p>У цій подобі єдиним способом переміщення цілі є швидкість польоту (Fly Speed) 10 футів, і вона може зависати в повітрі (hover). Ціль може заходити в простір іншої істоти та займати його. Ціль має опір (Resistance) до дроблячої, проникної та рубаючої шкоди (Bludgeoning, Piercing, and Slashing damage); вона має імунітет (Immunity) до стану &amp;Reference[prone apply=false]{Збитий з ніг}; а також має перевагу (Advantage) на рятівні кидки Сили, Спритності та Тілобудови. Ціль може проходити крізь вузькі отвори, але ставиться до рідин як до твердих поверхонь.</p><p>Ціль не може розмовляти або маніпулювати предметами, а будь-які предмети, які вона несла або тримала, не можна впустити, використати або іншим чином взаємодіяти з ними. Нарешті, ціль не може атакувати або створювати заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 3-го.</p>",
+            "effects": {
+                "Gaseous Form": {
+                    "name": "Газоподібна подоба",
+                    "description": "<p>У цій подобі єдиним способом переміщення цілі є швидкість польоту 10 футів, і вона може зависати в повітрі. Ціль може заходити в простір іншої істоти та займати його. Ціль має опір до дроблячої, проникної та рубаючої шкоди; вона має імунітет до стану &amp;Reference[prone apply=false]{Збитий з ніг}; а також має перевагу на рятівні кидки Сили, Спритності та Тілобудови. Ціль може проходити крізь вузькі отвори, але ставиться до рідин як до твердих поверхонь.</p><p>Ціль не може розмовляти або маніпулювати предметами, а будь-які предмети, які вона несла або тримала, не можна впустити, використати або іншим чином взаємодіяти з ними. Нарешті, ціль не може атакувати або створювати заклинання.</p>",
+                    "changes": {
+                        "system.attributes.movement.fly": 10,
+                        "system.attributes.movement.hover": true,
+                        "system.traits.dr.value": "slashing",
+                        "system.traits.ci.value": "prone",
+                        "img": "icons/magic/air/wind-vortex-swirl-blue-purple.webp",
+                        "system.abilities.str.save.roll.mode": 1,
+                        "system.abilities.dex.save.roll.mode": 1,
+                        "system.abilities.con.save.roll.mode": 1
+                    }
+                }
+            }
+        },
 		"Gate": {
-			"name": "Gate",
-			"description": "<p>You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration, and the portal's destination is visible through it.</p><p>The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.</p><p>Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.</p><p>When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens next to the named creature and transports it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you.</p>"
-		},
-		"Geas": {
-			"name": "Geas",
-			"description": "<p>You give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target automatically succeeds if it can't understand your command.</p><p>While Charmed, the creature takes [[/damage 5d10 type=psychic]] damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.</p><p>You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.</p><p>A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Remove Curse}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell ends this spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above.</p>",
-			"effects": {
-				"Under Orders": {
-					"name": "Under Orders",
-					"description": "<p>While &amp;Reference[Charmed apply=false], the creature takes [[/damage 5d10 type=psyhic]] damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.</p>"
-				}
-			}
-		},
+            "name": "Брама",
+            "description": "<p>Ви створюєте портал, що з'єднує вільний простір, який ви бачите в межах дистанції, з точним місцем на іншому плані існування. Портал являє собою круглий отвір, діаметр якого ви можете зробити від 5 до 20 футів. Ви можете зорієнтувати портал у будь-якому напрямку на свій вибір. Портал існує протягом дії заклинання, і крізь нього видно місце призначення.</p><p>Портал має лицьову та зворотну сторону на кожному плані, де він з'являється. Подорож через портал можлива лише при русі через його лицьову сторону. Будь-що, що робить це, миттєво переноситься на інший план, з'являючись у найближчому вільному просторі до порталу.</p><p>Божества та інші правителі планів можуть завадити відкриттю порталів, створених цим заклинанням, у своїй присутності або будь-де в межах своїх володінь.</p><p>Коли ви створюєте це заклинання, ви можете вимовити ім'я конкретної істоти (псевдонім, титул або прізвисько не підійдуть). Якщо ця істота перебуває на іншому плані, ніж ви, портал відкривається поруч із названою істотою та переносить її до найближчого вільного простору на вашій стороні порталу. Ви не отримуєте особливої влади над істотою, і вона вільна діяти так, як Майстер (DM) вважає за потрібне. Вона може піти, атакувати вас або допомогти вам.</p>"
+        },
+        "Geas": {
+            "name": "Обітниця",
+            "description": "<p>Ви даєте словесний наказ істоті, яку бачите в межах дистанції, наказуючи їй виконати певну послугу або утриматися від дії чи роду діяльності на ваш вибір. Ціль повинна успішно зробити рятівний кидок Мудрості, інакше вона отримає стан &amp;Reference[Charmed apply=false]{Зачарований} на час дії заклинання. Ціль автоматично досягає успіху, якщо не може зрозуміти ваш наказ.</p><p>Перебуваючи в стані Зачарування, істота отримує [[/damage 5d10 type=psychic]] психічної шкоди, якщо діє всупереч вашому наказу. Вона отримує цю шкоду не більше одного разу на день.</p><p>Ви можете дати будь-який наказ на свій вибір, окрім дій, які призведуть до вірної смерті. Якщо ви дасте суїцидальний наказ, заклинання закінчується.</p><p>Заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplRemoveCurs]{Зняття прокляття}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Вище відновлення}</em> або <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Бажання}</em> припиняють дію цього заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Якщо ви використовуєте комірку заклинання 7-го або 8-го рівня, тривалість становить 365 днів. Якщо ви використовуєте комірку заклинання 9-го рівня, заклинання діє, доки не буде припинено одним із згадаваних вище заклинань.</p>",
+            "effects": {
+                "Under Orders": {
+                    "name": "Під наказом",
+                    "description": "<p>Перебуваючи в стані &amp;Reference[Charmed apply=false]{Зачарований}, істота отримує [[/damage 5d10 type=psychic]] психічної шкоди, якщо діє всупереч вашому наказу. Вона отримує цю шкоду не більше одного разу на день.</p>"
+                }
+            }
+        },
 		"Gentle Repose": {
-			"name": "Gentle Repose",
-			"description": "<p>You touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead.</p><p>The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as <em>Raise Dead</em>.</p>"
-		},
-		"Giant Insect": {
-			"name": "Giant Insect",
-			"description": "<p>You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobGiantInsec]{Giant Insect}</strong> stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot's level for the spell's level in the stat block.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>In addition to the noted usage of the spell's level in the insect's Traits and Actions, the following attributes are also affected.</p><table><caption>Giant Insect</caption><tbody><tr><td><strong>AC</strong></td><td>11 + the spell's level</td></tr><tr><td><strong>HP</strong></td><td>30 + 10 for each spell level above 4</td></tr><tr><td><strong>Speed</strong></td><td>40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)</td></tr><tr><td><strong>PB</strong></td><td>equals your Proficiency Bonus</td></tr></tbody></table></article></section>"
-		},
-		"Glibness": {
-			"name": "Glibness",
-			"description": "<p>Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</p>",
-			"effects": {
-				"Glib": {
-					"name": "Glib"
-				}
-			}
-		},
+            "name": "Лагідний спокій",
+            "description": "<p>Ви торкаєтеся трупа або інших останків. На час дії заклинання ціль захищена від розкладання і не може стати Нежиттю (Undead).</p><p>Заклинання також фактично подовжує ліміт часу для воскресіння цілі з мертвих, оскільки дні, проведені під впливом цього заклинання, не враховуються в ліміт часу таких заклинань, як <em>Raise Dead (Воскресіння з мертвих)</em>.</p>"
+        },
+        "Giant Insect": {
+            "name": "Гігантська комаха",
+            "description": "<p>Ви призиваєте гігантську стоніжку, павука або осу (на ваш вибір під час створення заклинання). Вона з'являється у вільному просторі, який ви бачите в межах дистанції, і використовує блок параметрів <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobGiantInsec]{Гігантська комаха}</strong>. Обрана вами форма визначає певні деталі в її блоці параметрів. Істота зникає, коли її пункти здоров'я (Hit Points) падають до 0 або коли заклинання закінчується.</p><p>Істота є союзником для вас та ваших союзників. У бою істота розділяє ваше значення ініціативи, але робить свій хід одразу після вашого. Вона підкоряється вашим словесним командам (від вас не вимагається ніяких дій). Якщо ви не віддаєте жодних команд, вона виконує дію &amp;Reference[Dodge]{Ухилення} і використовує своє переміщення, щоб уникати небезпеки.</p><p><strong>Використання комірки вищого рівня.</strong> Використовуйте рівень комірки як рівень заклинання в блоці параметрів.</p><section class=\"fvtt advice\" style=\"margin:0.5rem;padding:0.5rem\"><article><p>На додаток до зазначеного використання рівня заклинання в рисах та діях комахи, це також впливає на наступні атрибути.</p><table><caption>Гігантська комаха</caption><tbody><tr><td><strong>КД (AC)</strong></td><td>11 + рівень заклинання</td></tr><tr><td><strong>ПЗ (HP)</strong></td><td>30 + 10 за кожен рівень заклинання вище 4-го</td></tr><tr><td><strong>Швидкість</strong></td><td>40 футів, лазіння 40 футів, політ 40 футів (тільки оса)</td></tr><tr><td><strong>БМ (PB)</strong></td><td>дорівнює вашому бонусу майстерності</td></tr></tbody></table></article></section>"
+        },
+        "Glibness": {
+            "name": "Красномовство",
+            "description": "<p>Доки заклинання не закінчиться, коли ви робите перевірку Харизми, ви можете замінити число, яке випало на кубику, на 15. Крім того, незалежно від того, що ви говорите, магія, яка має визначити, чи говорите ви правду, вказує на те, що ви правдиві.</p>",
+            "effects": {
+                "Glib": {
+                    "name": "Красномовний"
+                }
+            }
+        },
 		"Globe of Invulnerability": {
-			"name": "Globe of Invulnerability",
-			"description": "<p>An immobile, shimmering barrier appears in a 10-foot Emanation around you and remains for the duration.</p><p>Any spell of level 5 or lower cast from outside the barrier can't affect anything within it. Such a spell can target creatures and objects within the barrier, but the spell has no effect on them. Similarly, the area within the barrier is excluded from areas of effect created by such spells.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The barrier blocks spells of 1 level higher for each spell slot level above 6.</p><p><strong>Spell levels blocked:</strong>[[@item.level - 1]] and lower</p>"
-		},
-		"Glyph of Warding": {
-			"name": "Glyph of Warding",
-			"description": "<p>You inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor) or within an object that can be closed (such as a book or chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.</p><p>The glyph is nearly imperceptible and requires a successful [[/check ability=wis skill=prc dc=@attributes.spell.dc]] check against your spell save DC to notice.</p><p>When you inscribe the glyph, you set its trigger and choose whether it's an explosive rune or a spell glyph, as explained below.</p><p><strong>Set the Trigger.</strong> You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. Once a glyph is triggered, this spell ends.</p><p>You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.</p><p><strong>Explosive Rune.</strong> When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph. Each creature in the area makes a [[/save ability=dex dc=@attributes.spell.dc]] saving throw. A creature takes 5d8 [[/damage (@item.level + 2)d8 type=acid]]{Acid}, [[/damage (@item.level + 2)d8 type=acid]]{Cold}, [[/damage (@item.level + 2)d8 type=acid]]{Fire}, [[/damage (@item.level + 2)d8 type=acid]]{Lightning}, or [[/damage (@item.level + 2)d8 type=acid]]{Thunder} damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.</p><p><strong>Spell Glyph.</strong> You can store a prepared spell of level 3 or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way.</p><p>When the glyph is triggered, the stored spell takes effect. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons Hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires Concentration, it lasts until the end of its full duration.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage of an explosive rune increases by 1d8 for each spell slot level above 3. If you create a spell glyph, you can store any spell of up to the same level as the spell slot you use for the <em>Glyph of Warding</em>.</p><section class=\"secret\" id=\"secret-S9SAlMniIN14fjKi\"><p><strong>Foundry Note</strong></p><p>The <strong>Explosive Rune</strong> activity allows you to choose the damage type in the roll dialog.</p></section>"
-		},
-		"Goodberry": {
-			"name": "Goodberry",
-			"description": "<p>@UUID[Compendium.dnd5e.spells24.Item.phbutlMagicalBer]{Ten berries} appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.</p><p>Uneaten berries disappear when the spell ends.</p>"
-		},
-		"Grease": {
-			"name": "Grease",
-			"description": "<p>Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into &amp;Reference[difficultterrain] for the duration.</p><p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the &amp;Reference[prone] condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.</p>"
-		},
+            "name": "Сфера невразливості",
+            "description": "<p>Нерухомий, мерехтливий бар'єр з'являється у формі 10-футового випромінювання (Emanation) навколо вас і залишається на час дії заклинання.</p><p>Будь-яке заклинання 5-го рівня або нижче, створене ззовні бар'єра, не може вплинути ні на що всередині нього. Таке заклинання може обирати ціллю істот та предмети всередині бар'єра, але воно не матиме на них жодного ефекту. Аналогічно, область всередині бар'єра виключається з областей дії, створених такими заклинаннями.</p><p><strong>Використання комірки вищого рівня.</strong> Бар'єр блокує заклинання на 1 рівень вище за кожен рівень комірки вище 6-го.</p><p><strong>Заблоковані рівні заклинань:</strong> [[@item.level - 1]] і нижче</p>"
+        },
+        "Glyph of Warding": {
+            "name": "Охоронний знак",
+            "description": "<p>Ви наносите знак, який пізніше вивільняє магічний ефект. Ви наносите його або на поверхню (наприклад, стіл чи частину підлоги), або всередині предмета, який можна закрити (наприклад, книга або скриня), щоб приховати знак. Знак може покривати область розміром не більше 10 футів у діаметрі. Якщо поверхню або предмет перемістити більш ніж на 10 футів від місця створення заклинання, знак руйнується, і заклинання закінчується без спрацьовування.</p><p>Знак майже непомітний і вимагає успішної перевірки [[/check ability=wis skill=prc dc=@attributes.spell.dc]] (Уважність) проти вашої СЛ рятівного кидка від заклинань, щоб його помітити.</p><p>Коли ви наносите знак, ви встановлюєте умову його спрацьовування та обираєте, чи буде це вибухова руна, чи знак заклинання, як описано нижче.</p><p><strong>Встановлення умови спрацьовування.</strong> Ви вирішуєте, що саме активує знак під час створення заклинання. Для знаків, нанесених на поверхню, типовими тригерами є доторк або наступання на знак, прибирання іншого предмета, що його закриває, або наближення на певну відстань до нього. Для знаків, нанесених усередині предмета, типовими тригерами є відкриття цього предмета або візуальний контакт зі знаком. Як тільки знак спрацьовує, дія цього заклинання закінчується.</p><p>Ви можете деталізувати умову, щоб лише істоти певних типів активували його (наприклад, знак можна налаштувати так, щоб він впливав лише на Аберацій). Ви також можете встановити умови для істот, які не активують знак, наприклад, для тих, хто вимовить певний пароль.</p><p><strong>Вибухова руна.</strong> У разі спрацьовування знак вибухає магічною енергією в сфері (Sphere) радіусом 20 футів із центром на знаку. Кожна істота в цій області робить рятівний кидок [[/save ability=dex dc=@attributes.spell.dc]]. Істота отримує 5d8 [[/damage (@item.level + 2)d8 type=acid]]{кислотної}, [[/damage (@item.level + 2)d8 type=cold]]{холодної}, [[/damage (@item.level + 2)d8 type=fire]]{вогняної}, [[/damage (@item.level + 2)d8 type=lightning]]{блискавичної} або [[/damage (@item.level + 2)d8 type=thunder]]{звукової} шкоди (на ваш вибір під час створення знака) у разі провалу, або половину цієї шкоди у разі успіху.</p><p><strong>Знак заклинання.</strong> Ви можете зберегти підготовлене заклинання 3-го рівня або нижче в знаку, створивши його як частину нанесення охоронного знака. Збережене заклинання повинно бути спрямоване на одну істоту або область. Заклинання, що зберігається, не має миттєвого ефекту при такому створенні.</p><p>Коли знак спрацьовує, збережене заклинання вступає в дію. Якщо заклинання має ціль, воно спрямовується на істоту, яка активувала знак. Якщо заклинання впливає на область, ця область центрується на цій істоті. Якщо заклинання призиває ворожих (Hostile) істот або створює шкідливі предмети чи пастки, вони з'являються якомога ближче до порушника й атакують його. Якщо заклинання вимагає концентрації (Concentration), воно діє до кінця своєї повної тривалості.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода вибухової руни збільшується на 1d8 за кожен рівень комірки вище 3-го. Якщо ви створюєте знак заклинання, ви можете зберегти будь-яке заклинання до того ж рівня, що й комірка, яку ви використовуєте для <em>Охоронного знака</em>.</p><section class=\"secret\" id=\"secret-S9SAlMniIN14fjKi\"><p><strong>Примітка Foundry</strong></p><p>Дія <strong>Вибухова руна</strong> дозволяє вам обрати тип шкоди в діалоговому вікні кидка.</p></section>"
+        },
+        "Goodberry": {
+            "name": "Добрі ягоди",
+            "description": "<p>@UUID[Compendium.dnd5e.spells24.Item.phbutlMagicalBer]{Десять ягід} з'являються у вашій руці та наповнюються магією на час дії заклинання. Істота може витратити бонусну дію (Bonus Action), щоб з'їсти одну ягоду. Поїдання ягоди відновлює 1 пункт здоров'я (Hit Point), а також вона забезпечує достатньо поживних речовин, щоб підтримувати істоту протягом одного дня.</p><p>Нез'їдені ягоди зникають, коли заклинання закінчується.</p>"
+        },
+        "Grease": {
+            "name": "Мастило",
+            "description": "<p>Незаймисте мастило покриває землю в квадраті зі стороною 10 футів із центром у точці в межах дистанції та перетворює її на &amp;Reference[difficultterrain]{важкопрохідну місцевість} на час дії заклинання.</p><p>Коли мастило з'являється, кожна істота, що стоїть у цій області, повинна успішно зробити рятівний кидок Спритності, інакше вона отримає стан &amp;Reference[prone]{Збитий з ніг}. Істота, яка заходить в область або закінчує там свій хід, також повинна успішно зробити цей рятівний кидок, інакше вона падає збитою з ніг.</p>"
+        },
 		"Greater Invisibility": {
-			"name": "Greater Invisibility",
-			"description": "<p>A creature you touch has the Invisible condition until the spell ends.</p>",
-			"effects": {
-				"Invisible": {
-					"name": "Invisible"
-				}
-			}
-		},
-		"Greater Restoration": {
-			"name": "Greater Restoration",
-			"description": "<p>You touch a creature and magically remove one of the following effects from it:</p><ul><li>1 &amp;Reference[Exhaustion] level</li><li>The &amp;Reference[Charmed] or &amp;Reference[Petrified] condition</li><li>A curse, including the target's Attunement to a cursed magic item</li><li>Any reduction to one of the target's ability scores</li><li>Any reduction to the target's Hit Point maximum</li></ul>"
-		},
-		"Guardian of Faith": {
-			"name": "Guardian of Faith",
-			"description": "<p>A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon.</p><p>Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.</p>"
-		},
-		"Guards and Wards": {
-			"name": "Guards and Wards",
-			"description": "<p>You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.</p><p>When you cast this spell, you can specify individuals that are unaffected by the spell's effects. You can also specify a password that, when spoken aloud within 5 feet of the warded area, makes the speaker immune to its effects.</p><p>The spell creates the effects below within the warded area. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}</em> has no effect on <em>Guards and Wards</em> itself, but each of the following effects can be dispelled. If all four are dispelled, <em>Guards and Wards</em> ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.</p><p><strong>Corridors.</strong> Fog fills all the warded corridors, making them &amp;Reference[HeavilyObscured]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.</p><p><strong>Doors.</strong> All doors in the warded area are magically locked, as if sealed by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneLock]{Arcane Lock}</em> spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.</p><p><strong>Stairs.</strong> Webs fill all stairs in the warded area from top to bottom, as in the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{Web}</em> spell. These strands regrow in 10 minutes if they are destroyed while <em>Guards and Wards</em> lasts.</p><p><strong>Other Spell Effect. </strong>Place one of the following magical effects within the warded area:</p><ul><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights}</em> in four corridors, with a simple program that the lights repeat as long as <em>Guards and Wards</em> lasts</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMouth]{Magic Mouth}</em> in two locations</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplStinkingCl]{Stinking Cloud}</em> in two locations (the vapors return within 10 minutes if dispersed while <em>Guards and Wards</em> lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em> in one corridor or room (the wind blows continuously while the spell lasts)</li><li><em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</em> in one 5-foot square; any creature that enters that square receives the suggestion mentally</li></ul>"
-		},
+            "name": "Велика невидимість",
+            "description": "<p>Істота, якої ви торкаєтеся, отримує стан &amp;Reference[Invisible]{Невидимий} до кінця дії заклинання.</p>",
+            "effects": {
+                "Invisible": {
+                    "name": "Невидимий"
+                }
+            }
+        },
+        "Greater Restoration": {
+            "name": "Вище відновлення",
+            "description": "<p>Ви торкаєтеся істоти й магічно знімаєте з неї один із наступних ефектів:</p><ul><li>1 рівень &amp;Reference[Exhaustion]{Втоми}</li><li>Стан &amp;Reference[Charmed]{Зачарований} або &amp;Reference[Petrified]{Окам'янілий}</li><li>Прокляття, включаючи налаштування (Attunement) цілі на проклятий магічний предмет</li><li>Будь-яке зменшення будь-якої характеристики цілі</li><li>Будь-яке зменшення максимальної кількості пунктів здоров'я цілі</li></ul>"
+        },
+        "Guardian of Faith": {
+            "name": "Охоронець віри",
+            "description": "<p>Великий (Large) спектральний охоронець з'являється та зависає в повітрі на час дії заклинання у вільному просторі, який ви бачите в межах дистанції. Охоронець займає цей простір, є невразливим і з'являється у формі, відповідній до вашого божества чи пантеону.</p><p>Будь-який ворог, який уперше за хід переміщується в простір на відстані до 10 футів від охоронця або починає там свій хід, робить рятівний кидок Спритності, отримуючи 20 одиниць променистої шкоди (Radiant damage) у разі провалу, або половину цієї шкоди в разі успіху. Охоронець зникає, коли завдасть загалом 60 одиниць шкоди.</p>"
+        },
 		"Guidance": {
-			"name": "Guidance",
-			"description": "<p>You touch a willing creature and choose a skill. Until the spell ends, the creature adds 1d4 to any ability check using the chosen skill.</p>",
-			"effects": {
-				"Acrobatic Guidance": {
-					"name": "Acrobatic Guidance",
-					"changes": {
-						"system.skills.acr.bonuses.check": "1d4"
-					}
-				},
-				"Animal Handling Guidance": {
-					"name": "Animal Handling Guidance",
-					"changes": {
-						"system.skills.ani.bonuses.check": "1d4"
-					}
-				},
-				"Arcana Guidance": {
-					"name": "Arcana Guidance",
-					"changes": {
-						"system.skills.arc.bonuses.check": "1d4"
-					}
-				},
-				"Athletic Guidance": {
-					"name": "Athletic Guidance",
-					"changes": {
-						"system.skills.ath.bonuses.check": "1d4"
-					}
-				},
-				"Deception Guidance": {
-					"name": "Deception Guidance",
-					"changes": {
-						"system.skills.dec.bonuses.check": "1d4"
-					}
-				},
-				"History Guidance": {
-					"name": "History Guidance",
-					"changes": {
-						"system.skills.his.bonuses.check": "1d4"
-					}
-				},
-				"Insight Guidance": {
-					"name": "Insight Guidance",
-					"changes": {
-						"system.skills.ins.bonuses.check": "1d4"
-					}
-				},
-				"Investigation Guidance": {
-					"name": "Investigation Guidance",
-					"changes": {
-						"system.skills.inv.bonuses.check": "1d4"
-					}
-				},
-				"Intimidation Guidance": {
-					"name": "Intimidation Guidance",
-					"changes": {
-						"system.skills.itm.bonuses.check": "1d4"
-					}
-				},
-				"Medicine Guidance": {
-					"name": "Medicine Guidance",
-					"changes": {
-						"system.skills.med.bonuses.check": "1d4"
-					}
-				},
-				"Nature Guidance": {
-					"name": "Nature Guidance",
-					"changes": {
-						"system.skills.nat.bonuses.check": "1d4"
-					}
-				},
-				"Persuasion Guidance": {
-					"name": "Persuasion Guidance",
-					"changes": {
-						"system.skills.per.bonuses.check": "1d4"
-					}
-				},
-				"Perception Guidance": {
-					"name": "Perception Guidance",
-					"changes": {
-						"system.skills.prc.bonuses.check": "1d4"
-					}
-				},
-				"Performance Guidance": {
-					"name": "Performance Guidance",
-					"changes": {
-						"system.skills.prf.bonuses.check": "1d4"
-					}
-				},
-				"Religion Guidance": {
-					"name": "Religion Guidance",
-					"changes": {
-						"system.skills.rel.bonuses.check": "1d4"
-					}
-				},
-				"Sleight of Hand Guidance": {
-					"name": "Sleight of Hand Guidance",
-					"changes": {
-						"system.skills.slt.bonuses.check": "1d4"
-					}
-				},
-				"Stealth Guidance": {
-					"name": "Stealth Guidance",
-					"changes": {
-						"system.skills.ste.bonuses.check": "1d4"
-					}
-				},
-				"Survival Guidance": {
-					"name": "Survival Guidance",
-					"changes": {
-						"system.skills.sur.bonuses.check": "1d4"
-					}
-				}
-			}
-		},
+            "name": "Направляння",
+            "description": "<p>Ви торкаєтеся добровільної істоти й обираєте навичку. Доки заклинання не закінчиться, істота додає 1d4 до будь-якої перевірки характеристики з використанням обраної навички.</p>",
+            "effects": {
+                "Acrobatic Guidance": {
+                    "name": "Направляння на акробатику",
+                    "changes": {
+                        "system.skills.acr.bonuses.check": "1d4"
+                    }
+                },
+                "Animal Handling Guidance": {
+                    "name": "Направляння на поводження з тваринами",
+                    "changes": {
+                        "system.skills.ani.bonuses.check": "1d4"
+                    }
+                },
+                "Arcana Guidance": {
+                    "name": "Направляння на магію",
+                    "changes": {
+                        "system.skills.arc.bonuses.check": "1d4"
+                    }
+                },
+                "Athletic Guidance": {
+                    "name": "Направляння на атлетику",
+                    "changes": {
+                        "system.skills.ath.bonuses.check": "1d4"
+                    }
+                },
+                "Deception Guidance": {
+                    "name": "Направляння на обман",
+                    "changes": {
+                        "system.skills.dec.bonuses.check": "1d4"
+                    }
+                },
+                "History Guidance": {
+                    "name": "Направляння на історію",
+                    "changes": {
+                        "system.skills.his.bonuses.check": "1d4"
+                    }
+                },
+                "Insight Guidance": {
+                    "name": "Направляння на проникливість",
+                    "changes": {
+                        "system.skills.ins.bonuses.check": "1d4"
+                    }
+                },
+                "Investigation Guidance": {
+                    "name": "Направляння на розслідування",
+                    "changes": {
+                        "system.skills.inv.bonuses.check": "1d4"
+                    }
+                },
+                "Intimidation Guidance": {
+                    "name": "Направляння на залякування",
+                    "changes": {
+                        "system.skills.itm.bonuses.check": "1d4"
+                    }
+                },
+                "Medicine Guidance": {
+                    "name": "Направляння на медицину",
+                    "changes": {
+                        "system.skills.med.bonuses.check": "1d4"
+                    }
+                },
+                "Nature Guidance": {
+                    "name": "Направляння на природу",
+                    "changes": {
+                        "system.skills.nat.bonuses.check": "1d4"
+                    }
+                },
+                "Persuasion Guidance": {
+                    "name": "Направляння на переконання",
+                    "changes": {
+                        "system.skills.per.bonuses.check": "1d4"
+                    }
+                },
+                "Perception Guidance": {
+                    "name": "Направляння на уважність",
+                    "changes": {
+                        "system.skills.prc.bonuses.check": "1d4"
+                    }
+                },
+                "Performance Guidance": {
+                    "name": "Направляння на виступ",
+                    "changes": {
+                        "system.skills.prf.bonuses.check": "1d4"
+                    }
+                },
+                "Religion Guidance": {
+                    "name": "Направляння на релігію",
+                    "changes": {
+                        "system.skills.rel.bonuses.check": "1d4"
+                    }
+                },
+                "Sleight of Hand Guidance": {
+                    "name": "Направляння на спритність рук",
+                    "changes": {
+                        "system.skills.slt.bonuses.check": "1d4"
+                    }
+                },
+                "Stealth Guidance": {
+                    "name": "Направляння на прихованість",
+                    "changes": {
+                        "system.skills.ste.bonuses.check": "1d4"
+                    }
+                },
+                "Survival Guidance": {
+                    "name": "Направляння на виживання",
+                    "changes": {
+                        "system.skills.sur.bonuses.check": "1d4"
+                    }
+                }
+            }
+        },
 		"Guiding Bolt": {
-			"name": "Guiding Bolt",
-			"description": "<p>You hurl a bolt of light toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 4d6 Radiant damage, and the next attack roll made against it before the end of your next turn has Advantage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>",
-			"effects": {
-				"Guiding Bolt": {
-					"name": "Guiding Bolt",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">The next attack roll made against the target before the end of your next turn has Advantage.</span></p>"
-				}
-			}
-		},
-		"Gust of Wind": {
-			"name": "Gust of Wind",
-			"description": "<p>A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.</p><p>Any creature in the Line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p><p>As a Bonus Action on your later turns, you can change the direction in which the Line blasts from you.</p>"
-		},
+            "name": "Направляючий снаряд",
+            "description": "<p>Ви пускаєте снаряд світла в бік істоти в межах дистанції. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання вона отримує 4d6 [[/damage 4d6 type=radiant]]{променистої шкоди}, а наступний кидок атаки по ній до кінця вашого наступного ходу отримує Перевагу (Advantage).</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Guiding Bolt": {
+                    "name": "Направляючий снаряд",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Наступний кидок атаки по цілі до кінця вашого наступного ходу отримує Перевагу (Advantage).</span></p>"
+                }
+            }
+        },
+        "Gust of Wind": {
+            "name": "Порив вітру",
+            "description": "<p>Лінія (Line) сильного вітру завдовжки 60 футів і завширшки 10 футів дме від вас у вибраному вами напрямку на час дії заклинання. Кожна істота в лінії повинна успішно зробити рятівний кидок Сили, інакше її відкине на 15 футів від вас у напрямку лінії. Істота, яка закінчує свій хід у лінії, повинна зробити такий самий рятівний кидок.</p><p>Будь-яка істота в лінії повинна витратити 2 фути пересування за кожен 1 фут руху, коли наближається до вас.</p><p>Порив вітру розганяє газ або пару, а також гасить свічки та подібне незахищене полум'я в області. Він змушує захищене полум'я, наприклад у ліхтарях, дико тремтіти і має 50-відсоткову вірогідність згасити його.</p><p>Як бонусні дії (Bonus Action) на ваших наступних ходах ви можете змінити напрямок, у якому дме лінія вітру від вас.</p>"
+        },
 		"Hallow": {
 			"name": "Hallow",
 			"description": "<p>You touch a point and infuse an area around it with holy or unholy power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect of <em>Hallow</em>. The affected area has the following effects.</p><p><strong>Hallowed Ward.</strong> Choose any of these creature types: Aberration, Celestial, Elemental, Fey, Fiend, or Undead. Creatures of the chosen types can't willingly enter the area, and any creature that is possessed by or that has the Charmed or Frightened condition from such creatures isn't possessed, Charmed, or Frightened by them while in the area.</p><p><strong>Extra Effect.</strong> You bind an extra effect to the area from the list below:</p><p><strong>Courage.</strong> Creatures of any types you choose can't gain the &amp;Reference[Frightened] condition while in the area.</p><p><strong>Darkness.</strong> Darkness fills the area. Normal light, as well as magical light created by spells of a level lower than this spell, can't illuminate the area.</p><p><strong>Daylight.</strong> Bright light fills the area. Magical Darkness created by spells of a level lower than this spell can't extinguish the light.</p><p><strong>Peaceful Rest</strong>. Dead bodies interred in the area can't be turned into Undead.</p><p><strong>Extradimensional Interference.</strong> Creatures of any types you choose can't enter or exit the area using teleportation or interplanar travel.</p><p><strong>Fear.</strong> Creatures of any types you choose have the &amp;Reference[Frightened] condition while in the area.</p><p><strong>Resistance.</strong> Creatures of any types you choose have &amp;Reference[damageresistance]{Resistance} to one damage type of your choice while in the area.</p><p><strong>Silence.</strong> No sound can emanate from within the area, and no sound can reach into it.</p><p><strong>Tongues.</strong> Creatures of any types you choose can communicate with any other creature in the area even if they don't share a common language.</p><p><strong>Vulnerability.</strong> Creatures of any types you choose have &amp;Reference[damagevulnerability]{Vulnerability} to one damage type of your choice while in the area.</p>"
