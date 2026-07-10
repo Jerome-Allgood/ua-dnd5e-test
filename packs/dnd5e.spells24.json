@@ -291,199 +291,199 @@
             "description": "<p>Ви витрачаєте час створення заклинання на викреслювання магічних шляхів усередині дорогоцінного каменя, а потім торкаєтеся цілі. Ціль повинна бути або звіром (Beast), або рослиною (Plant) з Інтелектом 3 або менше, або природною рослиною, яка не є істотою. Ціль отримує Інтелект 10 і здатність розмовляти однією мовою, яку ви знаєте. Якщо ціль є природною рослиною, вона стає істотою типу «Рослина» й отримує здатність рухати своїми гілками, корінням, лозами, пагонами тощо, а також отримує чуття, подібні до людських. Майстер (DM) обирає статистику, відповідну для пробудженої рослини, наприклад, статистику для <strong>@UUID[Compendium.dnd5e.monsters.Actor.gaSTr7DFZJLmgI2J]{Пробудженого куща}</strong> або <strong>@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Пробудженого дерева}</strong> у <em>Monster Manual</em>.</p><p>Пробуджена ціль перебуває під станом &amp;Reference[Charmed] (Зачарований) протягом 30 днів або доки ви чи ваші союзники не завдасте їй шкоди. Коли дія стану закінчується, пробуджена істота сама обирає своє ставлення до вас.</p>"
 		},
 		"Bane": {
-			"name": "Bane",
-			"description": "<p>Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
-			"effects": {
-				"Bane": {
-					"name": "Bane",
-					"description": "<p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.</p>",
-					"changes": {
-						"system.bonuses.abilities.save": "-1d4",
-						"system.bonuses.mwak.attack": "-1d4",
-						"system.bonuses.msak.attack": "-1d4",
-						"system.bonuses.rsak.attack": "-1d4",
-						"system.bonuses.rwak.attack": "-1d4"
-					}
-				}
-			}
-		},
-		"Banishment": {
-			"name": "Banishment",
-			"description": "<p>One creature that you can see within range must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the &amp;Reference[Incapacitated apply=false] condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p><p>If the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn't return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (DM's choice) associated with its creature type.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 4.</p>",
-			"effects": {
-				"Banished": {
-					"name": "Banished",
-					"description": "<p>While there, the target has the &amp;Reference[Incapacitated apply=false] condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p><p>If the target is an Aberration, a Celestial, an Elemental, a Fey, or a Fiend, the target doesn’t return if the spell lasts for 1 minute. The target is instead transported to a random location on a plane (DM’s choice) associated with its creature type.</p>"
-				}
-			}
-		},
-		"Barkskin": {
-			"name": "Barkskin",
-			"description": "<p>You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.</p>",
-			"effects": {
-				"Bark-like Skin": {
-					"name": "Bark-like Skin",
-					"changes": {
-						"system.attributes.ac.min": 17
-					}
-				}
-			}
-		},
-		"Beacon of Hope": {
-			"name": "Beacon of Hope",
-			"description": "<p>Choose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>",
-			"effects": {
-				"Hopeful": {
-					"name": "Hopeful",
-					"description": "<p>The target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>",
-					"changes": {
-						"system.abilities.wis.save.roll.mode": 1,
-						"system.attributes.death.roll.mode": 1
-					}
-				}
-			}
-		},
-		"Befuddlement": {
-			"name": "Befuddlement",
-			"description": "<p>You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.</p><p>On a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p><p>On a successful save, the target takes half as much damage only.</p>",
-			"effects": {
-				"Befuddled": {
-					"name": "Befuddled",
-					"description": "<p>On a failed save, the target takes 10d12 Psychic damage and can’t cast spells or take the Magic action. At the end of every 30 days, the target repeats the [[/save ability=wis]] save, ending the effect on a success. The effect can also be ended by the <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Heal}</em>, or <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Wish}</em> spell.</p>"
-				}
-			}
-		},
+            "name": "Пов'язь",
+            "description": "<p>До трьох істот на ваш вибір, яких ви бачите в межах дистанції, повинні зробити рятівний кидок Харизми. Щоразу, коли ціль, яка провалила цей кидок, робить кидок атаки або рятівний кидок до закінчення дії заклинання, вона повинна відняти 1d4 від цього кидка атаки або рятівного кидка.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Bane": {
+                    "name": "Пов'язь",
+                    "description": "<p>Щоразу, коли ціль робить кидок атаки або рятівний кидок до закінчення дії заклинання, вона повинна відняти 1d4 від цього кидка атаки або рятівного кидка.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.save": "-1d4",
+                        "system.bonuses.mwak.attack": "-1d4",
+                        "system.bonuses.msak.attack": "-1d4",
+                        "system.bonuses.rsak.attack": "-1d4",
+                        "system.bonuses.rwak.attack": "-1d4"
+                    }
+                }
+            }
+        },
+        "Banishment": {
+            "name": "Вигнання",
+            "description": "<p>Одна істота, яку ви бачите в межах дистанції, повинна успішно зробити рятівний кидок Харизми, інакше вона буде перенесена на час дії заклинання в нешкідливий напівплан (demiplane). Перебуваючи там, ціль отримує стан &amp;Reference[Incapacitated apply=false] (Недієздатний). Коли заклинання закінчується, ціль знову з'являється на тому місці, яке вона залишила, або на найближчому вільному просторі, якщо це місце зайняте.</p><p>Якщо ціль є Аберацією, Небожителем, Елементалем, Феєю або Породженням пекла (Fiend), вона не повертається, якщо заклинання триває протягом 1 хвилини. Натомість ціль переноситься у випадкове місце на плані (на вибір Майстра), пов'язаному з її типом істоти.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 4-го.</p>",
+            "effects": {
+                "Banished": {
+                    "name": "Вигнаний",
+                    "description": "<p>Перебуваючи там, ціль отримує стан &amp;Reference[Incapacitated apply=false] (Недієздатний). Коли заклинання закінчується, ціль знову з'являється на тому місці, яке вона залишила, або на найближчому вільному просторі, якщо це місце зайняте.</p><p>Якщо ціль є Аберацією, Небожителем, Елементалем, Феєю або Породженням пекла (Fiend), вона не повертається, якщо заклинання триває протягом 1 хвилини. Натомість ціль переноситься у випадкове місце на плані (на вибір Майстра), пов'язаному з її типом істоти.</p>"
+                }
+            }
+        },
+        "Barkskin": {
+            "name": "Корошкіра",
+            "description": "<p>Ви торкаєтеся добровільної істоти. Поки заклинання не закінчиться, шкіра цілі набуває вигляду деревної кори, а Клас Обладунку (AC) цілі стає рівним 17, якщо її поточний КO нижчий за це значення.</p>",
+            "effects": {
+                "Bark-like Skin": {
+                    "name": "Шкіра, подібна до кори",
+                    "changes": {
+                        "system.attributes.ac.min": 17
+                    }
+                }
+            }
+        },
+        "Beacon of Hope": {
+            "name": "Маяк надії",
+            "description": "<p>Оберіть будь-яку кількість істот у межах дистанції. На час дії заклинання кожна ціль отримує перевагу (Advantage) на рятівні кидки Мудрості та рятівні кидки від смерті (Death Saving Throws), а також відновлює максимальну можливу кількість хітів від будь-го зцілення.</p>",
+            "effects": {
+                "Hopeful": {
+                    "name": "Сповнений надії",
+                    "description": "<p>Ціль отримує перевагу на рятівні кидки Мудрості та рятівні кидки від смерті й відновлює максимальну можливу кількість хітів від будь-якого зцілення.</p>",
+                    "changes": {
+                        "system.abilities.wis.save.roll.mode": 1,
+                        "system.attributes.death.roll.mode": 1
+                    }
+                }
+            }
+        },
+        "Befuddlement": {
+            "name": "Затьмарення розуму",
+            "description": "<p>Ви вражаєте розум істоти, яку бачите в межах дистанції. Ціль робить рятівний кидок Інтелекту.</p><p>У разі провалу кидка ціль отримує 10d12 психічної шкоди (Psychic damage) і не може створювати заклинання чи виконувати дію «Магія» (Magic). Наприкінці кожних 30 днів ціль повторює цей рятівний кидок, припиняючи дію ефекту в разі успіху. Ефект також можна припинити заклинаннями <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Вище відновлення}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Зцілення}</em> або <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Бажання}</em>.</p><p>У разі успішного кидка ціль отримує лише половину цієї шкоди.</p>",
+            "effects": {
+                "Befuddled": {
+                    "name": "Затьмарений",
+                    "description": "<p>У разі провалу кидка ціль отримує 10d12 психічної шкоди й не може створювати заклинання чи виконувати дію «Магія» (Magic). Наприкінці кожних 30 днів ціль повторює цей рятівний кидок [[/save ability=wis]], припиняючи дію ефекту в разі успіху. Ефект також можна припинити заклинаннями <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Вище відновлення}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeal000000]{Зцілення}</em> або <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{Бажання}</em>.</p>"
+                }
+            }
+        },
 		"Bestow Curse": {
-			"name": "Bestow Curse",
-			"description": "<p>You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice:</p><ul><li>Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability (<strong>Curse Ability</strong> activity).</li><li>The target has Disadvantage on attack rolls against you (<strong>Curse Attacks</strong> activity).</li><li>In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the &amp;Reference[Dodge] action on that turn (<strong>Curse Actions</strong> activity).</li><li>If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage (<strong>Curse Resilience</strong> activity).</li></ul><p><strong>Using a Higher-Level Spell Slot.</strong> If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn't require Concentration, and the duration becomes 8 hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.</p>",
-			"effects": {
+            "name": "Накладання прокляття",
+            "description": "<p>Ви торкаєтеся істоти, яка повинна успішно зробити рятівний кидок Мудрості, інакше вона стає проклятою на час дії заклинання. Поки прокляття не закінчиться, ціль зазнає одного з наступних ефектів на ваш вибір:</p><ul><li>Оберіть одну характеристику. Ціль отримує перешкоду (Disadvantage) на перевірки характеристик та рятівні кидки, що роблять за допомогою цієї характеристики (дія <strong>Curse Ability</strong>).</li><li>Ціль отримує перешкоду на кидки атаки проти вас (дія <strong>Curse Attacks</strong>).</li><li>У бою ціль повинна успішно зробити рятівний кидок Мудрості на початку кожного свого ходу, інакше вона змушена виконати дію &amp;Reference[Dodge]{Ухилення} у цей хід (дія <strong>Curse Actions</strong>).</li><li>Якщо ви завдаєте шкоди цілі кидком атаки або заклинанням, ціль отримує додатково 1d8 некротичної шкоди (Necrotic damage) (дія <strong>Curse Resilience</strong>).</li></ul><p><strong>Використання комірки вищого рівня.</strong> Якщо ви створюєте це заклинання, використовуючи комірку 4-го рівня, ви можете утримувати концентрацію на ньому до 10 хвилин. Якщо ви використовуєте комірку 5-го рівня або вище, заклинання не потребує концентрації, а його тривалість стає рівною 8 годинам (комірка 5–6 рівня) або 24 годинам (комірка 7–8 рівня). Якщо ви використовуєте комірку 9-го рівня, заклинання діє, доки не буде розвіяне.</p>",
+            "effects": {
 				"Cursed Charisma": {
-					"name": "Cursed Charisma",
-					"description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.cha.check.roll.mode": -1,
-						"system.abilities.cha.save.roll.mode": -1
-					}
-				},
+                    "name": "Проклята Харизма",
+                    "description": "<p>Ціль отримує перешкоду на перевірки характеристик та рятівні кидки, що роблять за допомогою обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.cha.check.roll.mode": -1,
+                        "system.abilities.cha.save.roll.mode": -1
+                    }
+                },
 				"Cursed Constitution": {
-					"name": "Cursed Constitution",
-					"description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.con.check.roll.mode": -1,
-						"system.abilities.con.save.roll.mode": -1
-					}
-				},
+                    "name": "Проклята Статура",
+                    "description": "<p>Ціль отримує перешкоду на перевірки характеристик та рятівні кидки, що роблять за допомогою обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.con.check.roll.mode": -1,
+                        "system.abilities.con.save.roll.mode": -1
+                    }
+                },
 				"Cursed Dexterity": {
-					"name": "Cursed Dexterity",
-					"description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.dex.check.roll.mode": -1,
-						"system.abilities.dex.save.roll.mode": -1
-					}
-				},
+                    "name": "Проклята Спритність",
+                    "description": "<p>Ціль отримує перешкоду на перевірки характеристик та рятівні кидки, що роблять за допомогою обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.dex.check.roll.mode": -1,
+                        "system.abilities.dex.save.roll.mode": -1
+                    }
+                },
 				"Cursed Intelligence": {
-					"name": "Cursed Intelligence",
-					"description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.int.check.roll.mode": -1,
-						"system.abilities.int.save.roll.mode": -1
-					}
-				},
+                    "name": "Проклятий Інтелект",
+                    "description": "<p>Ціль отримує перешкоду на перевірки характеристик та рятівні кидки, що роблять за допомогою обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.int.check.roll.mode": -1,
+                        "system.abilities.int.save.roll.mode": -1
+                    }
+                },
 				"Cursed Strength": {
-					"name": "Cursed Strength",
-					"description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.str.check.roll.mode": -1,
-						"system.abilities.str.save.roll.mode": -1
-					}
-				},
+                    "name": "Проклята Сила",
+                    "description": "<p>Ціль отримує перешкоду на перевірки характеристик та рятівні кидки, що роблять за допомогою обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.str.check.roll.mode": -1,
+                        "system.abilities.str.save.roll.mode": -1
+                    }
+                },
 				"Cursed Wisdom": {
-					"name": "Cursed Wisdom",
-					"description": "<p>The target has Disadvantage on ability checks and saving throws made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.wis.save.roll.mode": -1
-					}
-				},
+                    "name": "Проклята Мудрість",
+                    "description": "<p>Ціль отримує перешкоду на перевірки характеристик та рятівні кидки, що роблять за допомогою обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.wis.save.roll.mode": -1
+                    }
+                },
 				"Cursed Attacks": {
-					"name": "Cursed Attacks",
-					"description": "<p>The target has Disadvantage on attack rolls against you.</p>"
-				},
+                    "name": "Прокляті атаки",
+                    "description": "<p>Ціль отримує перешкоду на кидки атаки проти вас.</p>"
+                },
 				"Cursed Actions": {
-					"name": "Cursed Actions",
-					"description": "<p>In combat, the target must succeed on a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start of each of its turns or be forced to take the &amp;Reference[Dodge] action on that turn.</p>"
-				},
+                    "name": "Прокляті дії",
+                    "description": "<p>У бою ціль повинна успішно зробити [[/save ability=wis dc=@attributes.spell.dc format=long]] на початку кожного свого ходу, інакше вона змушена виконати дію &amp;Reference[Dodge]{Ухилення} у цей хід.</p>"
+                },
 				"Cursed Resilience": {
-					"name": "Cursed Resilience",
-					"description": "<p>If you deal damage to the target with an attack roll or a spell, the target takes an extra [[/damage 1d8 type=necrotic]] damage.</p>"
-				}
-			}
-		},
+                    "name": "Проклята стійкість",
+                    "description": "<p>Якщо ви завдаєте шкоди цілі кидком атаки або заклинанням, ціль отримує додатково [[/damage 1d8 type=necrotic]] шкоди.</p>"
+                }
+            }
+        },
 		"Arcane Hand": {
-			"name": "Arcane Hand",
-			"description": "<p>You create a Large hand of shimmering magical energy in an unoccupied space that you can see within range. The hand lasts for the duration, and it moves at your command, mimicking the movements of your own hand.</p><p>The hand is an object that has AC 20 and Hit Points equal to your Hit Point maximum. If it drops to 0 Hit Points, the spell ends. The hand doesn't occupy its space.</p><p>When you cast the spell and as a Bonus Action on your later turns, you can move the hand up to 60 feet and then cause one of the following effects:</p><p><strong>Clenched Fist </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiClenchedFi inline]</p><p><strong>Forceful Hand</strong> @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiForcefulHa inline]</p><p><strong>Grasping Hand</strong> @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiGraspingHa inline classes=\"no-secrets\"]</p><p><strong>Interposing Hand </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin inline]</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage of the Clenched Fist increases by 2d8 and the damage of the Grasping Hand increases by 2d6 for each spell slot level above 5.</p>"
-		},
+            "name": "Містична рука",
+            "description": "<p>Ви створюєте Величезну (Large) руку з мерехтливої магічної енергії у вільному просторі, який ви бачите в межах дистанції. Рука існує протягом усієї тривалості дії заклинання й рухається за вашою командою, повторюючи рухи вашої власної руки.</p><p>Рука є об'єктом, який має КO 20 і хіти, що дорівнюють вашому максимуму хітів. Якщо кількість її хітів падає до 0, заклинання закінчується. Рука не займає свій простір.</p><p>Під час створення заклинання, а також бонусною дією у ваші наступні ходи, ви можете перемістити руку на відстань до 60 футів, а потім викликати один із наступних ефектів:</p><p><strong>Стиснутий кулак </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiClenchedFi inline]</p><p><strong>Штовхаюча рука</strong> @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiForcefulHa inline]</p><p><strong>Хапаюча рука</strong> @Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiGraspingHa inline classes=\"no-secrets\"]</p><p><strong>Захисна рука </strong>@Embed[Compendium.dnd5e.actors24.Actor.phbsplBigbysHand.Item.phbaoiInterposin inline]</p><p><strong>Використання комірки вищого рівня.</strong> Шкода від Стиснутого кулака збільшується на 2d8, а шкода від Хапаючої руки збільшується на 2d6 за кожен рівень комірки вище 5-го.</p>"
+        },
 		"Blade Barrier": {
-			"name": "Blade Barrier",
-			"description": "<p>You create a wall of whirling blades made of magical energy. The wall appears within range and lasts for the duration. You make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides Three-Quarters Cover, and its space is Difficult Terrain.</p><p>Any creature in the wall's space makes a Dexterity saving throw, taking 6d10 Force damage on a failed save or half as much damage on a successful one. A creature also makes that save if it enters the wall's space or ends it turn there. A creature makes that save only once per turn.</p>"
-		},
+            "name": "Бар'єр із лез",
+            "description": "<p>Ви створюєте стіну з лез, що обертаються, створену з магічної енергії. Стіна з'являється в межах дистанції та існує протягом усієї тривалості дії заклинання. Ви створюєте пряму стіну завдовжки до 100 футів, заввишки 20 футів і завтовшки 5 футів, або кільцеву стіну діаметром до 60 футів, заввишки 20 футів і завтовшки 5 футів. Стіна забезпечує укриття на три чверті (Three-Quarters Cover), а її простір є важкопрохідною місцевістю (Difficult Terrain).</p><p>Будь-яка істота в просторі стіни робить рятівний кидок Спритності, отримуючи 6d10 силової шкоди (Force damage) у разі провалу кидка або половину цієї шкоди в разі успіху. Істота також робить цей рятівний кидок, якщо вона входить у простір стіни або закінчує свій хід там. Істота робить цей кидок лише один раз за хід.</p>"
+        },
 		"Bless": {
-			"name": "Bless",
-			"description": "<p>You bless up to three creatures within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
-			"effects": {
-				"Blessed": {
-					"name": "Blessed",
-					"description": "<p>Whenever a target makes an attack roll or a saving throw before the spell ends, the target adds 1d4 to the attack roll or save.</p>",
-					"changes": {
-						"system.bonuses.abilities.save": "1d4",
-						"system.bonuses.mwak.attack": "1d4",
-						"system.bonuses.msak.attack": "1d4",
-						"system.bonuses.rsak.attack": "1d4",
-						"system.bonuses.rwak.attack": "1d4"
-					}
-				}
-			}
-		},
+            "name": "Благословення",
+            "description": "<p>Ви благословляєте до трьох істот у межах дистанції. Щоразу, коли ціль робить кидок атаки або рятівний кидок до закінчення дії заклинання, вона додає 1d4 до цього кидка атаки або рятівного кидка.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Blessed": {
+                    "name": "Благословенний",
+                    "description": "<p>Щоразу, коли ціль робить кидок атаки або рятівний кидок до закінчення дії заклинання, вона додає 1d4 до цього кидка атаки або рятівного кидка.</p>",
+                    "changes": {
+                        "system.bonuses.abilities.save": "1d4",
+                        "system.bonuses.mwak.attack": "1d4",
+                        "system.bonuses.msak.attack": "1d4",
+                        "system.bonuses.rsak.attack": "1d4",
+                        "system.bonuses.rwak.attack": "1d4"
+                    }
+                }
+            }
+        },
 		"Blight": {
-			"name": "Blight",
-			"description": "<p>A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.</p><p>Alternatively, target a nonmagical plant that isn't a creature, such as a tree or shrub. It doesn't make a save; it simply withers and dies.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 4.</p>"
-		},
+            "name": "Зв'ялення",
+            "description": "<p>Істота, яку ви бачите в межах дистанції, робить рятівний кидок Статури, отримуючи 8d8 некротичної шкоди (Necrotic damage) у разі провалу кидка або половину цієї шкоди в разі успіху. Істота типу «Рослина» (Plant) автоматично провалює цей рятівний кидок.</p><p>Альтернативно, ви можете обрати ціллю немагічну рослину, яка не є істотою, як-от дерево чи кущ. Вона не робить рятівного кидка; вона просто в'яне та гине.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 4-го.</p>"
+        },
 		"Blindness/Deafness": {
-			"name": "Blindness/Deafness",
-			"description": "<p>One creature that you can see within range must succeed on a Constitution saving throw, or it has the &amp;Reference[Blinded apply=false] or &amp;Reference[Deafened apply=false] condition (your choice) for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2.</p>",
-			"effects": {
-				"Blindness": {
-					"name": "Blindness",
-					"description": "<p>At the end of each of its turns, the target repeats the [[/save ability=con]] save, ending the spell on itself on a success.</p>"
-				},
-				"Deafness": {
-					"name": "Deafness",
-					"description": "<p>At the end of each of its turns, the target repeats the [[/save ability=con]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
+            "name": "Сліпота/Глухота",
+            "description": "<p>Одна істота, яку ви бачите в межах дистанції, повинна успішно зробити рятівний кидок Статури, інакше вона отримує стан &amp;Reference[Blinded apply=false]{Сліпий} або &amp;Reference[Deafened apply=false]{Глухий} (на ваш вибір) на час дії заклинання. Наприкінці кожного свого ходу ціль повторює цей рятівний кидок, припиняючи дію заклинання на собі в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 2-го.</p>",
+            "effects": {
+                "Blindness": {
+                    "name": "Сліпота",
+                    "description": "<p>Наприкінці кожного свого ходу ціль повторює рятівний кидок [[/save ability=con]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                },
+                "Deafness": {
+                    "name": "Глухота",
+                    "description": "<p>Наприкінці кожного свого ходу ціль повторює рятівний кидок [[/save ability=con]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
 		"Blink": {
-			"name": "Blink",
-			"description": "<p>[[/r 1d6]]{Roll 1d6} at the end of each of your turns for the duration. On a roll of 4–6, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell ends instantly if you are already on that plane). While on the Ethereal Plane, you can perceive the plane you left, which is cast in shades of gray, but you can't see anything there more than 60 feet away. You can affect and be affected only by other creatures on the Ethereal Plane, and creatures on the other plane can't perceive you unless they have a special ability that lets them perceive things on the Ethereal Plane.</p><p>You return to the other plane at the start of your next turn and when the spell ends if you are on the Ethereal Plane. You return to an unoccupied space of your choice that you can see within 10 feet of the space you left. If no unoccupied space is available within that range, you appear in the nearest unoccupied space.</p>",
-			"effects": {
-				"Ethereal": {
-					"name": "Ethereal"
-				}
-			}
-		},
+            "name": "Мерехтіння",
+            "description": "<p>[[/r 1d6]]{Киньте 1d6} наприкінці кожного вашого ходу протягом тривалості дії заклинання. Якщо випадає 4–6, ви зникаєте зі свого поточного плану існування та з'являєтеся в Ефірному Плані (заклинання миттєво закінчується, якщо ви вже перебуваєте на цьому плані). Перебуваючи на Ефірному Плані, ви можете сприймати план, який ви залишили, що відображається у відтінках сірого, але ви не можете бачити там нічого на відстані понад 60 футів. Ви можете впливати та зазнавати впливу лише від інших істот на Ефірному Плані, а істоти на іншому плані не можуть сприймати вас, якщо у них немає спеціальної здатності, яка дозволяє їм бачити об'єкти на Ефірному Плані.</p><p>Ви повертаєтеся на інший план на початку свого наступного ходу, а також коли заклинання закінчується, якщо ви перебуваєте на Ефірному Плані. Ви повертаєтеся у вільний простір на ваш вибір, який ви бачите в межах 10 футів від простору, що залишили. Якщо в межах цієї дистанції немає вільного простору, ви з'являєтеся в найближчому вільному просторі.</p>",
+            "effects": {
+                "Ethereal": {
+                    "name": "Ефірність"
+                }
+            }
+        },
 		"Blur": {
-			"name": "Blur",
-			"description": "<p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with &amp;Reference[blindsight] or &amp;Reference[truesight].</p>",
-			"effects": {
-				"Blurred": {
-					"name": "Blurred",
-					"description": "<p>For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>"
-				}
-			}
-		},
+            "name": "Розмиття",
+            "description": "<p>Ваше тіло стає розмитим. На час дії заклинання будь-яка істота отримує перешкоду (Disadvantage) на кидки атаки проти вас. Нападник має імунітет до цього ефекту, якщо сприймає вас за допомогою &amp;Reference[blindsight]{Сліпого зору} або &amp;Reference[truesight]{Істинного зору}.</p>",
+            "effects": {
+                "Blurred": {
+                    "name": "Розмитий",
+                    "description": "<p>На час дії заклинання будь-яка істота отримує перешкоду на кидки атаки проти вас. Нападник має імунітет до цього ефекту, якщо сприймає вас за допомогою Сліпого зору або Істинного зору.</p>"
+                }
+            }
+        },
 		"Burning Hands": {
-			"name": "Burning Hands",
-			"description": "<p>A thin sheet of flames shoots forth from you. Each creature in a 15-foot Cone makes a Dexterity saving throw, taking 3d6 Fire damage on a failed save or half as much damage on a successful one.</p><p>Flammable objects in the Cone that aren't being worn or carried start burning.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>"
-		},
+            "name": "Палаючі руки",
+            "description": "<p>З вас виривається тонкий потік полум'я. Кожна істота в 15-футовому конусі (Cone) робить рятівний кидок Спритності, отримуючи 3d6 вогняної шкоди (Fire damage) у разі провалу кидка або половину цієї шкоди в разі успіху.</p><p>Легкозаймисті предмети в конусі, які ніхто не носить і не тримає, загоряються.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Call Lightning": {
 			"name": "Call Lightning",
 			"description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you're outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>"
