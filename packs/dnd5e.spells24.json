@@ -1491,212 +1491,212 @@
             "description": "<p>Лінія (Line) сильного вітру завдовжки 60 футів і завширшки 10 футів дме від вас у вибраному вами напрямку на час дії заклинання. Кожна істота в лінії повинна успішно зробити рятівний кидок Сили, інакше її відкине на 15 футів від вас у напрямку лінії. Істота, яка закінчує свій хід у лінії, повинна зробити такий самий рятівний кидок.</p><p>Будь-яка істота в лінії повинна витратити 2 фути пересування за кожен 1 фут руху, коли наближається до вас.</p><p>Порив вітру розганяє газ або пару, а також гасить свічки та подібне незахищене полум'я в області. Він змушує захищене полум'я, наприклад у ліхтарях, дико тремтіти і має 50-відсоткову вірогідність згасити його.</p><p>Як бонусні дії (Bonus Action) на ваших наступних ходах ви можете змінити напрямок, у якому дме лінія вітру від вас.</p>"
         },
 		"Hallow": {
-			"name": "Hallow",
-			"description": "<p>You touch a point and infuse an area around it with holy or unholy power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect of <em>Hallow</em>. The affected area has the following effects.</p><p><strong>Hallowed Ward.</strong> Choose any of these creature types: Aberration, Celestial, Elemental, Fey, Fiend, or Undead. Creatures of the chosen types can't willingly enter the area, and any creature that is possessed by or that has the Charmed or Frightened condition from such creatures isn't possessed, Charmed, or Frightened by them while in the area.</p><p><strong>Extra Effect.</strong> You bind an extra effect to the area from the list below:</p><p><strong>Courage.</strong> Creatures of any types you choose can't gain the &amp;Reference[Frightened] condition while in the area.</p><p><strong>Darkness.</strong> Darkness fills the area. Normal light, as well as magical light created by spells of a level lower than this spell, can't illuminate the area.</p><p><strong>Daylight.</strong> Bright light fills the area. Magical Darkness created by spells of a level lower than this spell can't extinguish the light.</p><p><strong>Peaceful Rest</strong>. Dead bodies interred in the area can't be turned into Undead.</p><p><strong>Extradimensional Interference.</strong> Creatures of any types you choose can't enter or exit the area using teleportation or interplanar travel.</p><p><strong>Fear.</strong> Creatures of any types you choose have the &amp;Reference[Frightened] condition while in the area.</p><p><strong>Resistance.</strong> Creatures of any types you choose have &amp;Reference[damageresistance]{Resistance} to one damage type of your choice while in the area.</p><p><strong>Silence.</strong> No sound can emanate from within the area, and no sound can reach into it.</p><p><strong>Tongues.</strong> Creatures of any types you choose can communicate with any other creature in the area even if they don't share a common language.</p><p><strong>Vulnerability.</strong> Creatures of any types you choose have &amp;Reference[damagevulnerability]{Vulnerability} to one damage type of your choice while in the area.</p>"
-		},
-		"Hallucinatory Terrain": {
-			"name": "Hallucinatory Terrain",
-			"description": "<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed.</p><p>The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn't obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.</p>"
-		},
-		"Harm": {
-			"name": "Harm",
-			"description": "<p>You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes 14d6 Necrotic damage, and its Hit Point maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's Hit Point maximum below 1.</p>"
-		},
+            "name": "Освячення",
+            "description": "<p>Ви торкаєтеся точки й наповнюєте область навколо неї святою чи нечестивою силою. Область може мати радіус до 60 футів, і заклинання провалюється, якщо радіус включає область, яка вже перебуває під дією заклинання <em>Hallow</em>. Задіяна область має такі ефекти.</p><p><strong>Освячений захист.</strong> Оберіть будь-які з цих типів істот: Аберація (Aberration), Небожитель (Celestial), Елементаль (Elemental), Фея (Fey), Бестія (Fiend) або Нежить (Undead). Істоти обраних типів не можуть добровільно зайти в область, і будь-яка істота, якою володіють такі істоти або яка має від них стан Зачарований (Charmed) чи Переляканий (Frightened), не перебуває під володінням, зачаруванням або переляком від них, перебуваючи в цій області.</p><p><strong>Додатковий ефект.</strong> Ви прив'язуєте до області додатковий ефект зі списку нижче:</p><p><strong>Мужність (Courage).</strong> Істоти будь-яких типів на ваш вибір не можуть отримати стан &amp;Reference[Frightened]{Переляканий}, перебуваючи в цій області.</p><p><strong>Темрява (Darkness).</strong> Темрява заповнює область. Звичайне світло, а також магічне світло, створене заклинаннями нижчого рівня, ніж це заклинання, не можуть освітити область.</p><p><strong>Денне світло (Daylight).</strong> Яскраве світло заповнює область. Магічна темрява, створена заклинаннями нижчого рівня, ніж це заклинання, не може згасити це світло.</p><p><strong>Мирний спокій (Peaceful Rest)</strong>. Трупні залишки, поховані в цій області, не можуть бути перетворені на Нежить.</p><p><strong>Позавимірні перешкоди (Extradimensional Interference).</strong> Істоти будь-яких типів на ваш вибір не можуть зайти в область або вийти з неї за допомогою телепортації чи подорожей між планами.</p><p><strong>Страх (Fear).</strong> Істоти будь-яких типів на ваш вибір мають стан &amp;Reference[Frightened]{Переляканий}, перебуваючи в цій області.</p><p><strong>Опір (Resistance).</strong> Істоти будь-яких типів на ваш вибір мають &amp;Reference[damageresistance]{опір (Resistance)} до одного типу шкоди на ваш вибір, перебуваючи в цій області.</p><p><strong>Тиша (Silence).</strong> Жодний звук не може виходити зсередини області, і жодний звук не може проникати всередину неї.</p><p><strong>Мови (Tongues).</strong> Істоти будь-яких типів на ваш вибір можуть спілкуватися з будь-якою іншою істотою в області, навіть якщо вони не мають спільної мови.</p><p><strong>Вразливість (Vulnerability).</strong> Істоти будь-яких типів на ваш вибір мають &amp;Reference[damagevulnerability]{вразливість (Vulnerability)} до одного типу шкоди на ваш вибір, перебуваючи в цій області.</p>"
+        },
+        "Hallucinatory Terrain": {
+            "name": "Ілюзорна місцевість",
+            "description": "<p>Ви робите так, що природна місцевість у кубі (Cube) зі стороною 150 футів у межах дистанції виглядає, звучить і пахне як інший вид природної місцевості. Таким чином, відкриті поля чи дорогу можна змусити нагадувати болото, пагорб, розколину чи іншу важкопрохідну або непрохідну місцевість. Ставок можна зробити схожим на трав'янистий лук, урвище — на пологий схил, а засіяний камінням явір — на широку й гладку дорогу. Штучні споруди, спорядження та істоти в межах області не змінюються.</p><p>Тактильні характеристики місцевості залишаються незмінними, тому істоти, які заходять в область, скоріш за все, помітять ілюзію. Якщо різниця не очевидна на дотик, істота, яка вивчає ілюзію, може скористатися дією Дослідження (Study action), щоб зробити перевірку [[/check ability=int skill=inv dc=@attributes.spell.dc]] (Розслідування) проти вашої СЛ рятівного кидка від заклинань, щоб розвіяти її у своєму сприйнятті. Якщо істота розуміє, що місцевість ілюзорна, вона бачить розмите зображення, накладене поверх справжньої місцевості.</p>"
+        },
+        "Harm": {
+            "name": "Шкода",
+            "description": "<p>Ви вивільняєте руйнівну магію на істоту, яку бачите в межах дистанції. Ціль робить рятівний кидок Тілобудови (Constitution saving throw). У разі провалу вона отримує 14d6 [[/damage 14d6 type=necrotic]] некротичної шкоди (Necrotic damage), і її максимальна кількість пунктів здоров'я зменшується на величину отриманої некротичної шкоди. У разі успішного кидка вона отримує лише половину шкоди. Це заклинання не може зменшити максимальну кількість пунктів здоров'я цілі нижче 1.</p>"
+        },
 		"Haste": {
-			"name": "Haste",
-			"description": "<p>Choose a willing creature that you can see within range. Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.</p><p>When the spell ends, the target is &amp;Reference[Incapacitated apply=false] and has a Speed of 0 until the end of its next turn, as a wave of lethargy washes over it.</p>",
-			"effects": {
-				"Hasted": {
-					"name": "Hasted",
-					"description": "<p>Until the spell ends, the target’s Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.</p><p>When the spell ends, the target is Incapacitated and has a Speed of 0 until the end of its next turn, as a @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave of lethargy} washes over it.</p>",
-					"changes": {
-						"system.attributes.movement.walk": 2,
-						"system.attributes.movement.burrow": 2,
-						"system.attributes.movement.climb": 2,
-						"system.attributes.movement.fly": 2,
-						"system.attributes.movement.swim": 2,
-						"system.attributes.ac.bonus": 2,
-						"system.abilities.dex.save.roll.mode": 1
-					}
-				},
-				"Lethargy": {
-					"name": "Lethargy",
-					"description": "<p>When the spell ends, the target is &amp;Reference[incapacitated apply=false] and has a Speed of 0 until the end of its next turn, as a wave of lethargy washes over it.</p>",
-					"changes": {
-						"system.attributes.movement.walk": 0,
-						"system.attributes.movement.burrow": 0,
-						"system.attributes.movement.climb": 0,
-						"system.attributes.movement.fly": 0,
-						"system.attributes.movement.swim": 0
-					}
-				}
-			}
-		},
+            "name": "Прискорення",
+            "description": "<p>Оберіть добровільну істоту, яку ви бачите в межах дистанції. Доки заклинання не закінчиться, швидкість (Speed) цілі подвоюється, вона отримує бонус +2 до класу захисту (Armor Class), має Перевагу (Advantage) на рятівні кидки Спритності та отримує додаткову дію на кожному своєму ході. Цю дію можна використати лише для здійснення дії Атака (Attack — лише одна атака), Ривок (Dash), Відступ (Disengage), Сховатися (Hide) або Використати (Utilize).</p><p>Коли заклинання закінчується, ціль отримує стан &amp;Reference[Incapacitated apply=false]{Недієздатний (Incapacitated)} і швидкість 0 до кінця свого наступного ходу, оскільки її накриває хвиля млявості (lethargy).</p>",
+            "effects": {
+                "Hasted": {
+                    "name": "Прискорений",
+                    "description": "<p>Доки заклинання не закінчиться, швидкість (Speed) цілі подвоюється, вона отримує бонус +2 до класу захисту (Armor Class), має Перевагу (Advantage) на рятівні кидки Спритності та отримує додаткову дію на кожному своєму ході. Цю дію можна використати лише для здійснення дії Атака (Attack — лише одна атака), Ривок (Dash), Відступ (Disengage), Сховатися (Hide) або Використати (Utilize).</p><p>Коли заклинання закінчується, ціль стає недієздатною та має швидкість 0 до кінця свого наступного ходу, оскільки її накриває @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{хвиля млявості}.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 2,
+                        "system.attributes.movement.burrow": 2,
+                        "system.attributes.movement.climb": 2,
+                        "system.attributes.movement.fly": 2,
+                        "system.attributes.movement.swim": 2,
+                        "system.attributes.ac.bonus": 2,
+                        "system.abilities.dex.save.roll.mode": 1
+                    }
+                },
+                "Lethargy": {
+                    "name": "Млявість",
+                    "description": "<p>Коли заклинання закінчується, ціль отримує стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} і швидкість 0 до кінця свого наступного ходу, оскільки її накриває хвиля млявості.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0,
+                        "system.attributes.movement.burrow": 0,
+                        "system.attributes.movement.climb": 0,
+                        "system.attributes.movement.fly": 0,
+                        "system.attributes.movement.swim": 0
+                    }
+                }
+            }
+        },
 		"Heal": {
-			"name": "Heal",
-			"description": "<p>Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the &amp;Reference[Blinded], &amp;Reference[Deafened], and &amp;Reference[Poisoned] conditions on the target.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 10 for each spell slot level above 6.</p>"
-		},
-		"Healing Word": {
-			"name": "Healing Word",
-			"description": "<p>A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d4 for each spell slot level above 1.</p>"
-		},
-		"Heat Metal": {
-			"name": "Heat Metal",
-			"description": "<p>Choose a manufactured metal object, such as a metal weapon or a suit of Heavy or Medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 Fire damage when you cast the spell. Until the spell ends, you can take a Bonus Action on each of your later turns to deal this damage again if the object is within range.</p><p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>",
-			"effects": {
-				"Heated Metal": {
-					"name": "Heated Metal",
-					"description": "<p>If a creature is holding or wearing the object and takes the damage from it, The creature must succeed on a [[/save ability=con format=long]] or drop the object if it can. If it doesn’t drop the object, it has Disadvantage on attack rolls and ability checks until the start of your next turn.</p>"
-				}
-			}
-		},
+            "name": "Зцілення",
+            "description": "<p>Оберіть істоту, яку ви бачите в межах дистанції. Позитивна енергія проливається крізь ціль, відновлюючи 70 пунктів здоров'я (Hit Points). Це заклинання також знімає з цілі стани &amp;Reference[Blinded]{Сліпий (Blinded)}, &amp;Reference[Deafened]{Глухий (Deafened)} та &amp;Reference[Poisoned]{Отруєний (Poisoned)}.</p><p><strong>Використання комірки вищого рівня.</strong> Кількість відновленого здоров'я збільшується на 10 за кожен рівень комірки вище 6-го.</p>"
+        },
+        "Healing Word": {
+            "name": "Цілюще слово",
+            "description": "<p>Істота на ваш вибір, яку ви бачите в межах дистанції, відновлює пункти здоров'я (Hit Points) в об'ємі 2d4 плюс ваш модифікатор характеристики заклинань.</p><p><strong>Використання комірки вищого рівня.</strong> Кількість відновленого здоров'я збільшується на 2d4 за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Heat Metal": {
+            "name": "Нагрівання металу",
+            "description": "<p>Оберіть виготовлений металевий предмет, такий як металева зброя або комплект важких чи середніх металевих обладунків, який ви бачите в межах дистанції. Ви змушуєте предмет розжаритися до червоного світіння. Будь-яка істота, що контактує з предметом фізично, отримує 2d8 [[/damage 2d8 type=fire]] вогняної шкоди (Fire damage), коли ви накладаєте заклинання. Доки заклинання не закінчиться, ви можете витратити бонусні дії (Bonus Action) на кожному зі своїх наступних ходів, щоб знову завдати цієї шкоди, якщо предмет перебуває в межах дистанції.</p><p>Якщо істота тримає або носить предмет і отримує від нього шкоду, вона повинна успішно зробити рятівний кидок Тілобудови (Constitution saving throw), інакше вона впустить предмет, якщо може це зробити. Якщо вона не впускає предмет, вона отримує Перешкоду (Disadvantage) на кидки атаки та перевірки характеристик до початку вашого наступного ходу.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 2-го.</p>",
+            "effects": {
+                "Heated Metal": {
+                    "name": "Нагрітий метал",
+                    "description": "<p>Якщо істота тримає або носить предмет і отримує від нього шкоду, вона повинна успішно зробити [[/save ability=con format=long]] або впустити предмет, якщо може. Якщо вона не впускає предмет, вона має Перешкоду (Disadvantage) на кидки атаки та перевірки характеристик до початку вашого наступного ходу.</p>"
+                }
+            }
+        },
 		"Hellish Rebuke": {
-			"name": "Hellish Rebuke",
-			"description": "<p>The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 1.</p>"
-		},
-		"Heroes' Feast": {
-			"name": "Heroes' Feast",
-			"description": "<p>You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.</p><p>A creature that partakes gains several benefits, which last for 24 hours. The creature has &amp;Reference[damageResistance]{Resistance} to Poison damage, and it has Immunity to the &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.</p>",
-			"effects": {
-				"Feast's Benefits": {
-					"name": "Feast's Benefits",
-					"description": "<p>The creature has &amp;Reference[damageResistance]{Resistance} to Poison damage, and it has Immunity to the &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.</p>",
-					"changes": {
-						"system.traits.dr.value": "poison",
-						"system.traits.ci.value": "poisoned"
-					}
-				}
-			}
-		},
+            "name": "Пекло караюче",
+            "description": "<p>Істота, яка завдала вам шкоди, на мить оточена зеленим полум'ям. Вона робить рятівний кидок Спритності, отримуючи 2d10 [[/damage 2d10 type=fire]] вогняної шкоди (Fire damage) у разі провалу, або половину цієї шкоди в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Heroes' Feast": {
+            "name": "Бенкет героїв",
+            "description": "<p>Ви створюєте бенкет, що з'являється на поверхні у вільному кубі (Cube) зі стороною 10 футів поруч із вами. Бенкет споживається протягом 1 години і з'їдається до кінця цього часу, а корисні ефекти наступають лише після завершення цієї години. У бенкеті можуть взяти участь до дванадцяти істот.</p><p>Істота, яка взяла участь, отримує кілька переваг, що тривають 24 години. Істота має &amp;Reference[damageResistance]{опір (Resistance)} до отруйної шкоди (Poison damage) та імунітет до станiв &amp;Reference[Frightened]{Переляканий} i &amp;Reference[Poisoned]{Отруєний}. Її максимальна кількість пунктів здоров'я також збільшується на 2d10, і вона відновлює таку ж кількість пунктів здоров'я.</p>",
+            "effects": {
+                "Feast's Benefits": {
+                    "name": "Переваги бенкету",
+                    "description": "<p>Істота має &amp;Reference[damageResistance]{опір (Resistance)} до отруйної шкоди (Poison damage) та імунітет до станiв &amp;Reference[Frightened]{Переляканий} i &amp;Reference[Poisoned]{Отруєний}. Її максимальна кількість пунктів здоров'я також збільшується на 2d10, і вона відновлює таку ж кількість пунктів здоров'я.</p>",
+                    "changes": {
+                        "system.traits.dr.value": "poison",
+                        "system.traits.ci.value": "poisoned"
+                    }
+                }
+            }
+        },
 		"Heroism": {
-			"name": "Heroism",
-			"description": "<p>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
-			"effects": {
-				"Bravery": {
-					"name": "Bravery",
-					"description": "<p>The creature is immune to the Frightened condition and gains Temporary Hit Points equal to your spellcasting ability modifier at the start of each of its turns.</p>",
-					"changes": {
-						"system.traits.ci.value": "frightened"
-					}
-				}
-			}
-		},
-		"Hex": {
-			"name": "Hex",
-			"description": "<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).</p>",
-			"effects": {
-				"Hexed Strength": {
-					"name": "Hexed Strength",
-					"description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.str.check.roll.mode": -1
-					}
-				},
-				"Hexed Dexterity": {
-					"name": "Hexed Dexterity",
-					"description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.dex.check.roll.mode": -1
-					}
-				},
-				"Hexed Constitution": {
-					"name": "Hexed Constitution",
-					"description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.con.check.roll.mode": -1
-					}
-				},
-				"Hexed Intelligence": {
-					"name": "Hexed Intelligence",
-					"description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.int.check.roll.mode": -1
-					}
-				},
-				"Hexed Wisdom": {
-					"name": "Hexed Wisdom",
-					"description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.wis.check.roll.mode": -1
-					}
-				},
-				"Hexed Charisma": {
-					"name": "Hexed Charisma",
-					"description": "<p>The target has Disadvantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.cha.check.roll.mode": -1
-					}
-				}
-			}
-		},
+            "name": "Героїзм",
+            "description": "<p>Добровільна істота, яку ви торкаєтеся, сповнюється хоробрості. Доки заклинання не закінчиться, істота отримує імунітет до стану &amp;Reference[Frightened]{Переляканий} та тимчасові пункти здоров'я (Temporary Hit Points) в об'ємі, рівному вашому модифікатору характеристики заклинань, на початку кожного свого ходу.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати одну додаткову ціль для кожного рівня комірки вище 1-го.</p>",
+            "effects": {
+                "Bravery": {
+                    "name": "Хоробрість",
+                    "description": "<p>Істота має імунітет до стану &amp;Reference[Frightened]{Переляканий} та отримує тимчасові пункти здоров'я (Temporary Hit Points) в об'ємі, рівному вашому модифікатору характеристики заклинань, на початку кожного свого ходу.</p>",
+                    "changes": {
+                        "system.traits.ci.value": "frightened"
+                    }
+                }
+            }
+        },
+        "Hex": {
+            "name": "Прокляття",
+            "description": "<p>Ви накладаєте прокляття на істоту, яку бачите в межах дистанції. Доки заклинання не закінчиться, ви завдаєте додатково 1d6 [[/damage 1d6 type=necrotic]] некротичної шкоди (Necrotic damage) цілі щоразу, коли влучаєте по ній кидком атаки. Також оберіть одну характеристику, коли накладаєте заклинання. Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p><p>Якщо ціль опускається до 0 пунктів здоров'я до закінчення дії цього заклинання, ви можете витратити бонусні дії (Bonus Action) на одному з наступних ходів, щоб прокляти нову істоту.</p><p><strong>Використання комірки вищого рівня.</strong> Ваша концентрація (Concentration) може тривати довше за використання комірки 2-го рівня (до 4 годин), 3–4 рівнів (до 8 годин) або 5-го й вище (24 години).</p>",
+            "effects": {
+                "Hexed Strength": {
+                    "name": "Проклята сила",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.str.check.roll.mode": -1
+                    }
+                },
+                "Hexed Dexterity": {
+                    "name": "Проклята спритність",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.dex.check.roll.mode": -1
+                    }
+                },
+                "Hexed Constitution": {
+                    "name": "Проклята тілобудова",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.con.check.roll.mode": -1
+                    }
+                },
+                "Hexed Intelligence": {
+                    "name": "Проклятий інтелект",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.int.check.roll.mode": -1
+                    }
+                },
+                "Hexed Wisdom": {
+                    "name": "Проклята мудрість",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.wis.check.roll.mode": -1
+                    }
+                },
+                "Hexed Charisma": {
+                    "name": "Проклята харизма",
+                    "description": "<p>Ціль має Перешкоду (Disadvantage) на перевірки характеристик, що здійснюються з використанням обраної характеристики.</p>",
+                    "changes": {
+                        "system.abilities.cha.check.roll.mode": -1
+                    }
+                }
+            }
+        },
 		"Hold Monster": {
-			"name": "Hold Monster",
-			"description": "<p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 5.</p>",
-			"effects": {
-				"Paralyzed": {
-					"name": "Paralyzed",
-					"description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
-		"Hold Person": {
-			"name": "Hold Person",
-			"description": "<p>Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the &amp;Reference[paralyzed apply=false] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional Humanoid for each spell slot level above 2.</p>",
-			"effects": {
-				"Paralyzed": {
-					"name": "Paralyzed",
-					"description": "<p>At the end of each of its turns, the target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
+            "name": "Утримання монстра",
+            "description": "<p>Оберіть істоту, яку ви бачите в межах дистанції. Ціль повинна успішно зробити рятівний кидок Мудрості, інакше вона отримує стан &amp;Reference[paralyzed apply=false]{Паралізований (Paralyzed)} на час дії заклинання. Наприкінці кожного свого ходу ціль повторює рятівний кидок, завершуючи дію заклинання на собі в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати одну додаткову ціль для кожного рівня комірки вище 5-го.</p>",
+            "effects": {
+                "Paralyzed": {
+                    "name": "Паралізований",
+                    "description": "<p>Наприкінці кожного свого ходу ціль повторює рятівний кидок [[/save ability=wis]], завершуючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
+        "Hold Person": {
+            "name": "Утримання гуманоїда",
+            "description": "<p>Оберіть гуманоїда (Humanoid), якого ви бачите в межах дистанції. Ціль повинна успішно зробити рятівний кидок Мудрості, інакше вона отримує стан &amp;Reference[paralyzed apply=false]{Паралізований (Paralyzed)} на час дії заклинання. Наприкінці кожного свого ходу ціль повторює рятівний кидок, завершуючи дію заклинання на собі в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати одного додаткового гуманоїда для кожного рівня комірки вище 2-го.</p>",
+            "effects": {
+                "Paralyzed": {
+                    "name": "Паралізований",
+                    "description": "<p>Наприкінці кожного свого ходу ціль повторює рятівний кидок [[/save ability=wis]], завершуючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
 		"Holy Aura": {
-			"name": "Holy Aura",
-			"description": "<p>For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the &amp;Reference[Blinded apply=false] condition until the end of its next turn.</p>",
-			"effects": {
-				"Holy Protection": {
-					"name": "Holy Protection",
-					"changes": {
-						"system.abilities.str.save.roll.mode": 1,
-						"system.abilities.dex.save.roll.mode": 1,
-						"system.abilities.con.save.roll.mode": 1,
-						"system.abilities.int.save.roll.mode": 1,
-						"system.abilities.wis.save.roll.mode": 1,
-						"system.abilities.cha.save.roll.mode": 1
-					}
-				},
-				"Blinded": {
-					"name": "Blinded",
-					"description": "<p>The attacker has the &amp;Reference[Blinded apply=false] condition until the end of its next turn.</p>"
-				}
-			}
-		},
-		"Hunter's Mark": {
-			"name": "Hunter's Mark",
-			"description": "<p>You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.</p><p>If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Your Concentration can last longer with a spell slot of level 3–4 (up to 8 hours) or 5+ (up to 24 hours).</p>",
-			"effects": {
-				"Hunter's Mark": {
-					"name": "Hunter's Mark",
-					"description": "<p>Until the spell ends, the caster deals an extra [[/damage 1d6 force]] damage to the target whenever they hit it with an attack roll.</p>"
-				}
-			}
-		},
+            "name": "Свята аура",
+            "description": "<p>На час дії заклинання ви випромінюєте ауру у вигляді випромінювання (Emanation) радіусом 30 футів. Перебуваючи в аурі, істоти на ваш вибір мають Перевагу (Advantage) на всі рятівні кидки, а інші істоти мають Перешкоду (Disadvantage) на кидки атаки проти них. Крім того, коли Бестія (Fiend) або Нежить (Undead) влучає в уражену істоту кидком атаки ближнього бою, атакуючий повинен успішно зробити рятівний кидок Тілобудови (Constitution saving throw), інакше він отримує стан &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} до кінця свого наступного ходу.</p>",
+            "effects": {
+                "Holy Protection": {
+                    "name": "Святий захист",
+                    "changes": {
+                        "system.abilities.str.save.roll.mode": 1,
+                        "system.abilities.dex.save.roll.mode": 1,
+                        "system.abilities.con.save.roll.mode": 1,
+                        "system.abilities.int.save.roll.mode": 1,
+                        "system.abilities.wis.save.roll.mode": 1,
+                        "system.abilities.cha.save.roll.mode": 1
+                    }
+                },
+                "Blinded": {
+                    "name": "Сліпий",
+                    "description": "<p>Атакуючий має стан &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} до кінця свого наступного ходу.</p>"
+                }
+            }
+        },
+        "Hunter's Mark": {
+            "name": "Мітка мисливця",
+            "description": "<p>Ви магічно позначаєте одну істоту, яку бачите в межах дистанції, як свою здобич. Доки заклинання не закінчиться, ви завдаєте додатково [[/damage]] шкоди цілі щоразу, коли влучаєте по ній кидком атаки. Ви також маєте Перевагу (Advantage) на будь-яку перевірку [[/check ability=wis skill=prc]] (Уважність) або [[/check ability=wis skill=sur]] (Виживання), яку ви робите, щоб знайти її.</p><p>Якщо ціль опускається до 0 пунктів здоров'я до закінчення дії цього заклинання, ви можете витратити бонусну дію (Bonus Action), щоб перенести мітку на нову істоту, яку ви бачите в межах дистанції.</p><p><strong>Використання комірки вищого рівня.</strong> Ваша концентрація (Concentration) може тривати довше за використання комірки 3–4 рівнів (до 8 годин) або 5-го й вище (до 24 годин).</p>",
+            "effects": {
+                "Hunter's Mark": {
+                    "name": "Мітка мисливця",
+                    "description": "<p>Доки заклинання не закінчиться, заклинач завдає додатково [[/damage 1d6 force]] силової шкоди (force damage) цілі щоразу, коли влучає по ній кидком атаки.</p>"
+                }
+            }
+        },
 		"Hypnotic Pattern": {
-			"name": "Hypnotic Pattern",
-			"description": "<p>You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the &amp;Reference[charmed apply=false] condition for the duration. While Charmed, the creature has the &amp;Reference[incapacitated apply=false] condition and a Speed of 0.</p><p>The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>",
-			"effects": {
-				"Hypnotized": {
-					"name": "Hypnotized",
-					"description": "<p>While &amp;Reference[charmed apply=false], the creature has the &amp;Reference[incapacitated apply=false] condition and a Speed of 0.</p><p>The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>",
-					"changes": {
-						"system.attributes.movement.walk": 0,
-						"system.attributes.movement.burrow": 0,
-						"system.attributes.movement.climb": 0,
-						"system.attributes.movement.fly": 0,
-						"system.attributes.movement.swim": 0
-					}
-				}
-			}
-		},
+            "name": "Гіпнотичний візерунок",
+            "description": "<p>Ви створюєте вигадливий візерунок із кольорів у кубі (Cube) зі стороною 30 футів у межах дистанції. Візерунок з'являється на мить і зникає. Кожна істота в цій області, яка бачить візерунок, повинна успішно зробити рятівний кидок Мудрості, інакше вона отримує стан &amp;Reference[charmed apply=false]{Зачарований (Charmed)} на час дії заклинання. Поки істота зачарована, вона також має стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} і швидкість 0.</p><p>Дія заклинання для ураженої істоти закінчується, якщо вона отримує будь-яку шкоду або якщо хтось інший витрачає дію (action), щоб вивести її зі ступору.</p>",
+            "effects": {
+                "Hypnotized": {
+                    "name": "Загіпнотизований",
+                    "description": "<p>Поки істота зачарована, вона має стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} і швидкість 0.</p><p>Дія заклинання для ураженої істоти закінчується, якщо вона отримує будь-яку шкоду або якщо хтось інший витрачає дію (action), щоб вивести її зі ступору.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0,
+                        "system.attributes.movement.burrow": 0,
+                        "system.attributes.movement.climb": 0,
+                        "system.attributes.movement.fly": 0,
+                        "system.attributes.movement.swim": 0
+                    }
+                }
+            }
+        },
 		"Ice Knife": {
 			"name": "Ice Knife",
 			"description": "<p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The Cold damage increases by 1d6 for each spell slot level above 1.</p>"
