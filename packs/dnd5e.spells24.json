@@ -485,243 +485,243 @@
             "description": "<p>З вас виривається тонкий потік полум'я. Кожна істота в 15-футовому конусі (Cone) робить рятівний кидок Спритності, отримуючи 3d6 вогняної шкоди (Fire damage) у разі провалу кидка або половину цієї шкоди в разі успіху.</p><p>Легкозаймисті предмети в конусі, які ніхто не носить і не тримає, загоряються.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>"
         },
 		"Call Lightning": {
-			"name": "Call Lightning",
-			"description": "<p>A storm cloud appears at a point within range that you can see above yourself. It takes the shape of a Cylinder that is 10 feet tall with a 60-foot radius.</p><p>When you cast the spell, choose a point you can see under the cloud. A lightning bolt shoots from the cloud to that point. Each creature within 5 feet of that point makes a Dexterity saving throw, taking 3d10 Lightning damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, you can take a Magic action to call down lightning in that way again, targeting the same point or a different one.</p><p>If you're outdoors in a storm when you cast this spell, the spell gives you control over that storm instead of creating a new one. Under such conditions, the spell's damage increases by 1d10.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>"
-		},
+            "name": "Заклик блискавки",
+            "description": "<p>У точці, яку ви бачите в межах дистанції над собою, з'являється грозова хмара. Вона набуває форми циліндра (Cylinder) заввишки 10 футів і радіусом 60 футів.</p><p>Коли ви створюєте це заклинання, оберіть точку під хмарою, яку ви бачите. З хмари в цю точку б'є розряд блискавки. Кожна істота в межах 5 футів від цієї точки робить рятівний кидок Спритності, отримуючи 3d10 шкоди блискавкою (Lightning damage) у разі провалу кидка або половину цієї шкоди в разі успіху.</p><p>Поки заклинання не закінчиться, ви можете виконувати дію «Магія» (Magic), щоб знову закликати блискавку таким самим чином, обираючи ту саму або іншу точку.</p><p>Якщо під час створення цього заклинання ви перебуваєте на відкритому повітрі під час шторму, заклинання дає вам контроль над цим штормом замість створення нового. За таких умов шкода від заклинання збільшується на 1d10.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 3-го.</p>"
+        },
 		"Calm Emotions": {
-			"name": "Calm Emotions",
-			"description": "<p>Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):</p><ul><li>The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.</li><li>The creature becomes Indifferent about creatures of your choice that it's Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature's attitude returns to normal.</li></ul>",
-			"effects": {
-				"Calmed": {
-					"name": "Calmed",
-					"description": "<p>The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.</p>",
-					"changes": {
-						"system.traits.ci.value": "frightened"
-					}
-				},
-				"Indifference": {
-					"name": "Indifference",
-					"description": "<p>The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.</p>"
-				}
-			}
-		},
+            "name": "Заспокоєння емоцій",
+            "description": "<p>Кожен гуманоїд (Humanoid) у сфері (Sphere) радіусом 20 футів із центром у обраній вами точці в межах дистанції повинен успішно зробити рятівний кидок Харизми, інакше він зазнає одного з наступних ефектів (обирається індивідуально для кожної істоти):</p><ul><li>Істота отримує імунітет до станів «Очарований» (Charmed) та «Наляканий» (Frightened) до закінчення дії заклинання. Якщо істота вже була Очарованою або Наляканою, дія цих станів пригнічується на час тривалості заклинання.</li><li>Істота стає байдужою (Indifferent) до обраних вами істот, до яких вона була ворожою (Hostile). Ця байдужість закінчується, якщо ціль отримує шкоду або бачить, як шкоду отримують її союзники. Коли заклинання закінчується, ставлення істоти повертається до звичайного.</p></li></ul>",
+            "effects": {
+                "Calmed": {
+                    "name": "Заспокоєний",
+                    "description": "<p>Істота отримує імунітет до станів «Очарований» (Charmed) та «Наляканий» (Frightened) до закінчення дії заклинання. Якщо істота вже була Очарованою або Наляканою, дія цих станів пригнічується на час тривалості заклинання.</p>",
+                    "changes": {
+                        "system.traits.ci.value": "frightened"
+                    }
+                },
+                "Indifference": {
+                    "name": "Байдужість",
+                    "description": "<p>Істота стає байдужою до обраних вами істот, до яких вона була ворожою. Ця байдужість закінчується, якщо ціль отримує шкоду або бачить, як шкоду отримують її союзники. Коли заклинання закінчується, ставлення істоти повертається до звичайного.</p>"
+                }
+            }
+        },
 		"Chain Lightning": {
-			"name": "Chain Lightning",
-			"description": "<p>You launch a lightning bolt toward a target you can see within range. Three bolts then leap from that target to as many as three other targets of your choice, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>Each target makes a Dexterity saving throw, taking 10d8 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> One additional bolt leaps from the first target to another target for each spell slot level above 6.</p>"
-		},
+            "name": "Ланцюгова блискавка",
+            "description": "<p>Ви спрямовуєте розряд блискавки в ціль, яку ви бачите в межах дистанції. Потім від цієї цілі відгалужуються три нові розряди, що б'ють у щонайбільше три інші обрані вами цілі, кожна з яких повинна перебувати в межах 30 футів від першої цілі. Ціллю може бути істота або об'єкт, і в кожну з них може влучити лише один розряд.</p><p>Кожна ціль робить рятівний кидок Спритності, отримуючи 10d8 шкоди блискавкою (Lightning damage) у разі провалу кидка або половину цієї шкоди в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Від першої цілі відгалужується один додатковий розряд у ще одну ціль за кожен рівень комірки вище 6-го.</p>"
+        },
 		"Charm Monster": {
-			"name": "Charm Monster",
-			"description": "<p>One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can target one additional creature for each spell slot level above 4.</p>",
-			"effects": {
-				"Charmed": {
-					"name": "Charmed",
-					"description": "<p>The target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
-				}
-			}
-		},
+            "name": "Очарування чудовиська",
+            "description": "<p>Одна істота, яку ви бачите в межах дистанції, робить рятівний кидок Мудрості. Вона робить його з перевагою (Advantage), якщо ви або ваші союзники воюєте з нею. У разі провалу кидка ціль отримує стан &amp;Reference[Charmed apply=false]{Очарований}, поки заклинання не закінчиться або поки ви чи ваші союзники не завдасте їй шкоди. Очарована істота є приязною (Friendly) до вас. Коли заклинання закінчується, ціль знає, що була очарована вами.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 4-го.</p>",
+            "effects": {
+                "Charmed": {
+                    "name": "Очарований",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Charmed apply=false]{Очарований}, поки заклинання не закінчиться або поки ви чи ваші союзники не завдасте їй шкоди. Очарована істота є приязною (Friendly) до вас. Коли заклинання закінчується, ціль знає, що була очарована вами.</p>"
+                }
+            }
+        },
 		"Charm Person": {
-			"name": "Charm Person",
-			"description": "<p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 1.</p>",
-			"effects": {
-				"Charmed": {
-					"name": "Charmed",
-					"description": "<p>the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.</p>"
-				}
-			}
-		},
+            "name": "Очарування особи",
+            "description": "<p>Один гуманоїд (Humanoid), якого ви бачите в межах дистанції, робить рятівний кидок Мудрості. Він робить його з перевагою (Advantage), якщо ви або ваші союзники воюєте з ним. У разі провалу кидка ціль отримує стан &amp;Reference[charmed apply=false]{Очарований}, поки заклинання не закінчиться або поки ви чи ваші союзники не завдасте їй шкоди. Очарована істота є приязною (Friendly) до вас. Коли заклинання закінчується, ціль знає, що була очарована вами.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Charmed": {
+                    "name": "Очарований",
+                    "description": "<p>Ціль отримує стан &amp;Reference[charmed apply=false]{Очарований}, поки заклинання не закінчиться або поки ви чи ваші союзники не завдасте їй шкоди. Очарована істота є приязною (Friendly) до вас. Коли заклинання закінчується, ціль знає, що була очарована вами.</p>"
+                }
+            }
+        },
 		"Chill Touch": {
-			"name": "Chill Touch",
-			"description": "<p>Channeling the chill of the grave, make a melee spell attack against a target within reach. On a hit, the target takes 1d10 Necrotic damage, and it can't regain Hit Points until the end of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d10 when you reach levels 5 (2d10), 11 (3d10), and 17 (4d10).</p>",
-			"effects": {
-				"Blocked Healing": {
-					"name": "Blocked Healing",
-					"description": "<p>The target can’t regain Hit Points until the end of your next turn.</p>"
-				}
-			}
-		},
+            "name": "Дотик могильного холоду",
+            "description": "<p>Спрямовуючи холод могили, здійсніть ближню атаку заклинанням (melee spell attack) проти цілі в межах вашої досяжності. У разі влучання ціль отримує 1d10 некротичної шкоди (Necrotic damage) і не може відновлювати хіти (Hit Points) до кінця вашого наступного ходу.</p><p><strong>Покращення фокусу.</strong> Шкода збільшується на 1d10, коли ви досягаєте 5-го (2d10), 11-го (3d10) і 17-го (4d10) рівнів.</p>",
+            "effects": {
+                "Blocked Healing": {
+                    "name": "Блоковане зцілення",
+                    "description": "<p>Ціль не може відновлювати хіти до кінця вашого наступного ходу.</p>"
+                }
+            }
+        },
 		"Chromatic Orb": {
-			"name": "Chromatic Orb",
-			"description": "<p>You hurl an orb of energy at a target within range. Choose Acid, Cold, Fire, Lightning, Poison, or Thunder for the type of orb you create, and then make a ranged spell attack against the target. On a hit, the target takes 3d8 damage of the chosen type.</p><p>If you roll the same number on two or more of the d8s, the orb leaps to a different target of your choice within 30 feet of the target. Make an attack roll against the new target, and make a new damage roll. The orb can't leap again unless you cast the spell with a level 2+ spell slot. [[@item.level]]{Number of leaps}</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.</p>"
-		},
-		"Circle of Death": {
-			"name": "Circle of Death",
-			"description": "<p>Negative energy ripples out in a 60-foot-radius Sphere from a point you choose within range. Each creature in that area makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 2d8 for each spell slot level above 6.</p>"
-		},
-		"Clairvoyance": {
-			"name": "Clairvoyance",
-			"description": "<p>You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration.</p><p>When you cast the spell, choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As a Bonus Action, you can switch between seeing and hearing.</p><p>A creature that sees the sensor (such as a creature benefiting from <em>See Invisibility</em> or &amp;Reference[truesight]) sees a luminous orb about the size of your fist.</p>"
-		},
+            "name": "Хроматична сфера",
+            "description": "<p>Ви жбурляєте сферу енергії в ціль у межах дистанції. Оберіть Кислоту, Холод, Вогонь, Блискавку, Отруту або Грім як тип сфери, яку ви створюєте, а потім здійсніть дальню атаку заклинанням (ranged spell attack) проти цілі. У разі влучання ціль отримує 3d8 шкоди обраного типу.</p><p>Якщо на двох або більше кубиках d8 випадає однакове число, сфера перестрибує на іншу обрану вами ціль у межах 30 футів від попередньої. Здійсніть кидок атаки проти нової цілі та зробіть новий кидок шкоди. Сфера не може перестрибнути знову, якщо тільки ви не створили це заклинання за допомогою комірки 2-го або вищого рівня. [[@item.level]]{Кількість стрибків}</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 1-го. Сфера може перестрибнути максимальну кількість разів, що дорівнює рівню витраченої комірки, і кожна істота може стати ціллю лише один раз за одне створення цього заклинання.</p>"
+        },
+        "Circle of Death": {
+            "name": "Коло смерті",
+            "description": "<p>Негативна енергія розходиться хвилями у сфері (Sphere) радіусом 60 футів із центром у обраній вами точці в межах дистанції. Кожна істота в цій області робить рятівний кидок Статури, отримуючи 8d8 некротичної шкоди (Necrotic damage) у разі провалу кидка або половину цієї шкоди в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 2d8 за кожен рівень комірки вище 6-го.</p>"
+        },
+        "Clairvoyance": {
+            "name": "Ясновидіння",
+            "description": "<p>Ви створюєте невидимий сенсор у межах дистанції в знайомому вам місці (де ви вже бували або яке бачили раніше) або в очевидному, але незнайомому вам місці (наприклад, за дверима, за рогом або в деревному гаю). Нематеріальний, невразливий сенсор залишається на місці протягом усієї тривалості дії заклинання.</p><p>Коли ви створюєте це заклинання, оберіть зір або слух. Ви можете використовувати обране чуття через сенсор так, ніби ви перебуваєте в його просторі. Бонусною дією ви можете перемикатися між зором і слухом.</p><p>Істота, яка бачить сенсор (наприклад, істота під дією заклинання <em>Бачення невидимого (See Invisibility)</em> або з &amp;Reference[truesight]{Істинним зором}), бачить світну сферу розміром приблизно з ваш кулак.</p>"
+        },
 		"Clone": {
-			"name": "Clone",
-			"description": "<p>You touch a creature or at least 1 cubic inch of its flesh. An inert duplicate of that creature forms inside the vessel used in the spell's casting and finishes growing after 120 days; you choose whether the finished clone is the same age as the creature or younger. The clone remains inert and endures indefinitely while its vessel remains undisturbed.</p><p>If the original creature dies after the clone finishes forming, the creature's soul transfers to the clone if the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The creature's original remains, if any, become inert and can't be revived, since the creature's soul is elsewhere.</p>"
-		},
-		"Cloudkill": {
-			"name": "Cloudkill",
-			"description": "<p>You create a 20-foot-radius Sphere of yellow-green fog centered on a point within range. The fog lasts for the duration or until strong wind (such as the one created by <em>Gust of Wind</em>) disperses it, ending the spell. Its area is Heavily Obscured.</p><p>Each creature in the Sphere makes a Constitution saving throw, taking 5d8 Poison damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
-		},
-		"Color Spray": {
-			"name": "Color Spray",
-			"description": "<p>You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the &amp;Reference[blinded apply=false] condition until the end of your next turn.</p>",
-			"effects": {
-				"Blinded": {
-					"name": "Blinded"
-				}
-			}
-		},
+            "name": "Клон",
+            "description": "<p>Ви торкаєтеся істоти або щонайменше 1 кубічного дюйма її плоті. Інертний дублікат цієї істоти формується всередині посудини, що використовується під час створення заклинання, і завершує свій ріст через 120 днів; ви обираєте, чи буде готовий клон того самого віку, що й істота, чи молодшим. Клон залишається інертним і зберігається невизначений час, поки посудина залишається недоторканою.</p><p>Якщо оригінальна істота помирає після того, як клон повністю сформувався, душа істоти переноситься в клона, якщо душа вільна та бажає повернутися. Клон фізично ідентичний оригіналу й має ту саму особистість, спогади та здібності, але не має нічого зі спорядження оригіналу. Залишки оригінальної істоти, якщо такі є, стають інертними, і їх неможливо оживити, оскільки душа істоти перебуває в іншому місці.</p>"
+        },
+        "Cloudkill": {
+            "name": "Смертоносна хмара",
+            "description": "<p>Ви створюєте сферу (Sphere) жовто-зеленого туману радіусом 20 футів із центром у точці в межах дистанції. Туман існує протягом усієї тривалості дії заклинання або доки сильний вітер (наприклад, створений заклинанням <em>Порив вітру (Gust of Wind)</em>) не розвіє його, припиняючи дію заклинання. Його область є сильно затьмареною (Heavily Obscured).</p><p>Кожна істота в сфері робить рятівний кидок Статури, отримуючи 5d8 отруйної шкоди (Poison damage) у разі провалу кидка або половину цієї шкоди в разі успіху. Істота також повинна зробити цей рятівний кидок, коли сфера переміщується в її простір, а також коли вона входить у сферу або закінчує свій хід там. Істота робить цей кидок лише один раз за хід.</p><p>Сфера віддаляється від вас на 10 футів на початку кожного вашого ходу.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 5-го.</p>"
+        },
+        "Color Spray": {
+            "name": "Кольорове сяйво",
+            "description": "<p>Ви випускаєте сліпучий потік спалахів кольорового світла. Кожна істота в 15-футовому конусі (Cone), що виходить від вас, повинна успішно зробити рятівний кидок Статури, інакше вона отримує стан &amp;Reference[blinded apply=false]{Сліпий} до кінця вашого наступного ходу.</p>",
+            "effects": {
+                "Blinded": {
+                    "name": "Сліпий"
+                }
+            }
+        },
 		"Command": {
-			"name": "Command",
-			"description": "<p>You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. Choose the command from these options:</p><p><strong>Approach.</strong> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><strong>Drop.</strong> The target drops whatever it is holding and then ends its turn.</p><p><strong>Flee.</strong> The target spends its turn moving away from you by the fastest available means.</p><p><strong>Grovel.</strong> The target has the Prone condition and then ends its turn.</p><p><strong>Halt.</strong> On its turn, the target doesn't move and takes no action or Bonus Action.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can affect one additional creature for each spell slot level above 1.</p>"
-		},
-		"Commune": {
-			"name": "Commune",
-			"description": "<p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p><p>Divine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.</p><p>If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.</p>"
-		},
-		"Commune with Nature": {
-			"name": "Commune with Nature",
-			"description": "<p>You commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in castles and settlements.</p><p>Choose three of the following facts; you learn those facts as they pertain to the spell's area:</p><ul><li>Locations of settlements</li><li>Locations of portals to other planes of existence</li><li>Location of one Challenge Rating 10+ creature (DM's choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead</li><li>The most prevalent kind of plant, mineral, or Beast (you choose which to learn)</li><li>Locations of bodies of water</li></ul><p>For example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.</p>"
-		},
+            "name": "Наказ",
+            "description": "<p>Ви промовляєте наказ з одного слова істоті, яку бачите в межах дистанції. Ціль повинна успішно зробити рятівний кидок Мудрості, інакше вона виконає наказ у свій наступний хід. Оберіть наказ із наступних варіантів:</p><p><strong>Підійди (Approach).</strong> Ціль рухається до вас найкоротшим і найпрямішим маршрутом, закінчуючи свій хід, якщо опиняється в межах 5 футів від вас.</p><p><strong>Кинь (Drop).</strong> Ціль кидає все, що тримає в руках, а потім закінчує свій хід.</p><p><strong>Тікай (Flee).</strong> Ціль витрачає свій хід на те, щоб віддалятися від вас найшвидшим із доступних способів.</p><p><strong>Падай (Grovel).</strong> Ціль отримує стан &amp;Reference[prone apply=false]{Лежачи}, а потім закінчує свій хід.</p><p><strong>Замри (Halt).</strong> У свій хід ціль не рухається і не виконує жодних дій чи бонусних дій.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете вплинути на одну додаткову істоту за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Commune": {
+            "name": "Спілкування з божеством",
+            "description": "<p>Ви зв'язуєтеся з божеством або його посланцем і ставите до трьох запитань, на які можна відповісти «так» або «ні». Ви повинні поставити свої запитання до закінчення дії заклинання. Ви отримуєте правильну відповідь на кожне запитання.</p><p>Божественні істоти не обов'язково є всезнаючими, тому ви можете отримати відповідь «неясно», якщо запитання стосується інформації, яка перебуває поза межами знань божества. У випадку, якщо відповідь одним словом може ввести в оману або суперечити інтересам божества, Майстер (DM) може натомість запропонувати коротку фразу як відповідь.</p><p>Якщо ви створюєте це заклинання більше одного разу до закінчення тривалого відпочинку (Long Rest), існує кумулятивний 25-відсотковий шанс для кожного створення після першого, що ви не отримаєте жодної відповіді.</p>"
+        },
+        "Commune with Nature": {
+            "name": "Єднання з природою",
+            "description": "<p>Ви спілкуєтеся з духами природи та отримуєте знання про навколишню місцевість. На відкритому повітрі заклинання дає вам знання про місцевість у радіусі 3 миль від вас. У печерах та інших природних підземних середовищах радіус обмежений 300 футами. Заклинання не працює там, де природа була замінена забудовою, наприклад, у замках та поселеннях.</p><p>Оберіть три з наступних фактів; ви дізнаєтеся ці факти стосовно області дії заклинання:</p><ul><li>Розташування поселень</li><li>Розташування порталів до інших планів існування</li><li>Розташування однієї істоти з рівнем небезпеки (Challenge Rating) 10+ (на вибір Майстра), яка є небожителем (Celestial), елементалем (Elemental), феєю (Fey), поріддям пекла (Fiend) або нежиттю (Undead)</li><li>Найбільш поширений вид рослин, мінералів або звірів (Beast) (ви обираєте, про що саме дізнатися)</li><li>Розташування водойм</li></ul><p>Наприклад, ви можете визначити розташування могутнього монстра в цій області, водойм, а також розташування будь-яких міст.</p>"
+        },
 		"Comprehend Languages": {
-			"name": "Comprehend Languages",
-			"description": "<p>For the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn't decode symbols or secret messages.</p>",
-			"effects": {
-				"Comprehension": {
-					"name": "Comprehension",
-					"changes": {
-						"system.traits.languages.value": "ALL"
-					}
-				}
-			}
-		},
+            "name": "Розуміння мов",
+            "description": "<p>Протягом дії заклинання ви розумієте буквальне значення будь-якої мови, яку чуєте або бачите, якщо вона передається мовою жестів. Ви також розумієте будь-яку писемну мову, яку бачите, але ви повинні торкатися поверхні, на якій написані слова. Читання однієї сторінки тексту займає близько 1 хвилини. Це заклинання не розшифровує символи або таємні послання.</p>",
+            "effects": {
+                "Comprehension": {
+                    "name": "Розуміння",
+                    "changes": {
+                        "system.traits.languages.value": "ALL"
+                    }
+                }
+            }
+        },
 		"Compulsion": {
-			"name": "Compulsion",
-			"description": "<p>Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.</p><p>For the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each &amp;Reference[Charmed apply=false] target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.</p>",
-			"effects": {
-				"Charmed": {
-					"name": "Charmed",
-					"description": "<p>You can take a Bonus Action to designate a direction that is horizontal to you. Each &amp;Reference[Charmed apply=false] target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
-		"Cone of Cold": {
-			"name": "Cone of Cold",
-			"description": "<p>You unleash a blast of cold air. Each creature in a 60-foot Cone originating from you makes a Constitution saving throw, taking 8d8 Cold damage on a failed save or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
-		},
-		"Confusion": {
-			"name": "Confusion",
-			"description": "<p>Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB rollable cite=false classes=\"caption-top\"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The Sphere's radius increases by 5 feet for each spell slot level above 4.</p>",
-			"effects": {
-				"Confused": {
-					"name": "Confused",
-					"description": "<p>The target can’t take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB rollable cite=false classes=\"caption-top\"]{Behavior for the Turn}</p><p>At the end of each of its turns, an affected target repeats the [[/save ability=wis]] save, ending the spell on itself on a success.</p>"
-				}
-			}
-		},
+            "name": "Примус",
+            "description": "<p>Кожна обрана вами істота, яку ви бачите в межах дистанції, повинна успішно зробити рятівний кидок Мудрості, інакше вона отримує стан «Очарований» (Charmed) до закінчення дії заклинання.</p><p>Протягом дії заклинання ви можете використати бонусну дію (Bonus Action), щоб вказати напрямок, горизонтальний відносно вас. Кожна ціль під дією стану &amp;Reference[Charmed apply=false]{Очарований} повинна використати якомога більше свого переміщення, щоб рухатися в цьому напрямку під час свого наступного ходу, обираючи найбезпечніший маршрут. Після такого переміщення ціль повторює рятівний кидок, припиняючи дію заклинання на собі в разі успіху.</p>",
+            "effects": {
+                "Charmed": {
+                    "name": "Очарований",
+                    "description": "<p>Ви можете використати бонусну дію, щоб вказати напрямок, горизонтальний відносно вас. Кожна ціль під дією стану &amp;Reference[Charmed apply=false]{Очарований} повинна використати якомога більше свого переміщення, щоб рухатися в цьому напрямку під час свого наступного ходу, обираючи найбезпечніший маршрут. Після такого переміщення ціль повторює рятівний кидок [[/save ability=wis]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
+        "Cone of Cold": {
+            "name": "Конус холоду",
+            "description": "<p>Ви випускаєте потік крижаного повітря. Кожна істота в 60-футовому конусі (Cone), що виходить від вас, робить рятівний кидок Статури, отримуючи 8d8 шкоди холодом (Cold damage) у разі провалу кидка або половину цієї шкоди в разі успіху. Істота, вбита цим заклинанням, стає замерзлою статуєю, поки не розтане.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 5-го.</p>"
+        },
+        "Confusion": {
+            "name": "Упокорення розуму",
+            "description": "<p>Кожна істота в сфері (Sphere) радіусом 10 футів із центром у обраній вами точці в межах дистанції повинна успішно зробити рятівний кидок Мудрості, інакше ця ціль не зможе виконувати бонусні дії чи реакції (Reactions) і муситиме кидати 1d10 на початку кожного свого ходу для визначення своєї поведінки в цей хід відповідно до таблиці нижче.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB rollable cite=false classes=\"caption-top\"]{Поведінка в цей хід}</p><p>Наприкінці кожного свого ходу уражена ціль повторює цей рятівний кидок, припиняючи дію заклинання на собі в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Радіус сфери збільшується на 5 футів за кожен рівень комірки вище 4-го.</p>",
+            "effects": {
+                "Confused": {
+                    "name": "Розгублений",
+                    "description": "<p>Ціль не може виконувати бонусні дії чи реакції та мусить кидати 1d10 на початку кожного свого ходу для визначення своєї поведінки в цей хід відповідно до таблиці нижче.</p><p>@Embed[Compendium.dnd5e.tables24.RollTable.phbsplConfusionB rollable cite=false classes=\"caption-top\"]{Поведінка в цей хід}</p><p>Наприкінці кожного свого ходу уражена ціль повторює рятівний кидок [[/save ability=wis]], припиняючи дію заклинання на собі в разі успіху.</p>"
+                }
+            }
+        },
 		"Conjure Animals": {
-			"name": "Conjure Animals",
-			"description": "<p>You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits' animal form, such as wolves, serpents, or birds.</p><p>You have Advantage on Strength saving throws while you're within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.</p><p>Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for each spell slot level above 3.</p>"
-		},
-		"Conjure Celestial": {
-			"name": "Conjure Celestial",
-			"description": "<p>You conjure a spirit from the Upper Planes, which manifests as a pillar of light in a 10-foot-radius, 40-foot-high Cylinder centered on a point within range. For each creature you can see in the Cylinder, choose which of these lights shines on it:</p><p><strong>Healing Light. </strong>The target regains Hit Points equal to 4d12 plus your spellcasting ability modifier.</p><p><strong>Searing Light. </strong>The target makes a Dexterity saving throw, taking 6d12 Radiant damage on a failed save or half as much damage on a successful one.</p><p>Until the spell ends, Bright Light fills the Cylinder, and when you move on your turn, you can also move the Cylinder up to 30 feet.</p><p>Whenever the Cylinder moves into the space of a creature you can see and whenever a creature you can see enters the Cylinder or ends its turn there, you can bathe it in one of the lights. A creature can be affected by this spell only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing and damage increase by 1d12 for each spell slot level above 7.</p>"
-		},
-		"Conjure Elemental": {
-			"name": "Conjure Elemental",
-			"description": "<p>You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. Choose the spirit's element, which determines its damage type: @UUID[Compendium.dnd5e.actors24.Actor.phbsplConjuredEl]{air (Lightning)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredEarth]{earth (Thunder)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredFireE]{fire (Fire)}, or @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredWater]{water (Cold)}. The spirit lasts for the duration.</p><p>Whenever a creature you can see enters the spirit's space or starts its turn within 5 feet of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes 8d8 damage of the spirit's type, and the target has the &amp;Reference[Restrained apply=false] condition until the spell ends. At the start of each of its turns, the Restrained target repeats the save. On a failed save, the target takes 4d8 damage of the spirit's type. On a successful save, the target isn't Restrained by the spirit.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 5.</p>"
-		},
-		"Conjure Fey": {
-			"name": "Conjure Fey",
-			"description": "<p>You conjure a Medium spirit from the Feywild in an unoccupied space you can see within range. The spirit lasts for the duration, and it looks like a Fey creature of your choice. When the spirit appears, you can make one melee spell attack against a creature within 5 feet of it. On a hit, the target takes Psychic damage equal to 3d12 plus your spellcasting ability modifier, and the target has the &amp;Reference[Frightened] condition until the start of your next turn, with both you and the spirit as the source of the fear.</p><p>As a Bonus Action on your later turns, you can teleport the spirit to an unoccupied space you can see within 30 feet of the space it left and make the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d12 for each spell slot level above 6.</p>"
-		},
+            "name": "Призов тварин",
+            "description": "<p>Ви призиваєте духів природи, які з'являються у вигляді великої (Large) зграї примарних, нематеріальних тварин у вільному просторі, який ви бачите в межах дистанції. Зграя існує протягом усієї тривалості дії заклинання, і ви обираєте тваринну форму духів, наприклад, вовків, змій або птахів.</p><p>Ви отримуєте перевагу (Advantage) на рятівні кидки Сили, поки перебуваєте в межах 5 футів від зграї, і коли ви рухаєтеся у свій хід, ви також можете перемістити зграю на відстань до 30 футів у вільний простір, який ви бачите.</p><p>Щоразу, коли зграя переміщується в межах 10 футів від істоти, яку ви бачите, і щоразу, коли істота, яку ви бачите, входить у простір у межах 10 футів від зграї або закінчує свій хід там, ви можете змусити цю істоту зробити рятівний кидок Спритності. У разі провалу кидка істота отримує 3d10 ріжучої шкоди (Slashing damage). Істота робить цей рятівний кидок лише один раз за хід.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d10 за кожен рівень комірки вище 3-го.</p>"
+        },
+        "Conjure Celestial": {
+            "name": "Призов небожителя",
+            "description": "<p>Ви призиваєте духа з Вищих Планів, який проявляється як стовп світла в циліндрі (Cylinder) радіусом 10 футів і заввишки 40 футів із центром у точці в межах дистанції. Для кожної істоти, яку ви бачите в циліндрі, оберіть, яке з цих світляних сяйв на неї світить:</p><p><strong>Цілюще світло (Healing Light). </strong>Ціль відновлює хіти (Hit Points) у кількості, що дорівнює 4d12 плюс модифікатор вашої характеристики заклинання.</p><p><strong>Сліпуче світло (Searing Light). </strong>Ціль робить рятівний кидок Спритності, отримуючи 6d12 шкоди сяйвом (Radiant damage) у разі провалу кидка або половину цієї шкоди в разі успіху.</p><p>Поки заклинання не закінчиться, яскраве світло (Bright Light) заповнює циліндр, і коли ви рухаєтеся у свій хід, ви також можете перемістити циліндр на відстань до 30 футів.</p><p>Щоразу, коли циліндр переміщується в простір істоти, яку ви бачите, і щоразу, коли істота, яку ви бачите, входить до циліндра або закінчує свій хід там, ви можете омити її в одному з цих сяйв. Заклинання може впливати на істоту лише один раз за хід.</p><p><strong>Використання комірки вищого рівня.</strong> Лікування та шкода збільшуються на 1d12 за кожен рівень комірки вище 7-го.</p>"
+        },
+        "Conjure Elemental": {
+            "name": "Призов елементаля",
+            "description": "<p>Ви призиваєте великого (Large), нематеріального духа з Елементальних Планів, який з'являється у вільному просторі в межах дистанції. Оберіть стихію духа, яка визначає тип його шкоди: @UUID[Compendium.dnd5e.actors24.Actor.phbsplConjuredEl]{повітря (Блискавка)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredEarth]{земля (Грім)}, @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredFireE]{вогонь (Вогонь)} або @UUID[Compendium.dnd5e.actors24.Actor.phbConjuredWater]{вода (Холод)}. Дух існує протягом усієї тривалості дії заклинання.</p><p>Щоразу, коли істота, яку ви бачите, входить у простір духа або починає свій хід у межах 5 футів від нього, ви можете змусити цю істоту зробити рятівний кидок Спритності, якщо дух не утримує жодну істоту як стриману. У разі провалу кидка ціль отримує 8d8 шкоди типу стихії духа, і вона отримує стан &amp;Reference[Restrained apply=false]{Стриманий}, поки заклинання не закінчиться. На початку кожного свого ходу стримана ціль повторює цей рятівний кидок. У разі провалу ціль отримує 4d8 шкоди типу стихії духа. У разі успіху ціль більше не є стриманою духом.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 5-го.</p>"
+        },
+        "Conjure Fey": {
+            "name": "Призов феї",
+            "description": "<p>Ви призиваєте середнього (Medium) духа з Дикозем'я Фей (Feywild) у вільному просторі, який ви бачите в межах дистанції. Дух існує протягом усієї тривалості дії заклинання та виглядає як істота-фея (Fey) на ваш вибір. Коли дух з'являється, ви можете здійснити одну ближню атаку заклинанням (melee spell attack) проти істоти в межах 5 футів від нього. У разі влучання ціль отримує психічну шкоду (Psychic damage) в кількості, що дорівнює 3d12 плюс модифікатор вашої характеристики заклинання, і отримує стан &amp;Reference[Frightened]{Наляканий} до початку вашого наступного ходу, причому джерелом страху є як ви, так і дух.</p><p>Бонусною дією (Bonus Action) під час своїх наступних ходів ви можете телепортувати духа у вільний простір, який ви бачите в межах 30 футів від простору, який він залишив, і здійснити атаку проти істоти в межах 5 футів від нього.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d12 за кожен рівень комірки вище 6-го.</p>"
+        },
 		"Conjure Minor Elementals": {
-			"name": "Conjure Minor Elementals",
-			"description": "<p>You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).</p><p>In addition, the ground in the Emanation is &amp;Reference[DifficultTerrain] for your enemies.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 4.</p>"
-		},
-		"Conjure Woodland Beings": {
-			"name": "Conjure Woodland Beings",
-			"description": "<p>You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes 5d8 Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.</p><p>In addition, you can take the &amp;Reference[Disengage] action as a Bonus Action for the spell's duration.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 4.</p>"
-		},
-		"Contact Other Plane": {
-			"name": "Contact Other Plane",
-			"description": "<p>You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p><p>On a failed save, you take 6d6 Psychic damage and have the &amp;Reference[Incapacitated] condition until you finish a Long Rest. A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Greater Restoration}</em> spell cast on you ends this effect.</p>"
-		},
+            "name": "Призов малих елементалів",
+            "description": "<p>Ви призиваєте духів з Елементальних Планів, які кружляють навколо вас у 15-футовому випромінюванні (Emanation) протягом усього часу дії заклинання. Поки заклинання не закінчиться, будь-яка ваша атака завдає додаткових 2d8 шкоди в разі влучання в істоту, що перебуває в межах цього випромінювання. Тип цієї шкоди — Кислота, Холод, Вогонь або Блискавка (на ваш вибір під час здійснення атаки).</p><p>Крім того, земля в області випромінювання є &amp;Reference[DifficultTerrain]{важковидними таємними місцевостями} (Difficult Terrain) для ваших ворогів.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 4-го.</p>"
+        },
+        "Conjure Woodland Beings": {
+            "name": "Призов лісових істот",
+            "description": "<p>Ви призиваєте духів природи, які кружляють навколо вас у 10-футовому випромінюванні (Emanation) протягом усього часу дії заклинання. Щоразу, коли випромінювання входить у простір істоти, яку ви бачите, і щоразу, коли істота, яку ви бачите, входить в область випромінювання або закінчує свій хід там, ви можете змусити цю істоту зробити рятівний кидок Мудрості. Істота отримує 5d8 силової шкоди (Force damage) у разі провалу кидка або половину цієї шкоди в разі успіху. Істота робить цей рятівний кидок лише один раз за хід.</p><p>Крім того, протягом усього часу дії заклинання ви можете виконувати дію &amp;Reference[Disengage]{Відхід} (Disengage) як бонусну дію.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 4-го.</p>"
+        },
+        "Contact Other Plane": {
+            "name": "Зв'язок з іншим планом",
+            "description": "<p>Ви подумки зв'язуєтеся з напівбогом, духом давно померлого мудреця або іншою обізнаною сутністю з іншого плану існування. Зв'язок із цим потойбічним розумом може зламати ваш розум. Коли ви створюєте це заклинання, зробіть рятівний кидок Інтелекту зі Складністю (DC) 15. У разі успішного кидка ви можете поставити сутності до п'яти запитань. Ви повинні поставити свої запитання до закінчення дії заклинання. Майстер (DM) відповідає на кожне запитання одним словом, наприклад «так», «ні», «можливо», «ніколи», «несуттєво» або «неясно» (якщо сутність не знає відповіді на запитання). Якщо відповідь одним словом може ввести в оману, Майстер може натомість запропонувати коротку фразу як відповідь.</p><p>У разі провалу кидка ви отримуєте 6d6 психічної шкоди (Psychic damage) і перебуваєте під дією стану &amp;Reference[Incapacitated]{Недієздатний} до закінчення тривалого відпочинку (Long Rest). Заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterRes]{Вище відновлення} (Greater Restoration)</em>, створене на вас, припиняє цей ефект.</p>"
+        },
 		"Contagion": {
-			"name": "Contagion",
-			"description": "<p>Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8 Necrotic damage and have the &amp;Reference[Poisoned apply=false] condition. Also, choose one ability when you cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen ability.</p><p>The target must repeat the saving throw at the end of each of its turns until it gets three successes or failures. If the target succeeds on three of these saves, the spell ends on the target. If the target fails three of the saves, the spell lasts for 7 days on it.</p><p>Whenever the Poisoned target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con dc=@attributes.spell.dc format=long]], or the Poisoned condition doesn't end on it.</p>",
-			"effects": {
-				"Infected (Strength)": {
-					"name": "Infected (Strength)",
-					"description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
-				},
-				"Infected (Dexterity)": {
-					"name": "Infected (Dexterity)",
-					"description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
-				},
-				"Infected (Constitution)": {
-					"name": "Infected (Constitution)",
-					"description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
-				},
-				"Infected (Intelligence)": {
-					"name": "Infected (Intelligence)",
-					"description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
-				},
-				"Infected (Wisdom)": {
-					"name": "Infected (Wisdom)",
-					"description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
-				},
-				"Infected (Charisma)": {
-					"name": "Infected (Charisma)",
-					"description": "<ul><li><p>While &amp;Reference[Poisoned apply=false], the target has Disadvantage on saving throws made with the chosen ability.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">The target must repeat the [[/save ability=con format=long]] at the end of each of its turns until it gets three successes or failures.</span></p></li><li><p>Whenever the target receives an effect that would end the Poisoned condition, the target must succeed on a [[/save ability=con format=long]], or the condition doesn’t end on it.</p></li></ul>"
-				}
-			}
-		},
+            "name": "Зараження",
+            "description": "<p>Ваш дотик передає магічну інфекцію. Ціль повинна успішно зробити рятівний кидок Статури, інакше вона отримує 11d8 некротичної шкоди (Necrotic damage) та стан &amp;Reference[Poisoned apply=false]{Отруєний}. Також оберіть одну характеристику під час створення заклинання. Поки ціль Отруєна, вона має поміху (Disadvantage) на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p><p>Ціль повинна повторювати рятівний кидок наприкінці кожного свого ходу, поки не отримає три успіхи або три провали. Якщо ціль успішно робить три такі кидки, заклинання на ній закінчується. Якщо ціль провалює три кидки, заклинання діє на неї протягом 7 днів.</p><p>Щоразу, коли Отруєна ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con dc=@attributes.spell.dc format=long]], інакше стан Отруєний на ній не закінчується.</p>",
+            "effects": {
+                "Infected (Strength)": {
+                    "name": "Заражений (Сила)",
+                    "description": "<ul><li><p>Поки ціль перебуває під дією стану &amp;Reference[Poisoned apply=false]{Отруєний}, вона має поміху на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">Ціль повинна повторювати рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу, поки не отримає три успіхи або три провали.</span></p></li><li><p>Щоразу, коли ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con format=long]], інакше стан на ній не закінчується.</p></li></ul>"
+                },
+                "Infected (Dexterity)": {
+                    "name": "Заражений (Спритність)",
+                    "description": "<ul><li><p>Поки ціль перебуває під дією стану &amp;Reference[Poisoned apply=false]{Отруєний}, вона має поміху на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">Ціль повинна повторювати рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу, поки не отримає три успіхи або три провали.</span></p></li><li><p>Щоразу, коли ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con format=long]], інакше стан на ній не закінчується.</p></li></ul>"
+                },
+                "Infected (Constitution)": {
+                    "name": "Заражений (Статура)",
+                    "description": "<ul><li><p>Поки ціль перебуває під дією стану &amp;Reference[Poisoned apply=false]{Отруєний}, вона має поміху на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">Ціль повинна повторювати рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу, поки не отримає три успіхи або три провали.</span></p></li><li><p>Щоразу, коли ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con format=long]], інакше стан на ній не закінчується.</p></li></ul>"
+                },
+                "Infected (Intelligence)": {
+                    "name": "Заражений (Інтелект)",
+                    "description": "<ul><li><p>Поки ціль перебуває під дією стану &amp;Reference[Poisoned apply=false]{Отруєний}, вона має поміху на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">Ціль повинна повторювати рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу, поки не отримає три успіхи або три провали.</span></p></li><li><p>Щоразу, коли ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con format=long]], інакше стан на ній не закінчується.</p></li></ul>"
+                },
+                "Infected (Wisdom)": {
+                    "name": "Заражений (Мудрість)",
+                    "description": "<ul><li><p>Поки ціль перебуває під дією стану &amp;Reference[Poisoned apply=false]{Отруєний}, вона має поміху на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">Ціль повинна повторювати рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу, поки не отримає три успіхи або три провали.</span></p></li><li><p>Щоразу, коли ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con format=long]], інакше стан на ній не закінчується.</p></li></ul>"
+                },
+                "Infected (Charisma)": {
+                    "name": "Заражений (Харизма)",
+                    "description": "<ul><li><p>Поки ціль перебуває під дією стану &amp;Reference[Poisoned apply=false]{Отруєний}, вона має поміху на рятівні кидки, що здійснюються за допомогою обраної характеристики.</p></li><li><p><span style=\"font-family:Signika, sans-serif\">Ціль повинна повторювати рятівний кидок [[/save ability=con format=long]] наприкінці кожного свого ходу, поки не отримає три успіхи або три провали.</span></p></li><li><p>Щоразу, коли ціль перебуває під дією ефекту, який мав би припинити стан Отруєний, вона повинна успішно зробити рятівний кидок [[/save ability=con format=long]], інакше стан на ній не закінчується.</p></li></ul>"
+                }
+            }
+        },
 		"Contingency": {
-			"name": "Contingency",
-			"description": "<p>Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting <em>Contingency</em>, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a <em>Contingency</em> cast with <em>Water Breathing</em> might stipulate that <em>Water Breathing</em> comes into effect when you are engulfed in water or a similar liquid.</p><p>The contingent spell takes effect immediately after the trigger occurs for the first time, whether or not you want it to, and then <em>Contingency</em> ends.</p><p>The contingent spell takes effect only on you, even if it can normally target others. You can use only one <em>Contingency</em> spell at a time. If you cast this spell again, the effect of another <em>Contingency</em> spell on you ends. Also, <em>Contingency</em> ends on you if its material component is ever not on your person.</p><section class=\"secret\" id=\"secret-gnXQNvWGYfLGkrBe\"><p><strong>Foundry Note</strong></p><p>The \"create contingency\" activity is configured to optionally enchant a Scroll to track and serve as the triggered spell. Create a spell scroll by right clicking on a spell in your spell list, expend a spell slot of the created scroll's level, and enchant the scroll.</p></section>",
-			"effects": {
-				"Contingency Spell": {
-					"name": "Contingency Spell",
-					"changes": {
-						"name": "Contengency: {}"
-					}
-				}
-			}
-		},
+            "name": "Непередбачуваність",
+            "description": "<p>Оберіть заклинання 5-го або нижчого рівня, яке ви можете створити, яке має час створення «дія» і яке може обирати ціллю вас. Ви створюєте це заклинання — назване непередбачуваним заклинанням — як частину створення <em>Непередбачуваності</em>, витрачаючи комірки заклинань для обох, але непередбачуване заклинання не вступає в силу відразу. Замість цього воно спрацьовує, коли відбувається певна умова-тригер. Ви описуєте цю умову, коли створюєте обидва заклинання. Наприклад, <em>Непередбачуваність</em>, створена із заклинанням <em>Дихання під водою (Water Breathing)</em>, може обумовлювати, що <em>Дихання під водою</em> вступає в силу, коли ви занурюєтеся у воду або подібну рідину.</p><p>Непередбачуване заклинання вступає в силу негайно після того, як тригер відбувається вперше, незалежно від того, хочете ви цього чи ні, і після цього <em>Непередбачуваність</em> закінчується.</p><p>Непередбачуване заклинання діє лише на вас, навіть якщо зазвичай воно може обирати ціллю інших. Ви можете мати лише одне активне заклинання <em>Непередбачуваність</em> одночасно. Якщо ви створюєте це заклинання знову, дія попередньої <em>Непередбачуваності</em> на вас припиняється. Також <em>Непередбачуваність</em> закінчується, якщо її матеріальний компонент у якийсь момент зникне з вашого тіла.</p><section class=\"secret\" id=\"secret-gnXQNvWGYfLGkrBe\"><p><strong>Примітка Foundry</strong></p><p>Активність «Створити непередбачуваність» налаштована так, щоб за бажанням зачарувати Сувій для відстеження та використання як тригерного заклинання. Створіть сувій заклинання, клацнувши правою кнопкою миші на заклинання у вашому списку заклинань, витратьте комірку заклинання відповідного рівня для створеного сувою та зачаруйте його.</p></section>",
+            "effects": {
+                "Contingency Spell": {
+                    "name": "Непередбачуване заклинання",
+                    "changes": {
+                        "name": "Непередбачуваність: {}"
+                    }
+                }
+            }
+        },
 		"Continual Flame": {
-			"name": "Continual Flame",
-			"description": "<p>A flame springs from an object that you touch. The effect casts &amp;Reference[brightlight] in a 20-foot radius and &amp;Reference[dimlight] for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.</p>"
-		},
-		"Control Water": {
-			"name": "Control Water",
-			"description": "<p>Until the spell ends, you control any water inside an area you choose that is a Cube up to 100 feet on a side, using one of the following effects. As a Magic action on your later turns, you can repeat the same effect or choose a different one.</p><p><strong>Flood. </strong>You cause the water level of all standing water in the area to rise by as much as 20 feet. If you choose an area in a large body of water, you instead create a 20-foot tall wave that travels from one side of the area to the other and then crashes. Any Huge or smaller vehicles in the wave's path are carried with it to the other side. Any Huge or smaller vehicles struck by the wave have a [[/r 1d100cs&lt;26#Vehicle is capsized]]{25 percent} chance of capsizing.</p><p>The water level remains elevated until the spell ends or you choose a different effect. If this effect produced a wave, the wave repeats on the start of your next turn while the flood effect lasts.</p><p><strong>Part Water. </strong>You part water in the area and create a trench. The trench extends across the spell's area, and the separated water forms a wall to either side. The trench remains until the spell ends or you choose a different effect. The water then slowly fills in the trench over the course of the next round until the normal water level is restored.</p><p><strong>Redirect Flow. </strong>You cause flowing water in the area to move in a direction you choose, even if the water has to flow over obstacles, up walls, or in other unlikely directions. The water in the area moves as you direct it, but once it moves beyond the spell's area, it resumes its flow based on the terrain. The water continues to move in the direction you chose until the spell ends or you choose a different effect.</p><p><strong>Whirlpool. </strong>You cause a whirlpool to form in the center of the area, which must be at least 50 feet square and 25 feet deep. The whirlpool lasts until you choose a different effect or the spell ends. The whirlpool is 5 feet wide at the base, up to 50 feet wide at the top, and 25 feet tall. Any creature in the water and within 25 feet of the whirlpool is pulled 10 feet toward it. When a creature enters the whirlpool for the first time on a turn or ends its turn there, it makes a Strength saving throw. On a failed save, the creature takes 2d8 Bludgeoning damage. On a successful save, the creature takes half as much damage. A creature can swim away from the whirlpool only if it first takes an action to pull away and succeeds on a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC.</p>"
-		},
-		"Control Weather": {
-			"name": "Control Weather",
-			"description": "<p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.</p><p>When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.</p><details><summary><strong>Precipitation</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Clear</td></tr><tr><td>2</td><td>Light clouds</td></tr><tr><td>3</td><td>Overcast or ground fog</td></tr><tr><td>4</td><td>Rain, hail, or snow</td></tr><tr><td>5</td><td>Torrential rain, driving hail, or blizzard</td></tr></tbody></table></details><details><summary><strong>Temperature</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Heat wave</td></tr><tr><td>2</td><td>Hot</td></tr><tr><td>3</td><td>Warm</td></tr><tr><td>4</td><td>Cool</td></tr><tr><td>5</td><td>Cold</td></tr><tr><td>6</td><td>Freezing</td></tr></tbody></table></details><details><summary><strong>Wind</strong></summary><table><thead><tr><td>Stage</td><td>Condition</td></tr></thead><tbody><tr><td>1</td><td>Calm</td></tr><tr><td>2</td><td>Moderate wind</td></tr><tr><td>3</td><td>Strong wind</td></tr><tr><td>4</td><td>Gale</td></tr><tr><td>5</td><td>Storm</td></tr></tbody></table></details>"
-		},
+            "name": "Вічне полум'я",
+            "description": "<p>Полум'я спалахує на об'єкті, якого ви торкаєтеся. Цей ефект випромінює &amp;Reference[brightlight]{яскраве світло} в радіусі 20 футів і &amp;Reference[dimlight]{тьмяне світло} ще на 20 футів. Воно виглядає як звичайне полум'я, але не виділяє тепла й не потребує палива. Полум'я можна накрити або сховати, але його неможливо загасити чи задушити.</p>"
+        },
+        "Control Water": {
+            "name": "Контроль над водою",
+            "description": "<p>Протягом дії заклинання ви контролюєте будь-яку воду всередині обраної вами області, що має форму куба (Cube) зі стороною до 100 футів, використовуючи один із наступних ефектів. Виконуючи магічну дію (Magic action) під час своїх наступних ходів, ви можете повторити той самий ефект або обрати інший.</p><p><strong>Повінь (Flood). </strong>Ви змушуєте рівень усієї стоячої води в області піднятися на висоту до 20 футів. Якщо ви обираєте область у великій водоймі, ви натомість створюєте хвилю заввишки 20 футів, яка рухається від одного краю області до іншого, а потім розбивається. Будь-які величезні (Huge) або менші транспортні засоби на шляху хвилі переносяться нею на інший бік. Будь-які величезні або менші транспортні засоби, в які влучає хвиля, мають [[/r 1d100cs&lt;26#Vehicle is capsized]]{25-відсотковий} шанс перекинутися.</p><p>Рівень води залишається підвищеним, поки заклинання не закінчиться або поки ви не оберете інший ефект. Якщо цей ефект створив хвилю, вона повторюється на початку вашого наступного ходу, поки триває ефект повені.</p><p><strong>Розділення води (Part Water). </strong>Ви розділяєте воду в області й створюєте траншею. Траншея пролягає через усю область дії заклинання, а розділена вода утворює стіну з обох боків. Траншея залишається, поки заклинання не закінчиться або ви не оберете інший ефект. Потім вода повільно заповнює траншею протягом наступного раунду, поки не відновиться нормальний рівень води.</p><p><strong>Переспрямування потоку (Redirect Flow). </strong>Ви змушуєте проточну воду в області рухатися в обраному вами напрямку, навіть якщо воді доводиться текти через перешкоди, підніматися по стінах або рухатися в інших нетипових напрямках. Вода в області рухається так, як ви вказуєте, але щойно вона виходить за межі області заклинання, вона відновлює свій рух відповідно до рельєфу. Вода продовжує рухатися в обраному напрямку, поки заклинання не закінчиться або ви не оберете інший ефект.</p><p><strong>Вир (Whirlpool). </strong>Ви змушуєте вир утворитися в центрі області, яка повинна мати площу щонайменше 50 квадратних футів і глибину 25 футів. Вир існує, поки ви не оберете інший ефект або заклинання не закінчиться. Вир має ширину 5 футів при основі, до 50 футів завширшки вгорі та висоту 25 футів. Будь-яка істота у воді в межах 25 футів від виру притягується на 10 футів до нього. Коли істота вперше за хід входить у вир або закінчує свій хід там, вона робить рятівний кидок Сили. У разі провалу кидка істота отримує 2d8 дробильної шкоди (Bludgeoning damage). У разі успіху істота отримує половину цієї шкоди. Істота може відплисти від виру лише в тому випадку, якщо вона спочатку витратить дію, щоб віддалитися, і успішно зробить перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти вашої Складності рятівного кидка від заклинань.</p>"
+        },
+        "Control Weather": {
+            "name": "Контроль над погодою",
+            "description": "<p>Ви берете під контроль погоду в радіусі 5 миль від вас на час тривалості заклинання. Щоб створити це заклинання, ви повинні перебувати на відкритому повітрі, і воно закінчується достроково, якщо ви заходите в приміщення.</p><p>Коли ви створюєте заклинання, ви змінюєте поточні погодні умови, які визначаються Майстром (DM). Ви можете змінювати опади, температуру та вітер. Щоб нові умови вступили в силу, потрібно 1d4 × 10 хвилин. Щойно вони починають діяти, ви можете змінити умови знову. Коли заклинання закінчується, погода поступово повертається до звичайної.</p><p>Коли ви змінюєте погодні умови, знайдіть поточний стан у наступних таблицях і змініть його ступінь на один вгору або вниз. Змінюючи вітер, ви можете змінити його напрямок.</p><details><summary><strong>Опади (Precipitation)</strong></summary><table><thead><tr><td>Ступінь</td><td>Стан</td></tr></thead><tbody><tr><td>1</td><td>Ясно</td></tr><tr><td>2</td><td>Легка хмарність</td></tr><tr><td>3</td><td>Похмуро або приземний туман</td></tr><tr><td>4</td><td>Дощ, град або сніг</td></tr><tr><td>5</td><td>Проливний дощ, шквальний град або хуртовина</td></tr></tbody></table></details><details><summary><strong>Температура (Temperature)</strong></summary><table><thead><tr><td>Ступінь</td><td>Стан</td></tr></thead><tbody><tr><td>1</td><td>Аномальна спека</td></tr><tr><td>2</td><td>Спекотно</td></tr><tr><td>3</td><td>Тепло</td></tr><tr><td>4</td><td>Прохолодно</td></tr><tr><td>5</td><td>Холодно</td></tr><tr><td>6</td><td>Морозно</td></tr></tbody></table></details><details><summary><strong>Вітер (Wind)</strong></summary><table><thead><tr><td>Ступінь</td><td>Стан</td></tr></thead><tbody><tr><td>1</td><td>Штиль</td></tr><tr><td>2</td><td>Помірний вітер</td></tr><tr><td>3</td><td>Сильний вітер</td></tr><tr><td>4</td><td>Штормовий вітер (Шквал)</td></tr><tr><td>5</td><td>Буря</td></tr></tbody></table></details>"
+        },
 		"Counterspell": {
-			"name": "Counterspell",
-			"description": "<p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p>"
-		},
-		"Create Food and Water": {
-			"name": "Create Food and Water",
-			"description": "<p>You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.</p>"
-		},
-		"Create Undead": {
-			"name": "Create Undead",
-			"description": "<p>You can cast this spell only at night. Choose up to three corpses of Medium or Small Humanoids within range. Each one becomes a <strong>@UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{Ghoul}</strong> under your control (see the <em>Monster Manual</em> for its stat block).</p><p>As a Bonus Action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to them). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a particular place. If you issue no commands, the creature takes the &amp;Reference[Dodge] action and moves only to avoid harm. Once given an order, the creature continues to follow the order until its task is complete.</p><p>The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell rather than animating new ones.</p><p><strong>Using a Higher-Level Spell Slot.</strong>If you use a level 7 spell slot, you can animate or reassert control over four <strong>Ghouls</strong>. If you use a level 8 spell slot, you can animate or reassert control over five <strong>Ghouls</strong> or two <strong>@UUID[Compendium.dnd5e.monsters.Actor.IyIybE5t2adMEVUM]{Ghasts}</strong> or <strong>@UUID[Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK]{Wights}</strong>. If you use a level 9 spell slot, you can animate or reassert control over six <strong>Ghouls</strong>, three <strong>Ghasts</strong> or <strong>Wights</strong>, or two <strong>@UUID[Compendium.dnd5e.monsters.Actor.t8WYD7ak07X7xpx8]{Mummies}</strong>. See the <em>Monster Manual</em> for these stat blocks.</p>"
-		},
-		"Create or Destroy Water": {
-			"name": "Create or Destroy Water",
-			"description": "<p>You do one of the following:</p><p><strong>Create Water.</strong> You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot Cube within range, extinguishing exposed flames there.</p><p><strong>Destroy Water.</strong> You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy fog in a 30-foot Cube within range.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You create or destroy 10 additional gallons of water, or the size of the Cube increases by 5 feet, for each spell slot level above 1.</p>"
-		},
+            "name": "Контрзаклинання",
+            "description": "<p>Ви намагаєтеся перервати істоту в процесі створення заклинання. Істота робить рятівний кидок Статури. У разі провалу кидка заклинання розсіюється без жодного ефекту, а дія, бонусна дія або реакція, витрачена на його створення, марнується. Якщо це заклинання було створено за допомогою комірки заклинань, сама комірка не витрачається.</p>"
+        },
+        "Create Food and Water": {
+            "name": "Створення їжі та води",
+            "description": "<p>Ви створюєте 45 фунтів їжі та 30 галонів свіжої води на землі або в ємностях у межах дистанції — і те, і інше корисно для запобігання небезпекам недоїдання та зневоднення. Їжа прісна, але поживна й виглядає як їжа на ваш вибір, а вода чиста. Їжа псується через 24 години, якщо її не з'їсти.</p>"
+        },
+        "Create Undead": {
+            "name": "Створення нежиті",
+            "description": "<p>Ви можете створювати це заклинання лише вночі. Оберіть до трьох трупів середніх (Medium) або малих (Small) гуманоїдів (Humanoids) у межах дистанції. Кожен із них стає <strong>@UUID[Compendium.dnd5e.monsters.Actor.OBujQLLPSmlJiZnL]{Упирем (Ghoul)}</strong> під вашим контролем (див. його блок характеристик у <em>Довіднику монстрів / Monster Manual</em>).</p><p>Бонусною дією (Bonus Action) у кожен свій хід ви можете віддати уявний наказ будь-якій істоті, яку ви оживили цим заклинанням, якщо вона перебуває в межах 120 футів від вас (якщо ви контролюєте кілька істот, ви можете віддавати накази будь-яким із них одночасно, оголошуючи їм один і той самий наказ). Ви вирішуєте, яку дію виконає істота і куди вона переміститься у свій наступний хід, або можете віддати загальний наказ, наприклад, охороняти певне місце. Якщо ви не віддаєте наказів, істота виконує дію &amp;Reference[Dodge]{Ухилення} і рухається лише для того, щоб уникнути шкоди. Отримавши наказ, істота продовжує виконувати його, поки її завдання не буде виконано.</p><p>Істота перебуває під вашим контролем протягом 24 годин, після чого вона перестає підкорятися будь-яким вашим наказам. Щоб зберегти контроль над істотою ще на 24 години, ви повинні створити це заклинання на неї до закінчення поточного 24-годинного періоду. Таке використання заклинання поновлює ваш контроль над щонайбільше трьома істотами, яких ви вже оживили за допомогою цього заклинання, замість того, щоб оживляти нових.</p><p><strong>Використання комірки вищого рівня.</strong> Якщо ви використовуєте комірку заклинання 7-го рівня, ви можете оживити або поновити контроль над чотирма <strong>Упирями</strong>. Якщо ви використовуєте комірку 8-го рівня, ви можете оживити або поновити контроль над п'ятьма <strong>Упирями</strong> або двома <strong>@UUID[Compendium.dnd5e.monsters.Actor.IyIybE5t2adMEVUM]{Вурдалаками (Ghasts)}</strong> чи <strong>@UUID[Compendium.dnd5e.monsters.Actor.rbyp54px2D0ql4QK]{Упокоренями (Wights)}</strong>. Якщо ви використовуєте комірку 9-го рівня, ви можете оживити або поновити контроль над шістьма <strong>Упирями</strong>, трьома <strong>Вурдалаками</strong> чи <strong>Упокоренями</strong> або двома <strong>@UUID[Compendium.dnd5e.monsters.Actor.t8WYD7ak07X7xpx8]{Муміями (Mummies)}</strong>. Дивіться ці блоки характеристик у <em>Довіднику монстрів</em>.</p>"
+        },
+        "Create or Destroy Water": {
+            "name": "Створення або знищення води",
+            "description": "<p>Ви виконуєте одну з таких дій:</p><p><strong>Створення води.</strong> Ви створюєте до 10 галонів чистої води в межах дистанції у відкритій ємності. Крім того, вода може випасти дощем у кубі (Cube) зі стороною 30 футів у межах дистанції, гасячи там відкрите полум'я.</p><p><strong>Знищення води.</strong> Ви знищуєте до 10 галонів води у відкритій ємності в межах дистанції. Крім того, ви знищуєте туман у кубі зі стороною 30 футів у межах дистанції.</p><p><strong>Використання комірки вищого рівня.</strong> Ви створюєте або знищуєте на 10 галонів води більше, або розмір куба збільшується на 5 футів за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Creation": {
-			"name": "Creation",
-			"description": "<p>You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.</p><p>The spell's duration depends on the object's material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell's Material component causes the other spell to fail.</p><table><thead><tr><td>Material</td><td>Duration</td></tr></thead><tbody><tr><td>Vegetable matter</td><td>24 hours</td></tr><tr><td>Stone or crystal</td><td>12 hours</td></tr><tr><td>Precious metals</td><td>1 hour</td></tr><tr><td>Gems</td><td>10 minutes</td></tr><tr><td>Adamantine or mithral</td><td>1 minute</td></tr></tbody></table><p><strong>Using a Higher-Level Spell Slot.</strong> The Cube increases by 5 feet for each spell slot level above 5.</p>"
-		},
-		"Cure Wounds": {
-			"name": "Cure Wounds",
-			"description": "<p>A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The healing increases by 2d8 for each spell slot level above 1.</p>"
-		},
+            "name": "Створення",
+            "description": "<p>Ви витягуєте клаптики тіньової матерії з Тіньопаду (Shadowfell), щоб створити об'єкт у межах дистанції. Це може бути об'єкт рослинного походження (тканини, мотузки, деревина тощо) або мінерального походження (камінь, кристал, метал тощо). Об'єкт повинен бути не більшим за 5-футовий куб (Cube), а його форма та матеріал мають бути такими, які ви вже бачили раніше.</p><p>Тривалість дії заклинання залежить від матеріалу об'єкта, як показано в таблиці матеріалів. Якщо об'єкт складається з кількох матеріалів, використовується найкоротша тривалість. Використання будь-якого об'єкта, створеного цим заклинанням, як матеріального (Material) компонента для іншого заклинання призводить до провалу цього іншого заклинання.</p><table><thead><tr><td>Матеріал</td><td>Тривалість</td></tr></thead><tbody><tr><td>Рослинна матерія</td><td>24 години</td></tr><tr><td>Камінь або кристал</td><td>12 годин</td></tr><tr><td>Дорогоцінні метали</td><td>1 година</td></tr><tr><td>Самоцвіти</td><td>10 хвилин</td></tr><tr><td>Адамантин або міфрил</td><td>1 хвилина</td></tr></tbody></table><p><strong>Використання комірки вищого рівня.</strong> Розмір куба збільшується на 5 футів за кожен рівень комірки вище 5-го.</p>"
+        },
+        "Cure Wounds": {
+            "name": "Лікування ран",
+            "description": "<p>Істота, якої ви торкаєтеся, відновлює кількість хітів (Hit Points), що дорівнює 2d8 плюс модифікатор вашої характеристики заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Лікування збільшується на 2d8 за кожен рівень комірки вище 1-го.</p>"
+        },
 		"Dancing Lights": {
 			"name": "Dancing Lights",
 			"description": "<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.</p>"
