@@ -762,7 +762,7 @@
             "description": "<p>Промінь жовтого світла виривається з вас, а потім конденсується в обраній точці в межах дистанції у вигляді світної намистини на час дії заклинання. Коли заклинання закінчується, намистина вибухає, і кожна істота у сфері (Sphere) радіусом 20 футів із центром у цій точці робить рятівний кидок Спритності. У разі провалу істота отримує вогняну шкоду (Fire damage), що дорівнює загальній накопиченій шкоді, а в разі успіху — половину цієї шкоди.</p><p>Базова шкода заклинання становить 12d6, і вона збільшується на 1d6 щоразу, коли ваш хід закінчується, а заклинання ще не завершилося.</p><p>Якщо істота торкається світної намистини до закінчення дії заклинання, ця істота робить рятівний кидок Спритності. У разі провалу заклинання закінчується, змушуючи намистину вибухнути. У разі успіху істота може кинути намистину на відстань до 40 футів. Якщо кинута намистина потрапляє в простір іншої істоти або стикається з твердим об'єктом, заклинання закінчується, і намистина вибухає.</p><p>Коли намистина вибухає, легкозаймисті предмети в зоні вибуху, які ніхто не носить і не тримає, починають горіти.</p><p><strong>Використання комірки вищого рівня.</strong> Базова шкода збільшується на 1d6 за кожен рівень комірки вище 7-го.</p><section class=\"secret\" id=\"secret-8FSRYhwywI2O3Qgb\"><p><strong>Примітка Foundry</strong></p><p>Значення обмеженого використання (limited uses) цього заклинання відстежує кількість раундів, що минули з моменту початкового створення, і починається з 0.</p><p>Активність <strong>Turn End Damage Increase</strong> збільшить це значення на 1.</p><p>Активність <strong>Trigger Explosion</strong> обчислює загальну шкоду на основі обмеженого використання.</p><p>Якщо ви віддаєте перевагу ручному відстеженню, ви можете скористатися діалоговим вікном Ситуаційного бонусу (Situational Bonus) активності <strong>Trigger Explosion</strong>, щоб додати додаткові d6 і ігнорувати активність Turn End Damage Increase.</p></section>"
         },
 		"Demiplane": {
-            "name": "Напівплан",
+            "name": "Деміплан",
             "description": "<p>Ви створюєте примарні середні (Medium) двері на пласкій твердій поверхні, яку бачите в межах дистанції. Ці двері можна відкривати й закривати, і вони ведуть у напівплан, що є порожньою кімнатою розміром 30 футів у кожному вимірі, зробленою з дерева або каменю (на ваш вибір).</p><p>Коли заклинання закінчується, двері зникають, а будь-які предмети всередині напівплану залишаються там. Будь-які істоти всередині також залишаються, якщо тільки вони не вирішать виштовхнутися крізь двері в момент їхнього зникнення, приземляючись у стані &amp;Reference[Prone]{Збитий з ніг} у вільних просторах, найближчих до колишнього місця розташування дверей.</p><p>Щоразу, коли ви створюєте це заклинання, ви можете створити новий напівплан або з'єднати примарні двері з напівпланом, який ви створили під час попереднього створення цього заклинання. Крім того, якщо вам відома природа та вміст напівплану, створеного за допомогою цього заклинання іншою істотою, ви можете замість цього з'єднати примарні двері з цим напівпланом.</p>"
         },
         "Detect Evil and Good": {
@@ -931,164 +931,164 @@
             "description": "<p>Шепочучи до духів природи, ви створюєте один із наступних ефектів у межах дистанції.</p><p><strong>Прогнозування погоди.</strong> Ви створюєте крихітний (Tiny) нешкідливий сенсорний ефект, який передбачає, якою буде погода у вашому місці перебування протягом наступних 24 годин. Ефект може виявитися у вигляді золотої сфери для ясного неба, хмаринки для дощу, падаючих сніжинок для снігу тощо. Цей ефект триває 1 раунд.</p><p><strong>Цвітіння.</strong> Ви миттєво змушуєте квітку розпуститися, насіннєву коробочку відкритися або бруньку листка розцвісти.</p><p><strong>Сенсорний ефект.</strong> Ви створюєте нешкідливий сенсорний ефект, такий як опале листя, примарні танцюючі феї, легкий вітерець, звуки тварини або слабкий запах скунса. Ефект повинен уміщатися в 5-футовий куб (Cube).</p><p><strong>Гра з вогнем.</strong> Ви запалюєте або гасите свічку, смолоскип або багаття.</p>"
         },
 		"Earthquake": {
-			"name": "Earthquake",
-			"description": "<p>Choose a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point. The ground there is Difficult Terrain.</p><p>When you cast this spell and at the end of each of your turns for the duration, each creature on the ground in the area makes a Dexterity saving throw. On a failed save, a creature has the &amp;Reference[Prone] condition, and its Concentration is broken.</p><p>You can also cause the effects below.</p><p><strong>Fissures.</strong> A total of [[/r 1d6]] fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is [[/r 1d10 * 10]] feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.</p><p><strong>Structures.</strong> The tremor deals [[/damage 50 type=bludgeoning]] damage to any structure in contact with the ground in the area when you cast the spell and at the end of each of your turns until the spell ends. If a structure drops to 0 Hit Points, it collapses.</p><p>A creature within a distance from a collapsing structure equal to half the structure's height makes a Dexterity saving throw. On a failed save, the creature takes 12d6 Bludgeoning damage, has the &amp;Reference[Prone apply=false] condition, and is buried in the rubble, requiring a [[/check ability=str skill=ath dc=20]] check as an action to escape. On a successful save, the creature takes half as much damage only.</p>",
-			"effects": {
-				"Buried in Rubble": {
-					"name": "Buried in Rubble",
-					"description": "<p>On a failed save, the creature takes 12d6 Bludgeoning damage, has the &amp;Reference[Prone apply=false] condition, and is buried in the rubble, requiring a [[/check ability=str skill=ath dc=20]] check as an action to escape.</p>"
-				}
-			}
-		},
-		"Eldritch Blast": {
-			"name": "Eldritch Blast",
-			"description": "<p>You hurl a beam of crackling energy. Make a ranged spell attack against one creature or object in range. On a hit, the target takes 1d10 Force damage.</p><p><strong>Cantrip Upgrade.</strong> The spell creates two beams at level 5, three beams at level 11, and four beams at level 17. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p><p>[[(floor((@details.level+1)/6)+1)]]{Total Beams}</p>"
-		},
-		"Elementalism": {
-			"name": "Elementalism",
-			"description": "<p>You exert control over the elements, creating one of the following effects within range.</p><p><strong>Beckon Air.</strong> You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot Cube. Doors and shutters being held open by someone or something aren't affected.</p><p><strong>Beckon Earth.</strong> You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand.</p><p><strong>Beckon Fire.</strong> You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot Cube. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke's scent lingers for 1 minute.</p><p><strong>Beckon Water.</strong> You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot Cube. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute.</p><p><strong>Sculpt Element.</strong> You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot Cube to assume a crude shape (such as that of a creature) for 1 hour.</p>"
-		},
+            "name": "Землетрус",
+            "description": "<p>Оберіть точку на землі, яку ви бачите в межах дистанції. Протягом дії заклинання потужний поштовх розриває землю в колі радіусом 100 футів із центром у цій точці. Земля там стає важкопрохідною місцевістю (Difficult Terrain).</p><p>Коли ви створюєте це заклинання, а також наприкінці кожного вашого ходу протягом його дії, кожна істота на землі в цій області робить рятівний кидок Спритності. У разі провалу істота отримує стан &amp;Reference[Prone]{Збитий з ніг}, а її концентрація (Concentration) переривається.</p><p>Ви також можете викликати ефекти, наведені нижче.</p><p><strong>Ущелини.</strong> Загалом [[/r 1d6]] ущелин відкриваються в області дії заклинання наприкінці ходу, в який ви його створили. Ви обираєте розташування ущелин, які не можуть знаходитися під спорудами. Кожна ущелина має глибину [[/r 1d10 * 10]] футів і ширину 10 футів, і вона простягається від одного краю області дії заклинання до іншого. Істота, яка перебуває на тому самому місці, що й ущелина, повинна успішно зробити рятівний кидок Спритності, інакше вона впаде туди. Істота, яка успішно робить рятівний кидок, переміщується разом із краєм ущелини, коли вона відкривається.</p><p><strong>Споруди.</strong> Поштовх завдає [[/damage 50 type=bludgeoning]] дробильної шкоди будь-якій споруді, що контактує з землею в області дії, коли ви створюєте заклинання та наприкінці кожного вашого ходу, поки заклинання не закінчиться. Якщо хіти споруди знижуються до 0, вона обрушується.</p><p>Істота, яка перебуває від споруди, що обрушується, на відстані, яка дорівнює або є меншою за половину її висоти, робить рятівний кидок Спритності. У разі провалу істота отримує 12d6 дробильної шкоди (Bludgeoning damage), стан &amp;Reference[Prone apply=false]{Збитий з ніг} і опиняється похованою під уламками, що вимагає перевірки [[/check ability=str skill=ath dc=20]] як дії для порятунку. У разі успішного рятівного кидка істота отримує лише половину цієї шкоди.</p>",
+            "effects": {
+                "Buried in Rubble": {
+                    "name": "Похований під уламками",
+                    "description": "<p>У разі провалу істота отримує 12d6 дробильної шкоди, стан &amp;Reference[Prone apply=false]{Збитий з ніг} і опиняється похованою під уламками, що вимагає перевірки [[/check ability=str skill=ath dc=20]] як дії для порятунку.</p>"
+                }
+            }
+        },
+        "Eldritch Blast": {
+            "name": "Потойбічний розряд",
+            "description": "<p>Ви випускаєте промінь тріскучої енергії. Зробіть далекобійну атаку заклинанням проти однієї істоти або об'єкта в межах дистанції. У разі влучання ціль отримує 1d10 шкоди силовим полем (Force damage).</p><p><strong>Покращення фокус-заклинання.</strong> Заклинання створює два промені на 5-му рівні, три промені на 11-му рівні та чотири промені на 17-му рівні. Ви можете спрямувати ці промені в одну ціль або в різні. Зробіть окремий кидок атаки для кожного променя.</p><p>[[(floor((@details.level+1)/6)+1)]]{Всього променів}</p>"
+        },
+        "Elementalism": {
+            "name": "Елементалізм",
+            "description": "<p>Ви здійснюєте контроль над стихіями, створюючи один із наступних ефектів у межах дистанції.</p><p><strong>Заклик повітря.</strong> Ви створюєте вітерець, достатньо сильний, щоб колихати тканину, піднімати пил, шелестіти листям і закривати відкриті двері та віконниці, і все це в 5-футовому кубі (Cube). Двері та віконниці, які хтось або щось утримує відкритими, не зазнають цього ефекту.</p><p><strong>Заклик землі.</strong> Ви створюєте тонкий завіс пилу або піску, який покриває поверхні на площі в 5 квадратних футів, або змушуєте з'явитися одне слово, написане вашим почерком на ділянці бруду чи піску.</p><p><strong>Заклик вогню.</strong> Ви створюєте тонку хмаринку нешкідливих іскор і кольорового запашного диму в 5-футовому кубі (Cube). Ви обираєте колір і аромат, а іскри можуть запалювати свічки, смолоскипи або лампи в цій області. Запах диму зберігається протягом 1 хвилини.</p><p><strong>Заклик води.</strong> Ви створюєте бризки прохолодної моросі, яка злегка зволожує істот та об'єкти в 5-футовому кубі (Cube). Крім того, ви створюєте 1 чашку чистої води у відкритому контейнері або на поверхні, і ця вода випаровується через 1 хвилину.</p><p><strong>Формування стихії.</strong> Ви змушуєте бруд, пісок, вогонь, дим, морось або воду, що можуть уміститися в 1-футовий куб (Cube), набути грубої форми (наприклад, форми істоти) на 1 годину.</p>"
+        },
 		"Enhance Ability": {
-			"name": "Enhance Ability",
-			"description": "<p>You touch a creature and choose Strength, Dexterity, Intelligence, Wisdom, or Charisma. For the duration, the target has Advantage on ability checks using the chosen ability.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level above 2. You can choose a different ability for each target.</p>",
-			"effects": {
-				"Enhanced Strength": {
-					"name": "Enhanced Strength",
-					"description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.str.check.roll.mode": 1
-					}
-				},
-				"Enhanced Dexterity": {
-					"name": "Enhanced Dexterity",
-					"description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.dex.check.roll.mode": 1
-					}
-				},
-				"Enhanced Intelligence": {
-					"name": "Enhanced Intelligence",
-					"description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.int.check.roll.mode": 1
-					}
-				},
-				"Enhanced Wisdom": {
-					"name": "Enhanced Wisdom",
-					"description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.wis.check.roll.mode": 1
-					}
-				},
-				"Enhanced Charisma": {
-					"name": "Enhanced Charisma",
-					"description": "<p>The target has Advantage on ability checks made with the chosen ability.</p>",
-					"changes": {
-						"system.abilities.cha.check.roll.mode": 1
-					}
-				}
-			}
-		},
+            "name": "Покращення здібностей",
+            "description": "<p>Ви торкаєтеся істоти та обираєте Силу, Спритність, Інтелект, Мудрість або Харизму. До закінчення дії заклинання ціль має перевагу (Advantage) на перевірки характеристик, що використовують обрану здібність.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 2-го. Ви можете обрати різну здібність для кожної цілі.</p>",
+            "effects": {
+                "Enhanced Strength": {
+                    "name": "Посилена Сила",
+                    "description": "<p>Ціль має перевагу на перевірки характеристик, зроблені з використанням обраної здібності.</p>",
+                    "changes": {
+                        "system.abilities.str.check.roll.mode": 1
+                    }
+                },
+                "Enhanced Dexterity": {
+                    "name": "Посилена Спритність",
+                    "description": "<p>Ціль має перевагу на перевірки характеристик, зроблені з використанням обраної здібності.</p>",
+                    "changes": {
+                        "system.abilities.dex.check.roll.mode": 1
+                    }
+                },
+                "Enhanced Intelligence": {
+                    "name": "Посилений Інтелект",
+                    "description": "<p>Ціль має перевагу на перевірки характеристик, зроблені з використанням обраної здібності.</p>",
+                    "changes": {
+                        "system.abilities.int.check.roll.mode": 1
+                    }
+                },
+                "Enhanced Wisdom": {
+                    "name": "Посилена Мудрість",
+                    "description": "<p>Ціль має перевагу на перевірки характеристик, зроблені з використанням обраної здібності.</p>",
+                    "changes": {
+                        "system.abilities.wis.check.roll.mode": 1
+                    }
+                },
+                "Enhanced Charisma": {
+                    "name": "Посилена Харизма",
+                    "description": "<p>Ціль має перевагу на перевірки характеристик, зроблені з використанням обраної здібності.</p>",
+                    "changes": {
+                        "system.abilities.cha.check.roll.mode": 1
+                    }
+                }
+            }
+        },
 		"Enlarge/Reduce": {
-			"name": "Enlarge/Reduce",
-			"description": "<p>For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.</p><p>Everything that a targeted creature is wearing and carrying changes size with it. Any item it drops returns to normal size at once. A thrown weapon or piece of ammunition returns to normal size immediately after it hits or misses a target.</p><p><strong>Enlarge.</strong> The target's size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target's attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p><p><strong>Reduce.</strong> The target's size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target's attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can't reduce the damage below 1).</p>",
-			"effects": {
-				"Enlarged": {
-					"name": "Enlarged",
-					"description": "<p>The target’s size increases by one category—from Medium to Large, for example. The target also has Advantage on Strength checks and Strength saving throws. The target’s attacks with its enlarged weapons or Unarmed Strikes deal an extra 1d4 damage on a hit.</p>",
-					"changes": {
-						"system.bonuses.mwak.damage": "1d4",
-						"system.bonuses.rwak.damage": "1d4",
-						"system.abilities.str.check.roll.mode": 1,
-						"system.abilities.str.save.roll.mode": 1
-					}
-				},
-				"Reduced": {
-					"name": "Reduced",
-					"description": "<p>The target’s size decreases by one category—from Medium to Small, for example. The target also has Disadvantage on Strength checks and Strength saving throws. The target’s attacks with its reduced weapons or Unarmed Strikes deal 1d4 less damage on a hit (this can’t reduce the damage below 1).</p>",
-					"changes": {
-						"system.bonuses.mwak.damage": "- 1d4",
-						"system.bonuses.rwak.damage": "- 1d4",
-						"system.abilities.str.check.roll.mode": -1,
-						"system.abilities.str.save.roll.mode": -1
-					}
-				}
-			}
-		},
+            "name": "Збільшення/Зменшення",
+            "description": "<p>До закінчення дії заклинання воно збільшує або зменшує істоту чи об'єкт, який ви бачите в межах дистанції (дивіться обраний ефект нижче). Обраний об'єкт не повинен бути ні вдягненим, ні переносимим. Якщо ціль є незгідною істотою, вона може зробити рятівний кидок Тілобудови. У разі успішного рятівного кидка заклинання не має ефекту.</p><p>Усе, що вдягнене або переноситься цільовою істотою, змінює розмір разом із нею. Будь-який кинутий предмет негайно повертається до нормального розміру. Кинута зброя або боєприпаси повертаються до нормального розміру одразу після того, як влучать або промахнуться повз ціль.</p><p><strong>Збільшення.</strong> Розмір цілі збільшується на одну категорію — наприклад, із Середнього (Medium) до Великого (Large). Ціль також має перевагу (Advantage) на перевірки Сили та рятівні кидки Сили. Атаки цілі її збільшеною зброєю або беззбройні удари (Unarmed Strikes) завдають додаткові 1d4 шкоди в разі влучання.</p><p><strong>Зменшення.</strong> Розмір цілі зменшується на одну категорію — наприклад, із Середнього (Medium) до Малого (Small). Ціль також має недолік (Disadvantage) на перевірки Сили та рятівні кидки Сили. Атаки цілі її зменшеною зброєю або беззбройні удари (Unarmed Strikes) завдають на 1d4 менше шкоди в разі влучання (це не може зменшити шкоду нижче 1).</p>",
+            "effects": {
+                "Enlarged": {
+                    "name": "Збільшений",
+                    "description": "<p>Розмір цілі збільшується на одну категорію — наприклад, із Середнього до Великого. Ціль також має перевагу на перевірки Сили та рятівні кидки Сили. Атаки цілі її збільшеною зброєю або беззбройні удари завдають додаткові 1d4 шкоди в разі влучання.</p>",
+                    "changes": {
+                        "system.bonuses.mwak.damage": "1d4",
+                        "system.bonuses.rwak.damage": "1d4",
+                        "system.abilities.str.check.roll.mode": 1,
+                        "system.abilities.str.save.roll.mode": 1
+                    }
+                },
+                "Reduced": {
+                    "name": "Зменшений",
+                    "description": "<p>Розмір цілі зменшується на одну категорію — наприклад, із Середнього до Малого. Ціль також має недолік на перевірки Сили та рятівні кидки Сили. Атаки цілі її зменшеною зброєю або беззбройні удари завдають на 1d4 менше шкоди в разі влучання (це не може зменшити шкоду нижче 1).</p>",
+                    "changes": {
+                        "system.bonuses.mwak.damage": "- 1d4",
+                        "system.bonuses.rwak.damage": "- 1d4",
+                        "system.abilities.str.check.roll.mode": -1,
+                        "system.abilities.str.save.roll.mode": -1
+                    }
+                }
+            }
+        },
 		"Ensnaring Strike": {
-			"name": "Ensnaring Strike",
-			"description": "<p>As you hit the target, grasping vines appear on it, and it makes a Strength saving throw. A Large or larger creature has Advantage on this save. On a failed save, the target has the <span style=\"font-family:Signika, sans-serif\">&amp;Reference[restrained apply=false] </span>condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends.</p><p>While Restrained, the target takes 1d6 Piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 1.</p>",
-			"effects": {
-				"Ensnared": {
-					"name": "Ensnared",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">The target has the &amp;Reference[restrained apply=false] condition until the spell ends.</span></p><p><span style=\"font-family:Signika, sans-serif\">While Restrained, the target takes [[/damage 1d6 type=piercing]] (plus 1d6 per spell slot level above 1) damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, the spell ends.</span></p>"
-				}
-			}
-		},
-		"Entangle": {
-			"name": "Entangle",
-			"description": "<p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into &amp;Reference[difficultterrain]. They disappear when the spell ends.</p><p>Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the &amp;Reference[restrained apply=false] condition until the spell ends. A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>",
-			"effects": {
-				"Restrained": {
-					"name": "Restrained",
-					"description": "<p>A Restrained creature can take an action to make a [[/check ability=str skill=ath]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.</p>"
-				}
-			}
-		},
+            "name": "Ловчий удар",
+            "description": "<p>Коли ви влучаєте в ціль, на ній з'являються чіпкі ліани, і вона робить рятівний кидок Сили. Велика (Large) або більша істота має перевагу (Advantage) на цей рятівний кидок. У разі провалу ціль отримає стан <span style=\"font-family:Signika, sans-serif\">&amp;Reference[restrained apply=false]{Обплутаний}</span> до закінчення дії заклинання. У разі успішного рятівного кидка ліани в'януть, і заклинання закінчується.</p><p>Поки ціль перебуває в стані Обплутаний, вона отримує 1d6 колючої шкоди (Piercing damage) на початку кожного свого ходу. Ціль або істота в межах досяжності від неї може виконати дію, щоб зробити перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти Сл вашого рятівного кидка заклинання. У разі успіху заклинання закінчується.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Ensnared": {
+                    "name": "Обплутаний",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Ціль перебуває в стані &amp;Reference[restrained apply=false]{Обплутаний} до закінчення дії заклинання.</span></p><p><span style=\"font-family:Signika, sans-serif\">Поки ціль перебуває в стані Обплутаний, вона отримує [[/damage 1d6 type=piercing]] (плюс 1d6 за кожен рівень комірки вище 1-го) шкоди на початку кожного свого ходу. Ціль або істота в межах досяжності від неї може виконати дію, щоб зробити перевірку [[/check ability=str skill=ath]] проти Сл вашого рятівного кидка заклинання. У разі успіху заклинання закінчується.</span></p>"
+                }
+            }
+        },
+        "Entangle": {
+            "name": "Обплутування",
+            "description": "<p>Чіпкі рослини проростають із землі в 20-футовому квадраті (Square) в межах дистанції. На час дії заклинання ці рослини перетворюють землю в цій області на &amp;Reference[difficultterrain]{важкопрохідну місцевість}. Вони зникають, коли заклинання закінчується.</p><p>Кожна істота (окрім вас), яка перебуває в цій області в момент створення заклинання, повинна успішно зробити рятівний кидок Сили, інакше вона отримає стан &amp;Reference[restrained apply=false]{Обплутаний} до закінчення дії заклинання. Обплутана істота може виконати дію, щоб зробити перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти Сл вашого рятівного кидка заклинання. У разі успіху вона вивільняється з чіпких рослин і більше не є обплутаною ними.</p>",
+            "effects": {
+                "Restrained": {
+                    "name": "Обплутаний",
+                    "description": "<p>Обплутана істота може виконати дію, щоб зробити перевірку [[/check ability=str skill=ath]] проти Сл вашого рятівного кидка заклинання. У разі успіху вона вивільняється з чіпких рослин і більше не є обплутаною ними.</p>"
+                }
+            }
+        },
 		"Enthrall": {
-			"name": "Enthrall",
-			"description": "<p>You weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a −10 penalty to Wisdom (Perception) checks and Passive Perception until the spell ends.</p>",
-			"effects": {
-				"Distracted": {
-					"name": "Distracted",
-					"description": "<p><span style=\"font-family:Signika, sans-serif\">The target has a −10 penalty to [[/check ability=wis skill=prc]] checks and Passive Perception until the spell ends.</span></p>",
-					"changes": {
-						"system.skills.prc.bonuses.check": -10
-					}
-				}
-			}
-		},
-		"Etherealness": {
-			"name": "Etherealness",
-			"description": "<p>You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can't see anything there more than 60 feet away.</p><p>While on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane can't perceive or interact with you unless a feature gives them the ability to do so.</p><p>When the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.</p><p>This spell ends instantly if you cast it while you are on the Ethereal Plane or a plane that doesn't border it, such as one of the Outer Planes.</p><p><strong>Using a Higher-Level Spell Slot.</strong>You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.</p>",
-			"effects": {
-				"Etherealness": {
-					"name": "Etherealness"
-				}
-			}
-		},
+            "name": "Зачаровування",
+            "description": "<p>Ви сплітаєте відволікаючу низку слів, змушуючи обраних вами істот, яких ви бачите в межах дистанції, зробити рятівний кидок Мудрості. Будь-яка істота, з якою ви або ваші супутники ведете бій, автоматично досягає успіху в цьому рятівному кидку. У разі провалу ціль отримує штраф −10 до перевірок Мудрості (Уважність) та пасивної Уважності (Passive Perception) до закінчення дії заклинання.</p>",
+            "effects": {
+                "Distracted": {
+                    "name": "Відволічений",
+                    "description": "<p><span style=\"font-family:Signika, sans-serif\">Ціль отримує штраф −10 до перевірок [[/check ability=wis skill=prc]] та пасивної Уважності до закінчення дії заклинання.</span></p>",
+                    "changes": {
+                        "system.skills.prc.bonuses.check": -10
+                    }
+                }
+            }
+        },
+        "Etherealness": {
+            "name": "Ефірність",
+            "description": "<p>Ви переходите у прикордонні області Ефірного плану, де він накладається на ваш поточний план. Ви залишаєтеся в Прикордонному Ефірі (Border Ethereal) протягом дії заклинання. У цей час ви можете рухатися в будь-якому напрямку. Якщо ви рухаєтеся вгору або вниз, кожен фут руху коштує один додатковий фут швидкості. Ви можете сприймати план, який залишили, але він виглядає сірим, і ви не можете бачити там нічого на відстані понад 60 футів.</p><p>Перебуваючи на Ефірному плані, ви можете впливати та зазнавати впливу лише від істот, об'єктів та ефектів на цьому ж плані. Істоти, які не перебувають на Ефірному плані, не можуть сприймати вас або взаємодіяти з вами, якщо тільки якась особливість не дає їм такої здатності.</p><p>Коли заклинання закінчується, ви повертаєтеся на план, який залишили, у точку, що відповідає вашому простору в Прикордонному Ефірі. Якщо ви з'являєтеся в зайнятому просторі, вас виштовхує в найближчий вільний простір, і ви отримуєте шкоду силовим полем (Force damage), що дорівнює подвоєній кількості футів, на яку вас було переміщено.</p><p>Цього заклинання дія негайно припиняється, якщо ви створюєте його, перебуваючи на самому Ефірному плані або на плані, який з ним не межує (наприклад, на одному із Зовнішніх планів).</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю до трьох згідних істот (включаючи себе) за кожен рівень комірки вище 7-го. Істоти повинні перебувати в межах 10 футів від вас у момент створення заклинання.</p>",
+            "effects": {
+                "Etherealness": {
+                    "name": "Ефірність"
+                }
+            }
+        },
 		"Black Tentacles": {
-			"name": "Black Tentacles",
-			"description": "<p>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into &amp;Reference[DifficultTerrain].</p><p>Each creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the &amp;Reference[Restrained apply=false] condition until the spell ends. A creature also makes that save if it enters the area or ends it turn there. A creature makes that save only once per turn.</p><p>A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC, ending the condition on itself on a success.</p>",
-			"effects": {
-				"Restrained": {
-					"name": "Restrained",
-					"description": "<p>A &amp;Reference[Restrained apply=false] creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC, ending the condition on itself on a success.</p>"
-				}
-			}
-		},
-		"Expeditious Retreat": {
-			"name": "Expeditious Retreat",
-			"description": "<p>You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.</p>"
-		},
-		"Eyebite": {
-			"name": "Eyebite",
-			"description": "<p>For the duration, your eyes become an inky void. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration.</p><p>On each of your turns until the spell ends, you can take a Magic action to target another creature but can't target a creature again if it has succeeded on a save against this casting of the spell.</p><p><strong>Asleep.</strong> The target has the &amp;Reference[Unconscious apply=false] condition. It wakes up if it takes any damage or if another creature takes an action to shake it awake.</p><p><strong>Panicked.</strong> The target has the &amp;Reference[Frightened apply=false] condition. On each of its turns, the Frightened target must take the &amp;Reference[Dash] action and move away from you by the safest and shortest route available. If the target moves to a space at least 60 feet away from you where it can't see you, this effect ends.</p><p><strong>Sickened.</strong> The target has the &amp;Reference[Poisoned apply=false] condition.</p>",
-			"effects": {
-				"Asleep": {
-					"name": "Asleep",
-					"description": "<p>The target has the &amp;Reference[Unconscious apply=false] condition. It wakes up if it takes any damage or if another creature takes an action to shake it awake.</p>"
-				},
-				"Panicked": {
-					"name": "Panicked",
-					"description": "<p>The target has the &amp;Reference[Frightened apply=false] condition. On each of its turns, the Frightened target must take the &amp;Reference[Dash] action and move away from you by the safest and shortest route available. If the target moves to a space at least 60 feet away from you where it can’t see you, this effect ends.</p>"
-				},
-				"Sickened": {
-					"name": "Sickened",
-					"description": "<p>The target has the &amp;Reference[Poisoned apply=false] condition.</p>"
-				}
-			}
-		},
+            "name": "Чорні щупальця",
+            "description": "<p>Звивисті чорні щупальця заповнюють 20-футовий квадрат (Square) на землі, яку ви бачите в межах дистанції. На час дії заклинання ці щупальця перетворюють землю в цій області на &amp;Reference[DifficultTerrain]{важкопрохідну місцевість}.</p><p>Кожна істота в цій області робить рятівний кидок Сили. У разі провалу вона отримує 3d6 дробильної шкоди (Bludgeoning damage), а також стан &amp;Reference[Restrained apply=false]{Обплутаний} до закінчення дії заклинання. Істота також робить цей рятівний кидок, якщо входить в область дії або закінчує там свій хід. Істота робить цей рятівний кидок лише один раз за хід.</p><p>Обплутана істота може виконати дію, щоб зробити перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти Сл вашого рятівного кидка заклинання, у разі успіху знімаючи з себе цей стан.</p>",
+            "effects": {
+                "Restrained": {
+                    "name": "Обплутаний",
+                    "description": "<p>Істота у стані &amp;Reference[Restrained apply=false]{Обплутаний} може виконати дію, щоб зробити перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти Сл вашого рятівного кидка заклинання, у разі успіху знімаючи з себе цей стан.</p>"
+                }
+            }
+        },
+        "Expeditious Retreat": {
+            "name": "Стрімкий відступ",
+            "description": "<p>Ви виконуєте дію Ривок (Dash), і до закінчення дії заклинання ви можете виконувати цю дію знову як бонусну дію.</p>"
+        },
+        "Eyebite": {
+            "name": "Пристріт",
+            "description": "<p>На час дії заклинання ваші очі перетворюються на чорнильну порожнечу. Одна обрана вами істота в межах 60 футів, яку ви бачите, повинна успішно зробити рятівний кидок Мудрості, інакше вона підпаде під дію одного з наступних ефектів на ваш вибір на час дії заклинання.</p><p>У кожен свій хід до закінчення дії заклинання ви можете виконати магічну дію (Magic action), щоб обрати ціллю іншу істоту, але ви не можете знову обрати ціллю істоту, яка вже успішно зробила рятівний кидок проти цього конкретного створення заклинання.</p><p><strong>Приспаний.</strong> Ціль отримує стан &amp;Reference[Unconscious apply=false]{Непритомний}. Вона прокидається, якщо зазнає будь-якої шкоди або якщо інша істота виконає дію, щоб розштовхати її.</p><p><strong>Панікуючий.</strong> Ціль отримує стан &amp;Reference[Frightened apply=false]{Зляканий}. У кожен свій хід злякана ціль повинна виконувати дію &amp;Reference[Dash]{Ривок} і рухатися від вас найбезпечнішим і найкоротшим доступним маршрутом. Якщо ціль переміщується в простір на відстані принаймні 60 футів від вас, де вона не може вас бачити, цей ефект закінчується.</p><p><strong>Занедужалий.</strong> Ціль отримує стан &amp;Reference[Poisoned apply=false]{Отруєний}.</p>",
+            "effects": {
+                "Asleep": {
+                    "name": "Приспаний",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Unconscious apply=false]{Непритомний}. Вона прокидається, якщо зазнає будь-якої шкоди або якщо інша істота виконає дію, щоб розштовхати її.</p>"
+                },
+                "Panicked": {
+                    "name": "Панікуючий",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Frightened apply=false]{Зляканий}. У кожен свій хід злякана ціль повинна виконувати дію &amp;Reference[Dash]{Ривок} і рухатися від вас найбезпечнішим і найкоротшим доступним маршрутом. Якщо ціль переміщується в простір на відстані принаймні 60 футів від вас, де вона не може вас бачити, цей ефект закінчується.</p>"
+                },
+                "Sickened": {
+                    "name": "Занедужалий",
+                    "description": "<p>Ціль отримує стан &amp;Reference[Poisoned apply=false]{Отруєний}.</p>"
+                }
+            }
+        },
 		"Fabricate": {
 			"name": "Fabricate",
 			"description": "<p>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.</p><p>Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot Cube or eight connected 5-foot Cubes) given a sufficient quantity of material. If you're working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a 5-foot Cube). The quality of any fabricated objects is based on the quality of the raw materials.</p><p>Creatures and magic items can't be created by this spell. You also can't use it to create items that require a high degree of skill—such as weapons and armor—unless you have proficiency with the type of Artisan's Tools used to craft such objects.</p>"
