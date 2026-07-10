@@ -2540,420 +2540,420 @@
             "description": "<p>Ви торкаєтеся мотузки. Один її кінець злітає вгору, доки мотузка не зависне перпендикулярно до землі або не досягне стелі. На верхньому кінці мотузки відкривається невидимий (Invisible) портал розміром 3 на 5 футів, що веде до екстравимірного простору (extradimensional space), який триває до закінчення дії заклинання. До цього простору можна дістатися, піднявшись мотузкою, яку можна втягнути всередину або скинути назовні.</p><p>У просторі може перебувати до восьми істот середнього (Medium) або меншого розміру. Атаки, заклинання та інші ефекти не можуть проходити крізь простір чи назовні з нього, але істоти всередині можуть бачити крізь портал. Будь-що всередині простору випадає назовні, коли заклинання завершується.</p>"
         },
 		"Sacred Flame": {
-			"name": "Sacred Flame",
-			"description": "<p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take 1d8 Radiant damage. The target gains no benefit from Half Cover or Three-Quarters Cover for this save.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
-		},
-		"Scorching Ray": {
-			"name": "Scorching Ray",
-			"description": "<p>You hurl three fiery rays. You can hurl them at one target within range or at several. Make a ranged spell attack for each ray. On a hit, the target takes 2d6 Fire damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You create one additional ray for each spell slot level above 2.</p><p>[[@item.level + 1]]{Total Rays}</p>"
-		},
-		"Scrying": {
-			"name": "Scrying",
-			"description": "<p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.</p><table><thead><tr><td>Your Knowledge of the Target Is …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Secondhand (heard of the target)</td><td>+5</td></tr><tr><td>Firsthand (met the target)</td><td>+0</td></tr><tr><td>Extensive (know the target well)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>You Have the Target's …</td><td>Save Modifier</td></tr></thead><tbody><tr><td>Picture or other likeness</td><td>−2</td></tr><tr><td>Garment or other possession</td><td>−4</td></tr><tr><td>Body part, lock of hair, or bit of nail</td><td>−10</td></tr></tbody></table><p>On a successful save, the target isn't affected, and you can't use this spell on it again for 24 hours.</p><p>On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.</p><p>Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn't move.</p>"
-		},
-		"Searing Smite": {
-			"name": "Searing Smite",
-			"description": "<p>As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot. </strong>All the damage increases by 1d6 for each spell slot level above 1.</p>",
-			"effects": {
-				"Seared": {
-					"name": "Seared",
-					"description": "<p>At the start of each of its turns until the spell ends, the target takes [[/damage 1d6 type=fire]] damage and then makes a [[/save ability=con]] saving throw. On a failed save, the spell continues. On a successful save, the spell ends.</p>"
-				}
-			}
-		},
+            "name": "Священне полум'я",
+            "description": "<p>Полум'яподібне сяйво спускається на істоту, яку ви бачите в межах дистанції. Ціль повинна успішно зробити рятівний кидок Спритності, інакше отримає 1d8 [[/damage 1d8 type=radiant]] променистої шкоди (Radiant damage). Ціль не отримує жодної користі від половинного укриття (Half Cover) чи три чверті укриття (Three-Quarters Cover) для цього кидка.</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d8, коли ви досягаєте 5-го (2d8), 11-го (3d8) та 17-го (4d8) рівня.</p>"
+        },
+        "Scorching Ray": {
+            "name": "Палючий промінь",
+            "description": "<p>Ви кидаєте три вогняні промені. Ви можете кинути їх в одну ціль у межах дистанції або в кілька. Зробіть дистанційну атаку заклинанням для кожного променя. У разі влучання ціль отримує 2d6 [[/damage 2d6 type=fire]] вогняної шкоди (Fire damage).</p><p><strong>Використання комірки вищого рівня.</strong> Ви створюєте один додатковий промінь за кожен рівень комірки вище 2-го.</p><p>[[@item.level + 1]]{Усього променів (Total Rays)}</p>"
+        },
+        "Scrying": {
+            "name": "Ворожіння",
+            "description": "<p>Ви можете бачити та чути обрану вами істоту, яка перебуває на тому самому плані існування, що й ви. Ціль здійснює рятівний кидок Мудрості, який модифікується (див. таблиці нижче) залежно від того, наскільки добре ви знаєте ціль і який тип фізичного зв'язку ви маєте з нею. Ціль не знає, проти чого вона робить рятівний кидок, лише відчуває неспокій.</p><table><thead><tr><td>Ваше знання про ціль є…</td><td>Модифікатор порятунку</td></tr></thead><tbody><tr><td>З чуток (чули про ціль)</td><td>+5</td></tr><tr><td>Особисте (зустрічали ціль)</td><td>+0</td></tr><tr><td>Розширене (добре знаєте ціль)</td><td>−5</td></tr></tbody></table><table><thead><tr><td>Ви маєте… цілі</td><td>Модифікатор порятунку</td></tr></thead><tbody><tr><td>Фотографію чи іншу подобу</td><td>−2</td></tr><tr><td>Одяг чи іншу річ</td><td>−4</td></tr><tr><td>Частину тіла, пасму волосся чи шматочок нігтя</td><td>−10</td></tr></tbody></table><p>У разі успішного порятунку ціль не зазнає впливу, і ви не можете знову використати це заклинання на неї протягом 24 годин.</p><p>У разі провалу рятівного кидка заклинання створює невидикре (Invisible), нематеріальне відчуття (сенсор) на відстані до 10 футів від цілі. Ви можете бачити та чути крізь цей сенсор так, ніби перебуваєте там. Сенсор рухається разом із ціллю, залишаючись у межах 10 футів від неї на час дії заклинання. Якщо щось може бачити сенсор, він виглядає як світна куля розміром з ваш кулак.</p><p>Замість того, щоб націлюватися на істоту, ви можете націлитися на місце, яке ви бачили. Коли ви це робите, сенсор з'являється в цьому місці й не рухається.</p>"
+        },
+        "Searing Smite": {
+            "name": "Палюча кара",
+            "description": "<p>Коли ви влучаєте в ціль, вона отримує додаткову 1d6 [[/damage 1d6 type=fire]] вогняної шкоди від атаки. На початку кожного зі своїх ходів до закінчення дії заклинання ціль отримує 1d6 вогняної шкоди, а потім робить рятівний кидок Тілобудови. У разі провалу рятівного кидка заклинання продовжується. У разі успіху заклинання завершується.</p><p><strong>Використання комірки вищого рівня. </strong>Уся шкода збільшується на 1d6 за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Seared": {
+                    "name": "Опалений",
+                    "description": "<p>На початку кожного зі своїх ходів до закінчення дії заклинання ціль отримує [[/damage 1d6 type=fire]] шкоди, а потім робить рятівний кидок [[/save ability=con]]. У разі провалу рятівного кидка заклинання продовжується. У разі успіху заклинання завершується.</p>"
+                }
+            }
+        },
 		"See Invisibility": {
-			"name": "See Invisibility",
-			"description": "<p>For the duration, you see creatures and objects that have the &amp;Reference[invisible apply=false] condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.</p>",
-			"effects": {
-				"See Invisibility": {
-					"name": "See Invisibility",
-					"changes": {
-						"system.attributes.senses.special": ";Ethereal Plane"
-					}
-				}
-			}
-		},
-		"Seeming": {
-			"name": "Seeming",
-			"description": "<p>You give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.</p><p>You can give the same appearance or different ones to the targets. The spell can change the appearance of the targets' bodies and equipment. You can make each creature seem 1 foot shorter or taller and appear heavier or lighter. A target's new appearance must have the same basic arrangement of limbs as the target, but the extent of the illusion is otherwise up to you. The spell lasts for the duration.</p><p>The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature's outfit, objects pass through the hat.</p><p>A creature that takes the Study action to examine a target can make an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.</p>",
-			"effects": {
-				"Changed Appearance": {
-					"name": "Changed Appearance",
-					"description": "<p>A creature that takes the Study action to examine a target can make an [[/check ability=int skill=inv]] check against your spell save DC. If it succeeds, it becomes aware that the target is disguised.</p>"
-				}
-			}
-		},
+            "name": "Бачення невидимого",
+            "description": "<p>Протягом часу дії ви бачите істот і предмети зі станом &amp;Reference[invisible apply=false]{Невидимий (Invisible)} так, ніби вони видимі, а також можете зазирнути в Ефірний план (Ethereal Plane). Істоти та предмети там здаються примарними.</p>",
+            "effects": {
+                "See Invisibility": {
+                    "name": "Бачення невидимого",
+                    "changes": {
+                        "system.attributes.senses.special": ";Ethereal Plane"
+                    }
+                }
+            }
+        },
+        "Seeming": {
+            "name": "Видимість",
+            "description": "<p>Ви надаєте ілюзорний вигляд кожній істоті на ваш вибір, яку ви бачите в межах дистанції. Недобровільна ціль може зробити рятівний кидок Харизми, і якщо вона досягає успіху, заклинання на неї не діє.</p><p>Ви можете надати цілям однаковий або різний вигляд. Заклинання може змінювати вигляд тіл та спорядження цілей. Ви можете зробити так, щоб кожна істота здавалася на 1 фут нижчою чи вищою, а також виглядала важчою чи легшою. Новий вигляд цілі повинен мати те саме базове розташування кінцівок, що й у цілі, але в іншому масштаб ілюзії залежить від вас. Заклинання триває протягом часу дії.</p><p>Зміни, створені цим заклинанням, не витримують фізичної перевірки. Наприклад, якщо ви використовуєте це заклинання, щоб додати капелюх до вбрання істоти, предмети проходитимуть крізь капелюх.</p><p>Істота, яка виконує дію «Дослідження» (Study action), щоб оглянути ціль, може зробити перевірку [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашого СВД спас-кидка заклинання (spell save DC). Якщо вона досягає успіху, то усвідомлює, що ціль замаскована.</p>",
+            "effects": {
+                "Changed Appearance": {
+                    "name": "Змінений вигляд",
+                    "description": "<p>Істота, яка виконує дію «Дослідження» (Study action), щоб оглянути ціль, може зробити перевірку [[/check ability=int skill=inv]] проти вашого СВД спас-кидка заклинання (spell save DC). Якщо вона досягає успіху, то усвідомлює, що ціль замаскована.</p>"
+                }
+            }
+        },
 		"Sending": {
-			"name": "Sending",
-			"description": "<p>You send a short message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. The target hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables targets to understand the meaning of your message.</p><p>You can send the message across any distance and even to other planes of existence, but if the target is on a different plane than you, there is a 5 percent chance that the message doesn't arrive. You know if the delivery fails.</p><p>Upon receiving your message, a creature can block your ability to reach it again with this spell for 8 hours. If you try to send another message during that time, you learn that you are blocked, and the spell fails.</p>"
-		},
-		"Sequester": {
-			"name": "Sequester",
-			"description": "<p>With a touch, you magically sequester an object or a willing creature. For the duration, the target has the Invisible condition and can't be targeted by Divination spells, detected by magic, or viewed remotely with magic.</p><p>If the target is a creature, it enters a state of suspended animation; it has the Unconscious condition, doesn't age, and doesn't need food, water, or air.</p><p>You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include \"after 1,000 years\" or \"when the tarrasque awakens.\" This spell also ends if the target takes any damage.</p>",
-			"effects": {
-				"Sequestered": {
-					"name": "Sequestered",
-					"description": "<p>If the target is a creature, it enters a state of suspended animation; it has the &amp;Reference[Unconscious apply=false] condition, doesn’t age, and doesn’t need food, water, or air. This spell also ends if the target takes any damage.</p>"
-				}
-			}
-		},
+            "name": "Надсилання",
+            "description": "<p>Ви надсилаєте коротке повідомлення з 25 слів або менше істоті, яку ви зустріли, або істоті, яку вам описала людина, що зустріла її. Ціль чує повідомлення у своєму розумі, впізнає вас як відправника, якщо знає вас, і може відповісти в такий же спосіб негайно. Заклинання дає змогу цілям зрозуміти сенс вашого повідомлення.</p><p>Ви можете надсилати повідомлення на будь-яку відстань і навіть на інші плани існування, але якщо ціль перебуває на іншому плані, ніж ви, існує 5-відсотковий шанс, що повідомлення не дійде. Ви знаєте, якщо доставка не вдалася.</p><p>Отримавши ваше повідомлення, істота може заблокувати вашу можливість зв'язатися з нею знову за допомогою цього заклинання на 8 годин. Якщо ви спробуєте надіслати інше повідомлення протягом цього часу, ви дізнаєтеся, що заблоковані, і заклинання не вдасться.</p>"
+        },
+        "Sequester": {
+            "name": "Ізоляція",
+            "description": "<p>Дотиком ви магічно ізолюєте предмет або добровільну істоту. Протягом часу дії ціль має стан &amp;Reference[invisible apply=false]{Невидимий (Invisible)} і не може бути ціллю заклинань ворожіння (Divination spells), виявлена магією чи переглянута віддалено за допомогою магії.</p><p>Якщо ціль є істотою, вона входить у стан анабіозу; вона має стан &amp;Reference[Unconscious apply=false]{Непритомний (Unconscious)}, не старіє і не потребує їжі, води чи повітря.</p><p>Ви можете встановити умову для дострокового завершення заклинання. Умовою може бути будь-що на ваш вибір, але вона має відбутися або бути видимою в межах 1 милі від цілі. Приклади включають «через 1000 років» або «коли прокинеться тараск (tarrasque)». Це заклинання також завершується, якщо ціль отримує будь-яку шкоду.</p>",
+            "effects": {
+                "Sequestered": {
+                    "name": "Ізольований",
+                    "description": "<p>Якщо ціль є істотою, вона входить у стан анабіозу; вона має стан &amp;Reference[Unconscious apply=false]{Непритомний (Unconscious)}, не старіє і не потребує їжі, води чи повітря. Це заклинання також завершується, якщо ціль отримує будь-яку шкоду.</p>"
+                }
+            }
+        },
 		"Shapechange": {
-			"name": "Shapechange",
-			"description": "<p>You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.</p><p>When you cast the spell, you gain a number of Temporary Hit Points equal to the Hit Points of the first form into which you shape-shift. These Temporary Hit Points vanish if any remain when the spell ends.</p><p>Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.</p><p>Upon shape-shifting, you determine whether your equipment drops to the ground or changes in size and shape to fit the new form while you're in it.</p>"
-		},
-		"Shatter": {
-			"name": "Shatter",
-			"description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one. A Construct has Disadvantage on the save.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>"
-		},
-		"Shield": {
-			"name": "Shield",
-			"description": "<p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}</em>.</p>",
-			"effects": {
-				"Imperceptible Barrier": {
-					"name": "Imperceptible Barrier",
-					"description": "<p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <em>Magic Missile</em>.</p>",
-					"changes": {
-						"system.attributes.ac.bonus": 5
-					}
-				}
-			}
-		},
+            "name": "Зміна форми",
+            "description": "<p>Ви перетворюєтеся на іншу істоту на час дії заклинання або доки не виконаєте магічну дію (Magic action), щоб перетворитися на іншу відповідну форму. Нова форма має належати істоті з показником небезпеки (Challenge Rating), який не перевищує ваш рівень або показник небезпеки. Ви повинні бачити такий тип істоти раніше, і це не може бути конструкт (Construct) чи нежить (Undead).</p><p>Коли ви накладаєте заклинання, ви отримуєте кількість тимчасових пунктів здоров'я (Temporary Hit Points), що дорівнює пунктам здоров'я першої форми, на яку ви перетворюєтеся. Ці тимчасові пункти здоров'я зникають, якщо вони залишаються після закінчення дії заклинання.</p><p>Ваші ігрові характеристики замінюються на блок характеристик обраної форми, але ви зберігаєте свій тип істоти; світогляд (alignment); особистість; значення Інтелекту, Мудрості та Харизми; пункти здоров'я; кістки здоров'я (Hit Point Dice); володіння навичками/інструментами (proficiencies); а також здатність спілкуватися. Якщо ви маєте особливість «Накладання заклинань» (Spellcasting), ви також зберігаєте її.</p><p>Під час перетворення ви визначаєте, чи падає ваше спорядження на землю, чи змінює розмір і форму, щоб відповідати новій формі, поки ви в ній.</p>"
+        },
+        "Shatter": {
+            "name": "Руйнування",
+            "description": "<p>Гучний шум лунає з обраної вами точки в межах дистанції. Кожна істота у сфері радіусом 10 футів із центром у цій точці робить рятівний кидок Тілобудови, отримуючи 3d8 [[/damage 3d8 type=thunder]] громової шкоди (Thunder damage) у разі провалу або половинну шкоду в разі успіху. Конструкт (Construct) має Перешкоду (Disadvantage) на цей спас-кидок.</p><p>Немагічний предмет, який ніхто не одягає і не несе, також отримує шкоду, якщо він перебуває в зоні дії заклинання.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 2-го.</p>"
+        },
+        "Shield": {
+            "name": "Щит",
+            "description": "<p>Непомітний бар'єр магічної сили захищає вас. До початку вашого наступного ходу ви отримуєте бонус +5 до КД (AC), зокрема проти атаки, що спричинила цей ефект, і ви не отримуєте жодної шкоди від заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Магічні стріли (Magic Missile)}</em>.</p>",
+            "effects": {
+                "Imperceptible Barrier": {
+                    "name": "Непомітний бар'єр",
+                    "description": "<p>До початку вашого наступного ходу ви маєте бонус +5 до КД (AC), зокрема проти атаки, що спричинила цей ефект, і ви не отримуєте шкоди від <em>Магічних стріл (Magic Missile)</em>.</p>",
+                    "changes": {
+                        "system.attributes.ac.bonus": 5
+                    }
+                }
+            }
+        },
 		"Shield of Faith": {
-			"name": "Shield of Faith",
-			"description": "<p>A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</p>",
-			"effects": {
-				"Shimmering Field": {
-					"name": "Shimmering Field",
-					"description": "<p>The target gains a +2 bonus to AC for the duration.</p>",
-					"changes": {
-						"system.attributes.ac.bonus": 2
-					}
-				}
-			}
-		},
+            "name": "Щит віри",
+            "description": "<p>Мерехтливе поле оточує істоту на ваш вибір у межах дистанції, даруючи їй бонус +2 до КД (AC) на час дії заклинання.</p>",
+            "effects": {
+                "Shimmering Field": {
+                    "name": "Мерехтливе поле",
+                    "description": "<p>Ціль отримує бонус +2 до КД (AC) на час дії заклинання.</p>",
+                    "changes": {
+                        "system.attributes.ac.bonus": 2
+                    }
+                }
+            }
+        },
 		"Shillelagh": {
-			"name": "Shillelagh",
-			"description": "<p>A Club or Quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. If the attack deals damage, it can be Force damage or the weapon's normal damage type (your choice).</p><p>The spell ends early if you cast it again or if you let go of the weapon.</p><p><strong>Cantrip Upgrade.</strong> The damage die changes when you reach levels 5 (d10), 11 (d12), and 17 (2d6).</p>",
-			"effects": {
-				"Shillelagh (1d8)": {
-					"name": "Shillelagh (1d8)",
-					"changes": {
-						"system.damage.base.denomination": 8,
-						"system.damage.base.types": "force",
-						"system.damage.base.number": 1,
-						"name": "{} Shillelagh",
-						"system.damage.base.custom.enabled": 0,
-						"activities[attack].attack.ability": "none",
-						"activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
-						"system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
-					}
-				},
-				"Shillelagh (1d10)": {
-					"name": "Shillelagh (1d10)",
-					"changes": {
-						"system.damage.base.denomination": 10,
-						"system.damage.base.types": "force",
-						"system.damage.base.number": 1,
-						"name": "{} (Shillelagh)",
-						"system.damage.base.custom.enabled": 0,
-						"activities[attack].attack.ability": "none",
-						"activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
-						"system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
-					}
-				},
-				"Shillelagh (1d12)": {
-					"name": "Shillelagh (1d12)",
-					"changes": {
-						"system.damage.base.denomination": 12,
-						"system.damage.base.types": "force",
-						"system.damage.base.number": 1,
-						"name": "{} (Shillelagh)",
-						"system.damage.base.custom.enabled": 0,
-						"activities[attack].attack.ability": "none",
-						"activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
-						"system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
-					}
-				},
-				"Shillelagh (2d6)": {
-					"name": "Shillelagh (2d6)",
-					"changes": {
-						"system.damage.base.denomination": 6,
-						"system.damage.base.types": "force",
-						"system.damage.base.number": 2,
-						"name": "{} (Shillelagh)",
-						"system.damage.base.custom.enabled": 0,
-						"activities[attack].attack.ability": "none",
-						"activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
-						"system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
-					}
-				}
-			}
-		},
+            "name": "Палиця (Shillelagh)",
+            "description": "<p>Кийок (Club) або бойовий жезл (Quarterstaff), який ви тримаєте, сповнюється силою природи. Протягом часу дії ви можете використовувати свій модифікатор здатності накладання заклинань замість Сили для кидків атаки та шкоди ближнього бою цією зброєю, а кістка шкоди зброї стає d8. Якщо атака завдає шкоди, це може бути силовою шкодою (Force damage) або звичайним типом шкоди зброї (на ваш вибір).</p><p>Заклинання завершується достроково, якщо ви накладете його знову або якщо ви випустите зброю з рук.</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Кістка шкоди змінюється, коли ви досягаєте 5-го (d10), 11-го (d12) та 17-го (2d6) рівня.</p>",
+            "effects": {
+                "Shillelagh (1d8)": {
+                    "name": "Палиця (1d8)",
+                    "changes": {
+                        "system.damage.base.denomination": 8,
+                        "system.damage.base.types": "force",
+                        "system.damage.base.number": 1,
+                        "name": "{} Палиця (Shillelagh)",
+                        "system.damage.base.custom.enabled": 0,
+                        "activities[attack].attack.ability": "none",
+                        "activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
+                        "system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
+                    }
+                },
+                "Shillelagh (1d10)": {
+                    "name": "Палиця (1d10)",
+                    "changes": {
+                        "system.damage.base.denomination": 10,
+                        "system.damage.base.types": "force",
+                        "system.damage.base.number": 1,
+                        "name": "{} Палиця (Shillelagh)",
+                        "system.damage.base.custom.enabled": 0,
+                        "activities[attack].attack.ability": "none",
+                        "activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
+                        "system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
+                    }
+                },
+                "Shillelagh (1d12)": {
+                    "name": "Палиця (1d12)",
+                    "changes": {
+                        "system.damage.base.denomination": 12,
+                        "system.damage.base.types": "force",
+                        "system.damage.base.number": 1,
+                        "name": "{} Палиця (Shillelagh)",
+                        "system.damage.base.custom.enabled": 0,
+                        "activities[attack].attack.ability": "none",
+                        "activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
+                        "system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
+                    }
+                },
+                "Shillelagh (2d6)": {
+                    "name": "Палиця (2d6)",
+                    "changes": {
+                        "system.damage.base.denomination": 6,
+                        "system.damage.base.types": "force",
+                        "system.damage.base.number": 2,
+                        "name": "{} Палиця (Shillelagh)",
+                        "system.damage.base.custom.enabled": 0,
+                        "activities[attack].attack.ability": "none",
+                        "activities[attack].attack.bonus": "max(@abilities.str.mod, @attributes.spell.mod)",
+                        "system.damage.base.bonus": "max(@abilities.str.mod, @attributes.spell.mod)"
+                    }
+                }
+            }
+        },
 		"Shining Smite": {
-			"name": "Shining Smite",
-			"description": "<p>The target hit by the strike takes an extra 2d6 Radiant damage from the attack. Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can't benefit from the &amp;Reference[Invisible] condition.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 2.</p>",
-			"effects": {
-				"Shining": {
-					"name": "Shining",
-					"description": "<p>Until the spell ends, the target sheds &amp;Reference[BrightLight] in a 5-foot radius, attack rolls against it have Advantage, and it can’t benefit from the &amp;Reference[Invisible] condition.</p>",
-					"changes": {
-						"system.traits.ci.value": "invisible"
-					}
-				}
-			}
-		},
-		"Shocking Grasp": {
-			"name": "Shocking Grasp",
-			"description": "<p>Lightning springs from you to a creature that you try to touch. Make a melee spell attack against the target. On a hit, the target takes 1d8 Lightning damage, and it can't make Opportunity Attacks until the start of its next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
-			"effects": {
-				"Shocked": {
-					"name": "Shocked",
-					"description": "<p>The target can’t make Opportunity Attacks until the start of its next turn.</p>"
-				}
-			}
-		},
+            "name": "Сяюча кара",
+            "description": "<p>Ціль, у яку влучив удар, отримує додатково 2d6 [[/damage 2d6 type=radiant]] променистої шкоди (Radiant damage) від атаки. До закінчення дії заклинання ціль випромінює &amp;Reference[BrightLight]{Яскраве світло (Bright Light)} в радіусі 5 футів, атаки проти неї мають Перевагу (Advantage), і вона не може отримувати користь від стану &amp;Reference[Invisible]{Невидимий (Invisible)}.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 2-го.</p>",
+            "effects": {
+                "Shining": {
+                    "name": "Сяйво",
+                    "description": "<p>До закінчення дії заклинання ціль випромінює &amp;Reference[BrightLight]{Яскраве світло (Bright Light)} в радіусі 5 футів, атаки проти неї мають Перевагу (Advantage), і вона не може отримувати користь від стану &amp;Reference[Invisible]{Невидимий (Invisible)}.</p>",
+                    "changes": {
+                        "system.traits.ci.value": "invisible"
+                    }
+                }
+            }
+        },
+        "Shocking Grasp": {
+            "name": "Шоковий дотик",
+            "description": "<p>Блискавка зривається з вас до істоти, яку ви намагаєтеся торкнутися. Зробіть ближню атаку заклинанням проти цілі. У разі влучання ціль отримує 1d8 [[/damage 1d8 type=lightning]] електричної шкоди (Lightning damage) і не може здійснювати атаки нагоди (Opportunity Attacks) до початку свого наступного ходу.</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d8, коли ви досягаєте 5-го (2d8), 11-го (3d8) та 17-го (4d8) рівня.</p>",
+            "effects": {
+                "Shocked": {
+                    "name": "Шокований",
+                    "description": "<p>Ціль не може здійснювати атаки нагоди (Opportunity Attacks) до початку свого наступного ходу.</p>"
+                }
+            }
+        },
 		"Silence": {
-			"name": "Silence",
-			"description": "<p>For the duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the &amp;Reference[deafened apply=false] condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>",
-			"effects": {
-				"Silenced": {
-					"name": "Silenced",
-					"description": "<p>Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>",
-					"changes": {
-						"system.traits.di.value": "thunder"
-					}
-				}
-			}
-		},
-		"Silent Image": {
-			"name": "Silent Image",
-			"description": "<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p><p>As a Magic action, you can cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p><p>Physical interaction with the image reveals it to be an illusion, since things can pass through it. A creature that takes a Study action to examine the image can determine that it is an illusion with a successful [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p>"
-		},
-		"Simulacrum": {
-			"name": "Simulacrum",
-			"description": "<p>You create a simulacrum of one Beast or Humanoid that is within 10 feet of you for the entire casting of the spell. You finish the casting by touching both the creature and a pile of ice or snow that is the same size as that creature, and the pile turns into the simulacrum, which is a creature. It uses the game statistics of the original creature at the time of casting, except it is a Construct, its Hit Point maximum is half as much, and it can't cast this spell.</p><p>The simulacrum is Friendly to you and creatures you designate. It obeys your commands and acts on your turn in combat. The simulacrum can't gain levels, and it can't take Short or Long Rests.</p><p>If the simulacrum takes damage, the only way to restore its Hit Points is to repair it as you take a Long Rest, during which you expend components worth 100 GP per Hit Point restored. The simulacrum must stay within 5 feet of you for the repair.</p><p>The simulacrum lasts until it drops to 0 Hit Points, at which point it reverts to snow and melts away. If you cast this spell again, any simulacrum you created with this spell is instantly destroyed.</p>"
-		},
+            "name": "Тиша",
+            "description": "<p>Протягом часу дії жоден звук не може створюватися всередині або проходити крізь сферу радіусом 20 футів із центром у точці на ваш вибір у межах дистанції. Будь-яка істота чи предмет повністю всередині сфери отримують Імунітет (Immunity) до громової шкоди (Thunder damage), а істоти мають стан &amp;Reference[deafened apply=false]{Приглушений / Оглушений (Deafened)}, перебуваючи повністю всередині неї. Накладання заклинання, що містить вербальний компонент (Verbal component), там неможливе.</p>",
+            "effects": {
+                "Silenced": {
+                    "name": "Затишшя / Заглушений",
+                    "description": "<p>Будь-яка істота чи предмет повністю всередині сфери мають Імунітет (Immunity) до громової шкоди (Thunder damage), а істоти мають стан Deafened, перебуваючи повністю всередині неї. Накладання заклинання, що містить вербальний компонент, там неможливе.</p>",
+                    "changes": {
+                        "system.traits.di.value": "thunder"
+                    }
+                }
+            }
+        },
+        "Silent Image": {
+            "name": "Мовчазний образ",
+            "description": "<p>Ви створюєте зображення предмета, істоти чи іншого видимого феномена, розмір якого не перевищує куб 15 футів. Зображення з'являється в точці в межах дистанції та триває протягом часу дії. Зображення суто візуальне; воно не супроводжується звуком, запахом чи іншими сенсорними ефектами.</p><p>Як магічна дія (Magic action), ви можете змусити зображення переміститися в будь-яку точку в межах дистанції. Змінюючи місце розташування зображення, ви можете змінювати його вигляд так, щоб його рухи здавалися для нього природними. Наприклад, якщо ви створюєте зображення істоти й пересуваєте його, ви можете змінити зображення так, щоб воно здавалося ніби йде пішки.</p><p>Фізична взаємодія із зображенням показує, що це ілюзія, оскільки крізь нього можуть проходити речі. Істота, яка виконує дію «Дослідження» (Study action), щоб оглянути зображення, може визначити, що це ілюзія, успішно зробивши перевірку [[/check ability=int skill=inv dc=@attributes.spell.dc]] проти вашого СВД спас-кидка заклинання (spell save DC). Якщо істота розгледить ілюзію такою, якою вона є, вона зможе бачити крізь зображення.</p>"
+        },
+        "Simulacrum": {
+            "name": "Симулякр",
+            "description": "<p>Ви створюєте симулякр однієї істоти типу Звір (Beast) або Гуноїд (Humanoid), яка перебуває в межах 10 футів від вас протягом усього часу накладання заклинання. Ви завершуєте накладання, торкаючись і істоти, і купи льоду чи снігу такого ж розміру, як ця істота, і купа перетворюється на симулякр, який є істотою. Він використовує ігрові характеристики оригінальної істоти на момент накладання, за винятком того, що він є конструктом (Construct), його максимум пунктів здоров'я становить половину, і він не може накладати це заклинання.</p><p>Симулякр доброзичливий (Friendly) до вас та істот, яких ви визначите. Він підкоряється вашим наказам і діє у ваш хід у бою. Симулякр не може отримувати рівні та не може брати короткий чи довгий відпочинок (Short or Long Rests).</p><p>Якщо симулякр отримує шкоду, єдиний спосіб відновити його пункти здоров'я — відремонтувати його під час тривалого відпочинку (Long Rest), під час якого ви витрачаєте компоненти вартістю 100 зм за кожний відновлений пункт здоров'я. Симулякр повинен залишатися в межах 5 футів від вас для ремонту.</p><p>Симулякр триває, доки його пункти здоров'я не впадуть до 0, після чого він перетворюється на сніг і тане. Якщо ви знову накладете це заклинання, будь-який симулякр, створений цим заклинанням, миттєво знищується.</p>"
+        },
 		"Sleep": {
-			"name": "Sleep",
-			"description": "<p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.</p><p>Creatures that don't sleep, such as elves, or that have Immunity to the Exhaustion condition automatically succeed on saves against this spell.</p>",
-			"effects": {
-				"Sleeping": {
-					"name": "Sleeping",
-					"description": "<p>The target has the &amp;Reference[incapacitated apply=false] condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the &amp;Reference[unconscious] condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell’s effect.</p>"
-				}
-			}
-		},
-		"Sleet Storm": {
-			"name": "Sleet Storm",
-			"description": "<p>Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range. The area is &amp;Reference[heavilyobscured], and exposed flames in the area are doused.</p><p>Ground in the Cylinder is &amp;Reference[difficultterrain]. When a creature enters the Cylinder for the first time on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &amp;Reference[prone] condition and lose &amp;Reference[concentration].</p>"
-		},
-		"Slow": {
-			"name": "Slow",
-			"description": "<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p><p>An affected target's Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can't take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell's gestures too slowly.</p><p>An affected target repeats the save at the end of each of its turns, ending the spell on itself on a success.</p><section class=\"secret\" id=\"secret-2RobIVhv3tn7gmU7\"><p><strong>Foundry Note</strong></p><p>The inline roll above will return 1 if it succeeded or 0 if it failed.</p></section>",
-			"effects": {
-				"Slowed": {
-					"name": "Slowed",
-					"description": "<p>An affected target’s Speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can’t take Reactions. On its turns, it can take either an action or a Bonus Action, not both, and it can make only one attack if it takes the Attack action. If it casts a spell with a Somatic component, there is a [[/r 1d100cs&gt;25#Spell cast successfully on 1]]{25 percent} chance the spell fails as a result of the target making the spell’s gestures too slowly.</p><p>An affected target repeats the [[/save ability=wis]] save at the end of each of its turns, ending the spell on itself on a success.</p>",
-					"changes": {
-						"system.attributes.ac.bonus": -2,
-						"system.attributes.movement.burrow": 0.5,
-						"system.attributes.movement.climb": 0.5,
-						"system.attributes.movement.fly": 0.5,
-						"system.attributes.movement.swim": 0.5,
-						"system.attributes.movement.walk": 0.5,
-						"system.abilities.dex.bonuses.save": -2
-					}
-				}
-			}
-		},
+            "name": "Сон",
+            "description": "<p>Кожна істота на ваш вибір у сфері радіусом 5 футів із центром у точці в межах дистанції має успішно пройти рятівний кидок Мудрості або отримати стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} до кінця свого наступного ходу, після чого вона повинна повторити спас-кидок. Якщо ціль провалює другий спас-кидок, вона отримує стан &amp;Reference[unconscious]{Непритомний (Unconscious)} на час дії заклинання. Заклинання завершується для цілі, якщо вона отримує шкоду або хтось у межах 5 футів від неї витрачає дію, щоб вивести її з-під ефекту заклинання.</p><p>Істоти, які не сплять, як-от ельфи, або які мають Імунітет (Immunity) до стану Втоми (Exhaustion), автоматично успішно проходять спас-кидки проти цього заклинання.</p>",
+            "effects": {
+                "Sleeping": {
+                    "name": "Сон",
+                    "description": "<p>Ціль має стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} до кінця свого наступного ходу, після чого вона повинна повторити спас-кидок. Якщо ціль провалює другий спас-кидок, вона отримує стан &amp;Reference[unconscious]{Непритомний (Unconscious)} на час дії заклинання. Заклинання завершується для цілі, якщо вона отримує шкоду або хтось у межах 5 футів від неї витрачає дію, щоб вивести її з-під ефекту заклинання.</p>"
+                }
+            }
+        },
+        "Sleet Storm": {
+            "name": "Буря",
+            "description": "<p>До закінчення дії заклинання мокрий сніг пасує в циліндрі заввишки 40 футів і радіусом 20 футів із центром у точці на ваш вибір у межах дистанції. Ця зона є &amp;Reference[heavilyobscured]{Сильно затуманеною (Heavily Obscured)}, а відкрите полум'я в ній гаситься.</p><p>Земля в циліндрі є &amp;Reference[difficultterrain]{Складною місцевістю (Difficult Terrain)}. Коли істота вперше за хід входить у циліндр або починає свій хід там, вона має успішно зробити рятівний кидок Спритності або отримати стан &amp;Reference[prone]{Лежачи (Prone)} і втратити &amp;Reference[concentration]{Концентрацію (Concentration)}.</p>"
+        },
+        "Slow": {
+            "name": "Сповільнення",
+            "description": "<p>Ви змінюєте час навколо до шести істот на ваш вибір у кубі 40 футів у межах дистанції. Кожна ціль має успішно пройти рятівний кидок Мудрості або опинитися під впливом цього заклинання на час його дії.</p><p>Швидкість (Speed) ураженої цілі зменшується вдвічі, вона отримує штраф -2 до КД (AC) та рятівних кидків Спритності, а також не може здійснювати Реакції (Reactions). У свій хід вона може виконати або дію (action), або бонус-дію (Bonus Action), але не обидві, і може здійснити лише одну атаку, якщо виконує дію «Атака» (Attack action). Якщо вона накладає заклинання з соматичним компонентом (Somatic component), існує [[/r 1d100cs>25#Spell cast successfully on 1]]{25-відсотковий} шанс провалу заклинання через те, що ціль робить жести занадто повільно.</p><p>Уражена ціль повторює спас-кидок наприкінці кожного зі своїх ходів, завершуючи заклинання на собі в разі успіху.</p><section class=\"secret\" id=\"secret-2RobIVhv3tn7gmU7\"><p><strong>Примітка Foundry</strong></p><p>Вкладений кидок вище поверне 1 у разі успіху або 0 у разі невдачі.</p></section>",
+            "effects": {
+                "Slowed": {
+                    "name": "Сповільнений",
+                    "description": "<p>Швидкість (Speed) ураженої цілі зменшується вдвічі, вона отримує штраф -2 до КД (AC) та рятівних кидків Спритності, а також не може здійснювати Реакції (Reactions). У свій хід вона може виконати або дію (action), або бонус-дію (Bonus Action), але не обидві, і може здійснити лише одну атаку, якщо виконує дію «Атака» (Attack action). Якщо вона накладає заклинання з соматичним компонентом (Somatic component), існує 25-відсотковий шанс провалу заклинання через те, що ціль робить жести занадто повільно.</p><p>Уражена ціль повторює спас-кидок [[/save ability=wis]] наприкінці кожного зі своїх ходів, завершуючи заклинання на собі в разі успіху.</p>",
+                    "changes": {
+                        "system.attributes.ac.bonus": -2,
+                        "system.attributes.movement.burrow": 0.5,
+                        "system.attributes.movement.climb": 0.5,
+                        "system.attributes.movement.fly": 0.5,
+                        "system.attributes.movement.swim": 0.5,
+                        "system.attributes.movement.walk": 0.5,
+                        "system.abilities.dex.bonuses.save": -2
+                    }
+                }
+            }
+        },
 		"Sorcerous Burst": {
-			"name": "Sorcerous Burst",
-			"description": "<p>You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes 1d8 damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.</p><p>If you roll an 8 on a d8 for this spell, you can roll another d8, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier.</p><p><strong>Cantrip Upgrade. </strong>The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>"
-		},
-		"Spare the Dying": {
-			"name": "Spare the Dying",
-			"description": "<p>Choose a creature within range that has 0 Hit Points and isn't dead. The creature becomes Stable.</p><p><strong>Cantrip Upgrade.</strong> The range doubles when you reach levels 5 (30 feet), 11 (60 feet), and 17 (120 feet).</p>",
-			"effects": {
-				"Stabilized": {
-					"name": "Stabilized"
-				}
-			}
-		},
-		"Speak with Animals": {
-			"name": "Speak with Animals",
-			"description": "<p>For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.</p><p>Most Beasts have little to say about topics that don't pertain to survival or companionship, but at minimum, a Beast can give you information about nearby locations and monsters, including whatever it has perceived within the past day.</p>",
-			"effects": {
-				"Bestial Communication": {
-					"name": "Bestial Communication",
-					"changes": {
-						"system.traits.languages.custom": ";comprehend and verbally communicate with Beasts"
-					}
-				}
-			}
-		},
+            "name": "Чародійний вибух",
+            "description": "<p>Ви випускаєте чародійну енергію в одну істоту або предмет у межах дистанції. Зробіть дистанційну атаку проти цілі. У разі влучання ціль отримує 1d8 шкоди обраного вами типу: кислота (Acid), холод (Cold), вогонь (Fire), блискавка (Lightning), отрута (Poison), психічна шкода (Psychic) або гром (Thunder).</p><p>Якщо ви викидаєте 8 на d8 для цього заклинання, ви можете кинути ще один d8 і додати його до шкоди. Коли ви накладаєте це заклинання, максимальна кількість таких d8, яку ви можете додати до шкоди заклинання, дорівнює вашому модифікатору здатності накладання заклинань.</p><p><strong>Покращення замовляння (Cantrip Upgrade). </strong>Шкода збільшується на 1d8, коли ви досягаєте 5-го (2d8), 11-го (3d8) та 17-го (4d8) рівня.</p>"
+        },
+        "Spare the Dying": {
+            "name": "Збереження вмираючого",
+            "description": "<p>Оберіть істоту в межах дистанції, яка має 0 пунктів здоров'я і не мертва. Істота стає стабільною (Stable).</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Дистанція подвоюється, коли ви досягаєте 5-го (30 футів), 11-го (60 футів) та 17-го (120 футів) рівня.</p>",
+            "effects": {
+                "Stabilized": {
+                    "name": "Стабілізований"
+                }
+            }
+        },
+        "Speak with Animals": {
+            "name": "Спілкування з тваринами",
+            "description": "<p>Протягом часу дії ви можете розуміти та вербально спілкуватися зі Звірами (Beasts), а також використовувати з ними будь-які опції навичок дії «Вплив» (Influence action).</p><p>Більшість звірів мало що можуть сказати на теми, які не стосуються виживання чи товариства, але принаймні звір може надати вам інформацію про сусідні локації та монстрів, зокрема все, що він сприймав протягом останнього дня.</p>",
+            "effects": {
+                "Bestial Communication": {
+                    "name": "Звірине спілкування",
+                    "changes": {
+                        "system.traits.languages.custom": ";comprehend and verbally communicate with Beasts"
+                    }
+                }
+            }
+        },
 		"Speak with Dead": {
-			"name": "Speak with Dead",
-			"description": "<p>You grant the semblance of life to a corpse of your choice within range, allowing it to answer questions you pose. The corpse must have a mouth, and this spell fails if the deceased creature was Undead when it died. The spell also fails if the corpse was the target of this spell within the past 10 days.</p><p>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are antagonistic toward it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.</p>"
-		},
-		"Speak with Plants": {
-			"name": "Speak with Plants",
-			"description": "<p>You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.</p><p>You can also turn &amp;Reference[difficultterrain] caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration.</p><p>The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.</p><p>If a Plant creature is in the area, you can communicate with it as if you shared a common language.</p>",
-			"effects": {
-				"Speaking with Plants": {
-					"name": "Speaking with Plants"
-				}
-			}
-		},
-		"Spider Climb": {
-			"name": "Spider Climb",
-			"description": "<p>Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level about 2.</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Foundry Note</strong></p><p>The Active Effect provided by the <strong>Cast</strong> activity upgrades the character's Climb Speed to a value of \"1\" to indicate equivalence to (walk) Speed.</p></section>",
-			"effects": {
-				"Spider Climb": {
-					"name": "Spider Climb",
-					"changes": {
-						"system.attributes.movement.climb": "@attributes.movement.walk"
-					}
-				}
-			}
-		},
+            "name": "Спілкування з мертвими",
+            "description": "<p>Ви даруєте подобу життя трупу на ваш вибір у межах дистанції, дозволяючи йому відповідати на поставлені вами запитання. Труп повинен мати рот, і це заклинання не спрацьовує, якщо померла істота була Нежиттю (Undead), коли померла. Заклинання також не спрацьовує, якщо труп був ціллю цього заклинання протягом останніх 10 днів.</p><p>До закінчення дії заклинання ви можете поставити трупу до п'яти запитань. Труп знає лише те, що він знав за життя, включно з мовами, які він знав. Відповіді зазвичай короткі, загадкові або повторювані, і труп не зобов'язаний давати правдиву відповідь, якщо ви вороже налаштовані до нього або він впізнає в вас ворога. Це заклинання не повертає душу істоти в її тіло, лише її анімуючий дух. Таким чином, труп не може дізнатися нову інформацію, не розуміє нічого з того, що сталося після його смерті, і не може спекулювати про майбутні події.</p>"
+        },
+        "Speak with Plants": {
+            "name": "Спілкування з рослинами",
+            "description": "<p>Ви наділяєте рослини в нерухомій еманації (Emanation) радіусом 30 футів обмеженим розумом і рухливістю, даруючи їми здатність спілкуватися з вами та виконувати ваші прості команди. Ви можете розпитувати рослини про події в зоні дії заклинання за останній день, отримуючи інформацію про істот, які проходили повз, погоду та інші обставини.</p><p>Ви також можете перетворити &amp;Reference[difficultterrain]{Складну місцевість (Difficult Terrain)}, спричинену ростом рослин (як-от хащі та підлісок), на звичайну місцевість на час дії заклинання. Або ви можете перетворити звичайну місцевість, де є рослини, на складну місцевість (Difficult Terrain) на час дії заклинання.</p><p>Заклинання не дозволяє рослинам вириватися з корінням і пересуватися, але вони можуть рухати гілками, вусиками та стеблами для вас.</p><p>Якщо в зоні є істота типу Рослина (Plant creature), ви можете спілкуватися з нею так, ніби ви володієте спільною мовою.</p>",
+            "effects": {
+                "Speaking with Plants": {
+                    "name": "Спілкування з рослинами"
+                }
+            }
+        },
+        "Spider Climb": {
+            "name": "Павуче лазіння",
+            "description": "<p>До закінчення дії заклинання одна добровільна істота, якої ви торкаєтеся, отримує здатність рухатися вгору, вниз і вздовж вертикальних поверхонь, а також стелею, залишаючи руки вільними. Ціль також отримує Швидкість лазіння (Climb Speed), що дорівнює її швидкості руху.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 2-го.</p><section class=\"secret\" id=\"secret-4LoECjSnyIsXFdKY\"><p><strong>Примітка Foundry</strong></p><p>Активний ефект (Active Effect), наданий дією <strong>«Накласти» (Cast)</strong>, оновлює швидкість лазіння персонажа до значення «1», що вказує на еквівалентність швидкості ходьби (walk Speed).</p></section>",
+            "effects": {
+                "Spider Climb": {
+                    "name": "Павуче лазіння",
+                    "changes": {
+                        "system.attributes.movement.climb": "@attributes.movement.walk"
+                    }
+                }
+            }
+        },
 		"Spike Growth": {
-			"name": "Spike Growth",
-			"description": "<p>The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes [[/damage 2d4 type=piercing]] damage for every 5 feet it travels.</p><p>The transformation of the ground is camouflaged to look natural. Any creature that can't see the area when the spell is cast must take a Search action and succeed on a [[/check ability=wis skill=prc dc=@attributes.spell.dc]] or [[/check ability=wis skill=sur dc=@attributes.spell.dc]] check against your spell save DC to recognize the terrain as hazardous before entering it.</p>"
-		},
-		"Spirit Guardians": {
-			"name": "Spirit Guardians",
-			"description": "<p>Protective spirits flit around you in a 15-foot Emanation for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.</p><p>When you cast this spell, you can designate creatures to be unaffected by it. Any other creature's Speed is halved in the Emanation, and whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature must make a Wisdom saving throw. On a failed save, the creature takes 3d8 Radiant damage (if you are good or neutral) or 3d8 Necrotic damage (if you are evil). On a successful save, the creature takes half as much damage. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 3.</p>",
-			"effects": {
-				"Half Speed": {
-					"name": "Half Speed",
-					"description": "<p>The creature's speed is halved while within the Emanation.</p>",
-					"changes": {
-						"system.attributes.movement.walk": 0.5,
-						"system.attributes.movement.fly": 0.5,
-						"system.attributes.movement.climb": 0.5,
-						"system.attributes.movement.swim": 0.5,
-						"system.attributes.movement.burrow": 0.5
-					}
-				}
-			}
-		},
+            "name": "Шипастий ріст",
+            "description": "<p>Земля в радіусі сфери 20 футів із центром у точці в межах дистанції покривається жорсткими шипами та колючками. Ця зона стає складною місцевістю (Difficult Terrain) на час дії заклинання. Коли істота переміщується в цю зону або всередині неї, вона отримує [[/damage 2d4 type=piercing]] колючої шкоди (Piercing damage) за кожні пройдені 5 футів.</p><p>Зміна поверхні замаскована під природний вигляд. Будь-яка істота, яка не бачить цю зону під час накладання заклинання, повинна витратити дію «Пошук» (Search action) та успішно виконати перевірку [[/check ability=wis skill=prc dc=@attributes.spell.dc]] або [[/check ability=wis skill=sur dc=@attributes.spell.dc]] проти вашого СВД спас-кидка заклинання (spell save DC), щоб розпізнати небезпеку місцевості перед входом до неї.</p>"
+        },
+        "Spirit Guardians": {
+            "name": "Духи-охоронці",
+            "description": "<p>Захисні духи кружляють навколо вас у межах еманації (Emanation) 15 футів на час дії заклинання. Якщо ви добрих або нейтральних поглядів, їхня спектральна форма виглядає як ангельська або феєрична (на ваш вибір). Якщо ви злих поглядів, вони виглядають по-демонічному / похмуро.</p><p>Коли ви накладаєте це заклинання, ви можете призначити істот, на яких воно не діє. Швидкість (Speed) будь-якої іншої істоти зменшується вдвічі в еманації, і щоразу, коли еманація входить у простір істоти, а також коли істота входить в еманацію чи закінчує там свій хід, вона повинна здійснити рятівний кидок Мудрості. У разі провалу істота отримує 3d8 [[/damage 3d8 type=radiant]] променистої шкоди (якщо ви добрі або нейтральні) або 3d8 [[/damage 3d8 type=necrotic]] некротичної шкоди (якщо ви злі). У разі успіху істота отримує половину шкоди. Істота робить цей спас-кидок лише один раз за хід.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 3-го.</p>",
+            "effects": {
+                "Half Speed": {
+                    "name": "Половина швидкості",
+                    "description": "<p>Швидкість істоти зменшується вдвічі, поки вона перебуває всередині еманації.</p>",
+                    "changes": {
+                        "system.attributes.movement.walk": 0.5,
+                        "system.attributes.movement.fly": 0.5,
+                        "system.attributes.movement.climb": 0.5,
+                        "system.attributes.movement.swim": 0.5,
+                        "system.attributes.movement.burrow": 0.5
+                    }
+                }
+            }
+        },
 		"Spiritual Weapon": {
-			"name": "Spiritual Weapon",
-			"description": "<p>You create a floating, spectral force that resembles a weapon of your choice and lasts for the duration. The force appears within range in a space of your choice, and you can immediately make one melee spell attack against one creature within 5 feet of the force. On a hit, the target takes Force damage equal to 1d8 plus your spellcasting ability modifier.</p><p>As a Bonus Action on your later turns, you can move the force up to 20 feet and repeat the attack against a creature within 5 feet of it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for every slot level above 2.</p>"
-		},
-		"Starry Wisp": {
-			"name": "Starry Wisp",
-			"description": "<p>You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Radiant damage, and until the end of your next turn, it emits Dim Light in a 10-foot radius and can't benefit from the &amp;Reference[Invisible] condition.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
-			"effects": {
-				"Illuminated": {
-					"name": "Illuminated",
-					"description": "<p>Until the end of your next turn, it emits Dim Light in a 10-foot radius and can’t benefit from the &amp;Reference[Invisible] condition.</p>"
-				}
-			}
-		},
-		"Stinking Cloud": {
-			"name": "Stinking Cloud",
-			"description": "<p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is &amp;Reference[heavilyobscured]. The cloud lingers in the air for the duration or until a strong wind (such as the one created by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust of Wind}</em>) disperses it.</p><p>Each creature that starts its turn in the Sphere must succeed on a Constitution saving throw or have the &amp;Reference[poisoned apply=false] condition until the end of the current turn. While Poisoned in this way, the creature can't take an action or a Bonus Action.</p>",
-			"effects": {
-				"Stinking Poison": {
-					"name": "Stinking Poison",
-					"description": "<p>While &amp;Reference[poisoned apply=false] in this way, the creature can’t take an action or a Bonus Action.</p>"
-				}
-			}
-		},
-		"Stone Shape": {
-			"name": "Stone Shape",
-			"description": "<p>You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.</p>"
-		},
+            "name": "Духовна зброя",
+            "description": "<p>Ви створюєте плаваючу спектральну силу, яка нагадує зброю на ваш вибір і триває протягом часу дії. Сила з'являється в межах дистанції в обраному вами просторі, і ви можете негайно здійснити одну ближню атаку заклинанням проти однієї істоти в межах 5 футів від сили. У разі влучання ціль отримує силову шкоду (Force damage), що дорівнює 1d8 [[/damage 1d8 type=force]] плюс ваш модифікатор здатності накладання заклинань.</p><p>Як бонус-дію (Bonus Action) на ваших наступних ходах ви можете перемістити силу на відстань до 20 футів і повторити атаку проти істоти в межах 5 футів від неї.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 2-го.</p>"
+        },
+        "Starry Wisp": {
+            "name": "Зоряна іскорка",
+            "description": "<p>Ви запускаєте крихту світла в одну істоту або предмет у межах дистанції. Зробіть дистанційну атаку заклинанням проти цілі. У разі влучання ціль отримує 1d8 [[/damage 1d8 type=radiant]] променистої шкоди (Radiant damage), і до кінця вашого наступного ходу вона випромінює слабке світло (Dim Light) в радіусі 10 футів і не може отримувати користь від стану &amp;Reference[Invisible]{Невидимий (Invisible)}.</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d8, коли ви досягаєте 5-го (2d8), 11-го (3d8) та 17-го (4d8) рівня.</p>",
+            "effects": {
+                "Illuminated": {
+                    "name": "Освітлений",
+                    "description": "<p>До кінця вашого наступного ходу він випромінює слабке світло (Dim Light) в радіусі 10 футів і не може отримувати користь від стану &amp;Reference[Invisible]{Невидимий (Invisible)}.</p>"
+                }
+            }
+        },
+        "Stinking Cloud": {
+            "name": "Смердюча хмара",
+            "description": "<p>Ви створюєте сферу радіусом 20 футів із жовтого, нудотного газу з центром у точці в межах дистанції. Хмара є &amp;Reference[heavilyobscured]{Сильно затуманеною (Heavily Obscured)}. Хмара затримується в повітрі на час дії або поки сильний вітер (наприклад, створений заклинанням <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Порив вітру (Gust of Wind)}</em>) не розвіє її.</p><p>Кожна істота, яка починає свій хід у сфері, повинна успішно пройти рятівний кидок Витривалості або отримати стан &amp;Reference[poisoned apply=false]{Отруєний (Poisoned)} до кінця поточного ходу. Перебуваючи отруєним у такий спосіб, істота не може виконувати дію (action) або бонус-дію (Bonus Action).</p>",
+            "effects": {
+                "Stinking Poison": {
+                    "name": "Смердюча отрута",
+                    "description": "<p>Перебуваючи отруєним у такий спосіб, істота не може виконувати дію (action) або бонус-дію (Bonus Action).</p>"
+                }
+            }
+        },
+        "Stone Shape": {
+            "name": "Надання форми каменю",
+            "description": "<p>Ви торкаєтеся кам'яного предмета середнього (Medium) розміру чи меншого або ділянки каменю розміром не більше ніж 5 футів у будь-якому вимірі та надаєте йому будь-якої форми на ваш вибір. Наприклад, ви можете перетворити велику скелю на зброю, статую чи скриню, або зробити невеликий прохід крізь стіну завтовшки 5 футів. Ви також можете надати форму кам'яним дверима чи їхній рамі, щоб наглухо закрити двері. Створений вами предмет може мати до двох завіс і засув, але дрібніші механічні деталі неможливі.</p>"
+        },
 		"Stoneskin": {
-			"name": "Stoneskin",
-			"description": "<p>Until the spell ends, one willing creature you touch has &amp;Reference[damageresistance]{Resistance} to Bludgeoning, Piercing, and Slashing damage.</p>",
-			"effects": {
-				"Stoneskin": {
-					"name": "Stoneskin",
-					"changes": {
-						"system.traits.dr.value": "slashing"
-					}
-				}
-			}
-		},
-		"Storm of Vengeance": {
-			"name": "Storm of Vengeance",
-			"description": "<p>A churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the &amp;Reference[Deafened apply=false] condition for the duration.</p><p>At the start of each of your later turns, the storm produces different effects, as detailed below.</p><p><strong>Turn 2.</strong> Acidic rain falls. Each creature and object under the cloud takes 4d6 Acid damage.</p><p><strong>Turn 3.</strong> You call six bolts of lightning from the cloud to strike six different creatures or objects beneath it. Each target makes a Dexterity saving throw, taking 10d6 Lightning damage on a failed save or half as much damage on a successful one.</p><p><strong>Turn 4.</strong> Hailstones rain down. Each creature under the cloud takes 2d6 Bludgeoning damage.</p><p><strong>Turns 5–10.</strong> Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is &amp;Reference[DifficultTerrain] and &amp;Reference[HeavilyObscured], ranged attacks with weapons are impossible there, and strong wind blows through the area.</p>",
-			"effects": {
-				"Deafened": {
-					"name": "Deafened"
-				}
-			}
-		},
-		"Suggestion": {
-			"name": "Suggestion",
-			"description": "<p>You suggest a course of activity—described in no more than 25 words—to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, \"Fetch the key to the cult's treasure vault, and give the key to me.\" Or you could say, \"Stop fighting, leave this library peacefully, and don't return.\"</p><p>The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.</p>",
-			"effects": {
-				"Pursuing Suggestion": {
-					"name": "Pursuing Suggestion",
-					"description": "<p>The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.</p>"
-				}
-			}
-		},
+            "name": "Кам'яна шкіра",
+            "description": "<p>До закінчення дії заклинання одна добровільна істота, якої ви торкаєтеся, отримує Спротив (Resistance) до дробильної, колючої та ріжучої шкоди (Bludgeoning, Piercing, and Slashing damage).</p>",
+            "effects": {
+                "Stoneskin": {
+                    "name": "Кам'яна шкіра",
+                    "changes": {
+                        "system.traits.dr.value": "slashing"
+                    }
+                }
+            }
+        },
+        "Storm of Vengeance": {
+            "name": "Шторм помсти",
+            "description": "<p>Хвилююча штормова хмара утворюється на час дії заклинання з центром у точці в межах дистанції та поширюється на радіус 300 футів. Кожна істота під хмарою під час її появи повинна успішно пройти рятівний кидок Витривалості або отримати 2d6 [[/damage 2d6 type=thunder]] громової шкоди та стан &amp;Reference[Deafened apply=false]{Оглушений (Deafened)} на час дії заклинання.</p><p>На початку кожного з ваших наступних ходів шторм створює різні ефекти, як детально описано нижче.</p><p><strong>Хід 2.</strong> Падає кислотний дощ. Кожна істота та предмет під хмарою отримують 4d6 [[/damage 4d6 type=acid]] кислотної шкоди.</p><p><strong>Хід 3.</strong> Ви закликаєте шість блискавок із хмари, які вражають шість різних істот або предметів під нею. Кожна ціль здійснює рятівний кидок Спритності, отримуючи 10d6 [[/damage 10d6 type=lightning]] електричної шкоди в разі провалу або половинну шкоду в разі успіху.</p><p><strong>Хід 4.</strong> Дощить градом. Кожна істота під хмарою отримує 2d6 [[/damage 2d6 type=bludgeoning]] дробильної шкоди.</p><p><strong>Ходи 5–10.</strong> Пориви вітру та крижаний дощ нападають на зону під хмарою. Кожна істота там отримує 1d6 [[/damage 1d6 type=cold]] холодової шкоди. До закінчення дії заклинання ця зона є &amp;Reference[DifficultTerrain]{Складною місцевістю (Difficult Terrain)} та &amp;Reference[HeavilyObscured]{Сильно затуманеною (Heavily Obscured)}, дистанційні атаки зброєю там неможливі, а через зону дме сильний вітер.</p>",
+            "effects": {
+                "Deafened": {
+                    "name": "Оглушений"
+                }
+            }
+        },
+        "Suggestion": {
+            "name": "Навіювання",
+            "description": "<p>Ви пропонуєте певний план дій — описаний не більш ніж 25 словами — одній істоті, яку ви бачите в межах дистанції та яка може чути й розуміти вас. Навіювання має звучати досяжним і не містити нічого, що вочевидь завдало б шкоди цілі чи її союзникам. Наприклад, ви можете сказати: «Принеси ключ від скарбниці культу і віддай його мені». Або ви можете сказати: «Досить битися, мирно залишіть цю бібліотеку і не повертайтеся».</p><p>Ціль повинна успішно пройти рятівний кидок Мудрості або отримати стан Очарований (Charmed) на час дії заклинання або доки ви чи ваші союзники не завдасте цілі шкоди. Очарована ціль виконує навіювання якомога краще. Запропонована діяльність може тривати весь час дії заклинання, але якщо її можна завершити за менший час, заклинання для цілі завершується після її виконання.</p>",
+            "effects": {
+                "Pursuing Suggestion": {
+                    "name": "Виконання навіювання",
+                    "description": "<p>Очарована ціль виконує навіювання якомога краще. Запропонована діяльність може тривати весь час дії заклинання, але якщо її можна завершити за менший час, заклинання для цілі завершується після її виконання.</p>"
+                }
+            }
+        },
 		"Summon Dragon": {
-			"name": "Summon Dragon",
-			"description": "<p>You call forth a Dragon spirit. It manifests in an unoccupied space that you can see within range and uses the <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobDraconicSp]{Draconic Spirit}</strong> stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</p><p>The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot. </strong>Use the spell slot's level for the spell's level in the stat block.</p><p>@Embed[Compendium.dnd5e.actors24.Actor.phbmobDraconicSp caption=false statblock]</p>"
-		},
-		"Sunbeam": {
-			"name": "Sunbeam",
-			"description": "<p>You launch a sunbeam in a 5-foot-wide, 60-foot-long Line. Each creature in the Line makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the Blinded condition until the start of your next turn. On a successful save, it takes half as much damage only.</p><p>Until the spell ends, you can take a Magic action to create a new Line of radiance.</p><p>For the duration, a mote of brilliant radiance shines above you. It sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This light is sunlight.</p>",
-			"effects": {
-				"Blinded": {
-					"name": "Blinded",
-					"description": "<p>The target has the &amp;Reference[Blinded apply=false] condition until the start of your next turn.</p>"
-				}
-			}
-		},
-		"Sunburst": {
-			"name": "Sunburst",
-			"description": "<p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the &amp;Reference[Blinded apply=false] condition for 1 minute. On a successful save, it takes half as much damage only.</p><p>A creature Blinded by this spell makes another [[/save ability=con dc=@attributes.spell.dc format=long]] at the end of each of its turns, ending the effect on itself on a success.</p><p>This spell dispels &amp;Reference[Darkness] in its area that was created by any spell.</p>",
-			"effects": {
-				"Blinded": {
-					"name": "Blinded",
-					"description": "<p>A creature &amp;Reference[Blinded apply=false] by this spell makes another [[/save ability=con format=long]] at the end of each of its turns, ending the effect on itself on a success.</p>"
-				}
-			}
-		},
+            "name": "Призов дракона",
+            "description": "<p>Ви закликаєте дух дракона. Він проявляється у вільному просторі, який ви бачите в межах дистанції, і використовує блок характеристик <strong>@UUID[Compendium.dnd5e.actors24.Actor.phbmobDraconicSp]{Дух дракона (Draconic Spirit)}</strong>. Істота зникає, коли її пункти здоров'я впадуть до 0 або коли дія заклинання завершиться.</p><p>Ця істота є союзником для вас та ваших союзників. У бою істота розділяє ваш показник ініціативи, але робить свій хід одразу після вашого. Вона підкоряється вашим усним наказам (не вимагає від вас жодної дії). Якщо ви не даєте жодних наказів, вона виконує дію «Ухиляння» (Dodge action) та використовує своє пересування, щоб уникати небезпеки.</p><p><strong>Використання комірки вищого рівня. </strong>Використовуйте рівень комірки заклинання для рівня заклинання в блоці характеристик.</p><p>@Embed[Compendium.dnd5e.actors24.Actor.phbmobDraconicSp caption=false statblock]</p>"
+        },
+        "Sunbeam": {
+            "name": "Сонячний промінь",
+            "description": "<p>Ви запускаєте сонячний промінь у лінію завширшки 5 футів і завдовжки 60 футів. Кожна істота в лінії робить рятівний кидок Витривалості. У разі провалу істота отримує 6d8 [[/damage 6d8 type=radiant]] променистої шкоди та набуває стану &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} до початку вашого наступного ходу. У разі успіху вона отримує лише половинну шкоду.</p><p>До закінчення дії заклинання ви можете виконати магічну дію (Magic action), щоб створити нову лінію сяйва.</p><p>Протягом часу дії над вами світиться крихта яскравого сяйва. Вона випромінює &amp;Reference[BrightLight]{Яскраве світло (Bright Light)} в радіусі 30 футів і &amp;Reference[DimLight]{Слабке світло (Dim Light)} на додаткові 30 футів. Це світло є сонячним світлом.</p>",
+            "effects": {
+                "Blinded": {
+                    "name": "Сліпий",
+                    "description": "<p>Ціль набуває стану &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} до початку вашого наступного ходу.</p>"
+                }
+            }
+        },
+        "Sunburst": {
+            "name": "Сонячний спалах",
+            "description": "<p>Яскраве сонячне світло спалахує у сфері радіусом 60 футів із центром у точці на ваш вибір у межах дистанції. Кожна істота у сфері робить рятівний кидок Витривалості. У разі провалу істота отримує 12d6 [[/damage 12d6 type=radiant]] променистої шкоди та набуває стану &amp;Reference[Blinded apply=false]{Сліпий (Blinded)} на 1 хвилину. У разі успіху вона отримує лише половинну шкоду.</p><p>Істота, осліплена цим заклинанням, робить ще один рятівний кидок [[/save ability=con dc=@attributes.spell.dc format=long]] наприкінці кожного зі своїх ходів, завершуючи ефект на собі в разі успіху.</p><p>Це заклинання розсіює &amp;Reference[Darkness]{Темряву (Darkness)} у своїй зоні, яка була створена будь-яким заклинанням.</p>",
+            "effects": {
+                "Blinded": {
+                    "name": "Сліпий",
+                    "description": "<p>Істота, &amp;Reference[Blinded apply=false]{осліплена (Blinded)} цим заклинанням, робить ще один рятівний кидок [[/save ability=con format=long]] наприкінці кожного зі своїх ходів, завершуючи ефект на собі в разі успіху.</p>"
+                }
+            }
+        },
 		"Symbol": {
-			"name": "Symbol",
-			"description": "<p>You inscribe a harmful glyph either on a surface (such as a section of floor or wall) or within an object that can be closed (such as a book or chest). The glyph can cover an area no larger than 10 feet in diameter. If you choose an object, it must remain in place; if it is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.</p><p>The glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice.</p><p>When you inscribe the glyph, you set its trigger and choose which effect the symbol bears: Death, Discord, Fear, Pain, Sleep, or Stunning. Each one is explained below.</p><p><strong>Set the Trigger.</strong> You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph.</p><p>You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.</p><p>Once triggered, the glyph glows, filling a 60-foot-radius Sphere with Dim Light for 10 minutes, after which time the spell ends. Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there. A creature is targeted only once per turn.</p><p><strong>Death.</strong> Each target makes a Constitution saving throw, taking 10d10 Necrotic damage on a failed save or half as much damage on a successful save.</p><p><strong>Discord.</strong> Each target makes a Wisdom saving throw. On a failed save, a target argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.</p><p><strong>Fear.</strong> Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.</p><p><strong>Pain.</strong> Each target must succeed on a Constitution saving throw or have the Incapacitated condition for 1 minute.</p><p><strong>Sleep.</strong> Each target must succeed on a Wisdom saving throw or have the Unconscious condition for 10 minutes. A creature awakens if it takes damage or if someone takes an action to shake it awake.</p><p><strong>Stunning.</strong> Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute.</p>",
-			"effects": {
-				"Arguing": {
-					"name": "Arguing",
-					"description": "<p>The target is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks.</p>"
-				},
-				"Frightened": {
-					"name": "Frightened",
-					"description": "<p>While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able.</p>"
-				},
-				"Incapacitated": {
-					"name": "Incapacitated"
-				},
-				"Sleeping": {
-					"name": "Sleeping",
-					"description": "<p>A creature awakens if it takes damage or if someone takes an action to shake it awake.</p>"
-				},
-				"Stunned": {
-					"name": "Stunned"
-				}
-			}
-		},
-		"Hideous Laughter": {
-			"name": "Hideous Laughter",
-			"description": "<p>One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the &amp;Reference[prone apply=false] and &amp;Reference[incapacitated apply=false] conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the Prone condition on itself.</p><p>At the end of each of its turns and each time it takes damage, it makes another [[/save ability=wis dc=@attributes.spell.dc]] saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can target one additional creature for each spell slot level about 1.</p>",
-			"effects": {
-				"Uncontrollable Laughter": {
-					"name": "Uncontrollable Laughter",
-					"description": "<p>has the &amp;Reference[prone apply=false] and &amp;Reference[incapacitated apply=false] conditions for the duration. During that time, it laughs uncontrollably if it’s capable of laughter, and it can’t end the Prone condition on itself.</p><p>At the end of each of its turns and each time it takes damage, it makes another [[/save ability=wis dc=@attributes.spell.dc]] saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.</p>"
-				}
-			}
-		},
+            "name": "Символ",
+            "description": "<p>Ви наносите шкідливий гліф або на поверхню (наприклад, на ділянку підлоги чи стіни), або всередину предмета, який можна закрити (як-от книга чи скриня). Гліф може покривати площу не більшу за 10 футів у діаметрі. Якщо ви обираєте предмет, він повинен залишатися на місці; якщо його перемістити більш ніж на 10 футів від місця накладання заклинання, гліф ламається, і заклинання закінчується без спрацьовування.</p><p>Гліф майже непомітний, і щоб його помітити, потрібна успішна перевірка Мудрості (Сприйняття) (Wisdom (Perception)) проти вашого СВД спас-кидка заклинання.</p><p>Коли ви наносите гліф, ви встановлюєте умову його спрацьовування та обираєте ефект, який несе символ: Смерть (Death), Розбрат (Discord), Страх (Fear), Біль (Pain), Сон (Sleep) або Оглушення (Stunning). Кожен із них пояснено нижче.</p><p><strong>Встановлення тригера (Set the Trigger).</strong> Ви вирішуєте, що саме активує гліф, коли накладаєте заклинання. Для гліфів, нанесених на поверхню, поширеними тригерами є дотик або наступання на гліф, прибирання іншого предмета, що його покриває, або наближення до нього на певну відстань. Для гліфів, нанесених всередині предмета, поширеними тригерами є відкриття цього предмета або погляд на гліф.</p><p>Ви можете уточнити тригер так, щоб його активували лише істоти певних типів (наприклад, гліф можна налаштувати на Аберацій (Aberrations)). Ви також можете встановити умови для істот, які не активують гліф, наприклад, якщо вони вимовляють певне слово-пароль.</p><p>Після спрацьовування гліф світиться, заповнюючи сферу радіусом 60 футів слабким світлом (Dim Light) на 10 хвилин, після чого заклинання закінчується. Кожна істота у сфері під час активації гліфа стає ціллю його ефекту, як і істота, яка входить у сферу вперше за хід або закінчує там свій хід. Істота стає ціллю лише один раз за хід.</p><p><strong>Смерть (Death).</strong> Кожна ціль здійснює рятівний кидок Витривалості, отримуючи 10d10 [[/damage 10d10 type=necrotic]] некротичної шкоди в разі провалу або половинну шкоду в разі успіху.</p><p><strong>Розбрат (Discord).</strong> Кожна ціль здійснює рятівний кидок Мудрості. У разі провалу ціль сперечається з іншими істотами протягом 1 хвилини. Протягом цього часу вона не здатна до осмисленого спілкування та має перешкоду (Disadvantage) на атаки й перевірки характеристик.</p><p><strong>Страх (Fear).</strong> Кожна ціль повинна успішно пройти рятівний кидок Мудрості або набути стану Наляканий (Frightened) на 1 хвилину. Перебуваючи наляканою, ціль повинна пересунутися щонайменше на 30 футів від гліфа під час кожного зі своїх ходів, якщо здатна на це.</p><p><strong>Біль (Pain).</strong> Кожна ціль повинна успішно пройти рятівний кидок Витривалості або набути стану Недієздатний (Incapacitated) на 1 хвилину.</p><p><strong>Сон (Sleep).</strong> Кожна ціль повинна успішно пройти рятівний кидок Мудрості або набути стану Непритомний (Unconscious) на 10 хвилин. Істота прокидається, якщо отримує шкоду або якщо хтось витрачає дію, щоб потрясти її й розбудити.</p><p><strong>Оглушення (Stunning).</strong> Кожна ціль повинна успішно пройти рятівний кидок Мудрості або набути стану Приголомшений (Stunned) на 1 хвилину.</p>",
+            "effects": {
+                "Arguing": {
+                    "name": "Суперечка",
+                    "description": "<p>Ціль не здатна до осмисленого спілкування та має перешкоду (Disadvantage) на атаки й перевірки характеристик.</p>"
+                },
+                "Frightened": {
+                    "name": "Наляканий",
+                    "description": "<p>Перебуваючи наляканою, ціль повинна пересунутися щонайменше на 30 футів від гліфа під час кожного зі своїх ходів, якщо здатна на це.</p>"
+                },
+                "Incapacitated": {
+                    "name": "Недієздатний"
+                },
+                "Sleeping": {
+                    "name": "Сон",
+                    "description": "<p>Істота прокидається, якщо отримує шкоду або якщо хтось витрачає дію, щоб потрясти її й розбудити.</p>"
+                },
+                "Stunned": {
+                    "name": "Приголомшений"
+                }
+            }
+        },
+        "Hideous Laughter": {
+            "name": "Гидкий сміх",
+            "description": "<p>Одна істота на ваш вибір, яку ви бачите в межах дистанції, робить рятівний кидок Мудрості. У разі провалу вона отримує стан &amp;Reference[prone apply=false]{На землі (Prone)} та стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} на час дії заклинання. Протягом цього часу вона нестримно сміється, якщо здатна сміятися, і не може самостійно позбутися стану «На землі» (Prone).</p><p>Наприкінці кожного зі своїх ходів та щоразу, коли вона отримує шкоду, вона здійснює ще один рятівний кидок [[/save ability=wis dc=@attributes.spell.dc]]. Ціль має перевагу (Advantage) на спас-кидок, якщо він викликаний шкодою. У разі успіху заклинання закінчується.</p><p><strong>Використання комірки вищого рівня.</strong> Ви можете обрати ціллю одну додаткову істоту за кожен рівень комірки вище 1-го.</p>",
+            "effects": {
+                "Uncontrollable Laughter": {
+                    "name": "Нестримний сміх",
+                    "description": "<p>Отримує стан &amp;Reference[prone apply=false]{На землі (Prone)} та стан &amp;Reference[incapacitated apply=false]{Недієздатний (Incapacitated)} на час дії заклинання. Протягом цього часу вона нестримно сміється, якщо здатна сміятися, і не може самостійно позбутися стану «На землі» (Prone).</p><p>Наприкінці кожного зі своїх ходів та щоразу, коли вона отримує шкоду, вона здійснює ще один рятівний кидок [[/save ability=wis dc=@attributes.spell.dc]]. Ціль має перевагу (Advantage) на спас-кидок, якщо він викликаний шкодою. У разі успіху заклинання закінчується.</p>"
+                }
+            }
+        },
 		"Telekinesis": {
 			"name": "Telekinesis",
 			"description": "<p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as a Magic action on your later turns before the spell ends, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p><strong>Creature.</strong> You can try to move a Huge or smaller creature. The target must succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range. Until the end of your next turn, the creature has the &amp;Reference[Restrained] condition, and if you lift it into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it again and it fails the save.</p><p><strong>Object.</strong> You can try to move a Huge or smaller object. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction within the spell's range.</p><p>If the object is worn or carried by a creature, that creature must succeed on a Strength saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's range.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p>"
