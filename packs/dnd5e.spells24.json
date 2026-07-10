@@ -2955,257 +2955,257 @@
             }
         },
 		"Telekinesis": {
-			"name": "Telekinesis",
-			"description": "<p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as a Magic action on your later turns before the spell ends, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p><p><strong>Creature.</strong> You can try to move a Huge or smaller creature. The target must succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range. Until the end of your next turn, the creature has the &amp;Reference[Restrained] condition, and if you lift it into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it again and it fails the save.</p><p><strong>Object.</strong> You can try to move a Huge or smaller object. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction within the spell's range.</p><p>If the object is worn or carried by a creature, that creature must succeed on a Strength saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's range.</p><p>You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p>"
-		},
-		"Teleport": {
-			"name": "Teleport",
-			"description": "<p>This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can't be held or carried by an unwilling creature.</p><p>The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/gmr 1d100]] and consults the Teleportation Outcome table and the explanations after it.</p><details><summary><strong>@UUID[Compendium.dnd5e.tables24.RollTable.phbsplTeleportMi]{Teleportation Outcome}</strong></summary><table><thead><tr><td>Familiarity</td><td>Mishap</td><td>Similar Area</td><td>Off Target</td><td>On Target</td></tr></thead><tbody><tr><td>Permanent circle</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Linked object</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Very familiar</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–00</td></tr><tr><td>Seen casually</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–00</td></tr><tr><td>Viewed once or described</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–00</td></tr><tr><td>False destination</td><td>01–50</td><td>51–00</td><td>—</td><td>—</td></tr></tbody></table></details><p><strong>Familiarity.</strong> Here are the meanings of the terms in the table's Familiarity column:</p><ul><li>\"Permanent circle\" means a permanent teleportation circle whose sigil sequence you know.</li><li>\"Linked object\" means you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library.</li><li>\"Very familiar\" is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.</li><li>\"Seen casually\" is a place you have seen more than once but with which you aren't very familiar.</li><li>\"Viewed once or described\" is a place you have seen once, possibly using magic, or a place you know through someone else's description, perhaps from a map.</li><li>\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.</li></ul><p><strong>Mishap.</strong> The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).</p><p><strong>Similar Area.</strong> You and your group (or the target object) appear in a different area that's visually or thematically similar to the target area. You appear in the closest similar place. If you are heading for your home laboratory, for example, you might appear in another person's laboratory in the same city.</p><p><strong>Off Target.</strong> You and your group (or the target object) appear [[/r 2d12]] miles away from the destination in a random direction. Roll [[/r 1d8]] for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.</p><p><strong>On Target.</strong> You and your group (or the target object) appear where you intended.</p>"
-		},
-		"Teleportation Circle": {
-			"name": "Teleportation Circle",
-			"description": "<p>As you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.</p><p>Many major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence—a string of runes arranged in a particular pattern.</p><p>When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You might learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.</p><p>You can create a permanent teleportation circle by casting this spell in the same location every day for 365 days.</p>"
-		},
-		"Floating Disk": {
-			"name": "Floating Disk",
-			"description": "<p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p><p>The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.</p><p>If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends.</p>"
-		},
+            "name": "Телекінез",
+            "description": "<p>Ви отримуєте здатність переміщувати або маніпулювати істотами чи предметами за допомогою думки. Коли ви накладаєте заклинання та як магічну дію (Magic action) на ваших наступних ходах до закінчення дії заклинання, ви можете виявити свою волю щодо однієї істоти чи предмета, якого ви бачите в межах дистанції, спричиняючи відповідний ефект нижче. Ви можете впливати на ту саму ціль раунд за раундом або в будь-який момент обрати нову. Якщо ви перемикаєтеся на інші цілі, попередня ціль більше не перебуває під впливом заклинання.</p><p><strong>Істота.</strong> Ви можете спробувати перемістити величезну (Huge) або меншу істоту. Ціль має успішно пройти рятівний кидок Сили, інакше ви переміщуєте її на відстань до 30 футів у будь-якому напрямку в межах дистанції заклинання. До кінця вашого наступного ходу істота набуває стану &amp;Reference[Restrained]{Спутований (Restrained)}, а якщо ви підняли її в повітря, вона підвішена там. Вона падає наприкінці вашого наступного ходу, якщо ви не використаєте цю опцію щодо неї знову і вона не провалить спас-кидок.</p><p><strong>Предмет.</strong> Ви можете спробувати перемістити величезний (Huge) або менший предмет. Якщо предмет ніхто не носить і не переносить, ви автоматично переміщуєте його на відстань до 30 футів у будь-якому напрямку в межах дистанції заклинання.</p><p>Якщо предмет носить або переносить істота, ця істота повинна успішно пройти рятівний кидок Сили, інакше ви вириваєте предмет і переміщуєте його на відстань до 30 футів у будь-якому напрямку в межах дистанції заклинання.</p><p>Ви можете здійснювати точний контроль над предметами за допомогою свого телекінетичного захвату, наприклад, маніпулювати простим інструментом, відчиняти двері чи контейнер, класти або діставати річ із відкритого контейнера чи виливати вміст із фіали.</p>"
+        },
+        "Teleport": {
+            "name": "Телепортація",
+            "description": "<p>Це заклинання миттєво переносить вас та до восьми добровільних істот, яких ви бачите в межах дистанції, або один предмет, який ви бачите в межах дистанції, до обраного вами пункту призначення. Якщо ви обираєте ціллю предмет, він має бути великим (Large) або меншим і не може утримуватися чи переноситися ворожою істотою.</p><p>Пункт призначення, який ви обираєте, має бути відомим вам і перебувати на тій самій площині існування, що й ви. Ваша обізнаність про пункт призначення визначає, чи вдасться вам туди дістатися. Майстер кидає [[/gmr 1d100]] і звертається до таблиці «Результати телепортації» (Teleportation Outcome) та пояснень після неї.</p><details><summary><strong>@UUID[Compendium.dnd5e.tables24.RollTable.phbsplTeleportMi]{Результат телепортації (Teleportation Outcome)}</strong></summary><table><thead><tr><td>Обізнаність</td><td>Невдача (Mishap)</td><td>Схожа зона</td><td>Поза ціллю</td><td>У ціль</td></tr></thead><tbody><tr><td>Постійне коло</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Пов'язаний предмет</td><td>—</td><td>—</td><td>—</td><td>01–00</td></tr><tr><td>Дуже знайоме</td><td>01–05</td><td>06–13</td><td>14–24</td><td>25–00</td></tr><tr><td>Випадково бачене</td><td>01–33</td><td>34–43</td><td>44–53</td><td>54–00</td></tr><tr><td>Бачене раз або описане</td><td>01–43</td><td>44–53</td><td>54–73</td><td>74–00</td></tr><tr><td>Фальшивий пункт призначення</td><td>01–50</td><td>51–00</td><td>—</td><td>—</td></tr></tbody></table></details><p><strong>Обізнаність (Familiarity).</strong> Ось значення термінів у стовпчику обізнаності таблиці:</p><ul><li>«Постійне коло» означає постійне коло телепортації, чию послідовність сигілів ви знаєте.</li><li>«Пов'язаний предмет» означає, що ви володієте предметом, узятим із бажаного пункту призначення протягом останніх шести місяців, наприклад, книгою з бібліотеки чаклуна.</li><li>«Дуже знайоме» — це місце, яке ви часто відвідували, місце, яке ви ретельно вивчили, або місце, яке ви можете бачити під час накладання заклинання.</li><li>«Випадково бачене» — це місце, яке ви бачили більше ніж один раз, але з яким ви не дуже добре знайомі.</li><li>«Бачене раз або описане» — це місце, яке ви бачили один раз, можливо, за допомогою магії, або місце, яке ви знаєте з чийогось опису, можливо, з карти.</li><li>«Фальшивий пункт призначення» — це місце, яке не існує. Можливо, ви намагалися просканувати святиню ворога, але натомість побачили ілюзію, або ви намагаєтеся телепортуватися в локацію, якої більше не існує.</li></ul><p><strong>Невдача (Mishap).</strong> Непередбачувана магія заклинання призводить до важкої подорожі. Кожна істота, що телепортується (або цільовий предмет), отримує [[/damage 3d10 type=force]] силової шкоди, а Майстер перекидає кубики за таблицею, щоб визначити, куди ви потрапите (може статися кілька невдач, які завдають шкоди щоразу).</p><p><strong>Схожа зона (Similar Area).</strong> Ви та ваша група (або цільовий предмет) з'являєтеся в іншій зоні, візуально або тематично схожій на цільову. Ви з'являєтеся в найближчому подібному місці. Наприклад, якщо ви прямуєте до своєї домашньої лабораторії, ви можете з'явитися в лабораторії іншої людини в тому ж місті.</p><p><strong>Поза ціллю (Off Target).</strong> Ви та ваша група (або цільовий предмет) з'являєтеся на відстані [[/r 2d12]] миль від пункту призначення у випадковому напрямку. Киньте [[/r 1d8]] для визначення напрямку: 1 — схід; 2 — південний схід; 3 — південь; 4 — південний захід; 5 — захід; 6 — північний захід; 7 — північ; або 8 — північний схід.</p><p><strong>У ціль (On Target).</strong> Ви та ваша група (або цільовий предмет) з'являєтеся там, куди й збиралися.</p>"
+        },
+        "Teleportation Circle": {
+            "name": "Коло телепортації",
+            "description": "<p>Коли ви накладаєте заклинання, викреслюєте на землі коло радіусом 5 футів з нанесеними сигілаями, які пов'язують ваше місце розташування з постійним колом телепортації на ваш вибір, чию послідовність сигілів ви знаєте і яке перебуває на тій самій площині існування, що й ви. Мерехтливий портал відкривається всередині намальованого вами кола і залишається відкритим до кінця вашого наступного ходу. Будь-яка істота, що входить у портал, миттєво з'являється в межах 5 футів від цільового кола або в найближчому вільному просторі, якщо цей простір зайнятий.</p><p>Багато великих храмів, гільдійських залів та інших важливих місць мають постійні кола телепортації. Кожне коло містить унікальну послідовність сигілів — низку рун, розташованих у певному порядку.</p><p>Коли ви вперше отримуєте здатність накладати це заклинання, ви вивчаєте послідовності сигілів для двох пунктів призначення на Матеріальній площині, які визначаються Майстром. Ви можете вивчити додаткові послідовності сигілів під час своїх пригод. Ви можете запам'ятати нову послідовність сигілів після вивчення її протягом 1 хвилини.</p><p>Ви можете створити постійне коло телепортації, накладаючи це заклинання в тому самому місці щодня протягом 365 днів.</p>"
+        },
+        "Floating Disk": {
+            "name": "Летючий диск",
+            "description": "<p>Це заклинання створює круглу горизонтальну площину сили діаметром 3 фути та завтовшки 1 дюйм, яка летить на висоті 3 фути над землею у вільному просторі на ваш вибір у межах дистанції. Диск залишається протягом часу дії і може витримати вагу до 500 фунтів. Якщо на нього покласти більше ваги, заклинання закінчується, і все з диска падіє на землю.</p><p>Диск нерухомий, поки ви перебуваєте в межах 20 футів від нього. Якщо ви відходите від нього далі ніж на 20 футів, диск слідує за вами так, щоб залишатися в межах 20 футів від вас. Він може пересуватися по нерівній місцевості, вгору чи вниз по сходах, схилах тощо, але не може подолати перепад висоти на 10 футів або більше. Наприклад, диск не може рухатися через 10-футову яму, а також не може залишитися з такої ями, якщо був створений на її дні.</p><p>Якщо ви відходите від диска далі ніж на 100 футів (зазвичай через те, що він не може обійти перешкоду, щоб слідувати за вами), заклинання закінчується.</p>"
+        },
 		"Thaumaturgy": {
-			"name": "Thaumaturgy",
-			"description": "<p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1 minute.</p><p><strong>Invisible Hand.</strong> You instantaneously cause an unlocked door or window to fly open or slam shut.</p><p><strong>Phantom Sound.</strong> You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>",
-			"effects": {
-				"Booming Voice": {
-					"name": "Booming Voice",
-					"description": "<p>Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p>",
-					"changes": {
-						"system.skills.itm.roll.mode": 1
-					}
-				}
-			}
-		},
-		"Thunderwave": {
-			"name": "Thunderwave",
-			"description": "<p>You unleash a wave of thunderous energy. Each creature in a 15-foot Cube originating from you makes a Constitution saving throw. On a failed save, a creature takes 2d8 Thunder damage and is pushed 10 feet away from you. On a successful save, a creature takes half as much damage only.</p><p>In addition, unsecured objects that are entirely within the Cube are pushed 10 feet away from you, and a thunderous boom is audible within 300 feet.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 1.</p>"
-		},
-		"Time Stop": {
-			"name": "Time Stop",
-			"description": "<p>You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take 1d4 + 1 turns in a row, during which you can use actions and move as normal.</p><p>This spell ends if one of the actions you use during this period, or any effects that you create during it, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it.</p>"
-		},
+            "name": "Чудотворство",
+            "description": "<p>Ви проявляєте незначне диво в межах дистанції. Ви створюєте один з ефектів нижче в межах дистанції. Якщо ви накладаєте це заклинання кілька разів, у вас може бути активним до трьох його 1-хвилинних ефектів одночасно.</p><p><strong>Змінені очі (Altered Eyes).</strong> Ви змінюєте зовнішній вигляд своїх очей на 1 хвилину.</p><p><strong>Гуркітливий голос (Booming Voice).</strong> Ваш голос звучить до трьох разів голосніше за норму протягом 1 хвилини. Протягом цього часу ви маєте перевагу (Advantage) на перевірки [[/check ability=cha skill=itm]].</p><p><strong>Гра з вогнем (Fire Play).</strong> Ви змушуєте полум'я мерехтіти, яскраво палати, тьмяніти або змінювати колір протягом 1 хвилини.</p><p><strong>Невидима рука (Invisible Hand).</strong> Ви миттєво змушуєте незамкнені двері чи вікно різко відчинитися або зачинитися.</p><p><strong>Фантомний звук (Phantom Sound).</strong> Ви створюєте миттєвий звук, що лунає з обраної вами точки в межах дистанції, наприклад, гуркіт грому, крик крука чи моторошний шепіт.</p><p><strong>Тремтіння (Tremors).</strong> Ви спричиняєте нешкідливі поштовхи в землі на 1 хвилину.</p>",
+            "effects": {
+                "Booming Voice": {
+                    "name": "Гуркітливий голос",
+                    "description": "<p>Ваш голос звучить до трьох разів голосніше за норму протягом 1 хвилини. Протягом цього часу ви маєте перевагу (Advantage) на перевірки [[/check ability=cha skill=itm]].</p>",
+                    "changes": {
+                        "system.skills.itm.roll.mode": 1
+                    }
+                }
+            }
+        },
+        "Thunderwave": {
+            "name": "Громова хвиля",
+            "description": "<p>Ви вивільняєте хвилю громової енергії. Кожна істота в кубі розміром 15 футів, що бере початок від вас, робить рятівний кидок Витривалості. У разі провалу істота отримує 2d8 [[/damage 2d8 type=thunder]] громової шкоди та відкидається на 10 футів від вас. У разі успіху істота отримує лише половинну шкоду.</p><p>На додачу, незакріплені предмети, що повністю перебувають у кубі, відкидаються на 10 футів від вас, а громовий гуркіт чутно на відстані до 300 футів.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 1-го.</p>"
+        },
+        "Time Stop": {
+            "name": "Зупинка часу",
+            "description": "<p>Ви на короткий час зупиняєте плин часу для всіх, окрім себе. Для інших істот час не минає, тоді як ви робите від 1d4 + 1 ходів поспіль, протягом яких ви можете використовувати дії та пересуватися як зазвичай.</p><p>Це заклинання закінчується, якщо одна з дій, які ви виконуєте в цей період, або будь-які створені вами ефекти впливають на істоту, окрім вас, чи на предмет, який носить або переносить хтось інший. На додачу, заклинання закінчується, якщо ви пересуваєтеся в місце, віддалене більш ніж на 1 000 футів від місця його накладання.</p>"
+        },
 		"Tongues": {
-			"name": "Tongues",
-			"description": "<p>This spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least one language can understand it if that creature can hear the speech or see the signing.</p>",
-			"effects": {
-				"Universal Communication": {
-					"name": "Universal Communication",
-					"changes": {
-						"system.traits.languages.custom": ";all spoken or signed languages"
-					}
-				}
-			}
-		},
-		"Transport via Plants": {
-			"name": "Transport via Plants",
-			"description": "<p>This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.</p>"
-		},
-		"Tree Stride": {
-			"name": "Tree Stride",
-			"description": "<p>You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.</p><p>You can use this transportation ability only once on each of your turns. You must end each turn outside a tree.</p>"
-		},
-		"True Polymorph": {
-			"name": "True Polymorph",
-			"description": "<p>Choose one creature or nonmagical object that you can see within range. The creature shape-shifts into a different creature or a nonmagical object, or the object shape-shifts into a creature (the object must be neither worn nor carried). The transformation lasts for the duration or until the target dies or is destroyed, but if you maintain Concentration on this spell for the full duration, the spell lasts until dispelled.</p><p>An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.</p><p><strong>Creature into Creature. </strong>If you turn a creature into another kind of creature, the new form can be any kind you choose that has a Challenge Rating equal to or less than the target's Challenge Rating or level. The target's game statistics are replaced by the stat block of the new form, but it retains its Hit Points, Hit Point Dice, alignment, and personality.</p><p>The target gains a number of Temporary Hit Points equal to the Hit Points of the new form. These Temporary Hit Points vanish if any remain when the spell ends.</p><p>The target is limited in the actions it can perform by the anatomy of its new form, and it can't speak or cast spells.</p><p>The target's gear melds into the new form. The creature can't use or otherwise benefit from any of that equipment.</p><p><strong>Object into Creature. </strong>You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.</p><p>If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.</p><p><strong>Creature into Object. </strong>If you turn a creature into an object, it transforms along with whatever it is wearing and carrying into that form, as long as the object's size is no larger than the creature's size. The creature's statistics become those of the object, and the creature has no memory of time spent in this form after the spell ends and it returns to normal.</p><section class=\"secret\" id=\"secret-IB4vzIqK9EZU3ho1\"><p><strong>Foundry Note</strong></p><p>An Actor can be dragged onto the polymorphed creature's sheet by the Gamemaster to handle the transformation.</p></section>"
-		},
+            "name": "Мови",
+            "description": "<p>Це заклинання дає істоті, якої ви торкаєтеся, здатність розуміти будь-яку розмовну чи жестову мову, яку вона чує чи бачить. Більше того, коли ціль спілкується за допомогою мовлення чи жестів, будь-яка істота, що знає принаймні одну мову, може зрозуміти її, якщо ця істота може чути мову або бачити жести.</p>",
+            "effects": {
+                "Universal Communication": {
+                    "name": "Універсальна комунікація",
+                    "changes": {
+                        "system.traits.languages.custom": ";all spoken or signed languages"
+                    }
+                }
+            }
+        },
+        "Transport via Plants": {
+            "name": "Переміщення через рослини",
+            "description": "<p>Це заклинання створює магічний зв'язок між великою (Large) або більшою неживою рослиною в межах дистанції та іншою рослиною на будь-якій відстані на тій самій площині існування. Ви повинні бачити або торкатися цільової рослини принаймні один раз перед цим. Протягом часу дії будь-яка істота може зайти в цільову рослину та вийти з цільового місця призначення, витративши 5 футів пересування.</p>"
+        },
+        "Tree Stride": {
+            "name": "Крок крізь дерева",
+            "description": "<p>Ви отримуєте здатність увійти в дерево і переміститися з його нутрощів у нутрощі іншого дерева того ж виду в межах 500 футів. Обидва дерева мають бути живими та принаймні такого ж розміру, як і ви. Ви повинні витратити 5 футів пересування, щоб увійти в дерево. Ви миттєво знаєте розташування всіх інших дерев того ж виду в межах 500 футів і, як частину руху, використаного для входу в дерево, можете або перейти в одне з тих дерев, або вийти з дерева, в якому перебуваєте. Ви з'являєтеся в обраному вами місці в межах 5 футів від цільового дерева, витрачаючи ще 5 футів пересування. Якщо у вас не залишилося пересування, ви з'являєтеся в межах 5 футів від дерева, в яке увійшли.</p><p>Ви можете використовувати цю здатність переміщення лише один раз за хід. Ви повинні закінчувати кожен хід поза деревом.</p>"
+        },
+        "True Polymorph": {
+            "name": "Істинне перетворення",
+            "description": "<p>Оберіть одну істоту або немагічний предмет, які ви бачите в межах дистанції. Істота перетворюється на іншу істоту або немагічний предмет, або предмет перетворюється на істоту (предмет не повинен бути одягненим чи перенесеним). Трансформація триває протягом часу дії або доки ціль не загине чи буде знищена, але якщо ви підтримуєте Концентрацію (Concentration) на цьому заклинанні протягом усього часу дії, заклинання триває до розвіювання.</p><p>Ворожа істота може зробити рятівний кидок Мудрості, і в разі успіху на неї це заклинання не діє.</p><p><strong>Істота в істоту (Creature into Creature). </strong>Якщо ви перетворюєте істоту на інший вид істоти, новою формою може бути будь-який вид на ваш вибір, чий показник небезпеки (Challenge Rating) дорівнює показнику небезпеки або рівню цілі чи менший за них. Ігрові характеристики цілі замінюються на блок характеристик нової форми, але вона зберігає свої пункти здоров'я, кістки здоров'я, світогляд та особистість.</p><p>Ціль отримує певну кількість тимчасових пунктів здоров'я, що дорівнюють пунктам здоров'я нової форми. Ці тимчасові пункти здоров'я зникають, якщо вони залишаються на момент закінчення дії заклинання.</p><p>Дії, які може виконувати ціль, обмежені анатомією її нової форми, і вона не може розмовляти чи накладати заклинання.</p><p>Спорядження цілі зливається з новою формою. Істота не може використовувати чи іншим чином отримувати користь від будь-якого з цього спорядження.</p><p><strong>Предмет в істоту (Object into Creature). </strong>Ви можете перетворити предмет на будь-який вид істоти за умови, що розмір істоти не перевищує розміру предмета, а показник небезпеки істоти становить 9 або нижче. Істота є дружньою до вас та ваших союзників. У бою вона робить свій хід одразу після вашого і підкоряється вашим наказам.</p><p>Якщо заклинання триває довше години, ви більше не контролюєте істоту. Вона може залишитися дружньою до вас, залежно від того, як ви з нею поводилися.</p><p><strong>Істота в предмет (Creature into Object). </strong>Якщо ви перетворюєте істоту на предмет, вона трансформується разом із тим, що вона одягає та переносить у цю форму, за умови, що розмір предмета не перевищує розміру істоти. Характеристики істоти стають характеристиками предмета, і істота не пам'ятає час, проведений у цій формі, після закінчення заклинання та повернення до норми.</p><section class=\"secret\" id=\"secret-IB4vzIqK9EZU3ho1\"><p><strong>Foundry Note</strong></p><p>An Actor can be dragged onto the polymorphed creature's sheet by the Gamemaster to handle the transformation.</p></section>"
+        },
 		"True Resurrection": {
-			"name": "True Resurrection",
-			"description": "<p>You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points.</p><p>This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form.</p><p>The spell can provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.</p>"
-		},
-		"True Seeing": {
-			"name": "True Seeing",
-			"description": "<p>For the duration, the willing creature you touch has Truesight with a range of 120 feet.</p>",
-			"effects": {
-				"Truesight": {
-					"name": "Truesight",
-					"changes": {
-						"system.attributes.senses.truesight": 120
-					}
-				}
-			}
-		},
+            "name": "Істинне воскресіння",
+            "description": "<p>Ви торкаєтеся істоти, яка була мертвою не довше ніж 200 років і померла з будь-якої причини, окрім старості. Істота повертається до життя з усіма своїми пунктами здоров'я.</p><p>Це заклинання затягує всі рани, нейтралізує будь-яку отруту, виліковує всі магічні зараження та знімає будь-які прокляття, що діяли на істоту на момент її смерті. Заклинання замінює пошкоджені або відсутні органи та кінцівки. Якщо істота була нежиттю (Undead), її відновлюють до її форми не-нежиті.</p><p>Заклинання може надати нове тіло, якщо оригінальне більше не існує, у такому разі ви повинні вимовити ім'я істоти. Після цього істота з'являється у вільному просторі на ваш вибір у межах 10 футів від вас.</p>"
+        },
+        "True Seeing": {
+            "name": "Істинний зір",
+            "description": "<p>Протягом часу дії добровільна істота, якої ви торкаєтеся, отримує істинний зір (Truesight) з дистанцією 120 футів.</p>",
+            "effects": {
+                "Truesight": {
+                    "name": "Істинний зір",
+                    "changes": {
+                        "system.attributes.senses.truesight": 120
+                    }
+                }
+            }
+        },
 		"True Strike": {
-			"name": "True Strike",
-			"description": "<p>Guided by a flash of magical insight, you make one attack with the weapon used in the spell's casting. The attack uses your spellcasting ability for the attack and damage rolls instead of using Strength or Dexterity. If the attack deals damage, it can be Radiant damage or the weapon's normal damage type (your choice).</p><p><strong>Cantrip Upgrade.</strong> Whether you deal Radiant damage or the weapon's normal damage type, the attack deals extra Radiant damage when you reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>",
-			"effects": {
-				"True Strike": {
-					"name": "True Strike",
-					"changes": {
-						"system.damage.base.types": "radiant",
-						"name": "{} (True Strike)",
-						"system.damage.parts": [
-							[
-								"(floor((@details.level + 1) / 6))d6",
-								"radiant"
-							]
-						],
-						"activities[attack].attack.ability": "spellcasting"
-					}
-				},
-				"Ranged Weapon": {
-					"name": "Ranged Weapon",
-					"changes": {
-						"system.damage.base.types": "radiant",
-						"name": "{} (True Strike)",
-						"system.damage.base.bonus": "(floor((@details.level + 1) / 6))d6[radiant]"
-					}
-				}
-			}
-		},
+            "name": "Правдивий удар",
+            "description": "<p>Керовані спалахом магічної інтуїції, ви здійснюєте одну атаку зброєю, використаною під час накладання заклинання. Атака використовує вашу харизму чи іншу здатність заклинання для кидків атаки та шкоди замість Сили чи Спритності. Якщо атака завдає шкоди, це може бути промениста шкода (Radiant) або звичайний тип шкоди зброї (на ваш вибір).</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Незалежно від того, чи завдаєте ви променистої шкоди, чи звичайного типу шкоди зброї, атака завдає додаткової променистої шкоди, коли ви досягаєте 5-го (1d6), 11-го (2d6) та 17-го (3d6) рівнів.</p>",
+            "effects": {
+                "True Strike": {
+                    "name": "Правдивий удар",
+                    "changes": {
+                        "system.damage.base.types": "radiant",
+                        "name": "{} (Правдивий удар)",
+                        "system.damage.parts": [
+                            [
+                                "(floor((@details.level + 1) / 6))d6",
+                                "radiant"
+                            ]
+                        ],
+                        "activities[attack].attack.ability": "spellcasting"
+                    }
+                },
+                "Ranged Weapon": {
+                    "name": "Дистанційна зброя",
+                    "changes": {
+                        "system.damage.base.types": "radiant",
+                        "name": "{} (Правдивий удар)",
+                        "system.damage.base.bonus": "(floor((@details.level + 1) / 6))d6[radiant]"
+                    }
+                }
+            }
+        },
 		"Tsunami": {
-			"name": "Tsunami",
-			"description": "<p>A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.</p><p>When the wall appears, each creature in its area makes a Strength saving throw, taking 6d10 Bludgeoning damage on a failed save or half as much damage on a successful one.</p><p>At the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take 5d10 Bludgeoning damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage the wall deals on later rounds is reduced by 1d10. When the wall reaches 0 feet in height, the spell ends.</p><p>A creature caught in the wall can move by swimming. Because of the wave's force, though, the creature must succeed on a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC to move at all. If it fails the check, it can't move. A creature that moves out of the wall falls to the ground.</p><section class=\"secret\" id=\"secret-WPt2tGia4MNT1Dee\"><p><strong>Foundry Note</strong></p><p>The limited uses value of this spell tracks the number of rounds remaining from its initial 6, which is reset as part of the <strong>Create Tsunami </strong>activity.</p><p>The <strong>Start of Turn Effects</strong> activity consumes one use to represent one round passing and uses the updated count for its damage rolls.</p></section>"
-		},
-		"Unseen Servant": {
-			"name": "Unseen Servant",
-			"description": "<p>This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can't attack. If it drops to 0 Hit Points, the spell ends.</p><p>Once on each of your turns as a Bonus Action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring drinks. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p><p>If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p>"
-		},
-		"Vampiric Touch": {
-			"name": "Vampiric Touch",
-			"description": "<p>The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against one creature within reach. On a hit, the target takes 3d6 Necrotic damage, and you regain Hit Points equal to half the amount of Necrotic damage dealt.</p><p>Until the spell ends, you can make the attack again on each of your turns as a Magic action, targeting the same creature or a different one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>"
-		},
+            "name": "Цунамі",
+            "description": "<p>Стіна води виникає в точці на ваш вибір у межах дистанції. Ви можете зробити стіну завдовжки до 300 футів, заввишки 300 футів і завтовшки 50 футів. Стіна триває протягом часу дії.</p><p>Коли стіна з'являється, кожна істота в її зоні здійснює рятівний кидок Сили, отримуючи 6d10 [[/damage 6d10 type=bludgeoning]] дробильної шкоди в разі провалу або половинну шкоду в разі успіху.</p><p>На початку кожного зі своїх ходів після появи стіни вона разом з будь-якими істотами в ній пересувається на 50 футів від вас. Будь-яка величезна (Huge) або менша істота всередині стіни або в чиєму просторі стіна опиняється під час пересування, повинна успішно пройти рятівний кидок Сили або отримати 5d10 [[/damage 5d10 type=bludgeoning]] дробильної шкоди. Істота може отримати цю шкоду лише один раз за раунд. Наприкінці ходу висота стіни зменшується на 50 футів, а шкода, яку стіна завдає в наступні раунди, зменшується на 1d10. Коли висота стіни досягає 0 футів, заклинання закінчується.</p><p>Істота, яка потрапила в пастку стіни, може пересуватися за допомогою плавання. Проте через силу хвилі істота повинна успішно пройти перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти вашого СВД спас-кидка заклинання, щоб взагалі зрушити з місця. Якщо вона провалює перевірку, вона не може рухатися. Істота, яка виходить зі стіни, падає на землю.</p><section class=\"secret\" id=\"secret-WPt2tGia4MNT1Dee\"><p><strong>Foundry Note</strong></p><p>The limited uses value of this spell tracks the number of rounds remaining from its initial 6, which is reset as part of the <strong>Create Tsunami </strong>activity.</p><p>The <strong>Start of Turn Effects</strong> activity consumes one use to represent one round passing and uses the updated count for its damage rolls.</p></section>"
+        },
+        "Unseen Servant": {
+            "name": "Незримий слуга",
+            "description": "<p>Це заклинання створює невидиму, бездумну, безформну силу середнього (Medium) розміру, яка виконує прості завдання за вашим наказом до закінчення дії заклинання. Слуга з'являється у вільному просторі на землі в межах дистанції. Він має КЗ 10, 1 пункт здоров'я та Силу 2, і він не може атакувати. Якщо його пункти здоров'я впадуть до 0, заклинання закінчується.</p><p>Раз під час кожного зі своїх ходів як бонусний рух (Bonus Action) ви можете мислено наказити слузі пересунутися на відстань до 15 футів та взаємодіяти з предметом. Слуга може виконувати прості завдання, які може зробити людина, такі як принесення речей, прибирання, лагодження, складання одягу, розпалювання вогню, подача їжі та наливання напоїв. Щойно ви віддаєте наказ, слуга виконує завдання якнайкраще до його завершення, після чого чекає на ваш наступний наказ.</p><p>Якщо ви накажете слузі виконати завдання, яке відведе його від вас далі ніж на 60 футів, заклинання закінчується.</p>"
+        },
+        "Vampiric Touch": {
+            "name": "Вампірський дотик",
+            "description": "<p>Дотик вашої оповитої тінями руки може висмоктувати життєву силу з інших, щоб зцілити ваші рани. Здійсніть рукопашну атаку заклинанням проти однієї істоти в межах досяжності. У разі влучання ціль отримує 3d6 [[/damage 3d6 type=necrotic]] некротичної шкоди, і ви відновлюєте пункти здоров'я, що дорівнюють половині завданої некротичної шкоди.</p><p>До закінчення дії заклинання ви можете повторити атаку під час кожного зі своїх ходів як магічну дію (Magic action), спрямовуючи її на ту саму істоту або на іншу.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d6 за кожен рівень комірки вище 3-го.</p>"
+        },
 		"Vicious Mockery": {
-			"name": "Vicious Mockery",
-			"description": "<p>You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).</p>",
-			"effects": {
-				"Mocked": {
-					"name": "Mocked",
-					"description": "<p>The target has Disadvantage on the next attack roll it makes before the end of its next turn.</p>"
-				}
-			}
-		},
-		"Vitriolic Sphere": {
-			"name": "Vitriolic Sphere",
-			"description": "<p>You point at a location within range, and a glowing, 1-foot-diameter ball of acid streaks there and explodes in a 20-foot-radius Sphere. Each creature in that area makes a Dexterity saving throw. On a failed save, a creature takes 10d4 Acid damage and another [[/damage 5d4 type=acid]] damage at the end of its next turn. On a successful save, a creature takes half the initial damage only.</p><p><strong>Using a Higher-Level Spell Slot. </strong>The initial damage increases by 2d4 for each spell slot level above 4.</p>",
-			"effects": {
-				"Lingering Acid": {
-					"name": "Lingering Acid",
-					"description": "<p>The creature takes [[/damage <span style=\"font-family:Signika, sans-serif\">5d4 type=acid]] damage at the end of its next turn</span></p>"
-				}
-			}
-		},
+            "name": "Злостива насмішка",
+            "description": "<p>Ви вивільняєте низку образ, приправлених тонким зачаруванням, в бік однієї істоти, яку ви бачите чи чуєте в межах дистанції. Ціль повинна успішно пройти рятівний кидок Мудрості, інакше вона отримує 1d6 [[/damage 1d6 type=psychic]] психічної шкоди та має перешкоду (Disadvantage) на наступний кидок атаки, який вона здійснює до кінця свого наступного ходу.</p><p><strong>Покращення замовляння (Cantrip Upgrade).</strong> Шкода збільшується на 1d6, коли ви досягаєте 5-го (2d6), 11-го (3d6) та 17-го (4d6) рівнів.</p>",
+            "effects": {
+                "Mocked": {
+                    "name": "Засміяний",
+                    "description": "<p>Ціль має перешкоду (Disadvantage) на наступний кидок атаки, який вона здійснює до кінця свого наступного ходу.</p>"
+                }
+            }
+        },
+        "Vitriolic Sphere": {
+            "name": "Жовчна сфера",
+            "description": "<p>Ви вказуєте на місце в межах дистанції, куди летить сяюча куля кислоти діаметром 1 фут і вибухає у сфері радіусом 20 футів. Кожна істота в цій зоні робить рятівний кидок Спритності. У разі провалу істота отримує 10d4 [[/damage 10d4 type=acid]] кислотної шкоди та ще [[/damage 5d4 type=acid]] шкоди наприкінці свого наступного ходу. У разі успіху істота отримує лише половину початкової шкоди.</p><p><strong>Використання комірки вищого рівня. </strong>Початкова шкода збільшується на 2d4 за кожен рівень комірки вище 4-го.</p>",
+            "effects": {
+                "Lingering Acid": {
+                    "name": "Залишкова кислота",
+                    "description": "<p>Істота отримує [[/damage 5d4 type=acid]] шкоди наприкінці свого наступного ходу.</p>"
+                }
+            }
+        },
 		"Wall of Fire": {
-			"name": "Wall of Fire",
-			"description": "<p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature in its area makes a Dexterity saving throw, taking 5d8 Fire damage on a failed save or half as much damage on a successful one.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 Fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 4.</p>"
-		},
-		"Wall of Force": {
-			"name": "Wall of Force",
-			"description": "<p>An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).</p><p>Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic}.</em> A <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Disintegrate}</em> spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane and blocks ethereal travel through the wall.</p>"
-		},
-		"Wall of Ice": {
-			"name": "Wall of Ice",
-			"description": "<p>You create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration.</p><p>If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side) and makes a Dexterity saving throw, taking 10d6 Cold damage on a failed save or half as much damage on a successful one.</p><p>The wall is an object that can be damaged and thus breached. It has AC 12 and 30 Hit Points per 10-foot section, and it has Immunity to Cold, Poison, and Psychic damage and Vulnerability to Fire damage. Reducing a 10-foot section of wall to 0 Hit Points destroys it and leaves behind a sheet of frigid air in the space the wall occupied.</p><p>A creature moving through the sheet of frigid air for the first time on a turn makes a Constitution saving throw, taking 5d6 Cold damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage the wall deals when it appears increases by 2d6 and the damage from passing through the sheet of frigid air increases by 1d6 for each spell slot level above 6.</p>"
-		},
-		"Wall of Stone": {
-			"name": "Wall of Stone",
-			"description": "<p>A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.</p><p>If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its Reaction to move up to its Speed so that it is no longer enclosed by the wall.</p><p>The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on a firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this spell to bridge a chasm or create a ramp.</p><p>If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create battlements and the like.</p><p>The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 Hit Points per inch of thickness, and it has Immunity to Poison and Psychic damage. Reducing a panel to 0 Hit Points destroys it and might cause connected panels to collapse at the DM's discretion.</p><p>If you maintain your Concentration on this spell for its full duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.</p>"
-		},
+            "name": "Стіна вогню",
+            "description": "<p>Ви створюєте стіну вогню на твердій поверхні в межах дистанції. Ви можете зробити стіну завдовжки до 60 футів, заввишки 20 футів і завтовшки 1 фут або кільцеподібну стіну діаметром до 20 футів, заввишки 20 футів і завтовшки 1 фут. Стіна є непрозорою і триває протягом часу дії.</p><p>Коли стіна з'являється, кожна істота в її зоні робить рятівний кидок Спритності, отримуючи 5d8 [[/damage 5d8 type=fire]] вогненної шкоди в разі провалу або половинну шкоду в разі успіху.</p><p>Один бік стіни, обраний вами під час накладання цього заклинання, завдає 5d8 [[/damage 5d8 type=fire]] вогненної шкоди кожній істоті, яка закінчує свій хід у межах 10 футів від цього боку або всередині стіни. Істота отримує таку саму шкоду, коли вперше за хід входить у стіну або закінчує там свій хід. Інший бік стіни шкоди не завдає.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода збільшується на 1d8 за кожен рівень комірки вище 4-го.</p>"
+        },
+        "Wall of Force": {
+            "name": "Стіна сили",
+            "description": "<p>Невидима стіна сили виникає в точці на ваш вибір у межах дистанції. Стіна з'являється в будь-якій орієнтації на ваш вибір — як горизонтальний чи вертикальний бар'єр або під кутом. Вона може вільно плавати або спиратися на тверду поверхню. Ви можете надати їй форму півсферичного купола чи кулі з радіусом до 10 футів або сформувати плоску поверхню з десяти панелей розміром 10 на 10 футів. Кожна панель має прилягати до іншої панелі. У будь-якій формі стіна має товщину 1/4 дюйма і триває протягом часу дії. Якщо стіна з'являється в просторі істоти, істоту відсувається на один бік стіни (ви обираєте, на який саме).</p><p>Ніщо не може фізично пройти крізь стіну. Вона імунна до будь-якої шкоди, і її не можна розвіяти за допомогою заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Розвіювання магії (Dispel Magic)}.</em> Проте заклинання <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisintegra]{Дезінтеграція (Disintegrate)}</em> руйнує стіну миттєво. Стіна також поширюється на Ефірну площину (Ethereal Plane) і блокує ефірне пересування крізь неї.</p>"
+        },
+        "Wall of Ice": {
+            "name": "Стіна льоду",
+            "description": "<p>Ви створюєте стіну льоду на твердій поверхні в межах дистанції. Ви можете надати їі форму півсферичного купола чи кулі з радіусом до 10 футів або сформувати плоску поверхню з десяти панелей розміром 10 на 10 футів. Кожна панель має прилягати до іншої панелі. У будь-якій формі стіна має товщину 1 фут і триває протягом часу дії.</p><p>Якщо стіна з'являється в просторі істоти, істоту відсувається на один бік стіни (ви обираєте бік), і вона робить рятівний кидок Спритності, отримуючи 10d6 [[/damage 10d6 type=cold]] холодової шкоди в разі провалу або половинну шкоду в разі успіху.</p><p>Стіна є предметом, який можна пошкодити і таким чином пробити. Вона має КЗ 12 і 30 пунктів здоров'я на кожну 10-футову секцію, а також імунітет до холодової, отруйної та психічної шкоди й вразливість до вогненної шкоди. Зменшення пунктів здоров'я 10-футової секції стіни до 0 руйнує її та залишає по собі шар крижаного повітря в просторі, який займала стіна.</p><p>Істота, яка вперше за хід пересувається крізь шар крижаного повітря, здійснює рятівний кидок Витривалості, отримуючи 5d6 [[/damage 5d6 type=cold]] холодової шкоди в разі провалу або половинну шкоду в разі успіху.</p><p><strong>Використання комірки вищого рівня.</strong> Шкода, яку стіна завдає під час появи, збільшується на 2d6, а шкода від проходження крізь шар крижаного повітря збільшується на 1d6 за кожен рівень комірки вище 6-го.</p>"
+        },
+        "Wall of Stone": {
+            "name": "Кам'яна стіна",
+            "description": "<p>Немагічна стіна з міцного каменю виникає в точці на ваш вибір у межах дистанції. Стіна має товщину 6 дюймів і складається з десяти панелей розміром 10 на 10 футів. Кожна панель має прилягати до іншої панелі. Крім того, ви можете створити панелі розміром 10 на 20 футів, які мають товщину лише 3 дюйми.</p><p>Якщо стіна з'являється в просторі істоти, істоту відсувається на один бік стіни (ви обираєте бік). Якщо стіна (або стіна разом з іншою твердою поверхнею) оточує істоту з усіх боків, ця істота може зробити рятівний кидок Спритності. У разі успіху вона може використати свою реакцію (Reaction), щоб пересунутися на відстань до своєї швидкості (Speed) і вийти з-під огородження.</p><p>Стіна може мати будь-яку бажану форму, хоча вона не може займати той самий простір, що й істота чи предмет. Стіна не обов'язково повинна бути вертикальною або спиратися на міцний фундамент. Проте вона повинна зливатися з існуючим каменем і мати його міцну підтримку. Таким чином, ви можете використати це заклинання, щоб перекинути міст через прірву або створити пандус.</p><p>Якщо ви створюєте проліт завдовжки понад 20 футів, ви повинні зменшити розмір кожної панелі вдвоє, щоб створити опори. Ви можете приблизно надати стіні форми зубців стін тощо.</p><p>Стіна є предметом із каменю, який можна пошкодити і пробити. Кожна панель має КЗ 15 і 30 пунктів здоров'я на дюйм товщини, а також імунітет до отруйної та психічної шкоди. Зменшення панелі до 0 пунктів здоров'я руйнує її і на розсуд Майстра може спричинити обвал з'єднаних панелей.</p><p>Якщо ви підтримуєте концентрацію (Concentration) на цьому заклинанні протягом усього часу його дії, стіна стає постійною і її не можна розвіяти. Інакше стіна зникає після закінчення дії заклинання.</p>"
+        },
 		"Wall of Thorns": {
-			"name": "Wall of Thorns",
-			"description": "<p>You create a wall of tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.</p><p>When the wall appears, each creature in its area makes a Dexterity saving throw, taking 7d8 Piercing damage on a failed save or half as much damage on a successful one.</p><p>A creature can move through the wall, albeit slowly and painfully. For every 1 foot a creature moves through the wall, it must spend 4 feet of movement. Furthermore, the first time a creature enters a space in the wall on a turn or ends its turn there, the creature makes a Dexterity saving throw, taking 7d8 Slashing damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Both types of damage increase by 1d8 for each spell slot level above 6.</p>"
-		},
-		"Warding Bond": {
-			"name": "Warding Bond",
-			"description": "<p>You touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has &amp;Reference[damageresistance]{Resistance} to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.</p>",
-			"effects": {
-				"Bonded": {
-					"name": "Bonded",
-					"description": "<p>While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures.</p>",
-					"changes": {
-						"system.traits.dr.value": "thunder",
-						"system.attributes.ac.bonus": 1,
-						"system.bonuses.abilities.save": 1
-					}
-				}
-			}
-		},
+            "name": "Стіна з колючок",
+            "description": "<p>Ви створюєте стіну із переплетених кущів, усіяних гострими як голки колючками. Стіна з'являється в межах дистанції на твердій поверхні і триває протягом часу дії. Ви можете зробити стіну завдовжки до 60 футів, заввишки 10 футів і завтовшки 5 футів або колом діаметром 20 футів, заввишки до 20 футів і завтовшки 5 футів. Стіна блокує огляд.</p><p>Коли стіна з'являється, кожна істота в її зоні робить рятівний кидок Спритності, отримуючи 7d8 [[/damage 7d8 type=piercing]] колючої шкоди в разі провалу або половинну шкоду в разі успіху.</p><p>Істота може пересуватися крізь стіну, хоча й повільно та болісно. За кожен 1 фут пересування крізь стіну вона повинна витратити 4 фути пересування. Ба більше, щоразу, коли істота вперше за хід входить у простір стіни або закінчує там свій хід, вона здійснює рятівний кидок Спритності, отримуючи 7d8 [[/damage 7d8 type=slashing]] ріжучої шкоди в разі провалу або половинну шкоду в разі успіху. Істота робить цей спас-кидок лише один раз за хід.</p><p><strong>Використання комірки вищого рівня.</strong> Обидва типи шкоди збільшуються на 1d8 за кожен рівень комірки вище 6-го.</p>"
+        },
+        "Warding Bond": {
+            "name": "Охоронний зв'язок",
+            "description": "<p>Ви торкаєтеся іншої добровільної істоти і створюєте містичний зв'язок між вами та ціллю до закінчення дії заклинання. Поки ціль перебуває в межах 60 футів від вас, вона отримує бонус +1 до КЗ та рятівних кидків, а також спротив (Resistance) до всієї шкоди. Крім того, щоразу, коли вона отримує шкоду, ви отримуєте таку саму кількість шкоди.</p><p>Заклинання закінчується, якщо ваші пункти здоров'я впадуть до 0 або якщо ви з ціллю віддалилися одне від одного більш ніж на 60 футів. Воно також закінчується, якщо заклинання накладено повторно на будь-яку з пов'язаних істот.</p>",
+            "effects": {
+                "Bonded": {
+                    "name": "Пов'язаний",
+                    "description": "<p>Поки ціль перебуває в межах 60 футів від вас, вона отримує бонус +1 до КЗ та рятівних кидків, а також спротив (Resistance) до всієї шкоди. Крім того, щоразу, коли вона отримує шкоду, ви отримуєте таку саму кількість шкоди.</p><p>Заклинання закінчується, якщо ваші пункти здоров'я впадуть до 0 або якщо ви з ціллю віддалилися одне від одного більш ніж на 60 футів. Воно також закінчується, якщо заклинання накладено повторно на будь-яку з пов'язаних істот.</p>",
+                    "changes": {
+                        "system.traits.dr.value": "thunder",
+                        "system.attributes.ac.bonus": 1,
+                        "system.bonuses.abilities.save": 1
+                    }
+                }
+            }
+        },
 		"Water Breathing": {
-			"name": "Water Breathing",
-			"description": "<p>This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</p>",
-			"effects": {
-				"Water Breathing": {
-					"name": "Water Breathing"
-				}
-			}
-		},
-		"Water Walk": {
-			"name": "Water Walk",
-			"description": "<p>This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.</p><p>An affected target must take a Bonus Action to pass from the liquid's surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.</p>",
-			"effects": {
-				"Water Walking": {
-					"name": "Water Walking",
-					"description": "<p>An affected target must take a Bonus Action to pass from the liquid’s surface into the liquid itself and vice versa, but if the target falls into the liquid, the target passes through the surface into the liquid below.</p>"
-				}
-			}
-		},
-		"Web": {
-			"name": "Web",
-			"description": "<p>You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are &amp;Reference[difficultterrain], and the area within them is &amp;Reference[lightlyobscured].</p><p>If the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.</p><p>The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &amp;Reference[restrained] condition while in the webs or until it breaks free.</p><p>A creature Restrained by the webs can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. If it succeeds, it is no longer Restrained.</p><p>The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing [[/damage 2d4 type=fire]] damage to any creature that starts its turn in the fire.</p>"
-		},
+            "name": "Дихання під водою",
+            "description": "<p>Це заклинання дає до десяти добровільним істотам на ваш вибір у межах дистанції здатність дихати під водою до закінчення дії заклинання. Постраждалі істоти також зберігають свій звичайний спосіб дихання.</p>",
+            "effects": {
+                "Water Breathing": {
+                    "name": "Дихання під водою"
+                }
+            }
+        },
+        "Water Walk": {
+            "name": "Ходіння по воді",
+            "description": "<p>Це заклинання дає здатність пересуватися по будь-якій поверхні рідини — такій як вода, кислота, бруд, сніг, зсув або лава — ніби це нешкідлива тверда земля (істоти, що перетинають розплавлену лаву, все одно можуть отримувати шкоду від спеки). До десяти добровільних істот на ваш вибір у межах дистанції отримують цю здатність на час дії заклинання.</p><p>Постраждала ціль повинна витратити бонусний рух (Bonus Action), щоб перейти з поверхні рідини в саму рідину і навпаки, але якщо ціль падає в рідину, вона проходить крізь поверхню в рідину внизу.</p>",
+            "effects": {
+                "Water Walking": {
+                    "name": "Ходіння по воді",
+                    "description": "<p>Постраждала ціль повинна витратити бонусний рух (Bonus Action), щоб перейти з поверхні рідини в саму рідину і навпаки, але якщо ціль падає в рідину, вона проходить крізь поверхню в рідину внизу.</p>"
+                }
+            }
+        },
+        "Web": {
+            "name": "Павутиння",
+            "description": "<p>Ви створюєте масу липкого павутиння в точці в межах дистанції. Павутиння заповнює куб розміром 20 футів на час дії заклинання. Павутиння є &amp;Reference[difficultterrain]{складною місцевістю (Difficult Terrain)}, а зона всередині нього — &amp;Reference[lightlyobscured]{легко затуманеною (Lightly Obscured)}.</p><p>Якщо павутиння не закріплене між двома твердими масами (такими як стіни чи дерева) або не шарне по підлозі, стіні чи стелі, воно обвалюється саме на себе, і заклинання закінчується на початку вашого наступного ходу. Павутиння, розташоване шарами на плоскій поверхні, має глибину 5 футів.</p><p>Щоразу, коли істота вперше за хід входить у павутиння або починає там свій хід, вона повинна успішно пройти рятівний кидок Спритності або отримати стан &amp;Reference[restrained]{Спутований (Restrained)} під час перебування в павутинні або доки не вибереться.</p><p>Істота, спутована (Restrained) павутинням, може витратити дію, щоб здійснити перевірку [[/check ability=str skill=ath dc=@attributes.spell.dc]] проти вашого СВД спас-кидка заклинання. У разі успіху вона більше не спутована.</p><p>Павутиння є легкозаймистим. Будь-який 5-футовий куб павутиння, що зазнав впливу вогню, згорає за 1 раунд, завдаючи [[/damage 2d4 type=fire]] вогненної шкоди будь-якій істоті, яка починає свій хід у вогні.</p>"
+        },
 		"Weird": {
-			"name": "Weird",
-			"description": "<p>You try to create illusory terrors in others' minds. Each creature of your choice in a 30-foot-radius Sphere centered on a point within range makes a Wisdom saving throw. On a failed save, a target takes 10d10 Psychic damage and has the &amp;Reference[Frightened apply=false] condition for the duration. On a successful save, a target takes half as much damage only.</p><p>A Frightened target makes a Wisdom saving throw at the end of each of its turns. On a failed save, it takes [[/damage 5d10 type=psychic]] damage. On a successful save, the spell ends on that target.</p>",
-			"effects": {
-				"Frightening Terrors": {
-					"name": "Frightening Terrors",
-					"description": "<p>A &amp;Reference[Frightened apply=false] target makes a [[/save ability=wis format=long]] at the end of each of its turns. On a failed save, it takes [[/damage 5d10 type=psychic]] damage. On a successful save, the spell ends on that target.</p>"
-				}
-			}
-		},
-		"Wind Walk": {
-			"name": "Wind Walk",
-			"description": "<p>You and up to ten willing creatures of your choice within range assume gaseous forms for the duration, appearing as wisps of cloud. While in this cloud form, a target has a Fly Speed of 300 feet and can hover; it has Immunity to the Prone condition; and it has Resistance to Bludgeoning, Piercing, and Slashing damage. The only actions a target can take in this form are the &amp;Reference[Dash] action or a Magic action to begin reverting to its normal form. Reverting takes 1 minute, during which the target has the &amp;Reference[Stunned apply=false] condition. Until the spell ends, the target can revert to cloud form, which also requires a Magic action followed by a 1-minute transformation.</p><p>If a target is in cloud form and flying when the effect ends, the target descends 60 feet per round for 1 minute until it lands, which it does safely. If it can't land after 1 minute, it falls the remaining distance.</p>",
-			"effects": {
-				"Cloud Form": {
-					"name": "Cloud Form",
-					"description": "<p>The only actions a target can take in this form are the &amp;Reference[Dash] action or a Magic action to begin reverting to its normal form. Reverting takes 1 minute, during which the target has the &amp;Reference[Stunned apply=false] condition. Until the spell ends, the target can revert to cloud form, which also requires a Magic action followed by a 1-minute transformation.</p>",
-					"changes": {
-						"system.attributes.movement.fly": 300,
-						"system.attributes.movement.hover": true,
-						"system.traits.ci.value": "prone",
-						"system.traits.dr.value": "slashing"
-					}
-				}
-			}
-		},
+            "name": "Дивовижне",
+            "description": "<p>Ви намагаєтеся створити ілюзорні жахіття в розумах інших. Кожна істота на ваш вибір у сфері радіусом 30 футів із центром у точці в межах дистанції здійснює рятівний кидок Мудрості. У разі провалу ціль отримує 10d10 [[/damage 10d10 type=psychic]] психічної шкоди та перебуває під станом &amp;Reference[Frightened apply=false]{Переляканий (Frightened)} на час дії заклинання. У разі успіху ціль отримує лише половину шкоди.</p><p>Перелякана ціль здійснює рятівний кидок Мудрості наприкінці кожного зі своїх ходів. У разі провалу вона отримує [[/damage 5d10 type=psychic]] психічної шкоди. У разі успіху заклинання для цієї цілі закінчується.</p>",
+            "effects": {
+                "Frightening Terrors": {
+                    "name": "Лякаючі жахіття",
+                    "description": "<p>Перелякана ціль здійснює [[/save ability=wis format=long]{рятівний кидок Мудрості}]] наприкінці кожного зі своїх ходів. У разі провалу вона отримує [[/damage 5d10 type=psychic]] психічної шкоди. У разі успіху заклинання для цієї цілі закінчується.</p>"
+                }
+            }
+        },
+        "Wind Walk": {
+            "name": "Ходіння по вітру",
+            "description": "<p>Ви та до десяти добровільних істот на ваш вибір у межах дистанції набуваєте газоподібної форми на час дії заклинання, з'являючись у вигляді хмаринок. Перебуваючи в цій формі хмари, ціль має швидкість польоту (Fly Speed) 300 футів і може зависати (hover); вона має імунітет до стану &amp;Reference[Prone]{Схилений (Prone)} і спротив (Resistance) до дробильної, колючої та ріжучої шкоди. Єдині дії, які ціль може виконувати в цій формі, — це дія &amp;Reference[Dash]{Ривок (Dash)} або магічна дія (Magic action), щоб почати повернення до своєї звичайної форми. Повернення триває 1 хвилину, протягом якої ціль має стан &amp;Reference[Stunned apply=false]{Оголомшений (Stunned)}.</p><p>Якщо під час закінчення ефекту ціль перебуває у формі хмари та летить, вона спускається на 60 футів за раунд протягом 1 хвилини, доки безпечно не приземлиться. Якщо вона не може приземлитися через 1 хвилину, вона падає з решти відстані.</p>",
+            "effects": {
+                "Cloud Form": {
+                    "name": "Форма хмари",
+                    "description": "<p>Єдині дії, які ціль може виконувати в цій формі, — це дія &amp;Reference[Dash]{Ривок (Dash)} або магічна дія (Magic action), щоб почати повернення до своєї звичайної форми. Повернення триває 1 хвилину, протягом якої ціль має стан &amp;Reference[Stunned apply=false]{Оголомшений (Stunned)}.</p>",
+                    "changes": {
+                        "system.attributes.movement.fly": 300,
+                        "system.attributes.movement.hover": true,
+                        "system.traits.ci.value": "prone",
+                        "system.traits.dr.value": "slashing"
+                    }
+                }
+            }
+        },
 		"Wind Wall": {
-			"name": "Wind Wall",
-			"description": "<p>A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.</p><p>When the wall appears, each creature in its area makes a Strength saving throw, taking 4d8 Bludgeoning damage on a failed save or half as much damage on a successful one.</p><p>The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and miss automatically. Boulders hurled by Giants or siege engines, and similar projectiles, are unaffected. Creatures in gaseous form can't pass through it.</p>"
-		},
-		"Wish": {
-			"name": "Wish",
-			"description": "<p><em>Wish</em> is the mightiest spell a mortal can cast. By simply speaking aloud, you can alter reality itself.</p><p>The basic use of this spell is to duplicate any other spell of level 8 or lower. If you use it this way, you don't need to meet any requirements to cast that spell, including costly components. The spell simply takes effect.</p><p>Alternatively, you can create one of the following effects of your choice:</p><p><strong>Object Creation.</strong> You create one object of up to 25,000 GP in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space that you can see on the ground.</p><p><strong>Instant Health.</strong> You allow yourself and up to twenty creatures that you can see to regain all Hit Points, and you end all effects on them listed in the <em>Greater Restoration</em> spell.</p><p><strong>Resistance.</strong> You grant up to ten creatures that you can see Resistance to one damage type that you choose. This Resistance is permanent.</p><p><strong>Spell Immunity.</strong> You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours.</p><p><strong>Sudden Learning.</strong> You replace one of your feats with another feat for which you are eligible. You lose all the benefits of the old feat and gain the benefits of the new one. You can't replace a feat that is a prerequisite for any of your other feats or features.</p><p><strong>Roll Redo.</strong> You undo a single recent event by forcing a reroll of any die roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a <em>Wish</em> spell could undo an ally's failed saving throw or a foe's Critical Hit. You can force the reroll to be made with Advantage or Disadvantage, and you choose whether to use the reroll or the original roll.</p><p><strong>Reshape Reality.</strong> You may wish for something not included in any of the other effects. To do so, state your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might be achieved only in part, or you might suffer an unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a Legendary magic item or an Artifact might instantly transport you to the presence of the item's current owner. If your wish is granted and its effects have consequences for a whole community, region, or world, you are likely to attract powerful foes. If your wish would affect a god, the god's divine servants might instantly intervene to prevent it or to encourage you to craft the wish in a particular way. If your wish would undo the multiverse itself, threaten the City of Sigil, or affect the Lady of Pain in any way, you see an image of her in your mind for a moment; she shakes her head, and your wish fails.</p><p>The stress of casting <em>Wish</em> to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a Long Rest, you take 1d10 Necrotic damage per level of that spell. This damage can't be reduced or prevented in any way. In addition, your Strength score becomes 3 for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a [[/r 1d3cs1]]{33 percent chance} that you are unable to cast <em>Wish</em> ever again if you suffer this stress.</p>",
-			"effects": {
-				"Wish Stress": {
-					"name": "Wish Stress",
-					"description": "<p>Each time you cast a spell until you finish a Long Rest, you take [[/damage 1d10 type=necrotic]] damage per level of that spell. This damage can’t be reduced or prevented in any way. In addition, your Strength score becomes 3 for [[/r 2d4]] days.</p>",
-					"changes": {
-						"system.abilities.str.value": 3
-					}
-				}
-			}
-		},
-		"Word of Recall": {
-			"name": "Word of Recall",
-			"description": "<p>You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.</p><p>You must designate a location, such as a temple, as a sanctuary by casting this spell there.</p>"
-		},
-		"Zone of Truth": {
-			"name": "Zone of Truth",
-			"description": "<p>You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.</p><p>An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.</p>",
-			"effects": {
-				"Cannot Lie": {
-					"name": "Cannot Lie",
-					"description": "<p>On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.</p><p>An affected creature is aware of the spell and can avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive yet must be truthful.</p>"
-				}
-			}
-		},
+            "name": "Вітряна стіна",
+            "description": "<p>Стіна сильного вітру підіймається із землі в точці на ваш вибір у межах дистанції. Ви можете зробити стіну завдовжки до 50 футів, заввишки 15 футів і завтовшки 1 фут. Ви можете надати стіні будь-яку форму за вашим бажанням, за умови, що вона утворює один безперервний шлях уздовж землі. Стіна триває протягом часу дії.</p><p>Коли стіна з'являється, кожна істота в її зоні здійснює рятівний кидок Сили, отримуючи 4d8 [[/damage 4d8 type=bludgeoning]] дробильної шкоди в разі провалу або половинну шкоду в разі успіху.</p><p>Сильний вітер стримує туман, дим та інші гази. Малі (Small) або менші літаючі істоти чи предмети не можуть пройти крізь стіну. Вільні, легкі матеріали, занесені в стіну, летять вгору. Стріли, болти та інші звичайні снаряди, випущені по цілях за стіною, відхиляються вгору і промахуються автоматично. Валуни, кинуті гігантами чи облоговими знаряддями, та подібні снаряди залишаються без змін. Істоти в газоподібній формі не можуть пройти крізь неї.</p>"
+        },
+        "Wish": {
+            "name": "Бажання",
+            "description": "<p><em>Бажання</em> — це наймогутніше заклинання, яке може накласти смертний. Просто вимовивши слова вголос, ви можете змінити саму реальність.</p><p>Базове використання цього заклинання полягає в дублюванні будь-якого іншого заклинання 8-го рівня або нижче. Якщо ви використовуєте його таким чином, вам не потрібно виконувати жодних вимог для накладання цього заклинання, включаючи дороговартісні компоненти. Заклинання просто набуває чинності.</p><p>Крім того, ви можете створити один з таких ефектів на ваш вибір:</p><p><strong>Створення предмета.</strong> Ви створюєте один предмет вартістю до 25 000 зм (GP), який не є магічним предметом. Предмет не може перевищувати 300 футів у будь-якому вимірі, і він з'являється у вільному просторі на землі, який ви бачите.</p><p><strong>Миттєве здоров'я.</strong> Ви дозволяєте собі та до двадцяти істотам, яких ви бачите, відновити всі пункти здоров'я, і ви знімаєте всі ефекти на них, перелічені в заклинанті <em>Велике відновлення (Greater Restoration)</em>.</p><p><strong>Спротив.</strong> Ви надаєте до десяти істотам, яких ви бачите, спротив (Resistance) до одного типу шкоди на ваш вибір. Цей спротив є постійним.</p><p><strong>Імунітет до заклинань.</strong> Ви надаєте до десяти істотам, яких ви бачите, імунітет до одного заклинання чи іншого магічного ефекту на 8 годин.</p><p><strong>Раптове навчання.</strong> Ви замінюєте одну зі своїх рис (feat) на іншу рису, на яку ви маєте право. Ви втрачаєте всі переваги старої риси та отримуєте переваги нової. Ви не можете замінити рису, яка є передумовою для будь-яких інших ваших рис чи особливостей.</p><p><strong>Перекидання.</strong> Ви скасовуєте одну нещодавню подію, примушуючи перекинути будь-який кидок кубика, зроблений за останній раунд (включаючи ваш останній хід). Реальність перебудовується, щоб відповідати новому результату. Наприклад, заклинання <em>Бажання</em> може скасувати провалений спас-кидок союзника або критичне влучання ворога. Ви можете наказати зробити кидок з перевагою (Advantage) або перешкодою (Disadvantage) і вирішити, чи використовувати новий кидок, чи оригінальний.</p><p><strong>Зміна реальності.</strong> Ви можете побажати чогось, що не входить до жодного з інших ефектів. Для цього висловіть своє бажання Майстру якомога точніше. Майстер має велику свободу в ухваленні рішення про те, що відбувається в такому випадку: що більше бажання, то вища вірогідність того, що щось піде не так. Заклинання може просто не спрацювати, бажаний ефект може бути досягнутий лише частково, або ви можете зазнати непередбачуваних наслідків через те, як ви сформулювали бажання. Якщо ваше бажання здійснене і його наслідки впливають на всю спільноту, регіон чи світ, ви, ймовірно, привернете могутніх ворогів. Якщо ваше бажання зачіпає бога, божественні слуги бога можуть миттєво втрутитися, щоб запобігти цьому або заохотити вас сформулювати бажання певним чином. Якщо ваше бажання загрожує знищити мультивсесвіт чи місто Сігіл (Sigil) або будь-яким чином зачіпає Леді Болю (Lady of Pain), ви на мить бачите її образ у своєму розумі: вона хитає головою, і ваше бажання зазнає невдачі.</p><p>Напруга від накладання <em>Бажання</em> для створення будь-якого ефекту, окрім дублювання іншого заклинання, ослаблює вас. Зазнавши цієї напруги, щоразу, коли ви накладаєте заклинання до завершення тривалого відпочинку (Long Rest), ви отримуєте [[/damage 1d10 type=necrotic]] некротичної шкоди за кожен рівень цього заклинання. Цю шкоду неможливо зменшити чи запобігти їй у будь-який спосіб. Крім того, ваш показник Сили стає рівним 3 на [[/r 2d4]] днів. Нарешті, існує [[/r 1d3cs1]]{33% ймовірність}, що ви більше ніколи не зможете накласти <em>Бажання</em>, якщо зазнаєте цієї напруги.</p>",
+            "effects": {
+                "Wish Stress": {
+                    "name": "Напруга бажання",
+                    "description": "<p>Щоразу, коли ви накладаєте заклинання до завершення тривалого відпочинку, ви отримуєте [[/damage 1d10 type=necrotic]] некротичної шкоди за кожен рівень цього заклинання. Цю шкоду неможливо зменшити чи запобігти їй у будь-який спосіб. Крім того, ваш показник Сили стає рівним 3 на [[/r 2d4]] днів.</p>",
+                    "changes": {
+                        "system.abilities.str.value": 3
+                    }
+                }
+            }
+        },
+        "Word of Recall": {
+            "name": "Слово повернення",
+            "description": "<p>Ви та до п'яти добровільних істот у межах 5 футів від вас миттєво телепортуєтеся до раніше визначеного прихистку. Ви та будь-які істоти, що телепортуються з вами, з'являєтеся у найближчому вільному просторі до місця, яке ви вказали, коли готували свій прихисток (див. нижче). Якщо ви накладаєте це заклинання, не підготувавши попередньо прихисток, воно не має ефекту.</p><p>Ви повинні визначити місце, наприклад храм, як прихисток, наклавши там це заклинання.</p>"
+        },
+        "Zone of Truth": {
+            "name": "Зона правди",
+            "description": "<p>Ви створюєте магічну зону, яка захищає від обману у сфері радіусом 15 футів із центром у точці в межах дистанції. До закінчення дії заклинання істота, яка вперше за хід входить у зону дії заклинання або починає там свій хід, здійснює рятівний кидок Харизми. У разі провалу істота не може навмисно говорити неправду, перебуваючи в радіусі дії. Ви знаєте, чи пройшла істота цей спас-кидок успішно, чи провалила його.</p><p>Постраждала істота усвідомлює наявність заклинання і може уникати відповідей на запитання, на які зазвичай відповіла б брехнею. Така істота може бути ухильною, проте мусить говорити правду.</p>",
+            "effects": {
+                "Cannot Lie": {
+                    "name": "Не може брехати",
+                    "description": "<p>У разі провалу спас-кидка істота не може навмисно говорити неправду, перебуваючи в радіусі дії. Ви знаєте, чи пройшла істота цей спас-кидок успішно, чи провалила його.</p><p>Постраждала істота усвідомлює наявність заклинання і може уникати відповідей на запитання, на які зазвичай відповіла б брехнею. Така істота може бути ухильною, проте мусить говорити правду.</p>"
+                }
+            }
+        },
 		"Arcane Sword": {
             "name": "Магічний меч",
             "description": "<p>Ви створюєте спектральний меч, який парить у межах дистанції. Він тримається протягом часу дії заклинання.</p><p>Коли меч з'являється, ви здійснюєте ближню атаку заклинанням проти цілі в межах 5 футів від меча. У разі влучання ціль отримує силову шкоду (Force damage) в обсязі 4d12 [[/damage 4d12 type=force]] плюс ваш модифікатор характеристики заклинань.</p><p>На своїх наступних ходах ви можете скористатися бонусною дією (Bonus Action), щоб перемістити меч на відстань до 30 футів у точку, яку ви бачите, і повторити атаку проти тієї самої чи іншої цілі.</p>"
