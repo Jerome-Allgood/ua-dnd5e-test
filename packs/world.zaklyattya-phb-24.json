@@ -2549,15 +2549,15 @@
 			}
 		},
 		"Compelled Duel": {
-			"name": "Compelled Duel",
-			"description": "<div class=\"ve-rd__b  ve-rd__b--3\"><p>You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has @variantrule[Disadvantage|XPHB] on attack rolls against creatures other than you, and it can't willingly move to a space that is more than 30 feet away from you.</p><p>The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the target, if an ally of yours damages the target, or if you end your turn more than 30 feet away from the target.</p></div>",
-			"effects": {
-				"Compelled": {
-					"name": "Compelled",
-					"description": "The target has Disadvantage on attack rolls against creatures other than you, and it can't willingly move to a space that is more than 30 feet away from you."
-				}
-			}
-		},
+            "name": "Примусова дуель",
+            "description": "<div class=\"ve-rd__b  ve-rd__b--3\"><p>Ви намагаєтеся примусити істоту до дуелі. Одна істота, яку ви бачите в межах дистанції, здійснює рятівний кидок Мудрості. У разі провалу ціль отримує @variantrule[Disadvantage|XPHB]{перешкоду (Disadvantage)} на кидки атаки проти істот, окрім вас, і вона не може добровільно пересунутися в простір, що знаходиться далі ніж за 30 футів від вас.</p><p>Заклинання закінчується, якщо ви робите кидок атаки проти істоти, окрім цілі, якщо ви накладаєте заклинання на ворога, окрім цілі, якщо ваш союзник завдає шкоди цілі, або якщо ви завершуєте свій хід далі ніж за 30 футів від цілі.</p></div>",
+            "effects": {
+                "Compelled": {
+                    "name": "Примус",
+                    "description": "Ціль має перешкоду на кидки атаки проти істот, окрім вас, і не може добровільно пересунутися в простір, що знаходиться далі ніж за 30 футів від вас."
+                }
+            }
+        },
 		"Charm Person": {
 			"name": "Charm Person",
 			"description": "<div class=\"ve-rd__b  ve-rd__b--3\"><p>One Humanoid you can see within range makes a Wisdom saving throw. It does so with @variantrule[Advantage|XPHB] if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[condition=Charmed] condition until the spell ends or until you or your allies damage it. The &amp;Reference[condition=Charmed] creature is @variantrule[Friendly [Attitude]|XPHB|Friendly] to you. When the spell ends, the target knows it was &amp;Reference[condition=Charmed] by you.</p></div><div class=\"ve-rd__b  ve-rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"ve-rd__b  ve-rd__b--3\"><p><span class=\"ve-rd__h ve-rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> You can target one additional creature for each spell slot level above 1.</p></div></div>",
