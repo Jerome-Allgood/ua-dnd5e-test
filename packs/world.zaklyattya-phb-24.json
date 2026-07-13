@@ -2172,15 +2172,15 @@
 			}
 		},
 		"Thunderous Smite": {
-			"name": "Thunderous Smite",
-			"description": "<div class=\"ve-rd__b  ve-rd__b--3\"><p>Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra [[/damage 2d6 type=thunder]] damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the &amp;Reference[condition=Prone] condition.</p></div><div class=\"ve-rd__b  ve-rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"ve-rd__b  ve-rd__b--3\"><p><span class=\"ve-rd__h ve-rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> The damage increases by [[/damage 1d6]] for each spell slot level above 1.</p></div></div>",
-			"effects": {
-				"Prone": {
-					"name": "Prone",
-					"description": "Due to being pushed 10 feet away, the target is &amp;Reference[prone apply=false]."
-				}
-			}
-		},
+            "name": "Громовий удар",
+            "description": "<div class=\"ve-rd__b  ve-rd__b--3\"><p>Ваш удар лунає громом, який чутно в межах 300 футів від вас, і ціль отримує додатково [[/damage 2d6 type=thunder]] громової шкоди від атаки. Крім того, якщо ціль є істотою, вона повинна успішно пройти рятівний кидок Сили, інакше її відштовхує на 10 футів від вас і вона набуває стану &amp;Reference[condition=Prone]{Схилений (Prone)}.</p></div><div class=\"ve-rd__b  ve-rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"ve-rd__b  ve-rd__b--3\"><p><span class=\"ve-rd__h ve-rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Використання комірки вищого рівня.</span></span> Шкода збільшується на [[/damage 1d6]] за кожен рівень комірки заклинання вище 1-го.</p></div></div>",
+            "effects": {
+                "Prone": {
+                    "name": "На землі (Prone)",
+                    "description": "Через те, що ціль відштовхнули на 10 футів, вона перебуває під станом &amp;Reference[prone apply=false]."
+                }
+            }
+        },
 		"Resistance": {
 			"name": "Resistance",
 			"description": "<div class=\"ve-rd__b  ve-rd__b--3\"><p>You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by [[/r 1d4]]. A creature can benefit from this spell only once per turn.</p></div>",
